@@ -3122,7 +3122,7 @@ local ultpower = {
 			Name = "Haydoscale",
 			Description = "During each player's turn: That player may put another card into their Baseplate this turn. Their opponent adds a random Titan Essence.",
 			["Type"] = "Field",
-			["Power"] = {{"DiscardLimit",1},{"RandomAdd",{"Red Titan Essence","Blue Titan Essence","Green Titan Essence","Yellow Titan Essence","Opponent"}}},
+			["Power"] = {{"DiscardLimit",1},{"RandomAdd",{"Red Titan Essence","Blue Titan Essence","Green Titan Essence","Yellow Titan Essence"},"Opponent"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Legend has it that Mount Xargasdon was the first of Robloxia's pillars to touch the heavens. The titans gave chase, worried it would fly away.",
