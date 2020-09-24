@@ -2391,7 +2391,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Stud",
 			Description = "At the start of each turn: Unlock all Zombies. If you control 3 Zombies, this card gains 100 health for each Zombie you control.",
 			["Type"] = "OnStart",
-			Power = {{"Unlock",9999,"Archetype"},{"SetVariable","Archetype","Self"},{"AlterEV",{"Gate","Math",3}},{"AlterEV",{"Multiply","Archetype","Self"}},{"Heal","Variable","Self"}},
+			Power = {{"Unlock",9999,"Archetype"},{"AlterEV",{"Set","Board","Archetype"}},{"AlterEV",{"Gate","Math",2}},{"AlterEV",{"Multiply","Board","Archetype"}},{"AlterEV",{"Multiply","Math",100}},{"Heal","Variable","Self"}},
 			Target = "Self",
 		},
 		["Bio"] = "The king of the zombies, just don't have two out. That would be awkward.",
