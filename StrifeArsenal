@@ -1182,7 +1182,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 1,},
 		["Effect"] = {
 			Name = "BobRoss the Canvas the Card the Effect",
-			Description = "Whenever an effect draws you a card: All enemy fighters lose 50 power. This cards gains 50 power.",
+			Description = "Whenever an effect draws you a card, if Heavy Rain is in play: All enemy fighters lose 50 power. This card gains 50 power.",
 			["Type"] = "OnAllyDraw",
 			["Power"] = {{"Weaken",50},{"Strengthen",50,"Self"}},
 			Target = "Opponent",
