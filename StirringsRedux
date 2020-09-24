@@ -3347,7 +3347,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 5027914841,
 				["Rarity"] = "Token",
 				["Name"] = "Rattlebone Oracle",
-				["Transformant"] = "Lycan Lorekeeper",
+				["Transformant"] = "Lycan Lorekeeper Token",
 				["Effect"] = {
 					Name = "Halloween",
 					Description = "Whenever your opponent casts an action: Reset this card's stats. Untransform it.",
@@ -3365,7 +3365,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Lycanthrope",
 		["Color"] = "Red", 
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 4,},
-		["Transformant"] = "Lycan Lorekeeper Token",
+		["Transformant"] = "Rattlebone Oracle",
 		["Effect"] = {
 			Name = "Halloween",
 			Description = "Whenever you cast an action, if you control another Lycanthrope: Unlock all Lycanthropes. Double this card's stats. Transform it.",
