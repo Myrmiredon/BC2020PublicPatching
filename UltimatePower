@@ -2056,11 +2056,11 @@ local ultpower = {
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
 			Name = "I quit.",
-			Description = "Cast only if you control a Titan. Draw a card. Put this card into your baseplate.",
+			Description = "Cast only if you control a Titan. A target fighter gains 200 Power. Put this card into your baseplate.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",1},{"AddGenZone",{"Red Titan Essence",1}}},
+			["Power"] = {{"Strengthen",200},{"AddGenZone",{"Red Titan Essence",1}}},
 			Target = "Ally",
-		},
+		}, 
 		["Bio"] = "",
 	},
 	
@@ -2119,9 +2119,9 @@ local ultpower = {
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "I quit.",
-			Description = "Cast only if you control a Titan. A target fighter gains 200 Power. Put this card into your Baseplate.",
+			Description = "Cast only if you control a Titan. Draw a card. Put this card into your Baseplate.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Strengthen",200},{"AddGenZone",{"Yellow Titan Essence",1}}},
+			["Power"] = {{"Draw",1},{"AddGenZone",{"Yellow Titan Essence",1}}},
 			Target = "Single",
 		},
 		["Bio"] = "",
