@@ -665,7 +665,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3,["Red"] = 5,},
 		["Effect"] = {
 			Name = "Knockdown",
-			Description = "Inert. During your end step: Give yourself a random Redcliff fighter.", 
+			Description = "Inert. During your end step: Give yourself a random Common or Uncommon Redcliff fighter.", 
 			["Type"] = "OnEnd",
 			["Power"] = {{"RandomAdd",{"Redcliff Archer","Redcliff Mauler","Redcliff Heretic","Redcliff Messenger","Redcliff Enforcer"},"Ally"}},
 			Target = "Ally",
