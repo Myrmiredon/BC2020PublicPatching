@@ -4815,9 +4815,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "Slander",
-			Description = "When this card is cast: Put a Green card into your hand.",
+			Description = "When this card is cast: Put a Green Titan Essence into your hand.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"RandomAdd","Green"}},
+			["Power"] = {{"Add","Green Titan Essence","Ally"}},
 			Target = "All",
 		},
 		["Bio"] = "I've read enough tinglers to know where this is going.",
