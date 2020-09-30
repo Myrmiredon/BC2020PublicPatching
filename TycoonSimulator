@@ -2713,15 +2713,15 @@ local tycoons = {
 		["Foil"] = true,
 		["AttackEffect"] = {"Magic", "Green"},
 		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 4,},
+		["Cost"] = {["Neutral"] = 6,},
 		["Effect"] = {
 			Name = "BEANAENAED",
-			Description = "Inert. Whenever your discard your first card each turn: Give yourself a random Rare card.",
-			["Type"] = "OnSecondDiscard",
-			["Power"] = {{"RandomAdd","Rare"}},
+			Description = "Inert. When this card is cast: Summon a copy of a fighter from a ANOTHER battle in this server.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"CopyFromOtherBattle"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Whatever you do, do NOT go into Ravcade and check behind the potted plant on the left side of the building.",
+		["Bio"] = "I will actually reward the first person who actually manages to summon Telamon in tournament with this card.",
 	},
 	
 	["HasTheHero"] = {
