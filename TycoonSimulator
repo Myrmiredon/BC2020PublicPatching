@@ -2716,7 +2716,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 6,},
 		["Effect"] = {
 			Name = "BEANAENAED",
-			Description = "Inert. When this card is cast: Summon a copy of a fighter from a ANOTHER battle in this server.",
+			Description = "Inert. When this card is cast: Summon a copy of a fighter from another ongoing battle in this server.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"CopyFromOtherBattle"}},
 			Target = "Ally",
