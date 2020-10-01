@@ -1031,25 +1031,6 @@ local beckoned = {
 		["Bio"] = "Four packs, four limbs. Combine them all to remember what sunk the forgotten one.",
 	},
 	
-	["Shedletsky, the Fried One"] = { -- for the love of god dont put this one in packs
-		["Id"] = 291389590,
-		["Name"] = "Shedletsky, the Fried One",
-		["Health"] = 99999,
-		["Power"] = 99999,
-		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow",
-		["Cost"] = {["Green"] = 1,["Blue"] = 1,["Yellow"] = 6,["Red"] = 1,["Neutral"] = 1,},
-		["Effect"] = {
-			Name = "Stud",
-			Description = "THAT'S SOME STRONG GOO, ISN'T IT",
-			["Type"] = "OnEnd",
-			["Power"] = {{"Unlock",999,"Self"}},
-			Target = "Ally",	
-		},
-		["Bio"] = "Blame John.",
-	},
-	
 	["Right Arm of the Fried One"] = {
 		["Id"] = 5054713870,
 		["Name"] = "Scintillant Limb",
