@@ -3444,25 +3444,6 @@ local twentyeleveneighteen = {
 		},
 		["Bio"] = "Hatred outlives the hateful.",
 	},
-	
-	["InceptionTime Token"] = {
-		["Id"] = 3238120727,
-		["Name"] = "InceptionTime",
-		["Health"] = 1400,
-		["Power"] = 400,
-		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
-		["Cost"] = {["Green"] = 4, ["Neutral"] = 4,},
-		["Effect"] = {
-			Name = "Revival",
-			Description = "Lol u ded",
-			["Type"] = "OnEnd",
-			["Power"] = {{"Inflict",999999}},
-			Target = "Opponent",
-		},
-		["Bio"] = "",
-	},
 
 	["Blue Fanatic"] = {
 		["Id"] = 4899305102,
