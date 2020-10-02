@@ -460,7 +460,7 @@ local Strife = {
 		["Cost"] = {["Yellow"] = 4, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "B2T",
-			Description = "Fading. Whenever a Doge dies: Summon a Doge.",
+			Description = "Fading. Whenever a Doge dies: Summon a 150/150 Doge.",
 			["Type"] = "OnAnyDeath",
 			["Archetype"] = "Doge",
 			["Power"] = {{"Summon","Doge"}},
