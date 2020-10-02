@@ -1939,7 +1939,7 @@ local halo = {
 					Name = "Temporal Halo",
 					Description = [[Effects can't destroy this card. Cast only if you have 1,000,000 DRAGONFORCE. When you do: Obliterate all cards in your opponent's Baseplate, except for two Colourless cards. They lose 1000 life. A deck may run only four named Neodragons.]],
 					["Type"] = "OnSummon",
-					["Power"] = {{"GenZoneDiscard",{"Red",-10}},{"GenZoneDiscard",{"Green",-10}},{"GenZoneDiscard",{"Blue",-10}},{"GenZoneDiscard",{"Yellow",-10}},{"GenZoneDiscard",{"Neutral"},2},{"Inflict",1000}},
+					["Power"] = {{"GenZoneDiscard",{"Red",-10}},{"GenZoneDiscard",{"Green",-10}},{"GenZoneDiscard",{"Blue",-10}},{"GenZoneDiscard",{"Yellow",-10}},{"GenZoneDiscard",{"Neutral",2}},{"Inflict",1000}},
 					["EffectRequirement"] = {"Playertable","Me",20,9999,"DRAGONFORCE"},
 					Target = "Opponent",
 				},
