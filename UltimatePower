@@ -2950,7 +2950,7 @@ local ultpower = {
 		["Cost"] = {["Neutral"] = 1,["Red"] = 1,},
 		["Effect"] = {
 			Name = "Faker Hit",
-			Description = "When this card is cast: You may put another card into your Baseplate this turn.",
+			Description = "When this card is cast: You may put another card into your Baseplate this turn. (The first coloured card you discard each turn goes into your Baseplate. Cards in the Baseplate generate studs at the end of your turn.)",
 			["Type"] = "OnSummon",
 			["Power"] = {{"DiscardLimit",1}},
 			Target = "Ally",
