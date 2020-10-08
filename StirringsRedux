@@ -72,11 +72,13 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Blue", 
 		["Cost"] = {["Neutral"] = 3,},
 		["Archetype"] = "Survivor",
+		["TransformImmune"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "When this card is cast: Lock each fighter with the highest Power for 1 turn.",
-			["Type"] = "OnSummon",
+			Description = "Effects can't transform this card. Whenever you cast a Survivor: Lock each fighter with the highest Power for 1 turn.",
+			["Type"] = "OnAllySummon",
 			["Power"] = {{"Lock",1}},
+			["Archetype"] = "Survivor",
 			Target = "HighestPower",
 		},
 		["Bio"] = "It was the people fleeing Bloxburg that gave Eisenhower attention to something worse than the death of his loved one.",
@@ -261,9 +263,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Return all Epic and Legendary fighters to their owners' hands. Summon a 1100/100 Paraselene Warden that prevents the casting of Epic and Legendary cards.",
+			Description = "Return all Epic and Legendary fighters to their owners' hands. Summon a 1100/100 Paraselene Warden that prevents the casting of Epic and Legendary cards. Deal 50 damage to all allied fighters.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Return",030,"Epic"},{"Return",030,"Legendary"},{"Summon","Paraselene Warden"}},
+			["Power"] = {{"Return",030,"Epic"},{"Return",030,"Legendary"},{"Summon","Paraselene Warden"},{"Damage",50,"Ally"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Eclipse let out one last howl as the lunar crystals locked him in place.",
@@ -272,7 +274,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Paraselene Warden"] = {
 		["Id"] = 5271605935,
 		["Name"] = "Paraselene Warden",
-		["Health"] = 1100,
+		["Health"] = 900,
 		["Power"] = 100,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
@@ -281,8 +283,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["DamageImmune"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Effects can't damage this card. During your end step: Epic and Legendary cards can't be cast until your next end step.", 
-			["Type"] = "OnEnd",
+			Description = "If this card would take effect damage: Prevent it instead. Until each player's next end step, that player can't cast Epic or Legendary cards.", 
+			["Type"] = "OnEffectDamage",
 			["Power"] = {{"BypassEpicLegendary"}},
 			Target = "All",
 		},
@@ -339,8 +341,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Fleeing Survivors"] = {
 		["Id"] = 5455444897,
 		["Name"] = "Fleeing Survivors",
-		["Health"] = 200,
-		["Power"] = 200,
+		["Health"] = 150,
+		["Power"] = 150,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
 		["Archetype"] = "Survivor", 
@@ -440,7 +442,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Moon Rabbit's Rage",
-			Description = "When this card is cast, if you have 2000 or fewer Life: It gains 600 health. Put a copy of it into your Baseplate.",
+			Description = "When this card is cast, if you have 2000 or less Life: It gains 600 health. Put a copy of it into your Baseplate.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Heal",600},{"AddGenZone",{"Void Cultist",1}}},
 			["EffectRequirement"] = {"Playertable", "Me", 0, 2001, "Life"},
@@ -822,7 +824,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Eclipse's Resurrection",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Epic", -- Epic
+		["Rarity"] = "Token", -- Epic
 		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral", 
 		["Cost"] = {["Neutral"] = 6,},
@@ -1318,9 +1320,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Instinct Release",
-			Description = "Each fighter gains 200 health and power, then loses 200 health and power. Swap all fighters twice. Lock them for 2 turns, then ready them twice. Both players lose, then gain 200 life. Draw a card.",
+			Description = "Each fighter gains 200 health and power, then loses 200 health and power. Swap the stats of all fighters twice. Lock them for 2 turns, then ready them twice. Draw a card.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",200},{"Damage",200},{"Strengthen",200},{"Weaken",200},{"Swap",100000},{"Swap",100000},{"Lock",1},{"Lock",1},{"Unlock",1},{"Unlock",1},{"Inflict",200},{"Inflict",-200},{"Draw",1,"Ally"}},
+			["Power"] = {{"Heal",200},{"Damage",200},{"Strengthen",200},{"Swap",100000},{"Swap",100000},{"Weaken",200},{"Lock",1},{"Lock",1},{"Unlock",1},{"Unlock",1},{"Inflict",200},{"Inflict",-200},{"Draw",1,"Ally"}},
 			Target = "All",
 		},
 		["Bio"] = "Only the innocent survive Zanzel's detection spell intact.",
@@ -1434,7 +1436,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["BypassOverdrive"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Effects can't transform this card or target it. When this card is cast: All allied fighters transform into a copy of it.",
+			Description = "Effects can't transform or target this card. When this card is cast: All allied fighters transform into a copy of it.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Transform","Survivor's Shelter"}},
 			Target = "Ally",
@@ -1451,10 +1453,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green", 
 		["Cost"] = {["Green"] = 4,},
-		["Fleeting"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Level 1. Discard this card if it's not cast this turn. You gain 500 life. Shuffle this a copy of this card into your deck. Level the copy up.",
+			Description = "Level 1. You gain 500 life. Shuffle this a copy of this card into your deck. Level the copy up. Discard that card if it's not cast when you draw it.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Cost",-500},{"DeckAdd","Search2"}},
 			Target = "Ally",
@@ -1554,7 +1555,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Green"] = 7,},
 		["Effect"] = {
 			Name = "Toasty",
-			Description = "Summon blXhd and The Void Star.",
+			Description = "Summon blXhd, a 2000/100 fighter, and The Void Star, a 700/0 fighter that keeps it alive.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Gecko Attendant"},{"Summon","King Gecko"}},
 			Target = "Ally",
@@ -1812,7 +1813,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Enforcer Token"] = {
 				["CopyBodge"] = "Enforcer Token",
 				["Rarity"] = "Token",
-				["Transformant"] = "Enforcer Adjudicated",
 				["Effect"] = {
 					Name = "Pyrotechnics",
 					Description = "When this card dies: It deals 100 damage to all non-Vibeshark fighters. All Vibesharks gain 100 power.",
@@ -1822,17 +1822,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				},
 
 			},			
-			["Enforcer Adjudicated"] = {
-				["CopyBodge"] = "Enforcer Adjudicated",
-				["Rarity"] = "Token",
-				["Effect"] = {
-					Name = "Pyrotechnics",
-					Description = "During your end step: Deal 150 damage to all non-Vibeshark fighters. All Vibesharks gain 150 power.",
-					["Type"] = "OnEnd",
-					["Power"] = {{"Damage",150,"NotArchetype"},{"Strengthen",150,"Archetype"}},
-					Target = "Self",
-				},
-			},
 		},
 		["Name"] = "Hallow's Enforcer",
 		["Health"] = 300,
@@ -1859,7 +1848,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Eradicator Token"] = {
 				["CopyBodge"] = "Eradicator Token",
 				["Rarity"] = "Token",
-				["Transformant"] = "Eradicator Adjudicated",
 				["Effect"] = {
 					Name = "Pyrotechnics",
 					Description = "When this card dies: Each player destroys a card from their hand, then draws a card.",
@@ -1869,18 +1857,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				},
 
 			},			
-			["Eradicator Adjudicated"] = {
-				["CopyBodge"] = "Eradicator Adjudicated",
-				["Rarity"] = "Token",
-				["Effect"] = {
-					Name = "Pyrotechnics",
-					Description = "During your end step: Each player destroys their hand, then draws three cards.",
-					["Type"] = "OnEnd",
-					["Power"] = {{"RandomDiscard",10},{"Draw",3}},
-					Target = "All",
-				},
-			},
-
 		},
 		["Name"] = "Hallow's Eradicator",
 		["Health"] = 400,
@@ -1907,7 +1883,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Knight Token"] = {
 				["CopyBodge"] = "Knight Token",
 				["Rarity"] = "Token",
-				["Transformant"] = "Knight Adjudicated",
 				["Effect"] = {
 					Name = "Pyrotechnics",
 					Description = "When this card dies: Summon a 300/300 Survivor. Each fighter generates.",
@@ -1917,18 +1892,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				},
 
 			},			
-			["Knight Adjudicated"] = {
-				["CopyBodge"] = "Knight Adjudicated",
-				["Rarity"] = "Token",
-				["Effect"] = {
-					Name = "Pyrotechnics",
-					Description = "During your end step: Summon two 300/300 survivors. Each Vibeshark generates. Put a clone of each Vibeshark into its owners' Baseplate.",
-					["Type"] = "OnEnd",
-					["Power"] = {{"Summon","Survivor Token"},{"Summon","Survivor Token"},{"Generate",1,"Archetype"},{"SummonCopyGenZone","Archetype"}},
-					Target = "Ally",
-				},
-			},
-
 		},
 		["Name"] = "Hallow's Knight",
 		["Health"] = 600,
@@ -1937,7 +1900,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Transformant"] = "Knight Token",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Yellow", 
-		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 5,},
+		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 5,},
 		["Archetype"] = "Vibeshark",
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -1958,7 +1921,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Rarity"] = "Token",
 				["Effect"] = {
 					Name = "Pyrotechnics",
-					Description = "When this card dies: The effects of all other Vibesharks now trigger on end steps. Amplify those effects. Each player gains three Colourless studs.",
+					Description = "When this card dies: Each player gains three Colourless studs.",
 					["Type"] = "OnDeath",
 					["Power"] = {{"Neutral",3,"All"}},
 					Target = "Archetype",
@@ -1968,7 +1931,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Hallow's Adjudicator",
 		["Health"] = 800,
 		["Power"] = 800,
-		["Rarity"] = "Token", -- Epic
+		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Yellow"] = 8,},
@@ -1983,26 +1946,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Your vibes, Lua. Hand them over."]],
 	},
-			
---	["Adjudicator Token"] = {
---		["Id"] = 1237898161,
---		["Name"] = "Hallow's Adjudicator",
---		["Health"] = 800,
---		["Power"] = 800,
---		["Rarity"] = "Token", -- Token
---		["AttackEffect"] = "Slash",	
---		["Color"] = "Yellow", 
---		["Cost"] = {["Yellow"] = 8,},
---		["Effect"] = {
---			Name = "Pyrotechnics",
---			Description = "When this card dies: Swap decks with your opponent.",
---			["Type"] = "OnDeath",
---			["Power"] = {{"SwapDeck",80}},
---			Target = "Self",
---		},
---		["Bio"] = "Only lose what you can then take from another.",
---	},
---	
+
 	["Happy Clown"] = {
 		["Id"] = 5403651363,
 		["Name"] = "Happy Clown",
@@ -2054,7 +1998,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "When this card is cast, put a Pumpkin Bomb into your hand.",
+			Description = "When this card is cast: Give yourself a Pumpkin Bomb.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Add","Pumpkin Bomb"}},
 			Target = "Ally",
@@ -2092,12 +2036,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Survivor",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
-		["Cost"] = {["Neutral"] = 4,},
+		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
+		["TransformImmune"] = true,
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "When this card is cast: Summon a 300/300 Survivor.",
-			["Type"] = "OnSummon",
+			Description = "Effects can't transform this card. Whenever you cast a Survivor: Summon a 300/300 Survivor.",
+			["Type"] = "OnAllySummon",
 			["Power"] = {{"Summon","Survivor Token"}},
+			["Archetype"] = "Survivor",
 			Target = "Self",
 		},
 		["Bio"] = "Combat is no longer optional in this once peaceful town. Better bring a friend.",
@@ -2274,14 +2220,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 4, ["Yellow"] = 4,},
+		["Requirement"] = {"Board","Ally,0,5},
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "Summon four Alliances, each with a different effect. Target two of them.",
+			Description = "Cast only if you control 4 or fewer fighters. Choose two: \n-Destroy all fighters with 400 or less health. \n-Destroy all fighters with 400 or more health. \n-All allied fighters gain 400 health. \n-Draw four cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Ally1-1"},{"Summon","Ally1-2"},{"Summon","Ally1-3"},{"Summon","Ally1-4"},{"Add","Targeting Blip"},{"Add","Targeting Blip"}},
 			Target = "Self",
 		},
-		["Bio"] = "The crimelord and the alchemist weren't expecting Lua to be bold enough to take both of them at the same time. They still weren't sure they were gonna survive.",
+		["Bio"] = "A surprise attack against all odds ",
 	},	
 	
 	["Ally1-1"] = {
@@ -2333,7 +2280,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"CheckHealth",{0,401},"All"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
-		["Bio"] = [["Eisen, I'm sorry. This next attack will most likely cull all your squishy blobs you brought along. Expect a complementary gift basket if we make it out alive."]],
+		["Bio"] = [["Eisen, I'm sorry. This next attack will cull all those squishy blobs you brought along. Expect a complementary gift basket if we make it out alive."]],
 	},	
 	
 	["Ally1-2"] = {
@@ -3078,7 +3025,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["CopyBodge"] = "AviaChip",
 				["Effect"] = {
 					Name = "Halloween",
-					Description = "Search a copy of this card from your deck. Summon a 50/500 Lycanthrope.",
+					Description = "Cast only if there are 2 Lycanthropes in your Baseplate. Search a copy of this card from your deck. Summon a 50/500 Lycanthrope.",
 					["Type"] = "OnSummon",
 					["Power"] = {{"Tutorfor","AviaChip","Ally"},{"Summon","AviaChip Token"}},
 					Target = "Self",
@@ -3091,11 +3038,12 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Lycanthrope",
+		["Requirement"] = {"Archetype","AllyGenZone",2,9999,"Lycanthrope"},
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 2,},
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "Search a copy of this card from your deck. Summon a 50/500 Lycanthrope.",
+			Description = "Cast only if there are 2 Lycanthropes in your Baseplate. Search a copy of this card from your deck. Summon a 50/500 Lycanthrope.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Tutorfor","Blessed Acolyte","Ally"},{"Summon","Blessed Acolyte Token"}},
 			Target = "Self",
@@ -3246,10 +3194,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Red", 
 		["Cost"] = {["Neutral"] = 1,},
 		["Transformant"] = "Hazenwyld Evangelist",
-		["Requirement"] = {"Deck","Ally",6,9999,"Archetype"},
+		["Requirement"] = {"Archetype","AllyGenZone",1,9999,"Archetype"},
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "Cast only if there are 6 Lycanthropes in your deck. Whenever you cast an action, if you control another Lycanthrope: Double this card's stats. Transform it.",
+			Description = "Cast only if there is a Lycanthrope in your baseplate. Whenever you cast an action, if you control another Lycanthrope: Double this card's stats. Transform it.",
 			["Type"] = "OnAllyCast",
 			["Power"] = {{"MultiplyHealth",2},{"MultiplyPower",2},{"Transform"}},
 			["EffectRequirement"] = {"Archetype","Ally",2,9999,"Lycanthrope"},
@@ -3700,7 +3648,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Neutral",1}},
 			Target = "All",
 		},
-		["Bio"] = "Ideas are more powerful than guns. We don't want them having guns, so why on earth would we allow them ideas?",
+		["Bio"] = "What makes a human being decent? Fear.",
 	},
 	
 	["Terry Sinister"] = {
@@ -3713,9 +3661,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Yellow", 
 		["Archetype"] = "Sinister",
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
+		["ChargeRequirement"] = {"Archetype", "Ally", 1,9999,"Sinister"},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Whenever this card attacks: Each player gains two Colourless studs.",
+			Description = "If you control another member of the Sinister family, this card has Haste. Whenever this card attacks: Each player gains two Colourless studs.",
 			["Type"] = "OnAttack",
 			["Power"] = {{"Neutral",2}},
 			Target = "All",
@@ -3735,7 +3684,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 5, ["Red"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step, if your opponent has 5 or more Colourless studs, deal 150 damage to all enemy fighters.",
+			Description = "During your end step, if your opponent has 5 or more Colourless studs: Deal 150 damage to all enemy fighters.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Damage",150}},
 			Target = "Opponent",
@@ -3756,10 +3705,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 5, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step, if your opponent has 5 or more Colourless studs, each player destroys a card in their hand, then draws a card.",
+			Description = "During your end step, if your opponent has 5 or more Colourless studs: Draw a card. Put a Pact of Condemnation into each player's Baseplate.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"RandomDiscard",1},{"Draw",1}},
-			Target = "All",
+			["Power"] = {{"Draw",1},{"AddGenZone","Pact of Condemnation"},{"AddGenZone","Pact of Condemnation","Opponent"}},
+			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 5,9999,"IconsNeutral"},
 		},
 		["Bio"] = "We are too big to fail, and you are too small to matter, child.",
@@ -3777,9 +3726,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Sinister",
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step, if your opponent has 5 or more Colourless studs, each member of the Sinister family gains 150 health and power.",
+			Description = "During your end step, if your opponent has 5 or more Colourless studs: Each member of the Sinister family gains 150 health and power. Give yourself a member of the Sinister Family.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Strengthen",150,"Archetype"},{"Heal",150,"Archetype"}},
+			["Power"] = {{"Strengthen",150,"Archetype"},{"Heal",150,"Archetype"},{"RandomAdd",{"Victor Sinister","Terry Sinister","Patric Sinister","Kalman Sinister","Quan Sinister"}}},
 			Target = "Self",
 			["EffectRequirement"] = {"Playertable", "Him", 5,9999,"IconsNeutral"},
 		},
@@ -3798,13 +3747,13 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Sinister",
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step, if your opponent has 5 or more Colourless studs: Draw a card. Each player gains two Colourless studs.",
+			Description = "During your end step, if your opponent has 5 or more Colourless studs: Destroy a card in your opponent's hand. Each player draws a card.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Draw",1,"Ally"},{"Neutral",2}},
-			Target = "Self",
+			["Power"] = {{"RandomDiscard",1,"Opponent"},{"Draw",1}},
+			Target = "All",
 			["EffectRequirement"] = {"Playertable", "Him", 5,9999,"IconsNeutral"},
 		},
-		["Bio"] = "What makes a human being decent? Fear.",
+		["Bio"] = "Ideas are more powerful than guns. We don't want them having guns, so why on earth would we allow them ideas?",
 	},
 	
 	["Hallow Sinister, Patriarch"] = {
@@ -3832,13 +3781,26 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Sinister",
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step, if your opponent has 13 or more Colourless studs: Remove them all. Set their life total to 13.",
+			Description = "Effects can't return this card. During your end step, if your opponent has 13 or more Colourless studs: Remove them all. Return all allied fighters to your hand, then summon each other member of the Sinister family.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"SetNeutral",0},{"SetLife",13,"Opponent"}},
-			Target = "Self",
+			["Power"] = {{"SetNeutral",0,"Opponent"},{"Return"},{"Summon","Victor Sinister"},{"Summon","Terry Sinister"},{"Summon","Patric Sinister"},{"Summon","Kalman Sinister"},{"Summon","Claudia Sinister"},{"Summon","Quan Sinister"},
+			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 13, 9999,"IconsNeutral"},
 		},
 		["Bio"] = "I would do anything for my family. Sadly, Kalman wants your soul. He's been into lamp-making lately, and what dad wouldn't support his boys? Or girls. Claudia's a hassle. Did I tell you about that time she took a bath in...",
+	},
+	
+	["Pact of Condemnation"] = {
+		["Id"] = 5498118150,
+		["Name"] = "Pact of Condemnation",
+		["Health"] = 700,
+		["Power"] = 700,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Neutral", 
+		["Cost"] = {["Neutral"] = 2,},
+		["Archetype"] = "Sinister",
+		["Bio"] = [["Enjoy your new house. I promise the bed bugs won't bite."]],
 	},
 	
 	
@@ -3984,14 +3946,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Lightning",
 		["Color"] = "Blue",
 		["Archetype"] = "Morphic",
-		["Cost"] = {["Blue"] = 2, ["Red"] = 1, ["Green"] = 1, ["Yellow"] = 1,},
+		["Cost"] = {["Neutral"] = 2, ["Blue"] = 4,},
+		["Requirement"] = {"Archetype","Ally",1,9999,"Morphic"},
 		["Effect"] = {
 			Name = "Overgrown",
-			Description = "When this card is cast, if you control another goo-related fighter: Destroy a target fighter. Summon a Morphic Goo. Your opponent summons a random fighter.",
+			Description = "Cast only if you control a Morphic fighter. When you do, if you control a non-Blue fighter: Summon a card that's a clone of a target fighter.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Destroy",030,"Single"},{"Summon","Morphic Goo"},{"RandomSummon","Any","Opponent"}},
-			Target = "Ally",
-			["EffectRequirement"] = {"Archetype","Ally",2,9999,"Morphic"},
+			["Power"] = {{"SummonCopy"}},
+			Target = "Single",
+			["EffectRequirement"] = {"NotColor","Ally",1,9999,"Blue"},
 		},
 		["Bio"] = "Goos were invented out of grief. This one, out of anger.",
 	},		
@@ -4008,7 +3971,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 5,},
 		["Effect"] = {
 			Name = "File",
-			Description = "During your end step, put a morphic goo into your hand.",
+			Description = "During your end step: Give yourself a 50/50 Morphic Goo.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Add","Morphic Goo"}},
 			Target = "Ally",
