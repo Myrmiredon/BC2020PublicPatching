@@ -1387,10 +1387,10 @@ local Strife = {
 		["AttackEffect"] = "Freeze",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2,["Blue"] = 6,},
-		["TargetImmune"] = true,
+		["ReturnImmune"] = true,
 		["Effect"] = {
 			Name = "King's Freeze",
-			Description = "Effects can't target this card. When this card is cast: Lock all enemy fighters for 2 turns.",
+			Description = "Effects can't return this card. When this card is cast: Lock all enemy fighters for 2 turns.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Lock",2}},
 			Target = "Opponent",
