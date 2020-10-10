@@ -1412,8 +1412,8 @@ local ultpower = {
 				["Bio"] = "",
 			},
 		},
-		["Health"] = 1250,
-		["Power"] = 300,
+		["Health"] = 0,
+		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["Archetype"] = "Alar",
 		["AttackEffect"] = "Punch",
@@ -1422,7 +1422,7 @@ local ultpower = {
 		["Summonant"] = "Dukran2",
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Give yourself Splintered Genesis. Summon Dukran, a 1250/300 fighter that summons Alar Knights during your end step.",
+			Description = "Give yourself Splintered Genesis. Summon Dukran, a 1200/300 fighter that summons Alar Knights during your end step.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Add","Splintered Genesis"},{"Summon","Summonant"}},
 			Target = "Ally",
@@ -1432,7 +1432,7 @@ local ultpower = {
 	
 	["Dukran2"] = {
 		["Id"] = 4784600402,
-		["Name"] = "Dukran the Celestial",
+		["Name"] = "Dukran the Elysian",
 		["CopyBodge"] = "Dukran2",
 		["AltCards"] = {
 			["Dukran2-T"] = {
@@ -1440,11 +1440,11 @@ local ultpower = {
 				["Bio"] = "",
 			},
 		},
-		["Health"] = 1500,
-		["Power"] = 250,
+		["Health"] = 1200,
+		["Power"] = 300,
 		["Rarity"] = "Token",
 		["Archetype"] = "Alar",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 8,},
 		["Effect"] = {
