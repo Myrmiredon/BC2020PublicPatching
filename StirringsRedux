@@ -285,7 +285,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Haydoscale",
 			Description = "If this card would take effect damage: Prevent it instead. Until each player's next end step, that player can't cast Epic or Legendary cards.", 
 			["Type"] = "OnEffectDamage",
-			["Power"] = {{"BypassEpicLegendary"}},
+			["Power"] = {{"BypassEpicLegendary",030,"Ally"},{"BypassEpicLegendary",030,"Opponent"}},
 			Target = "All",
 		},
 		["Bio"] = [["Sadly, its actions stopped us from eradicating the curse. It's a shame such a noble creature was trapped in a hideous frame." - Lua, Paraselene Evincar]],
