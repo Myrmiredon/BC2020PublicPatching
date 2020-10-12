@@ -1058,7 +1058,7 @@ local halo = {
 			Name = "Temporal Halo",
 			Description = [[Whenever you cast a Terrain from the World of Wood: Deal 200 damage to all enemy fighters. Search "The World of Wood" from your deck.]],
 			["Type"] = "OnAllyTerrainCast",
-			["Power"] = {{"Damage",200},{"Tutorfor","The World of Wood,"Ally"}},
+			["Power"] = {{"Damage",200},{"Tutorfor","The World of Wood","Ally"}},
 			Target = "Opponent",
 			Archetype = "World of Wood",
 		},
