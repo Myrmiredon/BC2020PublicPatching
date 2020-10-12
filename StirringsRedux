@@ -2220,7 +2220,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 4, ["Yellow"] = 4,},
-		["Requirement"] = {"Board","Ally,0,5},
+		["Requirement"] = {"Board","Ally",0,5},
 		["Effect"] = {
 			Name = "Halloween",
 			Description = "Cast only if you control 4 or fewer fighters. Choose two: \n-Destroy all fighters with 400 or less health. \n-Destroy all fighters with 400 or more health. \n-All allied fighters gain 400 health. \n-Draw four cards.",
