@@ -1555,7 +1555,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Green"] = 7,},
 		["Effect"] = {
 			Name = "Toasty",
-			Description = "Summon blXhd, a 2000/100 fighter, and The Void Star, a 700/0 fighter that keeps it alive.",
+			Description = "Summon blXhd, a 2000/1000 fighter, and The Void Star, a 700/0 fighter that keeps it alive.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Gecko Attendant"},{"Summon","King Gecko"}},
 			Target = "Ally",
