@@ -1125,17 +1125,16 @@ local Strife = {
 		["Id"] = 3487801621,
 		["Name"] = "ShyLightness",
 		["Health"] = 600,
-		["Power"] = 400,
+		["Power"] = 500,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Blue"},
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "When this card is cast, if you have no Blue cards in your Baseplate: Lock a target fighter for 2 turns.",
+			Description = "When this card is cast: Obliterate all blue cards in your baseplate.", --generate a blue icon for each card destroyed this way.
 			["Type"] = "OnSummon",
-			["Power"] = {{"Lock",2}},
-			["EffectRequirement"] = {"Color","AllyGenZone",0,1,"Blue"},	
+			["Power"] = {{"GenZoneDiscard",{"Blue",-10}}}, --AlterEV currently doesnt have a way to check baseplate as far as i know. neither is there an effect that makes cards in baseplate generate.	
 			Target = "Single",
 			},
 		["Bio"] = "Hovering skull doesn't scare you? Maybe my skill will.",
