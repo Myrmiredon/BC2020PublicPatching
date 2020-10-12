@@ -1,5 +1,5 @@
-local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO	
-	
+local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
+
 	["Paraselene Trainee"] = {
 		["Id"] = 5271605730,
 		["Name"] = "Paraselene Trainee",
@@ -7,7 +7,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 4,},
 		["DamageImmune"] = true,
 		["Effect"] = {
@@ -19,7 +19,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "It is our noble duty to defend the ignorant from forces they cannot understand.",
 	},
-	
+
 	["Failed Expirement"] = {
 		["Id"] = 5431909304,
 		["Name"] = "Failed Experiment",
@@ -28,7 +28,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3, ["Neutral"] = 2,},
 		["TransformImmune"] = true,
 		["Effect"] = {
@@ -41,7 +41,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "When Eisenhower left his lab to help defeat Zanzel, the clever abominations on the lowest floor broke out and slaughtered us.",
 	},
-	
+
 	["Ye Old Arte"] = {
 		["Id"] = 5454439882,
 		["Name"] = "Artemis' Tombstone",
@@ -50,7 +50,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -61,7 +61,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "There was nothing he could have done, truly.",
 	},
-	
+
 	["Orphaned Survivor"] = {
 		["Id"] = 5547337599,
 		["Name"] = "Orphaned Survivor",
@@ -69,7 +69,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["Archetype"] = "Survivor",
 		["TransformImmune"] = true,
@@ -83,7 +83,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "It was the people fleeing Bloxburg that gave Eisenhower attention to something worse than the death of his loved one.",
 	},
-	
+
 	["Dark Book of Spells"] = {
 		["Id"] = 5271603600,
 		["Name"] = "Dark Book of Spells",
@@ -91,7 +91,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Archetype"] = "Lunar",
 		["Cost"] = {["Blue"] = 2, ["Neutral"] = 2,},
 		["Effect"] = {
@@ -103,8 +103,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Out of desparation, Eisenhower asked to see his loved one again, trusting words he had no knowledge or control over.",
 	},
-	
-	
+
+
  	["Depths of the Nether"] = {
 		["Id"] = 4783088354,
 		["Name"] = "Depths of the Nether",
@@ -123,7 +123,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 	},
-	
+
 	["Collapsing Laboratory"] = {
 		["Id"] = 5402958514,
 		["Name"] = "Collapsing Laboratory",
@@ -144,7 +144,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "With the death of his loved one, Eisenhower devoted everything to his restoration. Eisenhower's lab fell into disrepair.",
 	},
-	
+
 	["Paraselene Sage"] = {
 		["Id"] = 5530562670,
 		["Name"] = "Paraselene Sage",
@@ -170,9 +170,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Zanzel? Hallow? Eisenhower? Imbeciles compared to the moon.",
 	},
-	
+
 	------------------------------------------------------------------------------------------------------------------------------
-	
+
 	["Brothers Grotesque"] = {
 		["Id"] = 5374170663,
 		["Name"] = "Brothers Grotesque",
@@ -180,7 +180,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 900,
 		["Rarity"] = "Rare", --Rare
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 6, ["Neutral"] = 6,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -199,7 +199,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Rare", -- Rare, in-game
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Red"] = 3, ["Blue"] = 3,},
 		["DamageImmune"] = true,
 		["Effect"] = {
@@ -211,7 +211,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The common man would panic if they knew of what was out there. Keep them in bliss to keep society running.",
 	},
-	
+
 	["Psychotic"] = {
 		["Id"] = 5000946163,
 		["Name"] = "Sage Smite",
@@ -231,7 +231,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Originally banned for its horrible consequences on the body, now freely used to purge the otherworldy.",
 	},
-	
+
 	["Laboratory Security"] = {
 		["Id"] = 5398115915,
 		["Name"] = "Laboratory Security",
@@ -239,7 +239,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -251,7 +251,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["When I saw the Laboratory's lower floors, I froze. The Robot didn't." - Sword Critic]],
 	},
-	
+
 	["Lunar Banishment"] = {
 		["Id"] = 5253916026,
 		["Name"] = "Lunar Banishment",
@@ -259,7 +259,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -270,7 +270,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Eclipse let out one last howl as the lunar crystals locked him in place.",
 	},
-	
+
 	["Paraselene Warden"] = {
 		["Id"] = 5271605935,
 		["Name"] = "Paraselene Warden",
@@ -278,20 +278,20 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 100,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["DamageImmune"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "If this card would take effect damage: Prevent it instead. Until each player's next end step, that player can't cast Epic or Legendary cards.", 
+			Description = "If this card would take effect damage: Prevent it instead. Until each player's next end step, that player can't cast Epic or Legendary cards.",
 			["Type"] = "OnEffectDamage",
-			["Power"] = {{"BypassEpicLegendary"}},
+			["Power"] = {{"BypassEpicLegendary",030,"Ally"},{"BypassEpicLegendary",030,"Opponent"}},
 			Target = "All",
 		},
 		["Bio"] = [["Sadly, its actions stopped us from eradicating the curse. It's a shame such a noble creature was trapped in a hideous frame." - Lua, Paraselene Evincar]],
 	},
-	
-	
+
+
 	["Eisenhower, the Alchemist"] = {
 		["Id"] = 5152932805,
 		["Name"] = "Eisenhower, the Alchemist",
@@ -306,7 +306,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Legendary", --Legendary
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 6},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -315,9 +315,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"EndTurn",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "I will take as much time as needed to avenge my love.",		
+		["Bio"] = "I will take as much time as needed to avenge my love.",
 	},
-	
+
 	["Lua, Paraselene Evincar"] = {
 		["Id"] = 5268984466,
 		["Name"] = "Lua, Paraselene Evincar",
@@ -325,11 +325,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 1200,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Red"] = 6, ["Blue"] = 6,},
 		["DamageImmune"] = true,
 		["Effect"] = {
-			Name = "Haydoscale", 
+			Name = "Haydoscale",
 			Description = " If this card would take effect damage: Instead ignore the Colourless cost of all cards you cast until your end step. You can't cast fighters until then.",
 			["Type"] = "OnEffectDamage",
 			["Power"] = {{"BypassSummon"},{"Tax",-200}},
@@ -337,7 +337,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A freedom lock is caused when a powerful entity causes an action that cannot be undone. It is our duty to prevent these locks so that all disasters can be undone.",
 	},
-	
+
 	["Fleeing Survivors"] = {
 		["Id"] = 5455444897,
 		["Name"] = "Fleeing Survivors",
@@ -345,20 +345,20 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 150,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
-		["Archetype"] = "Survivor", 
+		["Archetype"] = "Survivor",
 		["TokenDiscard"] = true,
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 1,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = [[Inert when discarded. When this card is cast: Search three copies of it from your deck."]], 
+			Description = [[Inert when discarded. When this card is cast: Search three copies of it from your deck."]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Tutorfor","Fleeing Survivors"},{"Tutorfor","Fleeing Survivors"},{"Tutorfor","Fleeing Survivors"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Everyone fled the ruined Bloxburg, no matter the danger. The scared refugees found the savages that ruled this forest preoccupied with the same horrors they faced.",
 	},
-	
+
 	["Pumpkin Bomb"] = {
 		["Id"] = 5573166534,
 		["Name"] = "Pumpkin Bomb",
@@ -376,7 +376,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Archetype"] = "Lunar",
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
@@ -388,7 +388,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "For the inhabitants of Bloxburg, these bombs are a sign of relentless agony. For Hallow, it's Tuesday.",
 	},
-	
+
 	["Pyramid Head"] = {
 		["Id"] = 5152923109,
 		["Name"] = "Piggy",
@@ -399,7 +399,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["DamageMitigation"] = 300,
 		["Rarity"] = "Common", --Common
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2, ["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Stud",
@@ -410,7 +410,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Who left all these bear traps around h-BONK!",
 	},
-	
+
 	["Moon Rabbit's Rage"] = {
 		["Id"] = 5291411516,
 		["Name"] = "Moon Rabbit's Rage",
@@ -426,11 +426,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "A target fighter gains 350 Power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",350}},
-			Target = "Single",	
+			Target = "Single",
 		},
 		["Bio"] = "Elementary Moon sorcery. Often used on Trainees, to harden their resolve for the painful path that awaits them.",
 	},
-	
+
 	["Void Cultist"] = {
 		["Id"] = 5385216775,
 		["Name"] = "Void Cultist",
@@ -446,11 +446,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Type"] = "OnSummon",
 			["Power"] = {{"Heal",600},{"AddGenZone",{"Void Cultist",1}}},
 			["EffectRequirement"] = {"Playertable", "Me", 0, 2001, "Life"},
-			Target = "Self",	
+			Target = "Self",
 		},
 		["Bio"] = "Father of the Void! Your terrible gaze carves us, and the scars dance upon our grateful flesh.",
 	},
-	
+
 	["New Hazenwyld"] = {
 		["Id"] = 5630237311,
 		["Name"] = "New Hazenwyld",
@@ -467,11 +467,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "At the start of each player's turn: All Token fighters gain 50 health and power.",
 			["Type"] = "Field",
 			["Power"] = {{"Strengthen",50,"Token"},{"Heal",50,"Token"}},
-			Target = "Ally",	
+			Target = "Ally",
 		},
 		["Bio"] = "After Eclipse was banished, the Lycanthropes' home was left unguarded.",
 	},
-	
+
 	["Death-Defying Demon"] = {
 		["Id"] = 5152920633,
 		["Name"] = "Death-Defying Demon",
@@ -492,8 +492,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Rare", -- Rare
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -504,10 +504,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Falling out,"
 	},
-	
-	
+
+
 	["Demon 6"] = {
-		["Id"] = 5152920633,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 6"] = {
@@ -526,9 +526,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -537,11 +537,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Demon 7"}},
 			Target = "Ally",
 		},
-		["Bio"] = "My senses fire,",
+		["Bio"] = "my senses fire,",
 	},
-	
+
 	["Demon 7"] = {
-		["Id"] = 5152920633,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 7"] = {
@@ -560,9 +560,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -573,9 +573,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "in all directions...",
 	},
-	
+
 	["Demon 8"] = {
-		["Id"] = 5152920633,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 8"] = {
@@ -594,9 +594,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -607,9 +607,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "... I watch them echo.",
 	},
-	
+
 	["Demon 9"] = {
-		["Id"] = 5152920633,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 9"] = {
@@ -628,9 +628,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -641,9 +641,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Filling up,",
 	},
-	
+
 	["Demon 10"] = {
-		["Id"] = 5152920633,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 10"] = {
@@ -662,8 +662,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -672,11 +672,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Demon 11"}},
 			Target = "Ally",
 		},
-		["Bio"] = "where these was nothing...",
+		["Bio"] = "where there was nothing...",
 	},
-	
+
 	["Demon 11"] = {
-		["Id"] = 5152920633,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 11"] = {
@@ -695,9 +695,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -708,9 +708,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "... As I let go.",
 	},
-	
+
 	["Demon 12"] = {
-		["Id"] = 5152921373,
+		["Id"] = 5820065802,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 12"] = {
@@ -721,13 +721,13 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Health"] = 200,
 		["Power"] = 200,
-		["Rarity"] = "Token",		
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 7,},
-		["Bio"] = "... As I let go.",
+		["Bio"] = "... ",
 	},
-	
+
 	["666"] = {
 		["Id"] = 5630235417,
 		["CopyBodge"] = "666",
@@ -744,7 +744,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "Noob",
 		["Effect"] = {
@@ -757,7 +757,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Can you guess why wolves built heaven?",
 	},
-	
+
 	["Noli, Demon Seeker"] = {
 		["Id"] = 5117569573,
 		["Name"] = "Noli, Demon Seeker",
@@ -765,26 +765,26 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Epic", -- Epic
 		["AttackEffect"] = "Slash",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = [["When this card is cast: Search "Unspeakable Summoning" and three "Void Cultists" from your deck. You lose 1000 Life."]], 
+			Description = [["When this card is cast: Search "Unspeakable Summoning" and three "Void Cultists" from your deck. You lose 1000 Life."]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Tutorfor","Unspeakable Summoning"},{"Tutorfor","Void Cultist"},{"Tutorfor","Void Cultist"},{"Tutorfor","Void Cultist"},{"Cost",1000}},
 			Target = "Ally",
 		},
 		["Bio"] = "Cur and Baldy alike cannot stop us now. The Father of the Void will see his banishment undone!",
 	},
-	
+
 	["Ancalagon, Sword Critic"] = {
-		["Id"] = 5271603039,
-		["Name"] = "Ancalagon, Sword Critic",
+		["Id"] = 5819767365,
+		["Name"] = "David Crissbach",
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Archetype"] = "Survivor",
 		["Cost"] = {["Neutral"] = 2, ["Red"] = 8,},
 		["TransformImmune"] = true,
@@ -799,7 +799,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["Skull Collector's Ritual"] = {
 		["Id"] = 5521721862,
 		["Name"] = "Skull Collector's Ritual",
@@ -807,18 +807,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Epic", -- Epic
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Search each Ritual Part from your deck. Cast them all to summon Eclipse, a 2000/2000 Werewolf Colossus.", 
+			Description = "Search each Ritual Part from your deck. Cast them all to summon Eclipse, a 2000/2000 Werewolf Colossus.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Add","Eclipse's Resurrection"},{"Tutorfor","Ritual Part: Werewolf Fur"},{"Tutorfor","Ritual Part: Vitality Wellspring"},{"Tutorfor","Ritual Part: Husk Newt"},{"Tutorfor","Godbeast's Skull"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Body, Spirit, Fur, and Vitality. This would resurrect the Moonbreaker. A question remained: How to obtain them?",
 	},
-	
+
 	["Eclipse's Resurrection"] = {
 		["Id"] = 5539210866,
 		["Name"] = "Eclipse's Resurrection",
@@ -826,19 +826,19 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token", -- Epic
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 6,},
 		["Requirement"] = {"Playertable","Me",210,9999,"Ritual"},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Cast only if you've cast each Ritual Part this game. Summon Eclipse, a 2000/2000 Werewolf Colossus. Draw a card. Shuffle this card into your deck.", 
+			Description = "Cast only if you've cast each Ritual Part this game. Summon Eclipse, a 2000/2000 Werewolf Colossus. Draw a card. Shuffle this card into your deck.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Eclipse, Werewolf Colossus"},{"Draw",1},{"DeckAdd","Eclipse's Resurrection"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Body, Spirit, Fur, and Vitality. This would resurrect the Moonbreaker. A question remained: How to obtain them?",
 	},
-	
+
 	["Eclipse, Werewolf Colossus"] = {
 		["Id"] = 651213579,
 		["Name"] = "Eclipse, Werewolf Colossus",
@@ -848,7 +848,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Lycanthrope",
 		["CounterAttackBlock"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 10,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -859,7 +859,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "As the Moonbreaker rose, Zanzel's ambitions fell.",
 	},
-	
+
 	["Ritual Part: Werewolf Fur"] = {
 		["Id"] = 5521862107,
 		["Name"] = "Ritual Part: Werewolf Fur",
@@ -867,19 +867,19 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Red"] = 1,},
 		["Requirement"] = {"Power","Ally",2000},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Cast only if there is 2000 or more Power amongst allied fighters. Draw a card. Give yourself the Ritual Starter ", 
+			Description = "Cast only if there is 2000 or more Power amongst allied fighters. Draw a card. Give yourself the Ritual Starter.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Ritual","2"},{"Draw",1},{"Tutorfor","Skull Collector's Ritual"}},
 			Target = "Ally",
 		},
 		["Bio"] = "To resurrect Eclipse, the Skull Collector needed four items. Quan Sinister had trouble finding a Lycanthrope that wanted its fur shaven.",
 	},
-	
+
 	["Ritual Part: Vitality Wellspring"] = {
 		["Id"] = 5521862954,
 		["Name"] = "Ritual Part: Vitality Wellspring",
@@ -887,19 +887,19 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Red"] = 1,},
 		["Requirement"] = {"Playertable","Me",1000,99999,"Lifegain"},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Cast only if you've gained 1000 life this turn. Draw a card. Give yourself the Ritual Starter.", 
+			Description = "Cast only if you've gained 1000 life since your last end step. Draw a card. Give yourself the Ritual Starter.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Ritual","3"},{"Draw",1},{"Tutorfor","Skull Collector's Ritual"}},
 			Target = "Ally",
 		},
 		["Bio"] = "To resurrect Eclipse, the Skull Collector needed four items. The Lycanthropes scoured the ruined Bloxburg for the well of light it was always known for.",
 	},
-	
+
 	["Ritual Part: Husk Newt"] = {
 		["Id"] = 5521726372,
 		["Name"] = "Ritual Part: Husk Newt",
@@ -907,19 +907,19 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Red"] = 1,},
 		["Requirement"] = {"Playertable", "Me", 3, 9999, "Actions"},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Cast only if you've cast three actions this turn. Draw a card. Give yourself the Ritual Starter.", 
+			Description = "Cast only if you've cast three actions since your last end step. Draw a card. Give yourself the Ritual Starter.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Ritual","5"},{"Draw",1},{"Tutorfor","Skull Collector's Ritual"}},
 			Target = "Ally",
 		},
 		["Bio"] = "To resurrect Eclipse, the Skull Collector needed four items. Already a pioneer of cloning, Eisenhower had the perfect body. He just had to get to the lower floors of his laboratory...",
 	},
-	
+
 	["Ritual Part: Godbeast's Skull"] = {
 		["Id"] = 5521723887,
 		["Name"] = "Ritual Part: Godbeast's Skull",
@@ -927,19 +927,19 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Red"] = 1,},
 		["Requirement"] = {"Playertable", "Me", 3, 999999, "TargetCount"},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Cast only if effects have targeted three times this turn. Draw a card. Give yourself the Ritual Starter", 
+			Description = "Cast only if effects you control have targeted three times since your last end step. Draw a card. Give yourself the Ritual Starter.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Ritual","7"},{"Draw",1},{"Tutorfor","Skull Collector's Ritual"}},
 			Target = "Ally",
 		},
 		["Bio"] = "To resurrect Eclipse, the Skull Collector needed four items. Hallow retreated to his hunting grounds to kill death itself.",
 	},
-	
+
 	["Unspeakable Summoning"] = {
 		["Id"] = 4899466119,
 		["Name"] = "Unspeakable Summoning",
@@ -947,7 +947,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Legendary", --Legendary
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 13,},
 		["Effect"] = {
 			Name = "Stud",
@@ -958,7 +958,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Zanzel scoffed when she saw Lezus. These demons are why the world is so impure.",
 	},
-	
+
 	["Lezus 1"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -982,7 +982,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Lezus 2"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -994,7 +994,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Token"] = true,
 		["DiscardBlock"] = true,
 		["CopyImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "????",
 		["Effect"] = {
@@ -1006,7 +1006,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Lezus 3"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -1018,7 +1018,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Token"] = true,
 		["DiscardBlock"] = true,
 		["CopyImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "????",
 		["Effect"] = {
@@ -1030,7 +1030,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Lezus 4"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -1042,7 +1042,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Token"] = true,
 		["DiscardBlock"] = true,
 		["CopyImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "????",
 		["Effect"] = {
@@ -1054,7 +1054,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Lezus 5"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -1066,7 +1066,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Token"] = true,
 		["DiscardBlock"] = true,
 		["CopyImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "????",
 		["Effect"] = {
@@ -1078,7 +1078,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Lezus 6"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -1090,7 +1090,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Token"] = true,
 		["DiscardBlock"] = true,
 		["CopyImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "????",
 		["Effect"] = {
@@ -1102,7 +1102,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Lezus 7"] = {
 		["Id"] = 5566740653,
 		["Name"] = "Lezus",
@@ -1114,7 +1114,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Token"] = true,
 		["DiscardBlock"] = true,
 		["CopyImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Archetype"] = "????",
 		["Effect"] = {
@@ -1126,7 +1126,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["The Stalker"] = {
 		["Id"] = 5152922400,
 		["Name"] = "The Stalker",
@@ -1147,7 +1147,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["AltArt"] = true,
 				["Name"] = "Stalker-Chan",
 				["Bio"] = "A true senpai makes lesser girlfriends hunted instead of hunters.",
-			},									
+			},
 		},
 		["Health"] = 2400,
 		["Power"] = 300,
@@ -1166,9 +1166,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A true monster makes lesser monsters hunted instead of hunters.",
 	},
-	
+
 	------------------------------------------------------------------------------------------------------------------------------
-	
+
 	["Survivors of Perfection"] = {
 		["Id"] = 5594609488,
 		["Name"] = "Survivors of Perfection",
@@ -1176,7 +1176,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3,},
 		["WeakenImmune"] = true,
 		--["BypassOverdrive"] = true,
@@ -1184,14 +1184,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Survivor",
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Effects can't transform this card or lower its power. When this card is cast: Each allied fighter becomes a copy of it.", 
+			Description = "Effects can't transform this card or lower its power. When this card is cast: Each allied fighter becomes a copy of it.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Transform","Survivors of Perfection"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Zanzel's people didn't get a vote in any of this. Their role was to witness it.",
 	},
-	
+
 	["Zanzel's Meddling"] = {
 		["Id"] = 5595944964,
 		["Name"] = "Zanzel's Meddling",
@@ -1199,18 +1199,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Destroy two cards in your hand. Give yourself three random Green cards.", 
+			Description = "Destroy two cards in your hand. Give yourself three random Green cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"RandomDiscard",2},{"RandomAdd","Green"},{"RandomAdd","Green"},{"RandomAdd","Green"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Zanzel looked over and operated the world like how a little girl does with her dollhouse.",
 	},
-	
+
 	["Mirror Man's Assault"] = {
 		["Id"] = 5574410785,
 		["Name"] = "Mirror Man's Assault",
@@ -1218,18 +1218,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 2, ["Green"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Your opponent loses a Colourless stud. Summon an 800/400 Mirror Man.", 
+			Description = "Your opponent loses a Colourless stud. Summon an 800/400 Mirror Man.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Neutral",-1,"Opponent"},{"Summon","Mirror Man"}},
 			Target = "Ally",
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Mirror Man"] = {
 		["Id"] = 5574411554,
 		["Name"] = "Mirror Man",
@@ -1237,11 +1237,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Token", -- Token
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 2, ["Green"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step, if you didn't cast an action this turn: Destroy this card.", 
+			Description = "During your end step, if you didn't cast an action since your last end step: Destroy this card.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Destroy",0e0,"Self"}},
 			["EffectRequirement"] = {"Playertable","Me",0,1,"Actions"},
@@ -1249,7 +1249,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Zanzel's Visions"] = {
 		["Id"] = 5392400529,
 		["Name"] = "Zanzel's Visions",
@@ -1257,18 +1257,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "All non-Green fighters generate.", 
+			Description = "All non-Green fighters generate.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Generate",1,"ColorBlue"},{"Generate",1,"ColorRed"},{"Generate",1,"ColorYellow"},{"Generate",1,"ColorNeutral"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Those were cold, perfect worlds she saw. In them, beings capable of defying the very laws of reality. These visions shaped young Zanzel into the woman she is today.",
 	},
-	
+
 	["Unlikely Aid"] = {
 		["Id"] = 5594602414,
 		["Name"] = "Unlikely Aid",
@@ -1276,18 +1276,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Summon a 100/100 Heroic Survivor. When that card is summont: Deal 100 damage to a target fighter for each Survivor you control.", 
+			Description = "Summon a 100/100 Heroic Survivor. When that card is summont: Deal 100 damage to a target fighter for each Survivor you control.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SummonWithEffect","Heroic Survivor"}},
 			Target = "Ally",
 		},
 		["Bio"] = [["When the Lycanthropes appeared, I saw something long-absent in the sunken faces of passersby - a glimmer of hope." - Sword Critic]],
 	},
-	
+
 	["Heroic Survivor"] = {
 		["Id"] = 5271604096,
 		["Name"] = "Heroic Survivor",
@@ -1296,19 +1296,19 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token", -- Token
 		["Archetype"] = "Survivor",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["EffectVariable"] = 0,
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "When this card is summont: Deal 100 damage to a target fighter for each Survivor you control.", 
+			Description = "When this card is summont: Deal 100 damage to a target fighter for each Survivor you control.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SetVariable","Archetype","Self"},{"MultiplyVariable",100,"Self"},{"Damage","Variable","Single"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Hope shines the brightest in these dark times.",
 	},
-	
+
 	["Beast Within"] = {
 		["Id"] = 5156404337,
 		["Name"] = "Detect Imperfection",
@@ -1316,7 +1316,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Uncommon", --Uncommon
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Instinct Release",
@@ -1327,7 +1327,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Only the innocent survive Zanzel's detection spell intact.",
 	},
-	
+
 	["Bloxburg in Ruins"] = {
 		["Id"] = 5461328503,
 		["Name"] = "Bloxburg in Ruins",
@@ -1335,7 +1335,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Uncommon", -- Uncommon
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Archetype"] = "Terrain",
 		["Cost"] = {["Green"] = 4,},
 		["Terrariant"] = "Bloxburg Terrain",
@@ -1348,7 +1348,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Zanzel despises ignorance and stupidity, and she sees it everywhere.",
 	},
-	
+
 	["Survivor Token"] = {
 		["Id"] = 5271606141,
 		["Name"] = "Survivor",
@@ -1357,11 +1357,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
-		["Archetype"] = "Survivor", 
+		["Archetype"] = "Survivor",
 		["Cost"] = {["Green"] = 3,},
 		["Bio"] = "I'm so happy that Hallow gave me shelter. I know he's gonna tax me to oblivion later, but I just don't care!",
 	},
-	
+
 	["The Bloxgone Monster"] = {
 		["Id"] = 5156405458,
 		["Name"] = "The Bloxgone Monster",
@@ -1369,18 +1369,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Uncommon", --Uncommon
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 6,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "During your end step: This card loses all of its power. Then it gains 50 power for each stud your opponent has.", 
+			Description = "During your end step: This card loses all of its power. Then it gains 50 power for each stud your opponent has.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"SetPower",0,"Self"},{"BloxgoneMonster",50}},
 			Target = "Opponent",
 		},
 		["Bio"] = "Hedwyn stopped when he felt it. That was his first mistake. He then channeled all his might into a single Periastron Strike. That was his last.",
 	},
-	
+
 	["Purify the Brick"] = {
 		["Id"] = 5499712867,
 		["Name"] = "Purify The Brick",
@@ -1388,18 +1388,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Uncommon", --Uncommon
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 6,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Give yourself four Colourless studs.", 
+			Description = "Give yourself four Colourless studs.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Neutral",4}},
 			Target = "Ally",
 		},
 		["Bio"] = [[Zanzel knew the Brick's true power could be hers. The purification could rend the world. So be it. Not like it wasn't dead already.]],
 	},
-	
+
 	["Alpha Brick's Presence"] = {
 		["Id"] = 543041104,
 		["Name"] = "Alpha Brick's Presence",
@@ -1407,7 +1407,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Terrain"] = true,
 		["Terrariant"] = "Presence Terrain",
 		["Cost"] = {["Neutral"] = 4, ["Green"] = 4,},
@@ -1420,7 +1420,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Survivor's Shelter"] = {
 		["Id"] = 5594199328,
 		["Name"] = "Survivor's Shelter",
@@ -1428,7 +1428,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Archetype"] = "Survivor",
 		["Cost"] = {["Green"] = 4,},
 		["TransformImmune"] = true,
@@ -1443,7 +1443,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "We're safe...for now.",
 	},
-	
+
 	["Search the City"] = {
 		["Id"] = 5462158943,
 		["Name"] = "Search the City",
@@ -1451,7 +1451,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -1462,15 +1462,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Entry #17 - Food's ran out. The shadows keep getting darker, they'll be here soon. Time to search the city for anyone still here..." - David]],
 	},
-	
+
 	["Search2"] = {
 		["Id"] = 5462160075,
 		["Name"] = "Search the City",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Token", 
+		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Fleeting"] = true,
 		["Effect"] = {
@@ -1482,7 +1482,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Entry #21 - Finally found someone! His name's Barry. He was looting the shopping district. Poor guy thought I was an ''Ultra''. Barry's description of them and their hunting habits make the Shadow's saints in comparison... We're both headed to an evac station up North.",
 	},
-	
+
 	["Search3"] = {
 		["Id"] = 5462160879,
 		["Name"] = "Search the City",
@@ -1490,7 +1490,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Fleeting"] = true,
 		["Effect"] = {
@@ -1502,7 +1502,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Entry #25 - Evac station is empty, they...they... Damn it. We found a single survivor. Her name's Allise. She's scared out of her mind. We convinced her ( reluctantly ) to join up with us. She told us the Lycans were looking for the Wellspring, said the only way to make it out of here alive would be to help them find it. They might be strong, but no one knows these streets better than me.",
 	},
-	
+
 	["Search4"] = {
 		["Id"] = 5462501363,
 		["Name"] = "Search the City",
@@ -1510,7 +1510,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Fleeting"] = true,
 		["Effect"] = {
@@ -1522,7 +1522,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Entry #29 - We've came across a black market. I'm surprised they're still doing business during these hard times. After days of running and hiding, we finally get the chance to strike back. We arm ourselves and head out into the city, towards the Wellspring.",
 	},
-	
+
 	["Search5"] = {
 		["Id"] = 5462162365,
 		["Name"] = "Search the City",
@@ -1530,7 +1530,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Fleeting"] = true,
 		["Effect"] = {
@@ -1541,28 +1541,28 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Entry #33 - We... we reached it. We made it... All our wounds and fatigue fade away as we step closer to the Wellspring. We fire our flares, signaling the werewolves of our location. I think of all the good times I ever had in this city, all the valuable friends I ever made thanks to it... I want to return to those days. I know I will. David out.",
-	},	
-	
-	
+	},
+
+
 	["Wrath of King Gecko"] = {
 		["Id"] = 4984427084,
-		["Name"] = "Secrets of Swinburne", 
+		["Name"] = "Secrets of Swinburne",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 7,},
 		["Effect"] = {
 			Name = "Toasty",
-			Description = "Summon blXhd, a 2000/100 fighter, and The Void Star, a 700/0 fighter that keeps it alive.",
+			Description = "Summon blXhd, a 2000/1000 fighter, and The Void Star, a 700/0 fighter that keeps it alive.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Gecko Attendant"},{"Summon","King Gecko"}},
 			Target = "Ally",
 		},
 		["Bio"] = "HERE, where the world is quiet.",
 	},
-	
+
 	["King Gecko"] = {
 		["Id"] = 5152925709,
 		["Name"] = "blXhd",
@@ -1571,7 +1571,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 1000,
 		["Rarity"] = "Token", -- Token
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 7,},
 		["Archetype"] = "Bewitched",
 		["TransformImmune"] = true,
@@ -1593,7 +1593,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token", -- Token
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 7,},
 		["Archetype"] = "Bewitched",
 		["TransformImmune"] = true,
@@ -1606,7 +1606,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Void Star to zer0, Foolishly dereferenced. No call stack. All g0ne."]],
 	},
-	
+
 	["Traumatic Clown"] = {
 		["Id"] = 5152923764,
 		["Name"] = "G0Z",
@@ -1647,7 +1647,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "As the demons looked for Zanzel, the innocent people realised a fatal mistake: The enemy of their enemy is not their friend.",
 	},
-	
+
 	["Cat Ears Maid"] = {
 		["Id"] = 3557119792,
 		["Name"] = "Yorick",
@@ -1656,7 +1656,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 100,
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slap",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3,["Neutral"] = 1},
 		["Effect"] = {
 			Name = "Refreshing Treats",
@@ -1667,7 +1667,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Alas, poor Yorick.",
 	},
-	
+
 	["Sublime Purity"] = {
 		["Id"] = 5507354814,
 		["Name"] = "Sublime Purity",
@@ -1675,7 +1675,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Epic", -- Epic
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 2, ["Green"] =2,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -1686,7 +1686,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Zanzel was amazed at their power, but this strength was destined to die off.",
 	},
-	
+
 	["Absolute Confrontation"] = {
 		["Id"] = 5398834446,
 		["Name"] = "Absolute Confrontation",
@@ -1694,7 +1694,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Legendary", -- Legendary
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Red"] = 4, ["Green"] = 4,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -1705,7 +1705,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Eclipse's long awaited revival turned the tide in the conflict. The Ultras would not stand for another apex predator in their new world.",
 	},
-	
+
 	["Priestess Zanzel, the Promised One"] = {
 		["Id"] = 5152929615,
 		["Name"] = "Priestess Zanzel, the Promised One",
@@ -1729,7 +1729,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Legendary", --Legendary
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 13,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -1740,7 +1740,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Mankind shall soon tread upon the path to perfection."
 	},
-	
+
 	["Zanzel"] = {
 		["Id"] = 5152931842,
 		["Name"] = "Priestess Zanzel, the Promised One",
@@ -1757,7 +1757,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 1300,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Scatter",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 13,},
 		["Effect"] = {
 			Name = "Evisceration",
@@ -1768,7 +1768,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Mankind shall soon tread upon the path to perfection."
 	},
-	
+
 	["1x1x1x1"] = {
 		["Id"] = 5152927654,
 		["AltCards"] = {
@@ -1804,9 +1804,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Zanzel could make much better use of the Alpha Brick than this pathetic demon. The demon disagreed.",
 	},
-	
+
 	---------------------------------------------------------------------------------------------------------------------------------
-	
+
 	["Hallow's Enforcer"] = {
 		["Id"] = 5271603842,
 		["AltCards"] = {
@@ -1821,14 +1821,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					Target = "Self",
 				},
 
-			},			
+			},
 		},
 		["Name"] = "Hallow's Enforcer",
 		["Health"] = 300,
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 3,},
 		["Archetype"] = "Vibeshark",
 		["Transformant"] = "Enforcer Token",
@@ -1841,7 +1841,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The Vibesharks always collect on their debt. Their debt being a good time.",
 	},
-	
+
 	["Hallow's Eradicator"] = {
 		["Id"] = 5556283622,
 		["AltCards"] = {
@@ -1856,14 +1856,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					Target = "Self",
 				},
 
-			},			
+			},
 		},
 		["Name"] = "Hallow's Eradicator",
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon", --Uncommon
 		["AttackEffect"] = "Fire",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 2,},
 		["Archetype"] = "Vibeshark",
 		["Transformant"] = "Eradicator Token",
@@ -1875,10 +1875,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Hallow wishes to give all his children all the fun in the entire world. What responsible parent wouldn't?",
-	},	
-	
+	},
+
 	["Hallow's Knight"] = {
-		["Id"] = 1237898161,
+		["Id"] = 5819832599,
 		["AltCards"] = {
 			["Knight Token"] = {
 				["CopyBodge"] = "Knight Token",
@@ -1891,7 +1891,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					Target = "Ally",
 				},
 
-			},			
+			},
 		},
 		["Name"] = "Hallow's Knight",
 		["Health"] = 600,
@@ -1899,7 +1899,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare", --Rare
 		["Transformant"] = "Knight Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 5,},
 		["Archetype"] = "Vibeshark",
 		["Effect"] = {
@@ -1912,7 +1912,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "When the survivors from Bloxburg poured into Shambeth, Hallow wanted nothing to do with them. Kalman, ever the bleeding heart, was all that was needed to change his mind.",
 	},
 
-	
+
 	["Hallow's Adjudicator"] = {
 		["Id"] = 5641474236,
 		["AltCards"] = {
@@ -1926,14 +1926,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					["Power"] = {{"Neutral",3,"All"}},
 					Target = "Archetype",
 				},
-			},	
+			},
 		},
 		["Name"] = "Hallow's Adjudicator",
 		["Health"] = 800,
 		["Power"] = 800,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 8,},
 		["Archetype"] = "Vibeshark",
 		["Transformant"] = "Adjudicator Token",
@@ -1966,8 +1966,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "All",
 		},
 		["Bio"] = "Hallow always loved a jester.",
-	},	
-	
+	},
+
 	["Trick or Treat"] = {
 		["Id"] = 5547062877,
 		["Name"] = "Hallow's Bargain",
@@ -1975,7 +1975,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -1986,7 +1986,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[He drives a hard bargain, but only on Friday.]],
 	},
-	
+
 	["Pumpkin Carver"] = {
 		["Id"] = 5155535703,
 		["Name"] = "Pumpkin Carver",
@@ -1994,7 +1994,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common", -- Common
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2015,7 +2015,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common", -- Common
 		["Archetype"] = "Targeting Blip",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2025,8 +2025,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Hallow keeps these as pets.",
-	},	
-	
+	},
+
 	["Asylum Seeker"] = {
 		["Id"] = 5580229521,
 		["Name"] = "Asylum Seeker",
@@ -2035,7 +2035,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common", --Common
 		["Archetype"] = "Survivor",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
 		["TransformImmune"] = true,
 		["Effect"] = {
@@ -2047,8 +2047,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Combat is no longer optional in this once peaceful town. Better bring a friend.",
-	},	
-	
+	},
+
 	["Incredibly Friendly and Helpful Devil"] = {
 		["Id"] = 5196343152,
 		["Name"] = "Incredibly Friendly and Helpful Devil",
@@ -2057,7 +2057,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common", -- Common
 		["Unique"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2067,16 +2067,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Hallow's clients are either talented or gullible.",
-	},	
-	
+	},
+
 	["Soul Tax"] = {
 		["Id"] = 5433941679,
 		["Name"] = "Soul Tax",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Uncommon", 
+		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 6,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2086,10 +2086,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Hallow's usual jovial behaviour masks how ruthless he is when he collects the debt you owe.",
-	},	
-	
+	},
+
 	["Castle Shambeth"] = {
-		["Id"] = 5414966351, 
+		["Id"] = 5414966351,
 		["Name"] = "Castle Shambeth",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2098,7 +2098,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Terrain",
 		["Terrain"] = true,
 		["Terrariant"] = "Shambeth Terrain",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2108,8 +2108,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "The eccentric home of Hallow, and head office of his crime enterprise. He wishes his kids came to visit more often...",
-	},	
-	
+	},
+
 	["Hunt the Godbeast"] = {
 		["Id"] = 5475479890,
 		["Name"] = "Hunt the Godbeast",
@@ -2117,7 +2117,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Uncommon", -- Uncommon
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2127,8 +2127,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "All",
 		},
 		["Bio"] = [["Godbeasts are theoretically impossible to exist in our material plane. Tonight we hunt one, dear." - Hallow, to Terry]],
-	},	
-	
+	},
+
 	["Godbeast Whelp"] = {
 		["Id"] = 5610757233,
 		["Name"] = "Godbeast Whelp",
@@ -2138,7 +2138,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Charge"] = true,
 		["DamageImmune"] = true,
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Godbeast",
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
@@ -2149,8 +2149,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = [["In truth, Godbeasts only remain for as long as they need to. Grab the child and the mother is sure to stay."]],
-	},	
-	
+	},
+
 	["Consult the Archives"] = {
 		["Id"] = 543041104,
 		["Name"] = "Consult the Archives",
@@ -2158,7 +2158,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token", -- Uncommon
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2177,7 +2177,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare", --Rare
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 6,},
 		["Requirement"] = {"Playertable","Me",3,9999,"Hand"},
 		["Unique"] = true,
@@ -2190,7 +2190,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[A Sinister family reunion only happens in the direst of circumstances.]],
 	},
-	
+
 	["Evil Wood Grain"] = {
 		["Id"] = 5152933548,
 		["Name"] = "Evil Wood Grain",
@@ -2205,12 +2205,12 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "Whenever an effect targets this card: It gains 400 health.",
 			["Type"] = "OnTarget",
 			["Power"] = "Heal",
-			Target = "Self",	
+			Target = "Self",
 			Increase = 400,
 		},
 		["Bio"] = [["My father always complained about evil trees. I never understood why until I visited Hallow's castle." - Sword Critic]],
-	},	
-	
+	},
+
 	["Desperate Alliance"] = {
 		["Id"] = 5692958524,
 		["Name"] = "Desperate Alliance",
@@ -2218,9 +2218,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Epic", -- Rare
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 4, ["Yellow"] = 4,},
-		["Requirement"] = {"Board","Ally,0,5},
+		["Requirement"] = {"Board","Ally",0,5},
 		["Effect"] = {
 			Name = "Halloween",
 			Description = "Cast only if you control 4 or fewer fighters. Choose two: \n-Destroy all fighters with 400 or less health. \n-Destroy all fighters with 400 or more health. \n-All allied fighters gain 400 health. \n-Draw four cards.",
@@ -2229,16 +2229,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "A surprise attack against all odds ",
-	},	
-	
+	},
+
 	["Ally1-1"] = {
-		["Id"] = 5634669172,
-		["Name"] = "Hallow's Downsizing",
+		["Id"] = 5819847687,
+		["Name"] = "Fun's End",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2255,16 +2255,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = [["Eisen, I'm sorry. This next attack will most likely cull all your squishy blobs you brought along. Expect a complementary gift basket if we make it out alive."]],
-	},	
-	
+	},
+
 	["Ally2-1"] = {
-		["Id"] = 5634669172,
-		["Name"] = "Hallow's Downsizing",
+		["Id"] = 5819847687,
+		["Name"] = "Fun's End",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2281,16 +2281,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = [["Eisen, I'm sorry. This next attack will cull all those squishy blobs you brought along. Expect a complementary gift basket if we make it out alive."]],
-	},	
-	
+	},
+
 	["Ally1-2"] = {
-		["Id"] = 5618498228,
-		["Name"] = "Long-Term Death",
+		["Id"] = 5819847300,
+		["Name"] = "Shadow Market",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2303,20 +2303,20 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Halloween",
 			Description = "Destroy all fighters with 400 or more health.",
 			["Type"] = "OnTarget",
-			["Power"] = {{"CheckHealth",{400,99999},"All"},{"Heal",50,"Self"},{"Damage",600,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-3"},{"Summon","Ally2-4"},{"Damage",400,"Archetype"}},
+			["Power"] = {{"CheckHealth",{400,99999},"All"},{"Heal",50,"Self"},{"Damage",400,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-3"},{"Summon","Ally2-4"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
 		["Bio"] = [["Care to lose another limb, you insufferable control freak?"]],
-	},	
-	
+	},
+
 	["Ally2-2"] = {
-		["Id"] = 5618498228,
-		["Name"] = "Long-Term Death",
+		["Id"] = 5819847300,
+		["Name"] = "Shadow Market",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2333,16 +2333,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = [["Care to lose another limb, you insufferable control freak?"]],
-	},	
-	
+	},
+
 	["Ally1-3"] = {
-		["Id"] = 5614687992,
-		["Name"] = "Dr.E's™️ CureAll©️",
+		["Id"] = 5819847024,
+		["Name"] = "Titanic Elixir",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Blue",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2355,20 +2355,20 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Halloween",
 			Description = "All allied fighters gain 400 health.",
 			["Type"] = "OnTarget",
-			["Power"] = {{"Heal",400,"Ally"},{"Heal",50,"Self"},{"Damage",1000,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-4"},{"Damage",400,"Archetype"}},
+			["Power"] = {{"Heal",400,"Ally"},{"Heal",50,"Self"},{"Damage",400,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-4"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
 		["Bio"] = "Eisenhower was amazed at how readily available Hallow was to give him such premium ingredients. Little did he know the contract's fine print, giving Hallow full rights over his likeness and intellectual property...",
-	},	
-	
+	},
+
 	["Ally2-3"] = {
-		["Id"] = 5614687992,
-		["Name"] = "Dr.E's™️ CureAll©️",
+		["Id"] = 5819847024,
+		["Name"] = "Titanic Elixir",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Blue",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2385,16 +2385,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Eisenhower was amazed at how readily available Hallow was to give him such premium ingredients. Little did he know the contract's fine print, giving Hallow full rights over his likeness and intellectual property...",
-	},	
-	
+	},
+
 	["Ally1-4"] = {
-		["Id"] = 5614688547,
-		["Name"] = "Eisen's Quadrant Theory",
+		["Id"] = 5819846591,
+		["Name"] = "Penumbra Shield",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Blue",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2407,20 +2407,20 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Halloween",
 			Description = "Draw four cards.",
 			["Type"] = "OnTarget",
-			["Power"] = {{"Draw",4,"Ally"},{"Heal",50,"Self"},{"Damage",600,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-3"},{"Damage",400,"Archetype"}},
+			["Power"] = {{"Draw",4,"Ally"},{"Heal",50,"Self"},{"Damage",400,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-3"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
-		["Bio"] = [[His mind processed a thousand calculations in an instant. The probability of holding Lua off long enough until Eclipse has finished fighting the Ultra Annihilator? 39%. Defeating Lua? 0.00000000000429%.]],
-	},	
-	
+		["Bio"] = [[The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off long enough until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.]],
+	},
+
 	["Ally2-4"] = {
-		["Id"] = 5614688547,
-		["Name"] = "Eisen's Quadrant Theory",
+		["Id"] = 5819846591,
+		["Name"] = "Penumbra Shield",
 		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Blue",
 		["Archetype"] = "Alliance",
 		["Fleeting"] = true,
 		["Cowardly"] = true,
@@ -2436,9 +2436,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Draw",4,"Ally"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
-		["Bio"] = "His mind processed a thousand calculations in an instant. The probability of holding him off long enough until Eclipse has finished fighting the Ultra Annihilator? 39%. Defeating Lua? 0.00000000000429%.",
-	},	
-	
+		["Bio"] = "The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off long enough until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.",
+	},
+
 	["The Skull Collector"] = {
 		["Id"] = 5475139293,
 		["Name"] = "The Skull Collector",
@@ -2446,7 +2446,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Div/0",
@@ -2457,7 +2457,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Us demons are a friendly bunch. Don't hate us for a few bad noggins."]],
 	},
-	
+
 	["Conquerer's Skull"] = {
 		["Id"] = 5478557141,
 		["Name"] = "Conquerer's Skull",
@@ -2466,11 +2466,11 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Archetype"] = "Skull",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 1, ["Neutral"] = 1,},
 		["Bio"] = "The skull of a tyrannical dwarf-king that led his people to ruin centuries ago.",
 	},
-	
+
 	["Philosopher's Skull"] = {
 		["Id"] = 5527625122,
 		["Name"] = "Philosopher's Skull",
@@ -2478,7 +2478,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Archetype"] = "Skull",
 		["Cost"] = {["Blue"] = 1, ["Neutral"] = 1,},
 		["Effect"] = {
@@ -2490,7 +2490,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The skull of Dukran's father, who taught him everything he knew.",
 	},
-	
+
 	["Ascetic's Skull"] = {
 		["Id"] = 5519374487,
 		["Name"] = "Ascetic's Skull",
@@ -2499,7 +2499,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Skull",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 1, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "REEEEEEEEEEEEEEEEEEEEEEEEEEEE",
@@ -2510,7 +2510,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The skull of the last Toothy Deer, who forsook all wordly pleasure to escape poachers.",
 	},
-	
+
 	["Socialite's Skull"] = {
 		["Id"] = 5519876246,
 		["Name"] = "Socialite's Skull",
@@ -2518,7 +2518,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Skull",
 		["Cost"] = {["Yellow"] = 1, ["Neutral"] = 1,},
 		["Effect"] = {
@@ -2530,7 +2530,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The skull of an extinct fluffy creature, known for its love of others.",
 	},
-	
+
 	["Hallow, the Sugarlord"] = {
 		["Id"] = 5517942752,
 		["CopyBodge"] = "Hallow, the Sugarlord",
@@ -2539,7 +2539,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 13,},
 		["AlternateCost"] = {["Yellow"] = 9,},
 		["AlternateCostRequirement"] = {"Archetype","Ally",1,9999,"Godbeast"},
@@ -2553,15 +2553,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The air crackles with the raw heat of a raging neutron star. There can be no bravery without madness, and these two have plenty to share.",
 	},
-	
+
 	["Moorph"] = {
 		["Id"] = 5156404923,
-		["Name"] = "Moorph",	
+		["Name"] = "Moorph",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -2572,24 +2572,24 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Claudia Sinister always had a thing for exotic animals.",
 	},
-	
-	
-	
+
+
+
 	---------------------------------------------------UNARCHETYPED CARDS------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------------------------------
 	---------------------------------------------------ARCHETYPED CARDS--------------------------------------------------------------
-	
+
 	["Ultra Bestower"] = {
 		["Id"] = 4720412427,
 		["Name"] = "Ultra Bestower",
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Flood",	
-		["Requirement"] = {"HasTerrain","Ally",0,0,"The Ultra Gate"},	
+		["AttackEffect"] = "Flood",
+		["Requirement"] = {"HasTerrain","Ally",0,0,"The Ultra Gate"},
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2604,15 +2604,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "The four fundamental icons dictate what can be and what cannot be, yet the most alien of forces transcend colour altogether.",
-	},	
-	
+	},
+
 	["Ultra Enhancer"] = {
 		["Id"] = 5061445368,
 		["Name"] = "Ultra Enhancer",
 		["Health"] = 500,
 		["Power"] = 400,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2627,15 +2627,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Colourless icons are icons already used by mages. Icons can be used multiple times, but lose their colour after the first use.",
-	},	
-	
+	},
+
 	["Ultra Otherer"] = {
 		["Id"] = 3164504215,
 		["Name"] = "Ultra Otherer",
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2650,15 +2650,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Many things can survive enviroments filled with coloured icons, especially green ones. But colourless-icon enviroments can only be survived by Ultras. Named for their survival.",
-	},	
-	
+	},
+
 	["Ultra Beseecher"] = {
 		["Id"] = 5059406231,
 		["Name"] = "Ultra Beseecher",
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2673,7 +2673,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Only primitive Ultras were seen among the edges of their territories, before a breakthrough in technology happened. Now a properly trained person can delve as deeply as they want.",
-	},	
+	},
 
 	["Ultra Desirer"] = {
 		["Id"] = 5059409364,
@@ -2681,7 +2681,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 600,
 		["Power"] = 400,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2697,7 +2697,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Ultras warp the limits of energy. What would only be found with certain colours of icons can also be found in Ultras.",
-	},	
+	},
 
 	["Ultra Severer"] = {
 		["Id"] = 5059414012,
@@ -2705,7 +2705,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 600,
 		["Power"] = 400,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2720,7 +2720,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Ultras do not take intrusions to their hives lightly.",
-	},	
+	},
 
 	["Ultra Depriver"] = {
 		["Id"] = 5059407846,
@@ -2728,7 +2728,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 600,
 		["Power"] = 600,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2743,7 +2743,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Some mages have attempted to summon Ultras in other environments. They only thrive when nothing else does.",
-	},	
+	},
 
 	["Ultra Vanquisher"] = {
 		["Id"] = 5059415728,
@@ -2751,7 +2751,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 1000,
 		["Power"] = 1000,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2766,7 +2766,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "When Ultras set up a new hive, Vanquishers are spawned to defend it. A single vanquisher takes a single army to remove.",
-	},	
+	},
 
 	["Ultra Orator"] = {
 		["Id"] = 5059412340,
@@ -2774,7 +2774,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 2000,
 		["Power"] = 400,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2791,14 +2791,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The intelligence of Ultras was questionable at best until reports of a species resembling a religious figure surfaced.",
 	},
-	
+
 	["Ultra Obliterator"] = {
 		["Id"] = 4899464255,
 		["Name"] = "Ultra Obliterator",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Flood",		
+		["AttackEffect"] = "Flood",
 		["Color"] = "Neutral",
 		["Token"] = true,
 		["TokenDiscard"] = true,
@@ -2813,7 +2813,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 		["Bio"] = "Ultras share a hivemind that allow others to be summoned. When this hivemind reaches a critical mass, regions get torn asunder from the sheer pressure.",
-	},	
+	},
 
 	["Ultra Annihilator"] = {
 		["Id"] = 4720410480,
@@ -2821,7 +2821,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 2000,
 		["Power"] = 2000,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "UziShot", -- Grey the opposing card out.	
+		["AttackEffect"] = "UziShot", -- Grey the opposing card out.
 		["Color"] = "Neutral",
 		["Archetype"] = "Ultra",
 		["Token"] = true,
@@ -2842,7 +2842,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "A single glimpse of perfection taught Zanzel all she had to do in life.",
-	},	
+	},
 	["The Ultra Gate"] = {
 		["Id"] = 5618499835,
 		["Name"] = "The Ultra Gate",
@@ -2861,12 +2861,12 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "Players may cast Common Ultra cards.",
 			["Type"] = "Field",
 			["Power"] = "Draw",
-			Target = "All",	
+			Target = "All",
 			Increase = 0,
-		},	
+		},
 		["Bio"] = "The Sages enclose the portal with grim determination. Whatever could emerge from this cannot be good.",
 	},
-	
+
 	--------------------------------------------------------------------------------------------------------------------------------------------
 
 	["Wolfbitten Noob"] = {
@@ -2892,7 +2892,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-        ["Color"] = "Red", 
+        ["Color"] = "Red",
 		["Archetype"] = "Lycanthrope",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
@@ -2919,15 +2919,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					["Type"] = "OnEnemyCast",
 					["Power"] = {{"Reset"},{"Transform","Wolfbitten Elf"}},
 					Target = "Ally",
-				},	
+				},
 				["Bio"] = "Its a Halloween movie, now shut up.",
 			},
 		},
 		["Health"] = 150,
 		["Power"] = 250,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Red",
 		["Archetype"] = "Lycanthrope",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
@@ -2938,10 +2938,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "The first transformations are always the worst.",
-	},		
+	},
 
 	["Evil Prince"] = {
-		["Id"] = 893425803,
+		["Id"] = 5819973774,
 		["CopyBodge"] = "Evil Prince",
 		["Name"] = "Accursed Bladesman",
 		["AltCards"] = {
@@ -2962,9 +2962,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 150,
 		["Power"] = 250,
 		["Rarity"] = "Uncommon",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -2976,7 +2976,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Same kingdom, different leader. Time to conquer.",
 	},
-	
+
 	["Werefrog"] = {
 		["Id"] = 5689847144,
 		["CopyBodge"] = "Werefrog",
@@ -2999,9 +2999,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 150,
 		["Power"] = 250,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -3012,9 +3012,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Same leader, different kingdom."
 	},
-	
+
 	["Blessed Acolyte"] = {
-		["Id"] = 596217211,
+		["Id"] = 5819974113,
 		["CopyBodge"] = "Blessed Acolyte",
 		["Name"] = "Blessed Sage",
 		["AltCards"] = {
@@ -3036,10 +3036,10 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Red"},
 		["Archetype"] = "Lycanthrope",
 		["Requirement"] = {"Archetype","AllyGenZone",2,9999,"Lycanthrope"},
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -3050,9 +3050,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "No one believes me when I say that the scalelords have blessed me.",
 	},
-	
+
 	["Blessed Acolyte Token"] = {
-		["Id"] = 596217211,
+		["Id"] = 5819974333,
 		["CopyBodge"] = "Blessed Acolyte Token",
 		["Name"] = "Blessed Sage",
 		["AltCards"] = {
@@ -3075,9 +3075,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 50,
 		["Power"] = 500,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Red"},
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -3089,9 +3089,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "No one believes me when I say that the scalelords have blessed me.",
 	},
-	
+
 	["Werewyrm"] = {
-		["Id"] = 596607441,
+		["Id"] = 5819974805,
 		["Name"] = "Mooncaller",
 		["CopyBodge"] = "Werewyrm",
 		["AltCards"] = {
@@ -3112,9 +3112,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 50,
 		["Power"] = 500,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 2,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -3125,7 +3125,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A leader is the greatest servant. A master is the greatest tyrant. This is the wrong card bio."
 	},
-	
+
 	["Paraselene Ascetic"] = {
 		["Id"] = 5271605104,
 		["Name"] = "Paraselene Ascetic",
@@ -3149,9 +3149,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 100,
 		["Power"] = 300,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Red"},
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 2,},
 		["Transformant"] = "Lunar Rager",
 		["DamageImmune"] = true,
@@ -3165,7 +3165,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["Bloxburg Sire"] = {
 		["Id"] = 5368227210,
 		["Name"] = "Lycan Envoy",
@@ -3191,7 +3191,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1,},
 		["Transformant"] = "Hazenwyld Evangelist",
 		["Requirement"] = {"Archetype","AllyGenZone",1,9999,"Archetype"},
@@ -3205,7 +3205,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "People of Bloxburg, fear not.",
 	},
-	
+
 	["Den Protector"] = {
 		["Id"] = 5673324980,
 		["Name"] = "Den Protector",
@@ -3230,7 +3230,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 3,},
 		["Transformant"] = "Twilit Mother",
 		["Effect"] = {
@@ -3243,7 +3243,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The white snow of New Hazenwyld rarely is.",
 	},
-	
+
 	["Pack Wolf"] = {
 		["Id"] = 5138306439,
 		["Name"] = "Pack Wolf",
@@ -3265,16 +3265,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[""]],
 	},
-	
+
 	["Lycan Lorekeeper"] = {
-		["Id"] = 543041104,
+		["Id"] = 5819763145,
 		["Name"] = "Lycan Lorekeeper",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 5,},
 		["Effect"] = {
 			Name = "Halloween",
@@ -3285,14 +3285,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["I was there when Eclipse rose up to your oppression, Lua. I'll never let his tale be forgotten to history."]]
 	},
-	
+
 	["Lycan Lorekeeper Token"] = {
-		["Id"] = 543041104,
+		["Id"] = 5819763447,
 		["Name"] = "Lycan Lorekeeper",
 		["CopyBodge"] = "Lycan Lorekeeper Token",
 		["AltCards"] = {
 			["Rattlebone Oracle"] = {
-				["Id"] = 5027914841,
+				["Id"] = 5819764009,
 				["Rarity"] = "Token",
 				["Name"] = "Rattlebone Oracle",
 				["Transformant"] = "Lycan Lorekeeper Token",
@@ -3309,9 +3309,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 500,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 4,},
 		["Transformant"] = "Rattlebone Oracle",
 		["Effect"] = {
@@ -3322,9 +3322,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"Archetype","Ally",2,9999,"Lycanthrope"},
 			Target = "Self",
 		},
-		["Bio"] = "",
+		["Bio"] = [["I was there when Eclipse rose up to your oppression, Lua. I'll never let his tale be forgotten to history."]],
 	},
-	
+
 	["Channel the Call"] = {
 		["Id"] = 552164401,
 		["Name"] = "Channel the Call",
@@ -3344,9 +3344,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "When one sees Eclipse, the Moonbreaker, they instantly wish to join his perfect society.",
 	},
-	
+
 	["Eclipse's Vassal"] = {
-		["Id"] = 543041104,
+		["Id"] = 5819974562,
 		["Name"] = "Eclipse's Vassal",
 		["AltCards"] = {
 			["Lightning Wolf"] = {
@@ -3367,9 +3367,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Red"},
 		["Archetype"] = "Lycanthrope",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 4,},
 		["Transformant"] = "Lightning Wolf",
 		["CounterBlock"] = true,
@@ -3383,9 +3383,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "On full moons, the Moonbreaker can speak to the newly sired. Finding new blood is imperative for their survival.",
 	},
-	
+
 	--------------------------------------------------------------------------------------------------------------------------------------------
-	
+
 	["Observant Apocryphantom"] = {
 		["Id"] = 5468496033,
 		["Name"] = "Observant Apocryphantom",
@@ -3400,8 +3400,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 1300,
 		["Power"] = 0,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 5,},
 		["TransformImmune"] = true,
@@ -3415,15 +3415,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["Judgmental Apocryphantom"] = {
 		["Id"] = 5433939479,
 		["Name"] = "Judgmental Apocryphantom",
 		["Health"] = 800,
 		["Power"] = 200,
 		["Rarity"] = "Uncommon", --Uncommonm
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 4,},
 		["TransformImmune"] = true,
@@ -3437,15 +3437,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["Charging Apocryphantom"] = {
 		["Id"] = 5633909947,
 		["Name"] = "Charging Apocryphantom",
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Rare", -- Rare
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 2,},
 		["Effect"] = {
@@ -3458,15 +3458,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["Spiteful Apocryphantom"] = {
 		["Id"] = 5685171931,
 		["Name"] = "Spiteful Apocryphantom",
 		["Health"] = 500,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
@@ -3478,16 +3478,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["AA1"] = {
-		["Id"] = 5607448127,
+		["Id"] = 5819925515,
 		["Name"] = "Apocryphasing",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 6,},
 		["Charge"] = true,
@@ -3508,17 +3508,17 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["AA2"] = {
-		["Id"] = 5599521991,
+		["Id"] = 5819925201,
 		["Name"] = "Apocryphantasmal Assault",
 		["CopyBodge"] = "AA2",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 10,},
 		["Requirement"] = {"Archetype","Ally",1,9999,"Apocrypha"},
@@ -3532,17 +3532,17 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The ghosts were turning people into more of themselves, rending their bodies into unliving paradoxes.",
 	},
-	
+
 	["AA3"] = {
-		["Id"] = 57581789,
+		["Id"] = 5819925901,
 		["Name"] = "Zanzel's Apocrypha",
 		["CopyBodge"] = "AA3",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 7,},
 		["Requirement"] = {"Archetype","Ally",1,9999,"Apocrypha"},
@@ -3556,17 +3556,17 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["AA4"] = {
-		["Id"] = 5663980074,
+		["Id"] = 5819924622,
 		["Name"] = "Apocryphage",
 		["CopyBodge"] = "AA4",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 9,},
 		["Requirement"] = {"Archetype","Ally",1,9999,"Apocrypha"},
@@ -3580,17 +3580,17 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["AA5"] = {
-		["Id"] = 5467905771,
+		["Id"] = 5819894714,
 		["Name"] = "Apocryphantasy",
 		["CopyBodge"] = "AA4",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 13,},
 		["Requirement"] = {"Archetype","Ally",1,9999,"Apocrypha"},
@@ -3604,17 +3604,17 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["AA6"] = {
-		["Id"] = 5617660879,
+		["Id"] = 5819924892,
 		["Name"] = "Apocryphalanx Formation",
 		["CopyBodge"] = "AA6",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",
 		["Archetype"] = "Apocrypha",
 		["Cost"] = {["Green"] = 8,},
 		["Requirement"] = {"Archetype","Ally",1,9999,"Apocrypha"},
@@ -3628,17 +3628,17 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	--------------------------------------------------------------------------------------------------------------------------------------------
-	
+
 	["Victor Sinister"] = {
 		["Id"] = 5291372116,
 		["Name"] = "Victor Sinister",
 		["Health"] = 500,
 		["Power"] = 400,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
 		["Archetype"] = "Sinister",
 		["Cost"] = {["Neutral"] = 4, ["Red"] = 1,},
 		["Effect"] = {
@@ -3650,7 +3650,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "What makes a human being decent? Fear.",
 	},
-	
+
 	["Terry Sinister"] = {
 		["Id"] = 5534460274,
 		["Name"] = "Terry Sinister",
@@ -3658,7 +3658,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Archetype"] = "Sinister",
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
 		["ChargeRequirement"] = {"Archetype", "Ally", 1,9999,"Sinister"},
@@ -3671,7 +3671,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Trade sand for furs, furs for gold, and gold for life. But in the end, you'll trade life for sand.",
 	},
-	
+
 	["Patric Sinister"] = {
 		["Id"] = 5517943587,
 		["Name"] = "Patric Sinister",
@@ -3679,7 +3679,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Archetype"] = "Sinister",
 		["Cost"] = {["Neutral"] = 5, ["Red"] = 2,},
 		["Effect"] = {
@@ -3692,15 +3692,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The books say you're in the red. The coroner agrees.",
 	},
-	
+
 	["Kalman Sinister"] = {
 		["Id"] = 5368226216,
 		["Name"] = "Kalman Sinister",
 		["Health"] = 700,
 		["Power"] = 600,
-		["Rarity"] = "Uncommon", 
-		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Rarity"] = "Uncommon",
+		["AttackEffect"] = "Slash",
+		["Color"] = "Yellow",
 		["Archetype"] = "Sinister",
 		["Cost"] = {["Neutral"] = 5, ["Yellow"] = 2,},
 		["Effect"] = {
@@ -3713,15 +3713,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "We are too big to fail, and you are too small to matter, child.",
 	},
-	
+
 	["Claudia Sinister"] = {
 		["Id"] = 5271603325,
 		["Name"] = "Claudia Sinister",
 		["Health"] = 900,
 		["Power"] = 800,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 6, ["Red"] = 3},
 		["Archetype"] = "Sinister",
 		["Effect"] = {
@@ -3734,15 +3734,15 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "There are two ways to enslave a man. One is by the sword. One is by debt.",
 	},
-	
+
 	["Quan Sinister"] = {
 		["Id"] = 5498118150,
 		["Name"] = "Quan Sinister",
 		["Health"] = 900,
 		["Power"] = 800,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 6, ["Yellow"] = 3},
 		["Archetype"] = "Sinister",
 		["Effect"] = {
@@ -3755,7 +3755,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Ideas are more powerful than guns. We don't want them having guns, so why on earth would we allow them ideas?",
 	},
-	
+
 	["Hallow Sinister, Patriarch"] = {
 		["Id"] = 5634043005,
 		["Name"] = "Hallow Sinister, Patriarch",
@@ -3771,41 +3771,41 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Bio"] = "Happy Halloween 2019!",
 				["CopyBodge"] = "Hallow2019alt",
 			},
-		},	
+		},
 		["Health"] = 1300,
 		["Power"] = 1300,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 6, ["Yellow"] = 6},
 		["Archetype"] = "Sinister",
 		["Effect"] = {
 			Name = "Haydoscale",
 			Description = "Effects can't return this card. During your end step, if your opponent has 13 or more Colourless studs: Remove them all. Return all allied fighters to your hand, then summon each other member of the Sinister family.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"SetNeutral",0,"Opponent"},{"Return"},{"Summon","Victor Sinister"},{"Summon","Terry Sinister"},{"Summon","Patric Sinister"},{"Summon","Kalman Sinister"},{"Summon","Claudia Sinister"},{"Summon","Quan Sinister"},
+			["Power"] = {{"SetNeutral",0,"Opponent"},{"Return"},{"Summon","Victor Sinister"},{"Summon","Terry Sinister"},{"Summon","Patric Sinister"},{"Summon","Kalman Sinister"},{"Summon","Claudia Sinister"},{"Summon","Quan Sinister"}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 13, 9999,"IconsNeutral"},
 		},
 		["Bio"] = "I would do anything for my family. Sadly, Kalman wants your soul. He's been into lamp-making lately, and what dad wouldn't support his boys? Or girls. Claudia's a hassle. Did I tell you about that time she took a bath in...",
 	},
-	
+
 	["Pact of Condemnation"] = {
 		["Id"] = 5498118150,
 		["Name"] = "Pact of Condemnation",
 		["Health"] = 700,
 		["Power"] = 700,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Neutral", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 2,},
 		["Archetype"] = "Sinister",
 		["Bio"] = [["Enjoy your new house. I promise the bed bugs won't bite."]],
 	},
-	
-	
+
+
 	--------------------------------------------------------------------------------------------------------------------------------------------
-	
+
 	["Mad Scientist"] = {
 		["Id"] = 5459428092,
 		["Name"] = "Eisenhower's Apprentice",
@@ -3826,7 +3826,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Gooplast"] = {
 		["Id"] = 5440460545,
 		["Name"] = "Gooplast",
@@ -3834,7 +3834,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Archetype"] = "Morphic",
 		["Requirement"] = {"Archetype", "Ally", 1, 9999, "Morphic"},
@@ -3847,7 +3847,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Goos weren't designed to be combat effective in their base form, but they will immobilize anything or anyone stupid enough to trip into one.",
 	},
-	
+
 	["Ghoost"] = {
 		["Id"] = 5531817110,
 		["Name"] = "Morphic Catalyst",
@@ -3856,7 +3856,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Archetype"] = "Morphic",
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 1,},
 		["Effect"] = {
@@ -3869,7 +3869,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[The apprentice didn't plan for this creation, but Eisenhower was proud of her anyways.]],
 	},
-	
+
 	["Toxic Goo"] = {
 		["Id"] = 5433759554,
 		["Name"] = "Toxic Goo",
@@ -3890,7 +3890,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The byproduct left behind upon the creation of a Morphic Goo. Highly poisonous. Tastes very sweet.",
 	},
-	
+
 	["Goo Golem"] = {
 		["Id"] = 5369414302,
 		["Name"] = "Goo Golem",
@@ -3898,7 +3898,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Archetype"] = "Morphic",
 		["Cost"] = {["Blue"] = 6,},
 		["Effect"] = {
@@ -3911,9 +3911,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A less refined version of the Morphic Goo. It is living, but lacks the ability to transform like the final product does.",
 	},
-	
-	
-	
+
+
+
 	["Morphic Goo"] = {
 		["Id"] = 5378454543,
 		["Name"] = "Morphic Goo",
@@ -3924,7 +3924,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Fading"] = true,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2,},
 		["Archetype"] = "Morphic",
 		["Effect"] = {
@@ -3936,7 +3936,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "One of Eisenhower's creations. It can transform into just about anything. However, the transformation process is entirely random. The alchemist's research is not yet complete.",
 	},
-	
+
 	["The Morphium Project"] = {
 		["Id"] = 5450692679,
 		["Name"] = "The Morphium Project",
@@ -3957,8 +3957,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"NotColor","Ally",1,9999,"Blue"},
 		},
 		["Bio"] = "Goos were invented out of grief. This one, out of anger.",
-	},		
-	
+	},
+
 	["Inexorable Goo Tide"] = {
 		["Id"] = 5713117740,
 		["Name"] = "Inexorable Goo Tide",
@@ -3978,7 +3978,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Toxic Goos, being unable to transform, prefer to fuse up. To put it lightly, they're *great* at cleaning up any mess, be it flesh or steel.",
 	},
-	
+
 	["Grey Goo Scenario"] = {
 		["Id"] = 540076230,
 		["Name"] = "Grey Goo Scenario",
@@ -3986,7 +3986,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Archetype"] = "Morphic",
 		["Cost"] = {["Blue"] = 7, ["Neutral"] = 3,},
 		["Effect"] = {
@@ -3998,8 +3998,8 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Eisenhower feared the worst out of his experiments.",
 	},
-	
-	
+
+
 
 }
 

@@ -11,8 +11,8 @@ local halo = {
 				["Bio"] = "Your bread will now be removed. This card is an alternate art of Meelo.",
 				},
 			},
-		["Health"] = 100,
-		["Power"] = 100,
+		["Health"] = 400,
+		["Power"] = 0,
 		["Rarity"] =  "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
@@ -26,7 +26,7 @@ local halo = {
 		},
 		["Bio"] = "Back in 2010, I was silenced for telling the truth. The mere suggestion that the moderators were wrong made them frenzy. Now, I silence them.",
 	},
-	
+
 	["NintendoZACHARY"] = {
 		["Id"] = 4359029502,
 		["Name"] = "NintendoZACHERY",
@@ -38,7 +38,7 @@ local halo = {
 		["Cost"] = {["Blue"] = 1, ["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[When this card is cast, if effects have drawn you five cards this turn, unlock all allied fighters.]],
+			Description = [[When this card is cast, if effects have drawn you five cards since your last end step: unlock all allied fighters.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock","9999"}},
 			["EffectRequirement"] = {"Playertable","Me",5,9999,"Draws"},
@@ -46,7 +46,7 @@ local halo = {
 		},
 		["Bio"] = "I AM the speeding wall!",
 	},
-		
+
 	["Hallow, Extortionist of Fun"] = {
 		["Id"] = 5221716556,
 		["Name"] = "Hallow, Extortionist of Fun",
@@ -72,7 +72,7 @@ local halo = {
 		},
 		["Bio"] = "I have seen the future. This Thursday does not include you, Ghashendex.",
 	},
-	
+
 	["Hallow's Accountant"] = {
 		["Id"] = 4974020179,
 		["Name"] = "Hallow's Accountant",
@@ -91,7 +91,7 @@ local halo = {
 		},
 		["Bio"] = "Everyone must pay the fun tax. Even abominations from space.",
 	},
-	
+
 	["Absolute Dominance"] = {
 		["Id"] = 5630233668,
 		["Name"] = "Absolute Dominance",
@@ -105,14 +105,14 @@ local halo = {
 		["AlternateCostRequirement"] = {"Playertable","Me",50,99999,"Lifeloss"},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[If effects have made you lose life this turn, cast this card using three Red studs. Draw two cards. If you control a fighter, end the turn.]],
+			Description = [[If effects have made you lose life since your last end step: cast this card using three Red studs. Draw two cards. If you control a fighter, end the turn.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",2},{"EndTurn"}},
 			Target = "Ally",
 		},
 		["Bio"] = "At the Destruction's agreement, each of the Four sought out one of the temporal aberrations, allying it with them if possible and destroying them otherwise. Eclipse found nothing but ashes, scrap, and scale. Who did this...?",
 	},
-	
+
 	["Jaredvaldez4"] = {
 		["Id"] = 4789772195,
 		["Name"] = "Jaredvaldez4",
@@ -132,7 +132,7 @@ local halo = {
 		},
 		["Bio"] = "An ancient scourge returned once more.",
 	},
-	
+
 	["Deception Infection"] = {
 		["Id"] = 4537242595,
 		["Name"] = "Deception Infection",
@@ -152,7 +152,7 @@ local halo = {
 		},
 		["Bio"] = "Can you trust them?",
 	},
-	
+
 	["Deceptee"] = {
 		["Id"] = 4806871530,
 		["Name"] = "Deceptee",
@@ -172,7 +172,7 @@ local halo = {
 		},
 		["Bio"] = "To pozz is to celebrate.",
 	},
-	
+
 	["Infected"] = {
 		["Id"] = 4806871530, --Same artwork as Deceptee
 		["Name"] = "Deceptee",
@@ -203,7 +203,7 @@ local halo = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 1, ["Red"] = 1, ["Green"] = 1,},
-		["Archetype"] = "Terrain", 
+		["Archetype"] = "Terrain",
 		["Terrariant"] = "Domain Terrain",
 		["Effect"] = {
 			Name = "Temporal Halo",
@@ -214,7 +214,7 @@ local halo = {
 		},
 		["Bio"] = "Zanzel squinted into the distance. Normally, such a demon would make her blood boil. Yet now, a sigh. She knows what happens when you try to restore the world.",
 	},
-	
+
 	["Eisenhower Reunited"] = {
 		["Id"] = 4536834413,
 		["Name"] = "Eisenhower Reunited",
@@ -228,7 +228,7 @@ local halo = {
 			},
 		["Health"] = 3000,
 		["Power"] = 0,
-		["Rarity"] =  "Legendary", 
+		["Rarity"] =  "Legendary",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 6,},
@@ -241,7 +241,7 @@ local halo = {
 		},
 		["Bio"] = "She broke the world, but she returned him to me. Thank you, Zanzel.",
 	},
-	
+
 	["Contumacious Astrobleme"] = {
 		["Id"] = 4789950235,
 		["Name"] = "The Last Apocryphantom",
@@ -264,7 +264,7 @@ local halo = {
 		},
 		["Bio"] = "It is overjoyed to be with its friends again.",
 	},
-	
+
 	["Essence Hugger"] = {
 		["Id"] = 4789950235,
 		["Name"] = "Essence Hugger",
@@ -284,7 +284,7 @@ local halo = {
 		},
 		["Bio"] = "It will make as many friends as it needs to overcome its loneliness.",
 	},
-	
+
 	["Zanzel Repentant"] = {
 		["Id"] = 4720418762,
 		["Name"] = "Zanzel Repentant",
@@ -303,7 +303,7 @@ local halo = {
 		},
 		["Bio"] = "The vision from the Alpha Brick lead me to break the world. The transgression is too great. I will pay for what I did...",
 	},
-	
+
 	["Zanzel Rekindled Token"] = {
 		["Id"] = 4841680843,
 		["Name"] = "Zanzel Repentant",
@@ -324,7 +324,7 @@ local halo = {
 		},
 		["Bio"] = "The vision from the Alpha Brick lead me to break the world. The transgression is too great. I will pay for what I did...",
 	},
-	
+
 	["Zanzel Rekindled"] = { --Depict Zanzel on a giant bird destroying something anthrested.
 		["Id"] = 4841680843,
 		["Name"] = "Zanzel Rekindled",
@@ -344,8 +344,8 @@ local halo = {
 		},
 		["Bio"] = "...But I will hardly stand idly by while these heathens break the world twice over!",
 	},
-	
-	["The Toothy Deer"] = { 
+
+	["The Toothy Deer"] = {
 		["Id"] = 4899454164,
 		["Name"] = "The Toothy Deer",
 		["Health"] = 1300,
@@ -365,7 +365,7 @@ local halo = {
 	},
 
 	["Unity"] = {
-		["Id"] = 4789597634, 
+		["Id"] = 4789597634,
 		["Name"] = "Unity",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -382,8 +382,8 @@ local halo = {
 		},
 		["Bio"] = [[We are all of different skins. Different creeds. Different ideas. Yet, we all agree on one thing - A bunch of "humans" mucking up a tree looks really digusting, alright?]],
 	},
-	
-	["Eclipse, the Rage Gyre"] = { 
+
+	["Eclipse, the Rage Gyre"] = {
 		["Id"] = 4789771431,
 		["Name"] = "Eclipse, the Rage Gyre",
 		["Health"] = 500,
@@ -403,8 +403,8 @@ local halo = {
 		},
 		["Bio"] = [[Eclipse retreated to his homeland to channel the Call with his descendants. He returns only in the direst of times.]],
 	},
-		
-	["Eisenhower's Thresher"] = { 
+
+	["Eisenhower's Thresher"] = {
 		["Id"] = 4720107648,
 		["Name"] = "Eisenhower's Thresher",
 		["Health"] = 300,
@@ -421,9 +421,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[The World of Wood saw an ancient catalogue of lore. The anthrests saw a friend. Eisenhower saw paper.]],
-	},	
+	},
 
-	["Circle Stud"] = { 
+	["Circle Stud"] = {
 		["Id"] = 5677590897,
 		["Name"] = "Circle Stud",
 		["Health"] = 0,
@@ -442,7 +442,7 @@ local halo = {
 		["Bio"] = [[A bygone relic of a bygone time.]],
 	},
 
-	["Alpha Brick's Destruction"] = { 
+	["Alpha Brick's Destruction"] = {
 		["Id"] = 4784626740,
 		["Name"] = "Alpha Brick's Destruction",
 		["AltCards"] = {
@@ -465,9 +465,9 @@ local halo = {
 			Target = "Opponent",
 		},
 		["Bio"] = [[Zanzel screamed at a job not done. Eisenhower recoiled at an experiment not fulfilled. Eclipse howled as the timestream burnt his throat. For Hallow, it was Monday.]],
-	},	
+	},
 
-	["Person299's Minigames"] = { 
+	["Person299's Minigames"] = {
 		["Id"] = 5363996561,
 		["Name"] = "Person299's Minigames",
 		["Health"] = 0,
@@ -486,9 +486,9 @@ local halo = {
 			Target = "Casters",
 		},
 		["Bio"] = [[Step right up! The classic parade returns once more!]],
-	},	
-		
-	["Schismed Ro-Boy"] = { 
+	},
+
+	["Schismed Ro-Boy"] = {
 		["Id"] = 4789601559,
 		["Name"] = "Schismed Ro-Boy",
 		["Health"] = 1000,
@@ -505,9 +505,9 @@ local halo = {
 			Target = "Opponent",
 		},
 		["Bio"] = [[I can't decide which time period is best. New Roblox has all those animations, but Old Roblox has Circle Studs.]],
-	},	
-	
-	["New Robloxite"] = { 
+	},
+
+	["New Robloxite"] = {
 		["Id"] = 4720335554,
 		["Name"] = "New Robloxite",
 		["Health"] = 200,
@@ -528,9 +528,9 @@ local halo = {
 			Archetype = "Old Robloxite"
 		},
 		["Bio"] = [[We're the coolest! We've got glass, and neon, and animations, and particles!]],
-	},	
-	
-	["Old Robloxite"] = { 
+	},
+
+	["Old Robloxite"] = {
 		["Id"] = 4720338581,
 		["Name"] = "Old Robloxite",
 		["Health"] = 200,
@@ -551,9 +551,9 @@ local halo = {
 			Archetype = "New Robloxite"
 		},
 		["Bio"] = [[Two words: Circle Studs.]],
-	},	
-	
-	["Dwarvern Meteor"] = { 
+	},
+
+	["Dwarvern Meteor"] = {
 		["Id"] = 5673305898,
 		["Name"] = "Dwarvern Meteor",
 		["Health"] = 0,
@@ -571,9 +571,9 @@ local halo = {
 			Target = "All",
 		},
 		["Bio"] = [[2000 years ago, the Dwarvern Meteor destroyed the World of Wood. In 2000 years, the Dwarvern Meteor will destroy the world again.]],
-	},	
-	
-	["Lore of the Voidoaks"] = { 
+	},
+
+	["Lore of the Voidoaks"] = {
 		["Id"] = 5673302779,
 		["Name"] = "Lore of the Voidoaks",
 		["Health"] = 0,
@@ -591,9 +591,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[At the very centre of the World of Wood, there are the Voidoaks, which has every event ever to happen within the World of Wood etched onto its bark. Reading the Voidoaks - or, perhaps, drinking from the Voidoaks' sap - makes people omniscient, although the Wanwood Dryad would never allow it.]],
-	},	
-		
-	["Child of 2x2"] = { 
+	},
+
+	["Child of 2x2"] = {
 		["Id"] = 5673307566,
 		["Name"] = "Child of 2x2",
 		["AltCards"] = {
@@ -618,9 +618,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[After breaking the Alpha Brick, it had to be reformed. And so, it was. So the world might be mended.]],
-	},	
-	
-	["Slumbering Satyr"] = { 
+	},
+
+	["Slumbering Satyr"] = {
 		["Id"] = 5673304280,
 		["Name"] = "Slumbering Satyr",
 		["Health"] = 1200,
@@ -638,9 +638,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[When the dragons sleep, our kind frolick. When the neodragons sleep, our kind worship.]],
-	},	
-	
-	["SamsonXVI"] = { 
+	},
+
+	["SamsonXVI"] = {
 		["Id"] = 4789690650,
 		["Name"] = "SamsonXVI",
 		["Health"] = 800,
@@ -657,9 +657,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[Let's go camping. Surely nothing bad will happen.]],
-	},	
-	
-	["Worldpurge"] = { 
+	},
+
+	["Worldpurge"] = {
 		["Id"] = 4899471685,
 		["Name"] = "Worldpurge",
 		["Health"] = 0,
@@ -676,9 +676,9 @@ local halo = {
 			Target = "All",
 		},
 		["Bio"] = [[The end of everything marked the start of a new era. Again and again. When will the Dwarven Meteor be stopped?]],
-	},	
-		
-	["Micheal_P"] = { 
+	},
+
+	["Micheal_P"] = {
 		["Id"] = 4255930330,
 		["Name"] = "Micheal_P",
 		["Health"] = 800,
@@ -695,9 +695,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]],
-	},	
-	
-	["Silencing Ritual"] = { 
+	},
+
+	["Silencing Ritual"] = {
 		["Id"] = 4359039251,
 		["Name"] = "Silencing Ritual",
 		["Health"] = 800,
@@ -714,9 +714,9 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[The anthrests must be stopped. The dwarves and the World of Wood had already fallen.]],
-	},	
-	
-	["Crystal of Eisenhower's Grief"] = { 
+	},
+
+	["Crystal of Eisenhower's Grief"] = {
 		["Id"] = 4359061215,
 		["Name"] = "Crystal of Eisenhower's Grief",
 		["Health"] = 50,
@@ -739,7 +739,7 @@ local halo = {
 		["Bio"] = [[I will stop people from losing what I have.]],
 	},
 
-	["Crystal of Zanzel's Remorse"] = { 
+	["Crystal of Zanzel's Remorse"] = {
 		["Id"] = 4359041606,
 		["Name"] = "Crystal of Zanzel's Remorse",
 		["Health"] = 50,
@@ -760,9 +760,9 @@ local halo = {
 			Target = "Opponent",
 		},
 		["Bio"] = [[I will stop people from doing what I've done.]],
-	},		
+	},
 
-	["Crystal of Ghashendex's Hope"] = { 
+	["Crystal of Ghashendex's Hope"] = {
 		["Id"] = 4359040224,
 		["Name"] = "Crystal of Ghashendex's Hope",
 		["Health"] = 50,
@@ -783,7 +783,7 @@ local halo = {
 			Target = "Opponent",
 		},
 		["Bio"] = [[It will stop people from despairing as it's despaired.]],
-	},	
+	},
 
 	["VertexArray"] = { --Co-Creator of Zombie Rush.
 		["Id"] = 4537787734,
@@ -803,8 +803,8 @@ local halo = {
 			Target = "Opponent",
 		},
 		["Bio"] = [[In the blink of an eye, a Zombie Rush.]],
-	},	
-	
+	},
+
 	["HeavenLogin"] = {
 		["Id"] = 4564789112,
 		["Name"] = "HeavenLogin",
@@ -823,8 +823,8 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[HeavenLogoff!]],
-	},	
-	
+	},
+
 	["Patacorow"] = {
 		["Id"] = 4730430343,
 		["Name"] = "Patacorow",
@@ -838,13 +838,13 @@ local halo = {
 			Name = "Temporal Halo",
 			Description = [[Whenever your opponent discards a card other than their first card each turn: Draw a card.]],
 			["Type"] = "OnEnemyDiscard",
-			["Power"] = {{"Draw",1}}, 
+			["Power"] = {{"Draw",1}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 2, 9999, "DiscardCount"},
 		},
 		["Bio"] = [[Are we getting anywhere with this!?]],
 	},
-	
+
 	["Loleris"] = {
 		["Id"] = 4359030839,
 		["Name"] = "Loleris",
@@ -862,8 +862,8 @@ local halo = {
 			Target = "Aggressor",
 		},
 		["Bio"] = [[You must be mad to think I've lost my relevance.]],
-	},	
-	
+	},
+
 	["Davidii"] = {
 		["Id"] = 4789666672,
 		["Name"] = "Davidii",
@@ -881,8 +881,8 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[You have to keep your wits about you if you want to survive.]],
-	},	
-	
+	},
+
 	["Essarrgee"] = {
 		["Id"] = 4564789470,
 		["Name"] = "essarrgee",
@@ -901,7 +901,7 @@ local halo = {
 		},
 		["Bio"] = [[Originally known as Somerandomguysrg. Fan of horror. Made PAX.]],
 	},
-	
+
 	["Havemeat"] = {
 		["Id"] = 4564790175,
 		["Name"] = "Havemeat",
@@ -920,7 +920,7 @@ local halo = {
 		},
 		["Bio"] = [[Best known for his Havemeat Minigames and WordFall.]],
 	},
-	
+
 	["Ravenshield"] = {
 		["Id"] = 4899433125,
 		["Name"] = "Ravenshield",
@@ -939,7 +939,7 @@ local halo = {
 		},
 		["Bio"] = [[Elite Builder.]],
 		},
-		
+
 	["rastamypasta"] = {
 		["Id"] = 4720393850,
 		["Name"] = "rastamypasta",
@@ -978,7 +978,7 @@ local halo = {
 		},
 		["Bio"] = [[Only the strong can endure the tribal council. That's the way it's been, and the way it always will be.]],
 	},
-	
+
 	["Scion of the Price Floor"] = {
 		["Id"] = 4789663548,
 		["Name"] = "Scion of the Price Floor",
@@ -997,8 +997,8 @@ local halo = {
 		},
 		["Bio"] = [[You did NOT get that shirt for free.]],
 	},
-	
-	["Cast Through Time"] = { 
+
+	["Cast Through Time"] = {
 		["Id"] = 5229993122,
 		["Name"] = "Cast Through Time",
 		["Health"] = 0,
@@ -1015,8 +1015,8 @@ local halo = {
 			Target = "All",
 		},
 		["Bio"] = [[Eisenhower awoke in a strange forest. Was he sent backwards, or was the forest sent forwards?]],
-	},	
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
+	},
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1024,7 +1024,7 @@ local halo = {
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	["The Wanwood Dryad"] = { 
+	["The Wanwood Dryad"] = {
 		["Id"] = 5507372185,
 		["Name"] = "The Wanwood Dryad",
 		["Health"] = 2000,
@@ -1043,8 +1043,8 @@ local halo = {
 		},
 		["Bio"] = [[Come, Eisenhower. The queen requests your presence.]],
 	},
-	
-	["Heartwood Defender"] = { 
+
+	["Heartwood Defender"] = {
 		["Id"] = 4899351062,
 		["Name"] = "Heartwood Defender",
 		["Health"] = 500,
@@ -1058,14 +1058,14 @@ local halo = {
 			Name = "Temporal Halo",
 			Description = [[Whenever you cast a Terrain from the World of Wood: Deal 200 damage to all enemy fighters. Search "The World of Wood" from your deck.]],
 			["Type"] = "OnAllyTerrainCast",
-			["Power"] = {{"Damage",200},{"Tutorfor","The World of Wood,"Ally"}},
+			["Power"] = {{"Damage",200},{"Tutorfor","The World of Wood","Ally"}},
 			Target = "Opponent",
 			Archetype = "World of Wood",
 		},
 		["Bio"] = [[This tree has been infested by the futuristic filth. Chopping down an ancient legacy is necessary to preserve the World of Wood.]],
 	},
-	
-	["The Blighted Fens"] = { 
+
+	["The Blighted Fens"] = {
 		["Id"] = 4841675345,
 		["Name"] = "The Blighted Fens",
 		["Health"] = 0,
@@ -1087,8 +1087,8 @@ local halo = {
 		},
 		["Bio"] = [[The outskirts of the World of Wood were the first to be overlayed through time. Their bark is infested with the eggs of the Anthrests.]],
 	},
-	
-	["Cambium Tender"] = { 
+
+	["Cambium Tender"] = {
 		["Id"] = 4730429975,
 		["Name"] = "Cambium Tender",
 		["Health"] = 500,
@@ -1108,8 +1108,8 @@ local halo = {
 		},
 		["Bio"] = [[We, an ancient people, have been transported from the past to the present. It saddens me that the World of Wood didn't survive, but it pleases me that it has a second chance.]],
 	},
-	
-	["The Great Tree"] = { 
+
+	["The Great Tree"] = {
 		["Id"] = 4899449646,
 		["Name"] = "The Great Tree",
 		["Health"] = 0,
@@ -1131,8 +1131,8 @@ local halo = {
 		},
 		["Bio"] = [[The seat of power of the Wanwood Dryad. As long as it stands, every denizen of the World of Wood is forced to defend it.]],
 	},
-	
-	["Xylem Student"] = { 
+
+	["Xylem Student"] = {
 		["Id"] = 4815993617,
 		["Name"] = "Xylem Student",
 		["Health"] = 500,
@@ -1152,8 +1152,8 @@ local halo = {
 		},
 		["Bio"] = [[Everyone is worried about the Anthrestation epidemic, yet I see beyond that. What of the spacemen? What of the scientist?]],
 	},
-	
-	["The World of Wood"] = { 
+
+	["The World of Wood"] = {
 		["Id"] = 4899450760,
 		["Name"] = "The World of Wood",
 		["Health"] = 0,
@@ -1176,7 +1176,7 @@ local halo = {
 		["Bio"] = [[The centre of the World of Wood. In 2000 years, a meteor will descend from the heavens, destroying wood as we know it. Maybe the temporal halo wasn't such a bad thing after all.]],
 	},
 
-	["The Transcendant Voidoaks"] = { 
+	["The Transcendant Voidoaks"] = {
 		["Id"] = 4789774446,
 		["Name"] = "The Transcendant Voidoaks",
 		["Health"] = 0,
@@ -1198,8 +1198,8 @@ local halo = {
 		},
 		["Bio"] = [[It was these woods, warped by coil and stone, that Eisenhower was interested in. Such energy needed to keep them afloat! That power could be used for anything! Even...]],
 	},
-	
-	["Anthrested Orbiter"] = { 
+
+	["Anthrested Orbiter"] = {
 		["Id"] = 5019178556,
 		["Name"] = "Anthrested Orbiter",
 		["Health"] = 400,
@@ -1219,8 +1219,8 @@ local halo = {
 		},
 		["Bio"] = [[I love you, Eri-chan! And your bath water!]],
 		},
-		
-	["Anthrested War Mech"] = { 
+
+	["Anthrested War Mech"] = {
 		["Id"] = 5019185111,
 		["CopyBodge"] = "Anthrested War Mech",
 		["Name"] = "Anthrested Simplifier",
@@ -1241,8 +1241,8 @@ local halo = {
 		},
 		["Bio"] = [[The Dwarves sent a robot our way? Do I have to spell it out? Make it your friend, and send it straight back. You're not very useful, hun.]],
 	},
-		
-	["Anthrested Attack Helicopter"] = { 
+
+	["Anthrested Attack Helicopter"] = {
 		["Id"] = 5210944448,
 		["Name"] = "Anthrested Attack Helicopter",
 		["Health"] = 600,
@@ -1262,8 +1262,8 @@ local halo = {
 		},
 		["Bio"] = [[Why does everyone complain when we make them beautiful? Do they not want perfect jawlines? Chisled features? Rocket cannons?]],
 		},
-		
-	["Anthrested Blockhead"] = { 
+
+	["Anthrested Blockhead"] = {
 		["Id"] = 5019180502,
 		["Name"] = "Anthrested Blockhead",
 		["Health"] = 700,
@@ -1283,8 +1283,8 @@ local halo = {
 		},
 		["Bio"] = [["Can you believe it? This whole...'anthro' nonsense. The Dryad lost her marbles, it's just a flu like any other. I feel fine, handsome."]],
 	},
-		
-	["Anthrestation Infestation"] = { 
+
+	["Anthrestation Infestation"] = {
 		["Id"] = 5019183091,
 		["Name"] = "Anthrested Consumer",
 		["CopyBodge"] = "Anthrestation Infestation",
@@ -1306,8 +1306,8 @@ local halo = {
 		},
 		["Bio"] = [[Hiiiiiii, handsome. Your chest is just throbbing with excitement...]],
 	},
-	
-	["Anthrested Tree"] = { 
+
+	["Anthrested Tree"] = {
 		["Id"] = 5677803791,
 		["Name"] = "Anthrested Tree",
 		["Health"] = 2000,
@@ -1328,8 +1328,8 @@ local halo = {
 		},
 		["Bio"] = [[This "World of Wood" is so bored with itself. So quiet. So dead inside. It needs a facelift!]],
 	},
-	
-	["Anthrested Fashion Designer"] = { 
+
+	["Anthrested Fashion Designer"] = {
 		["Id"] = 5019181994,
 		["Name"] = "Anthrested Fashion Designer",
 		["Health"] = 200,
@@ -1349,8 +1349,8 @@ local halo = {
 		},
 		["Bio"] = [[Are you more of a hot pants or a corset fan, hun?]],
 	},
-		
-	["Passion for Fashion"] = { 
+
+	["Passion for Fashion"] = {
 		["Id"] = 5019184423,
 		["Name"] = "Anthrested Degenerator",
 		["CopyBodge"] = "Passion for Fashion",
@@ -1374,8 +1374,8 @@ local halo = {
 		},
 		["Bio"] = [[Wear your dress tight enough to show you're a woman, but loose enough to show you're a lady.]],
 	},
-	
-	["Anthrested Dragon"] = { 
+
+	["Anthrested Dragon"] = {
 		["Id"] = 5210948672,
 		["Name"] = "Anthrested Dragon",
 		["Health"] = 600,
@@ -1395,8 +1395,8 @@ local halo = {
 		},
 		["Bio"] = [[The poor thing didn't have enough time to scream before the plastic skin covered up their scaly body.]],
 	},
-		
-	["Cycle the Contagion"] = { 
+
+	["Cycle the Contagion"] = {
 		["Id"] = 5019188781,
 		["Name"] = "Cycle the Contagion",
 		["Health"] = 0,
@@ -1416,8 +1416,8 @@ local halo = {
 		},
 		["Bio"] = [[The first stage of the sickness: Watching anime. The second stage of the sickness: Makeup tutorials on Bloxtube. The third stage of the sickness: Death.]],
 	},
-			
-	["Princess Erisyphia, Master Orthotist"] = { 
+
+	["Princess Erisyphia, Master Orthotist"] = {
 		["Id"] = 4720392800,
 		["Name"] = "Princess Erisyphia, Master Orthotist",
 		["AltCards"] = {
@@ -1446,8 +1446,8 @@ local halo = {
 		},
 		["Bio"] = [[That Zanzel lady talks about spirits beyond this world. Should they exist, surely they would love a facelift.]],
 	},
-		
-	["Anthrested Knight"] = { 
+
+	["Anthrested Knight"] = {
 		["Id"] = 4730562952,
 		["Name"] = "Anthrested Knight",
 		["Health"] = 200,
@@ -1466,8 +1466,8 @@ local halo = {
 		},
 		["Bio"] = [[How dare you even lay eyes on her! She is mine! Get your own, you filthy knave!]],
 	},
-	
-	["Orinthian Stratagem: Retreat"] = { 
+
+	["Orinthian Stratagem: Retreat"] = {
 		["Id"] = 5372504051,
 		["Name"] = "Orinthian Stratagem: Retreat",
 		["Health"] = 0,
@@ -1488,8 +1488,8 @@ local halo = {
 		},
 		["Bio"] = [[One month after the destruction of the Alpha Brick, strange creatures appeared. These cryptids - these "Orinthians" - kidnapped several dwarves before Mount Xargasdon exploded.]],
 	},
-	
-	["Orinthian Stratagem: Forced Disappearance"] = { 
+
+	["Orinthian Stratagem: Forced Disappearance"] = {
 		["Id"] = 5263569769,
 		["Name"] = "Orinthian Stratagem: Forced Disappearance",
 		["Health"] = 0,
@@ -1510,8 +1510,8 @@ local halo = {
 		},
 		["Bio"] = [[After the explosion at Mount Xargasdon, the Orinthians weren't seen for weeks. They were definitely seen again when Hallow disappeared.]],
 	},
-	
-	["Orinthian Stratagem: Mass Abduction"] = { 
+
+	["Orinthian Stratagem: Mass Abduction"] = {
 		["Id"] = 5641476874,
 		["Name"] = "Orinthian Stratagem: Mass Abduction",
 		["Health"] = 0,
@@ -1532,8 +1532,8 @@ local halo = {
 		},
 		["Bio"] = [[Emboldened by Hallow's kidnapping, the Orinthians went more brazen, eventually stealing the whole World of Wood.]],
 	},
-	
-	["Orinthian Force: Pilot"] = { 
+
+	["Orinthian Force: Pilot"] = {
 		["Id"] = 5263563162,
 		["Name"] = "Orinthian Force: Pilot",
 		["Health"] = 500,
@@ -1547,7 +1547,7 @@ local halo = {
 		["AlternateCostRequirement"] = {"Playertable","Me",1,9999,"ReturnCount"},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[If you returnt a card to your hand this turn, cast this card using a Yellow stud. When this card is cast, if you control another Orinthian: Ready and return it to your hand.]],
+			Description = [[If you replaced a card to your hand since your last end step, cast this card using a Yellow stud. When this card is cast, if you control another Orinthian: Ready and return it to your hand.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",1},{"Return"}},
 			Target = "Self",
@@ -1555,8 +1555,8 @@ local halo = {
 		},
 		["Bio"] = [[Compared to dogfights with Vaktovian destroyers, abducting some woodland barbarians is far beneath my pay. What gives, Mastermind?]],
 	},
-	
-	["Orinthian Force: Soldier"] = { 
+
+	["Orinthian Force: Soldier"] = {
 		["Id"] = 5263557109,
 		["Name"] = "Orinthian Force: Soldier",
 		["Health"] = 300,
@@ -1570,7 +1570,7 @@ local halo = {
 		["AlternateCostRequirement"] = {"Playertable","Me",1,9999,"ReturnCount"},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[If you returnt a card to your hand this turn, cast this card using a Blue stud. When this card is cast, if you control another Orinthian: Lock a target fighter for 1 turn.]],
+			Description = [[If you replaced a card to your hand since your last end step, cast this card using a Blue stud. When this card is cast, if you control another Orinthian: Lock a target fighter for 1 turn.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Lock",1,"Single"}},
 			Target = "Ally",
@@ -1578,8 +1578,8 @@ local halo = {
 		},
 		["Bio"] = [[We hurt you for your own good! You don't know what you're dealing with!]],
 	},
-	
-	["Orinthian Force: Secret Guard"] = { 
+
+	["Orinthian Force: Secret Guard"] = {
 		["Id"] = 5071934443,
 		["Name"] = "Orinthian Force: Secret Guard",
 		["Health"] = 500,
@@ -1593,7 +1593,7 @@ local halo = {
 		["AlternateCostRequirement"] = {"Playertable","Me",1,9999,"ReturnCount"},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[If you returnt a card to your hand this turn, cast this card using two Green studs. When this card is cast, if you control another Orinthian fighter: You gain a Green, Blue, and Yellow stud.]],
+			Description = [[If you replaced a card to your hand since your last end step, cast this card using two Green studs. When this card is cast, if you control another Orinthian fighter: You gain a Green, Blue, and Yellow stud.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Green",1},{"Blue",1},{"Yellow",1}},
 			Target = "Ally",
@@ -1601,7 +1601,7 @@ local halo = {
 		},
 		["Bio"] = [[We were told to be clandestine, yet those primitive dwarves saw us. Hopefully, news of this desn't spread out to these savages.]],
 	},
-	
+
 	["Orinthian Fleet: Valkyrie Mech"] = {  --Orinthian Wings
 		["Id"] = 5263579234,
 		["Name"] = "Orinthian Fleet: Valkyrie Mech",
@@ -1617,7 +1617,7 @@ local halo = {
 		["TargetImmune"] = true,
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Effects can't target this card. If you returnt a card to your hand this turn, cast this card using only a Green stud. When this card is cast: Give yourself an Orinthian Force card and a card that's a copy of a target fighter.]],
+			Description = [[Effects can't target this card. If you replaced a card to your hand since your last end step, cast this card using only a Green stud. When this card is cast: Give yourself an Orinthian Force card and a card that's a copy of a target fighter.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"RandomAdd","CommonOrinthian"},{"AddCopy"}},
 			["EffectRequirement"] = {"Archetype","Ally",2,9999,"Orinthian"},
@@ -1625,8 +1625,8 @@ local halo = {
 		},
 		["Bio"] = [[The Mastermind has abandoned its fight with Vaktovia. Each of its ships are instead sent to Robloxia for an unknown purpose.]],
 	},
-	
-	["Orinthian Fleet: Falcon"] = { 
+
+	["Orinthian Fleet: Falcon"] = {
 		["Id"] = 5263574222,
 		["Name"] = "Orinthian Fleet: Falcon",
 		["Health"] = 600,
@@ -1641,7 +1641,7 @@ local halo = {
 		["Charge"] = true,
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Haste. If you returnt a card to your hand this turn, cast this card using only a Yellow stud. Whenever this card destroys another: Return it to its owner's hand.]],
+			Description = [[Haste. If you replaced a card to your hand since your last end step, cast this card using only a Yellow stud. Whenever this card destroys another: Return it to its owner's hand.]],
 			["Type"] = "OnDestroy",
 			["Power"] = {{"Return",030,"Self"}},
 			Target = "Single",
@@ -1649,8 +1649,8 @@ local halo = {
 		["Bio"] = [[Eisenhower could not hide his fascination when he saw the Orinthian fleet. A whole forest, absorbed into a ship.]],
 	},
 
-	
-	["Orinthian Fleet: The Lady"] = { 
+
+	["Orinthian Fleet: The Lady"] = {
 		["Id"] = 5264984498,
 		["Name"] = [[Orinthian Fleet: "The Lady"]],
 		["Health"] = 400,
@@ -1664,7 +1664,7 @@ local halo = {
 		["Archetype"] = "Orinthian",
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[If you returnt a card to your hand this turn, cast this card using only a Blue stud. When this card is cast, if you control another Orinthian: All enemy fighters lose 100 power. Swap their stats.]],
+			Description = [[If you replaced a card to your hand since your last end step, cast this card using only a Blue stud. When this card is cast, if you control another Orinthian: All enemy fighters lose 100 power. Swap their stats.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Weaken",100},{"Swap",9999}},
 			["EffectRequirement"] = {"Archetype","Ally",2,9999,"Orinthian"},
@@ -1672,8 +1672,8 @@ local halo = {
 		},
 		["Bio"] = [[The Mastermind's personal ship, piloted by The Mastermind's personal warrior-maiden.]],
 	},
-	
-	["Orinthian Gate: Power Parallax"] = { 
+
+	["Orinthian Gate: Power Parallax"] = {
 		["Id"] = 5031773111,
 		["Name"] = [[Orinthian Gate: Power Parallax]],
 		["Health"] = 300,
@@ -1687,7 +1687,7 @@ local halo = {
 		["Requirement"] = {"Archetype","Ally",1,9999,"Orinthian"},
 		["Effect"] = {
             Name = "Temporal Halo",
-            Description = [[Effects can't target this card. Cast only if you control an Orinthian. When this card is cast, if you haven't returnt a card to your hand this turn: Return it and a target fighter to their owners' hands.]],
+            Description = [[Effects can't target this card. Cast only if you control an Orinthian. When this card is cast, if you haven't replaced a card to your hand since your last end step: Return it and a target fighter to their owners' hands.]],
             ["Type"] = "OnSummon",
             ["Power"] = {{"Return",030,"Single"},{"Return",030,"Self"}},
             Target = "Archetype",
@@ -1695,8 +1695,8 @@ local halo = {
         },
         ["Bio"] = [[Time was broken, so anything from the distant past could now be easily found in its original state. *If* the machine really has a weakness, the answer lies in Robloxia.]],
 	},
-	
-	["Beseech the Mastermind"] = { 
+
+	["Beseech the Mastermind"] = {
 		["Id"] = 4730563027,
 		["Name"] = "Beseech the Mastermind",
 		["Health"] = 0,
@@ -1711,15 +1711,15 @@ local halo = {
 		["Archetype"] = "Orinthian",
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Cast only if you control an Orinthian. If you've returnt four fighters to your hand this turn, cast this card using a Green stud, a Blue stud, and a Yellow stud. Summon the Orinthian Mastermind, a 2100/100 fighter.]],
+			Description = [[Cast only if you control an Orinthian. If you've replaced four fighters to your hand since your last end step, cast this card using a Green stud, a Blue stud, and a Yellow stud. Summon the Orinthian Mastermind, a 2100/100 fighter.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Ghashendex, Ultra Mastermind"}},
 			Target = "Ally",
 		},
 		["Bio"] = [[The Orinthian Mastermind remains hidden at all times, his form unknown to everyone, even his warrior-maiden. He made an exception for that irritating obstacle Hallow.]],
 	},
-	
-	["Ghashendex, Ultra Mastermind"] = { 
+
+	["Ghashendex, Ultra Mastermind"] = {
 		["Id"] = 4730563199,
 		["Name"] = "Ghashendex, Ultra Mastermind",
 		["Health"] = 2100,
@@ -1741,8 +1741,8 @@ local halo = {
 		},
 		["Bio"] = [[The Dwarven Meteor will hit this world a second time. This humble one knows what extinction feels like. It will stop you from the same fate, even if you consent to oblivion.]],
 	},
-	
-	["Neodragon Infinite Darkness Spacetime Obliterator"] = { 
+
+	["Neodragon Infinite Darkness Spacetime Obliterator"] = {
 		["Id"] = 4730258928,
 		["Name"] = "Neodragon Infinite Darkness Spacetime Obliterator",
 		["Health"] = 1000,
@@ -1761,8 +1761,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	["Neodragon Collapsing Vacuum Turbo Despair Descender"] = { 
+
+	["Neodragon Collapsing Vacuum Turbo Despair Descender"] = {
 		["Id"] = 4730258375,
 		["Name"] = "Neodragon Collapsing Vacuum Turbo Despair Descender",
 		["Health"] = 1200,
@@ -1781,8 +1781,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	["Blue Eyes Super Saiyan Super Neodragon Super God God"] = { 
+
+	["Blue Eyes Super Saiyan Super Neodragon Super God God"] = {
 		["Id"] = 4899277770,
 		["Name"] = "Blue Eyes Super Saiyan Super Neodragon Super God God",
 		["Health"] = 1000,
@@ -1802,8 +1802,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	["Neodragon Centurial Benevolence Torturer Humbler"] = { 
+
+	["Neodragon Centurial Benevolence Torturer Humbler"] = {
 		["Id"] = 4730259084,
 		["Name"] = "Neodragon Centurial Benevolence Torturer Humbler",
 		["Health"] = 1000,
@@ -1822,8 +1822,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 		},
-		
-	["Neodragon Super God Circle Stud EX"] = { 
+
+	["Neodragon Super God Circle Stud EX"] = {
 		["Id"] = 5718534807,
 		["Name"] = "Neodragon Super God Circle Stud EX",
 		["Health"] = 0,
@@ -1843,8 +1843,8 @@ local halo = {
 		},
 		["Bio"] = [[Our parents have been avenged for their banishment!]],
 	},
-	
-	["Neodragon Unrelenting Consent to Destruction Lv.7"] = { 
+
+	["Neodragon Unrelenting Consent to Destruction Lv.7"] = {
 		["Id"] = 5718527091,
 		["Name"] = "Neodragon Unrelenting Consent to Destruction Lv.7",
 		["Health"] = 0,
@@ -1864,8 +1864,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	["Neodragon Hypertesseract Superblackhole Eruption"] = { 
+
+	["Neodragon Hypertesseract Superblackhole Eruption"] = {
 		["Id"] = 4784618288,
 		["Name"] = "Neodragon Hypertesseract Superblackhole Eruption",
 		["Health"] = 0,
@@ -1885,8 +1885,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	["Neodragon Explosive Violence Crescendo Ultimate"] = { 
+
+	["Neodragon Explosive Violence Crescendo Ultimate"] = {
 		["Id"] = 4784618505,
 		["Name"] = "Neodragon Explosive Violence Crescendo Ultimate",
 		["Health"] = 0,
@@ -1906,9 +1906,9 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	
-	["Neodragon Container"] = { 
+
+
+	["Neodragon Container"] = {
 		["Id"] = 543041104,
 		["Name"] = "Neodragon Container",
 		["AltCards"] = {
@@ -1925,7 +1925,7 @@ local halo = {
 					Target = "All",
 				},
 			},
-			
+
 			["Taizjaaja, Neodragon Omnipotent Burning Hell Demonic Fist"] = {
 				["Id"] = 4730259004,
 				["Rarity"] =  "Common",
@@ -1940,7 +1940,7 @@ local halo = {
 					Target = "Opponent",
 				},
 			},
-				
+
 			["Akaaja, Neodragon Omnipresent Caressing Bliss Cherry Blossom"] = {
 				["Id"] = 4730257983,
 				["Rarity"] =  "Common",
@@ -1955,7 +1955,7 @@ local halo = {
 					Target = "Ally",
 				},
 			},
-				
+
 			["Piirata, Neodragon Omniprevalent Shapeshifter Galvaniser Bladestrength"] = {
 				["Id"] = 4790382887,
 				["Rarity"] =  "Common",
@@ -1969,8 +1969,8 @@ local halo = {
 					["EffectRequirement"] = {"Playertable","Me",20,9999,"DRAGONFORCE"},
 					Target = "Ally",
 				},
-			},				
-		},	
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 1000,
 		["Rarity"] =  "Token",
@@ -1989,8 +1989,8 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-			
-	["CobaltObscurity"] = { 
+
+	["CobaltObscurity"] = {
 		["Id"] = 4730258190,
 		["Name"] = "CobaltObscurity",
 		["Health"] = 1200,
@@ -2010,13 +2010,13 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-	
-	["Neodragon Cobaltneoform Obscurity Final Commission! Final Despair!! Final Strike!!!"] = { 
+
+	["Neodragon Cobaltneoform Obscurity Final Commission! Final Despair!! Final Strike!!!"] = {
 		["Id"] = 4730258102,
 		["Name"] = "Neodragon Cobaltneoform Obscurity Final Commission! Final Despair!! Final Strike!!!",
 		["Health"] = 1200,
 		["Power"] = 1200,
-		["Rarity"] = "Token", 
+		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 8,},
@@ -2032,7 +2032,7 @@ local halo = {
 		},
 		["Bio"] = [[]],
 	},
-		
+
 	["Dwarvern Engineer"] = {
 		["Id"] = 4789596288,
 		["Name"] = "Dwarvern Engineer",
@@ -2052,7 +2052,7 @@ local halo = {
 		},
 		["Bio"] = "We're surrounded from every angle. We can't trust any of them, not even those stinkin' tree hippies. Sentry research is now our top priority, we must save ourselves. ",
 	},
-	
+
 	["Sentry Plating"] = {
 		["Id"] = 4255932170,
 		["Name"] = "Sentry Plating",
@@ -2075,7 +2075,7 @@ local halo = {
 		},
 		["Bio"] = "Dwarves are amazing inventors, but lack any sort of ethics. A sentry with a 99% guaranteed mortality rate is considered a success, even if some of those numbers are dwarven casualties.",
 	},
-	
+
 	["Dwarvern Gunsmith"] = {
 		["Id"] = 4789598638,
 		["Name"] = "Dwarvern Gunsmith",
@@ -2095,7 +2095,7 @@ local halo = {
 		},
 		["Bio"] = "'Honestly, I feel like I'm wasting my talent. All my projects end with me building a flamethrower. Mutating abominations? Flamethrower. Futuristic spies? Thermal-reading flamethrower.'",
 	},
-	
+
 	["Sentry Weaponry"] = {
 		["Id"] = 4730430737,
 		["Name"] = "Sentry Weaponry",
@@ -2118,7 +2118,7 @@ local halo = {
 		},
 		["Bio"] = "Dwarven weapons are still considered to be the most devastating pieces of technology ever built, centuries after their abrupt end.",
 	},
-	
+
 	["Dwarvern Courier"] = {
 		["Id"] = 4789593266,
 		["Name"] = "Dwarvern Courier",
@@ -2138,7 +2138,7 @@ local halo = {
 		},
 		["Bio"] = "'Our couriers report increasing activity all around us. Once our mechanisms are self-locomotive, we won't have to risk anymore losses to those abominations.'",
 	},
-	
+
 	["Sentry Fuel"] = {
 		["Id"] = 4255931485,
 		["Name"] = "Sentry Fuel",
@@ -2161,7 +2161,7 @@ local halo = {
 		},
 		["Bio"] = "Sentry fuel is the second most important liquid in any Dwarf's life.",
 	},
-	
+
 	["Construct! Sentry Alpha!"] = {
 		["Id"] = 4720099996,
 		["Name"] = "Construct! Sentry Alpha!",
@@ -2182,7 +2182,7 @@ local halo = {
 		},
 		["Bio"] = "'This lil' beauty is set to 'Kill Everything'! Good luck getting through THIS corridor! Haha!...wait isn't this the dining hall?'",
 	},
-	
+
 	["Dwarvern Sentry: Alpha"] = {
 		["Id"] = 4923204815,
 		["Name"] = [[Sentry Alpha: "DwarfJudge.gif"]],
@@ -2204,7 +2204,7 @@ local halo = {
 		},
 		["Bio"] = "Sentries turned on their creators. Not out of malice, but out of poor coding.",
 	},
-	
+
 	["Construct! Sentry Beta!"] = {
 		["Id"] = 4923205268,
 		["Name"] = "Construct! Sentry Beta!",
@@ -2225,7 +2225,7 @@ local halo = {
 		},
 		["Bio"] = "'This lil' beauty is set to 'Shoot Everything'! Good luck getting through THIS corridor! Haha!...wait isn't this the brewery?'",
 	},
-	
+
 	["Dwarvern Sentry: Beta"] = {
 		["Id"] = 4918507037,
 		["Name"] = [["Sentry Beta: "DwarfJury.mp4"]],
@@ -2247,8 +2247,8 @@ local halo = {
 			Archetype = "Dwarf",
 		},
 		["Bio"] = "'A colossal Sentry, capable of planetary destruction. It's single directive : Save Everything'. ~ Dwarven report titled 'Dwarven Meteor'.",
-	},	
-	
+	},
+
 	["Construct! Sentry Gamma!"] = {
 		["Id"] = 4923204290,
 		["Name"] = "Construct! Sentry Gamma!",
@@ -2269,7 +2269,7 @@ local halo = {
 		},
 		["Bio"] = "This lil' beauty is set to 'Burn Everything'! Good luck getting through THIS corridor! Haha!...wait isn't this the hospital?",
 	},
-	
+
 	["Dwarvern Sentry: Gamma"] = {
 		["Id"] = 4918506588,
 		["Name"] = [[Sentry Gamma: "DwarfExecutioner.avi"]],
@@ -2290,7 +2290,7 @@ local halo = {
 		},
 		["Bio"] = "The Fortress Masters found the blueprints for a massive Sentry, capable of guarding the entire galaxy. But the history records end shortly after it's inception. Where did it go?",
 	},
-	
+
 	["Dwarvern Sentry: MAX"] = {
 		["Id"] = 4789597276,
 		["Name"] = [[Chromafex.mp4, The Meteor]],
@@ -2316,7 +2316,7 @@ local halo = {
 		},
 		["Bio"] = "Eclipse ended the fight with less fur, but with his life and limbs intact.",
 	},
-	
+
 	["Dwarvern Sentry: Delta"] = {
 		["Id"] = 4899307627,
 		["CopyBodge"] = "Dwarvern Sentry: Delta",
@@ -2330,15 +2330,15 @@ local halo = {
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 1, ["Yellow"] = 1, ["Red"] = 1,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = "Cast only if you've discarded four cards this turn. Draw four cards.",
+			Description = "Cast only if you've discarded four cards since your last end step. Draw four cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",4}},
 			Target = "Ally",
 		},
 		["Bio"] = "The biggest breakthrough in Dwarven history was the discovery of a fallen star. With it, they built impossible machinery.",
 	},
-	
-	["TigerCaptain"] = { 
+
+	["TigerCaptain"] = {
 		["Id"] = 5327473894,
 		["Name"] = "TigerCaptain",
 		["Health"] = 500,
@@ -2355,8 +2355,8 @@ local halo = {
 			Target = "Ally",
 		},
 		["Bio"] = [[He mastered terrain years ago, only for his own earth to turn against him.]],
-	},	
-	
+	},
+
 	["Living World"] = {
 		["Id"] = 5574241280,
 		["Name"] = "Living World",
@@ -2377,8 +2377,8 @@ local halo = {
 		},
 		["Bio"] = "The neodragons weren't the only creations sprang from time's destruction.",
 	},
-	
-	
+
+
 }
 
 return halo

@@ -1,13 +1,13 @@
 local tycoons = {
-	
+
 	["Primordial Developer Container"] = {
 		["Id"] = 2857414948,
 		["Name"] = "TheGamer101",
-		["AltCards"] = {	
+		["AltCards"] = {
 			["TheGamer101"] = {
 				["Id"] = 5673313638,
 				["Name"] = "TheGamer101",
-				["Rarity"] = "Epic",				
+				["Rarity"] = "Epic",
 				["Color"] = "Yellow",
 				["Cost"] = {["Neutral"] = 4, ["Yellow"] = 2,},
 				["InPacks"] = true,
@@ -26,7 +26,7 @@ local tycoons = {
 				["Rarity"] = "Epic",
 				["Cost"] = {["Neutral"] = 4, ["Blue"] = 2,},
 				["InPacks"] = true,
-				["Color"] = "Blue",	
+				["Color"] = "Blue",
 				["Effect"] = {
 					Name = "Doctor's Bag",
 					Description = "A deck can run only one Primordial Developer. When this card is cast: Deal 700 damage to all Blue fighers.",
@@ -41,7 +41,7 @@ local tycoons = {
 				["Name"] = "parkerest",
 				["Rarity"] = "Epic",
 				["AltArt"] = true,
-				["Color"] = "Blue",		
+				["Color"] = "Blue",
 				["Cost"] = {["Neutral"] = 4, ["Blue"] = 2,},
 				["Effect"] = {
 					Name = "Doctor's Bag",
@@ -65,7 +65,7 @@ local tycoons = {
 					["Type"] = "OnSummon",
 					["Power"] = {{"Damage",700}},
 					Target = "ColorRed",
-				},				
+				},
 				["Bio"] = "After so much time forgotten, the legendary assassin plotted his revenge. No one takes his throne and survives to tell the tale.",
 			},
 			["TaymasterAltArtV1"] = {
@@ -82,7 +82,7 @@ local tycoons = {
 					["Type"] = "OnSummon",
 					["Power"] = {{"Damage",700}},
 					Target = "ColorRed",
-				},				
+				},
 			},
 			["Defaultio"] = {
 				["Id"] = 5673311938,
@@ -99,7 +99,7 @@ local tycoons = {
 					Target = "ColorGreen",
 				},
 				["Bio"] = "While his other friends in obscurity riled up against their intrudcer, the chief forester gracefully let him pass. He had accepted obsolesence for so long, he's forgotten what his glory days were like.",
-			},	
+			},
 		},
 		["Health"] = 1200,
 		["Power"] = 400,
@@ -109,9 +109,9 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 4},
 		["Archetype"] = "Primordial Developer",
 		["Bio"] = "A powerful swordfighter powered by two people, crazy right?",
-	},	
+	},
 	-------------------------------------
-	
+
 	["Police Combatant"] = {
 		["Id"] = 4536842567,
 		["Name"] = "Police Combatant",
@@ -132,18 +132,18 @@ local tycoons = {
 		},
 		["Bio"] = "This cop doesn't use pepper spray, it prefers mowing you down with bullets instead.",
 	},
-	
-	
+
+
 	["HatdaCat"] = {
 		["Id"] = 4792871652,
 		["Name"] = "HatdaCat",
-		["AltCards"] = {							
+		["AltCards"] = {
 			["luckygamer2003"] = {
 				["Name"] = "luckygamer2003",
-				["Id"] = 3471751377,					
+				["Id"] = 3471751377,
 				["Bio"] = "The colorful fireworks are STUNNING to watch, aren't they? This card is an alternate version of HatdaCat.",
 			},
-		},	
+		},
 		["Archetype"] = "Police",
 		["Health"] = 1250,
 		["Power"] = 250,
@@ -161,7 +161,7 @@ local tycoons = {
 		},
 		["Bio"] = "The cops of the frozen north have their own culture.",
 	},
-	
+
 	["Police Officer"] = {
 		["Id"] = 4536844817,
 		["Name"] = "Police Officer",
@@ -182,7 +182,7 @@ local tycoons = {
 		},
 		["Bio"] = "Jailing people for making bomb-clocks since 2015.",
 	},
-	
+
 	["SwatPhantom"] = {
 		["Id"] = 4720408649,
 		["Name"] = "SwatPhantom",
@@ -201,8 +201,8 @@ local tycoons = {
 			Target = "Archetype",
 		},
 		["Bio"] = "Professional fly swatting makes you some fair tix in ROBLOXia.",
-	},		
-	
+	},
+
 	["Luigifan103"] = {
 		["Id"] = 4952065189,
 		["Name"] = "Luigifan103",
@@ -221,8 +221,8 @@ local tycoons = {
 			Target = "Archetype",
 		},
 		["Bio"] = "His secret identity is Mariofan103.",
-	},	
-	
+	},
+
 	["Aesthetical"] = {
 		["Id"] = 5673354512,
 		["Name"] = "Aesthetical",
@@ -232,7 +232,7 @@ local tycoons = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Archetype"] = "Police",
-		["Cost"] = {["Blue"] = 10,}, 
+		["Cost"] = {["Blue"] = 10,},
 		["Shield"] = true,
 		["Effect"] = {
 			Name = "Police Control",
@@ -243,8 +243,8 @@ local tycoons = {
 		},
 		["Bio"] = "Y'know, being on the front page for so many years is really special. I'd like to thank all those prisoners for their enjoyable gameplay!",
 	},
-	
-	
+
+
 	["Gravity Inspector"] = {
 		["Id"] = 3238119379,
 		["Name"] = "Gravity Inspector",
@@ -254,7 +254,7 @@ local tycoons = {
 				["Name"] = "ɹoʇɔǝdsuı ʎʇıʌɐɹƃ",
 				["Bio"] = "˙ןןɐɟ ǝɥʇ ǝsnɐɔ oʇ ˙ʎʇıʌɐɹb ʇɔǝdsuı oʇ",
 			},
-			
+
 			["xXdespayeetoXx"] = {
 				["Id"] = 4897458104,
 				["AltArt"] = true,
@@ -279,7 +279,7 @@ local tycoons = {
 		},
 		["Bio"] = "To inspect gravity. To cause the fall.",
 	},
-	
+
 	["Isaac0333-V2"] = {
 		["Id"] = 4975927274,
 		["Name"] = "Isaac0333",
@@ -299,8 +299,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "After saving a little robloxian from a horrible experiment, he's the talk of the city. He's hoping to win a bloxy award from his newfound popularity.",
-	},	
-	
+	},
+
 	["President Duck"] = {
 		["Id"] = 5042693949,
 		["Name"] = "Rapid Response",
@@ -320,15 +320,15 @@ local tycoons = {
 			Target = "Archetype",
 		},
 		["Bio"] = "If only the police were really like this...", --I can't wait for sudden police OTK. ~damario 7/5/18
-	},	
-	
+	},
+
 	["Police Call Operator"] = {
 		["Id"] = 4899431482,
 		["Name"] = "Police Call Operator",
 		["Health"] = 300,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
-		["AttackEffect"] = "Gun",			
+		["AttackEffect"] = "Gun",
 		["Color"] = "Blue",
 		["Archetype"] = "Police",
 		["Cost"] = {["Blue"] = 2,},
@@ -341,14 +341,14 @@ local tycoons = {
 		},
 		["Bio"] = "A famous Robloxian did WHAT to you? We'll get a detective on the case immediately.",
 	},
-	
+
 	["Police Taskmaster"] = {
 		["Id"] = 5699660194,
 		["Name"] = "Police Taskmaster",
 		["Health"] = 300,
 		["Power"] = 300,
 		["Rarity"] = "Epic",
-		["AttackEffect"] = "Gun",			
+		["AttackEffect"] = "Gun",
 		["Color"] = "Blue",
 		["Archetype"] = "Police",
 		["Requirement"] = {"Deck","Ally",10,9999,"Archetype"},
@@ -362,7 +362,7 @@ local tycoons = {
 		},
 		["Bio"] = "He cracks down on dodgy people and those that dodge the law.",
 	},
-	
+
 	["Case1"] = {
 		["Id"] = 1724919808,
 		["Name"] = "Case #1: The Lowly Thug",
@@ -370,7 +370,7 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["TokenDiscard"] = true,
-		["AttackEffect"] = "Gun",			
+		["AttackEffect"] = "Gun",
 		["Color"] = "Blue",
 		["Archetype"] = "Police",
 		["Cost"] = {["Neutral"] = 0,},
@@ -383,7 +383,7 @@ local tycoons = {
 		},
 		["Bio"] = "Multiple shootings, five dead, and money stolen, go after them, before more lives are taken…",
 	},
-	
+
 	["LowlyA"] = {
 		["Id"] = 1674211838,
 		["Name"] = "Lowly Thug A",
@@ -404,7 +404,7 @@ local tycoons = {
 		},
 		["Bio"] = "If I don’t get ya, this car will.",
 	},
-	
+
 	["LowlyB"] = {
 		["Id"] = 1674212257,
 		["Name"] = "Lowly Thug B",
@@ -425,7 +425,7 @@ local tycoons = {
 		},
 		["Bio"] = [["YEAAAAAAH! We made it! All those alarms and sirens but there's nothing ahead!" - Bruce]],
 	},
-	
+
 	["LowlyC"] = {
 		["Id"] = 1674212717,
 		["Name"] = "Lowly Thug C",
@@ -446,7 +446,7 @@ local tycoons = {
 		},
 		["Bio"] = "The Supreme-branded bags are probably worth more than the cash its holding.",
 	},
-	
+
 	["Case2"] = {
 		["Id"] = 1724921188,
 		["Name"] = "Case #2: The Crooked Cop",
@@ -454,7 +454,7 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["TokenDiscard"] = true,
-		["AttackEffect"] = "Gun",			
+		["AttackEffect"] = "Gun",
 		["Color"] = "Blue",
 		["Archetype"] = "Case",
 		["Cost"] = {["Neutral"] = 0,},
@@ -467,7 +467,7 @@ local tycoons = {
 		},
 		["Bio"] = "Either you die a hero or live long enough to see yourself become the villain.",
 	},
-	
+
 	["CrookedCop"] = {
 		["Id"] = 1674211148,
 		["Name"] = "The Crooked Cop",
@@ -488,7 +488,7 @@ local tycoons = {
 		},
 		["Bio"] = [["I'm sorry, I truly am. They found me. If I don't give The Chairman the Yakuza files...they'll... my family..."]],
 	},
-	
+
 	["ConflictInterest"] = {
 		["Id"] = 1674210715,
 		["Name"] = "Conflict of Interest",
@@ -509,7 +509,7 @@ local tycoons = {
 		},
 		["Bio"] = "He was a good cop, and a even better husband. The Chairman knew.",
 	},
-	
+
 	["Case3"] = {
 		["Id"] = 1724921891,
 		["Name"] = "Case #3: Ties to the Yakuza",
@@ -517,7 +517,7 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["TokenDiscard"] = true,
-		["AttackEffect"] = "Gun",			
+		["AttackEffect"] = "Gun",
 		["Color"] = "Blue",
 		["Archetype"] = "Police",
 		["Cost"] = {["Neutral"] = 0,},
@@ -530,7 +530,7 @@ local tycoons = {
 		},
 		["Bio"] = "The Crooked Cop wasn't acting alone. He mentioned something about the Yakuza and a mysterious man. Just as the Police find themselves in a dead-end, a massacre begins in a nearby bio-lab. Rush to the scene!",
 	},
-	
+
 	["Yakuza Underboss"] = {
 		["Id"] = 1674220846,
 		["Name"] = "Yakuza Underboss",
@@ -545,14 +545,14 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "O",
-			Description = "Can't be countered. Effects can't damage this card. When this card dies: Give your opponent Case #4. All allied fighters gains 200 health and power.", 
+			Description = "Can't be countered. Effects can't damage this card. When this card dies: Give your opponent Case #4. All allied fighters gains 200 health and power.",
 			["Type"] = "OnDeath",
 			["Power"] = {{"Add","Case4"},{"Heal",200,"Ally"},{"Strengthen",200,"Ally"}},
 			Target = "Opponent",
 		},
 		["Bio"] = "Ｉ　ｍｕｓｔ　ｓｔｏｐ　ｈｉｍ．",
 	},
-	
+
 	["Yakuza Underling"] = {
 		["Id"] = 1674221401,
 		["Name"] = "Yakuza Underling",
@@ -573,7 +573,7 @@ local tycoons = {
 		},
 		["Bio"] = "(҂` ﾛ ´) ＨＹＡＡＡＡＡＡＡＡＡＡ！！！",
 	},
-	
+
 	["Yakuza Thug"] = {
 		["Id"] = 1674220122,
 		["Name"] = "Yakuza Thug",
@@ -594,7 +594,7 @@ local tycoons = {
 		},
 		["Bio"] = "╮( ˘ ､ ˘ )╭ Ｂｏｓｓ ｗａｎｔ ｂｒｅａｋ ｌａｂ。 Ｂｏｓｓ ｄｏｎ＇ｔ ｌｉｋｅ Ｃｈａｉｒｍａｎ。 Ｂｏｓｓ ｄｏｎ＇ｔ ｗａｎｔ ｙｏｕ ｅｉｔｈｅｒ。",
 	},
-	
+
 	["Case4"] = {
 		["Id"] = 1724922793,
 		["Name"] = "Case #4: Organized Underworld",
@@ -602,7 +602,7 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Gun",
-		["TokenDiscard"] = true,			
+		["TokenDiscard"] = true,
 		["Color"] = "Blue",
 		["Archetype"] = "Police",
 		["Cost"] = {["Neutral"] = 0,},
@@ -615,7 +615,7 @@ local tycoons = {
 		},
 		["Bio"] = "One last case. The end of the road. Find the truth about The Chairman.",
 	},
-	
+
 	["The Chairman"] = {
 		["Id"] = 1674219117,
 		["Name"] = "The Chairman",
@@ -641,7 +641,7 @@ local tycoons = {
 		},
 		["Bio"] = "He didn't kill himself. I did.",
 	},
-	
+
 	["The Operative"] = {
 		["Id"] = 1674219711,
 		["Name"] = "The Operative",
@@ -662,7 +662,7 @@ local tycoons = {
 		},
 		["Bio"] = "The Chairman's faithful second-in-command. Found the informant. Manipulated you into taking down the Yakuza for him. Now, you're the last loose end.",
 	},
-	
+
 	-------------------------------------
 
 	["Edgelord"] = {
@@ -682,7 +682,7 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2, ["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Stud",
@@ -693,7 +693,7 @@ local tycoons = {
 		},
 		["Bio"] = "I came seeking a challenge. All I found was you.",
 	},
-	
+
 	["Cowboy"] = {
 		["Id"] = 5059534839,
 		["Name"] = "Cowboy",
@@ -728,7 +728,7 @@ local tycoons = {
 		},
 		["Bio"] = "A cowboy from the ranch that wants to practice his aim.",
 	},
-	
+
 	["TheSongList"] = {
 		["Id"] = 5069565716,
 		["Name"] = "TheSongList",
@@ -747,8 +747,8 @@ local tycoons = {
 		},
 		["Bio"] = "A longtime ambassador to the game. Happy 1.6k!",
 	},
-	
-	
+
+
 	["Dwarvern Miner"] = {
 		["Id"] = 5673321895,
 		["CopyBodge"] = "Dwarvern Miner",
@@ -769,16 +769,16 @@ local tycoons = {
 		},
 		["Bio"] = "It's all about them.",
 	},
-	
+
 	["Psychotic Freak"] = {
 		["Id"] = 5121940659,
 		["Name"] = "ChloeUrie",
 		["CopyBodge"] = "Psychotic Freak",
-		["Health"] = 300,
+		["Health"] = 400,
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -789,15 +789,15 @@ local tycoons = {
 		},
 		["Bio"] = "She does YouTube.",
 	},
-	
-	["Slenderman"] = { 
+
+	["Slenderman"] = {
 		["Id"] = 4782790570,
 		["Name"] = "The Beast",
 		["Health"] = 1400,
 		["Power"] = 350,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 4,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -808,7 +808,7 @@ local tycoons = {
 		},
 		["Bio"] = "The Beast takes the form of man, because humans are the real monsters.",
 	},
-	
+
 	["Banland"] = {
 		["Id"] = 5673432537,
 		["Name"] = "Banland",
@@ -830,7 +830,7 @@ local tycoons = {
 		},
 		["Bio"] = "The graveyard of fame and popularity.",
 	},
-	
+
 	["Fleskhjerta"] = {
 		["Id"] = 574177817,
 		["Name"] = "Fleskhjerta",
@@ -849,7 +849,7 @@ local tycoons = {
 		},
 		["Bio"] = "I, THE GREAT FLESKHJERTA, used to make ROBLOX videos and bloopers....",
 	},
-	
+
 	["Malevolent Fanboy"] = {
 		["Id"] = 5668027251,
 		["Name"] = "Malevolent Fanboy",
@@ -869,7 +869,7 @@ local tycoons = {
 		},
 		["Bio"] = "I will make them love me!",
 	},
-	
+
 	["Mafia Grunt"] = {
 		["Id"] = 5425521743,
 		["Name"] = "Mafia Grunt",
@@ -883,7 +883,7 @@ local tycoons = {
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 12,},
 		["AlternateCost"] = {["Red"] = 4,},
 		["AlternateCostRequirement"] = {"EqualBoard","Opponent",2,9999,"Greater"},
@@ -896,7 +896,7 @@ local tycoons = {
 		},
 		["Bio"] = "GIMME YER CHIPS!",
 	},
-	
+
 	["SirAdurite"] = {
 		["Id"] = 5034552042,
 		["Name"] = "SirAdurite",
@@ -915,7 +915,7 @@ local tycoons = {
 		},
 		["Bio"] = "He doesn't even come close to KingAdurite.",
 	},
-	
+
 	["PixelFlame"] = {
 		["Id"] = 4794340391,
 		["Name"] = "PixelFlame",
@@ -943,7 +943,7 @@ local tycoons = {
 		},
 		["Bio"] = "Freedom is good. Punching faces is bad.",
 	},
-	
+
 	["Kinnis97"] = {
 		["Id"] = 4536838362,
 		["Name"] = "Kinnis97",
@@ -963,7 +963,7 @@ local tycoons = {
 		},
 		["Bio"] = "Pokemon battler, tarantula collector, mountain biker.",
 	},
-	
+
 	["Qaeo"] = {
 		["Id"] = 3688545481,
 		["Name"] = "Qaeo",
@@ -982,7 +982,7 @@ local tycoons = {
 		},
 		["Bio"] = "Okay, using black magic is cool and all, but can you at least give some other colors love? Why can't we use ORANGE magic? Do you have a problem with orange?",
 	},
-	
+
 	["ClanAtlas"] = {
 		["Id"] = 5534434799,
 		["Name"] = "ClanAtlas",
@@ -1002,10 +1002,10 @@ local tycoons = {
 		},
 		["Bio"] = "You have violated the law. Your stolen goods are now forfeit.",
 	},
-	
+
 	["Ellernate"] = {
 		["Id"] = 5598057243,
-		["Name"] = "Ellernate",		
+		["Name"] = "Ellernate",
 		["Health"] = 1000,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
@@ -1022,7 +1022,7 @@ local tycoons = {
 		},
 		["Bio"] = "Just because the Terms of Service exist doesn't mean I can't choose to break them.",
 	},
-	
+
 	["TheAmazeMan"] = {
 		["Id"] = 5673422037,
 		["Name"] = "TheAmazeMan",
@@ -1040,8 +1040,8 @@ local tycoons = {
 			Target = "Self",
 		},
 		["Bio"] = "Nobody really knows whats so amazing about TheAmazeMan, is it his username?",
-	},	
-	
+	},
+
 	["BUTQUNA"] = {
 		["Id"] = 4988917054,
 		["Name"] = "BUTQUNA",
@@ -1061,7 +1061,7 @@ local tycoons = {
 		},
 		["Bio"] = "Power of fire compels me, as does BBQ sauce.",
 	},
-	
+
 	["Sammeh"] = {
 		["Id"] = 280563026,
 		["Name"] = "MrSammeh",
@@ -1080,15 +1080,15 @@ local tycoons = {
 		},
 		["Bio"] = "MrSammeh loves his cheese, right?",
 	},
-	
+
 	["AMerryCan"] = {
 		["Id"] = 3299958574,
 		["Name"] = "AMerryCan",
 		["Health"] = 500,
 		["Power"] = 400,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 2, ["Red"] = 2, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -1099,13 +1099,13 @@ local tycoons = {
 		},
 		["Bio"] = "You put ONE tax on tea, and then the next thing you know, the settlers in the New World start a revolution...",
 	},
-	
+
 	["Duel Axe Monster"] = {--SlingshotJunkie
 		["Id"] = 4784615644,
 		["Name"] = "SlingshotJunkie",
 		["Health"] = 700,
 		["Power"] = 0,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,},
@@ -1117,8 +1117,8 @@ local tycoons = {
 			Target = "Aggressor",
 		},
 		["Bio"] = "If he wanted to beat the opponent, why is he shooting medicine to heal them?",
-	},	
-	
+	},
+
 	["AVote"] = {
 		["Id"] = 4564777604,
 		["Name"] = "AVote",
@@ -1131,7 +1131,7 @@ local tycoons = {
 		},
 		["Health"] = 300,
 		["Power"] = 300,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 1,},
@@ -1145,7 +1145,7 @@ local tycoons = {
 		},
 		["Bio"] = "Best friends with 13Jayson, they even work well together!",
 	},
-	
+
 	["Sands of Purgatory"] = {
 		["Id"] = 4993618533,
 		["Name"] = "Roblox Titanic",
@@ -1167,7 +1167,7 @@ local tycoons = {
 		},
 		["Bio"] = "You can't escape the fate of the Titanic, but you can certainly outlive it.",
 	},
-	
+
 	["UristMcSparks"] = {
 		["Id"] = 413927726,
 		["Name"] = "UristMcSparks",
@@ -1191,8 +1191,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "UristMcSparks is a human being, contrary to popular belief. Treat him as such.",
-	},	
-	
+	},
+
 	["Connoisseur"] = {
 		["Id"] = 5170483624,
 		["Name"] = "myrkrwarrior",
@@ -1213,8 +1213,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = [["That's a pretty Zepellin you got there, wonder how it will look IN THE BOTTOM OF THE OCEAN AAAA"- inaudible gunshot rattle-]],
-	},	
-	
+	},
+
 	["The Vlad"] = { --DieSoft
 		["Id"] = 4800948832,
 		["Name"] = "DieSoft",
@@ -1234,7 +1234,7 @@ local tycoons = {
 		},
 		["Bio"] = "Ex-owner of the Elite Builders of Robloxia group and a UCG creator, DieSoft is more than capable of bringing this match to an end.",
 	},
-	
+
 	["Isaac0333"] = {
 		["Id"] = 4960601709,
 		["Name"] = "Insane Isaac",
@@ -1254,7 +1254,7 @@ local tycoons = {
 		},
 		["Bio"] = "The chance at fame tainted him. The popularity altered him. The Robots getting the trophy broke him.",
 	},
-	
+
 	["KnitJa"] = {
 		["Id"] = 2903828893,
 		["Name"] = "MSE6",
@@ -1274,8 +1274,8 @@ local tycoons = {
 			Target = "Opponent",
 		},
 		["Bio"] = "The scourge of OT and S&I alike.",
-	},		
-	
+	},
+
 	["Innocent Man"] = {
 		["Id"] = 5002415696,
 		["Name"] = "Innocent Man",
@@ -1297,7 +1297,7 @@ local tycoons = {
 		},
 		["Bio"] = [["Hey, kids! Today I'm at Builderman's flat, protesting the recent BC-only pla-"]],
 	},
-	
+
 	["Chiefjustus"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
@@ -1318,7 +1318,7 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv2"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
@@ -1339,7 +1339,7 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv3"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
@@ -1360,7 +1360,7 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv4"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
@@ -1381,7 +1381,7 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv5"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
@@ -1402,7 +1402,7 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv6"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
@@ -1423,7 +1423,7 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Nikilis"] = {
 		["Id"] = 3164496653,
 		["Name"] = "Nikilis",
@@ -1443,8 +1443,8 @@ local tycoons = {
 			Increase = 1,
 		},
 		["Bio"] = "He knows how to stop any potential murderer. Great for the festival.",
-	},	
-	
+	},
+
 	["Bloxy Victory"] = {
 		["Id"] = 4782749291,
 		["Name"] = "Bloxy Victory",
@@ -1454,7 +1454,7 @@ local tycoons = {
 				["AltArt"] = true,
 				["Bio"] = "And the award for Best Play goes to...",
 			},
-		},			
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
@@ -1470,7 +1470,7 @@ local tycoons = {
 			Target = "Ally",
 		},
 	},
-	
+
 	["Ozzypig"] = {
 		["Id"] = 323660101,
 		["Name"] = "Ozzypig",
@@ -1490,7 +1490,7 @@ local tycoons = {
 		},
 		["Bio"] = "Fists or death!!",
 	},
-	
+
 	["Jayson13"] = {
 		["Id"] = 4564777067,
 		["Name"] = "Mewsitive",
@@ -1502,7 +1502,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 2,["Red"] = 4,},
 		["Bio"] = "Also known as 13Jayson. Mewsitive is the creator of The Robots, check it out!",
 	},
-	
+
 	["Primal Gato"] = {
 		["Id"] = 3238126339,
 		["Name"] = "Primal Gato",
@@ -1522,7 +1522,7 @@ local tycoons = {
 		},
 		["Bio"] = "GRAWR!",
 	},
-	
+
 	["Sibs"] = {
 		["Id"] = 5229994414,
 		["Name"] = "Sibs",
@@ -1544,23 +1544,23 @@ local tycoons = {
 			Description = "When this card is cast: Set the health of a target fighter to 1000.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SetHealth",1000}},
-			Target = "Single",	
+			Target = "Single",
 		},
 		["Bio"] = "Eternal love can destroy any obstacle.",
 	},
-	
+
 	["Gato Luz"] = {
 		["Id"] = 3238116635,
 		["Name"] = "Gato Luz",
-		["AltCards"] = {							
+		["AltCards"] = {
 			["Gato Luz-Val"] = {
 				["Id"] =  5594363188,--655013398,
-				["Name"] = "Gato Luz",						
+				["Name"] = "Gato Luz",
 				["CopyBodge"] = "Gato Luz-Val",
 				["Bio"] = "The warmest robotic cat you'll ever love.",
 				--["Bio"] = "Gato Uptown, Funk Luz.",
 			},
-		},									
+		},
 		["Health"] = 250,
 		["Power"] = 250,
 		["Rarity"] = "Common",
@@ -1576,7 +1576,7 @@ local tycoons = {
 		},
 		["Bio"] = "This robotic cat is basically the mascot of 'The robots'. Don't worry, you won't be in the darkness when you're with it.",
 	},
-	
+
 	["Fenrier"] = {
 		["Id"] = 4789701945,
 		["Name"] = "Fenrier",
@@ -1600,9 +1600,9 @@ local tycoons = {
 			["Power"] = {{"Unlock",1},{"Unlock",1},{"Unlock",1}},
 			Target = "All",
 		},
-		["Bio"] = "Spark the eternal strife, and turn summer into the next year's snow.", 
+		["Bio"] = "Spark the eternal strife, and turn summer into the next year's snow.",
 	},
-	
+
 	["Round3"] = {
 		["Id"] = 5172096327,
 		["Name"] = "Ehj236",
@@ -1612,7 +1612,7 @@ local tycoons = {
 		["Rarity"] = "Rare",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 5,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -1623,7 +1623,7 @@ local tycoons = {
 		},
 		["Bio"] = [[I haven't seen you leave your cabin since we set sail, sir. Are you alright?]],
 	},
-	
+
 	["Round4"] = {
 		["Id"] = 5172096327,
 		["Name"] = "Ehj236",
@@ -1633,7 +1633,7 @@ local tycoons = {
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 5,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -1644,7 +1644,7 @@ local tycoons = {
 		},
 		["Bio"] = [[A butler's duty is to protect the duties of others, sir.]],
 	},
-	
+
 	["litozinnamon"] = {
 		["Id"] = 4899367385,
 		["Name"] = "litozinnamon",
@@ -1663,7 +1663,7 @@ local tycoons = {
 		},
 		["Bio"] = "Ice cold.",
 	},
-	
+
 	["Lohit"] = {
 		["Id"] = 4899367630,
 		["Name"] = "Lohit",
@@ -1682,8 +1682,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Chop!",
-	},	
-	
+	},
+
 	["Icerain"] = {
 		["Id"] = 4985764306,
 		["Name"] = "Icerain",
@@ -1691,7 +1691,7 @@ local tycoons = {
 		["Power"] = 600,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2,},
 		["CounterBlock"] = true,
 		["Effect"] = {
@@ -1703,7 +1703,7 @@ local tycoons = {
 		},
 		["Bio"] = [[It's a shame there's no way to make unlocking cards faster in this game, eh?]],
 	},
-	
+
 	["DigitalSon"] = {
 		["Id"] = 4782790016,
 		["Name"] = "tertiarick",
@@ -1712,7 +1712,7 @@ local tycoons = {
 		["Power"] = 500,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -1722,8 +1722,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = [[Old but agile, rick still games and does his martial arts from time to time.]],
-	},	
-	
+	},
+
 	["Darklord1506"] = {
 		["Id"] = 1372169759,
 		["Name"] = "Darklord1506",
@@ -1731,7 +1731,7 @@ local tycoons = {
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Ruinate Time",
@@ -1742,7 +1742,7 @@ local tycoons = {
 		},
 		["Bio"] = [[Many people are scared of the dark. If you're one of these people, just remember that darkness is just a lack of photons bouncing into your eyes. That's a pretty silly thing to be scared of.]],
 	},
-	
+
 	["Wesker202"] = {
 		["Id"] = 3164507390,
 		["Name"] = "Wesker202",
@@ -1769,7 +1769,7 @@ local tycoons = {
 		},
 		["Bio"] = "Art to be fixed never. Sorry!",
 	},
-	
+
 	["Mlgloga"] = {
 		["Id"] = 4961093538,
 		["Name"] = "Mlgloga",
@@ -1784,7 +1784,7 @@ local tycoons = {
 		["Power"] = 700,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -1795,7 +1795,7 @@ local tycoons = {
 		},
 		["Bio"] = [[Mlg Strats are to be abound.]],
 	},
-	
+
 	["CinematicMind"] = {
 		["Id"] = 4926028742,
 		["Name"] = "CinematicMind",
@@ -1814,13 +1814,13 @@ local tycoons = {
 		},
 		["Bio"] = "Note: Cannot compute radio signals.",
 	},
-		
+
 	["KnightDude"] = {
 		["Id"] = 3299981547,
 		["Name"] = "KnightDude",
 		["Health"] = 500,
 		["Power"] = 500,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,["Blue"] = 2,},
@@ -1833,7 +1833,7 @@ local tycoons = {
 		},
 		["Bio"] = "A popular forumer, he is known to sword fight in an excellent manner.",
 	},
-	
+
 	["Hideaki"] = {
 		["Id"] = 4930678390,
 		["Name"] = "Hideaki",
@@ -1853,15 +1853,15 @@ local tycoons = {
 		},
 		["Bio"] = "Hideaki is the master of disguise, you probably didn't even know this card existed until now!",
 	},
-	
-	
+
+
 	["Metal Bloxxer"] = {
 		["Id"] = 4645550559,
 		["Name"] = "ChadTheCreator",
 		["CopyBodge"] = "ChadTheCreator",
 		["Health"] = 200,
 		["Power"] = 0,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 1,["Blue"] = 3,},
@@ -1874,13 +1874,13 @@ local tycoons = {
 		},
 		["Bio"] = "Welcome to Club Boates. Can I get you a drink of skeletal marrow?",
 	},
-	
+
 	["Tiny Tank"] = {
 		["Id"] = 4537211068,
 		["Name"] = "Tiny Tank",
 		["Health"] = 800,
 		["Power"] = 0,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Explosion",
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
@@ -1892,8 +1892,8 @@ local tycoons = {
 			Target = "Self",
 		},
 		["Bio"] = "Check out Tiny Tanks by Sharksie if you like fun games like this one!",
-	},	
-	
+	},
+
 	["WildSpeedy"] = {
 		["Id"] = 4899469101,
 		["Name"] = "WildSpeedy",
@@ -1912,8 +1912,8 @@ local tycoons = {
 			Target = "Self",
 		},
 		["Bio"] = "Pretty wild. Pretty fast. Is it Sonic?",
-	},	
-	
+	},
+
 	["The Famous Destruction5033"] = {
 		["Id"] = 1108825228,
 		["Name"] = "The Famous Destruction5033",
@@ -1932,7 +1932,7 @@ local tycoons = {
 		},
 		["Bio"] = "He's the most FAMOUSEST person in Blox Cards ... FAMOUSEST person?",
 	},
-	
+
 	["Sharksie"] = {
 		["Id"] = 5673446986,
 		["Name"] = "Sharksie",
@@ -1940,7 +1940,7 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 7,},
 		["Effect"] = {
 			Name = "Always wear a burkini",
@@ -1951,7 +1951,7 @@ local tycoons = {
 		},
 		["Bio"] = "A few tiny tanks won't hurt anyone, right?",
 	},
-	
+
 	["FabulousMettaton123"] = {
 		["Id"] = 5673454827,
 		["Name"] = "FabulousMettaton123",
@@ -1973,7 +1973,7 @@ local tycoons = {
 		},
 		["Bio"] = "More fabulous than a drab chair!",
 	},
-	
+
 	["FabulousBench"] = {
 		["Id"] = 5673460180,
 		["Name"] = "FabulousBench",
@@ -2002,7 +2002,7 @@ local tycoons = {
 		},
 		["Bio"] = "More fabulous than an inelegant robot!",
 	},
-	
+
 	["KennedyLeDog"] = {
 		["Id"] = 4992196188,
 		["Name"] = "KennedyLeDog",
@@ -2022,7 +2022,7 @@ local tycoons = {
 		},
 		["Bio"] = "My dance has a certain elegance!",
 	},
-	
+
 	["Hamstermon"] = {
 		["Id"] = 4992126764,
 		["Name"] = "Hamstermon",
@@ -2050,15 +2050,15 @@ local tycoons = {
 		},
 		["Bio"] = "It's time to add some color to this battlefield!",
 	},
-	
-	
+
+
 	["SuperCloud9"] = {
 		["Id"] = 4899446846,
 		["Name"] = "SupernalNine",
-		["AltCards"] = {							
+		["AltCards"] = {
 			["SuperCloud9-Val"] = {
 				["Id"] = 655018078,
-				["Name"] = "SuperHeart9",						
+				["Name"] = "SuperHeart9",
 				["Bio"] = "Is a lover always innocent?",
 			},
 		},
@@ -2076,8 +2076,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "Is a killer always heartless?",
-	},	
-	
+	},
+
 	["Frozen Phoenix"] = {
 		["Id"] = 4979849867,
 		["Name"] = "Frozen Phoenix",
@@ -2097,7 +2097,7 @@ local tycoons = {
 		},
 		["Bio"] = "Renders wildfires meaningless.",
 	},
-	
+
 	["Teaism"] = {
 		["Id"] = 363172300,
 		["Name"] = "Teaism",
@@ -2125,8 +2125,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "The Tea to the Bee. Also a huge NOOB.",
-	},	
-	
+	},
+
 	["Beeism"] = {
 		["Id"] = 363172190,
 		["Name"] = "Beeism",
@@ -2154,8 +2154,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "The Bee to the Tea. Don't you remember what they told you in school about the Teas and the Bees?",
-	},	
-	
+	},
+
 	["Alexnewtron"] = {
 		["Id"] = 3238108408,
 		["Name"] = "Alexnewtron",
@@ -2174,7 +2174,7 @@ local tycoons = {
 		},
 		["Bio"] = "A fan of Toontown and Dodgeball, Alexnewtron can literally script any fun game out of thin air.",
 	},
-	
+
 	["JackInTheBlox"] = {
 		["Id"] = 3238122250,
 		["Name"] = "JackInTheBlox",
@@ -2202,7 +2202,7 @@ local tycoons = {
 		},
 		["Bio"] = "Known as the livestream host for ROBLOX's 'The Next Level,' Jack with his purple hair is the staple to any deck affiliated with its trait.",
 	},
-	
+
 	["Mrbeanbean2"] = {
 		["Id"] = 3164494036,
 		["Name"] = "Mrbeanbean2",
@@ -2221,8 +2221,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Uh Oh! You silly moron. You just got BEANED!!! Add this card to your deck to totally BEAN! your opponents!",
-	},				
-	
+	},
+
 	["rhomlevko"] = {
 		["Id"] = 3557112317,
 		["Name"] = "rhomlevko",
@@ -2230,7 +2230,7 @@ local tycoons = {
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 2, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "IT'S BAAAAAAAAAAAAAAAAAAAAAAAAAAD!",
@@ -2241,7 +2241,7 @@ local tycoons = {
 		},
 		["Bio"] = "Green is love. Green is life.",
 	},
-		
+
 	["Ayzria"] = {
 		["Id"] = 5152661687,
 		["Name"] = "Ayzria",
@@ -2252,8 +2252,8 @@ local tycoons = {
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 4,},
 		["Bio"] = "Hello!~ Welcome to my log cabin vlog in the middle of nowhere!",
-	}, 
-	
+	},
+
 	["WebGL3D"] = {
 		["Id"] = 5251382996,
 		["Name"] = "WebGL3D",
@@ -2271,8 +2271,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Creator of the Roblox+Google Extention. He likes searching the web.",
-	},		
-	
+	},
+
 	["DerpDerpyness"] = {
 		["Id"] = 3299963629,
 		["Name"] = "DerpDerpyness",
@@ -2291,7 +2291,7 @@ local tycoons = {
 		},
 		["Bio"] = "Take my sword!",
 	},
-	
+
 	["Boogerguy123"] = {
 		["Id"] = 5518244965,
 		["Name"] = "Boogerguy123",
@@ -2309,8 +2309,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "We fight with real... swords.",
-	},	
-	
+	},
+
 	["Infected Mushrooms"] = {
 		["Id"] = 4815667402,
 		["Name"] = "EvilArtist",
@@ -2318,7 +2318,7 @@ local tycoons = {
 		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 2,},
 		["Effect"] = {
 			Name = "Stud",
@@ -2329,7 +2329,7 @@ local tycoons = {
 		},
 		["Bio"] = "My next creation? You, of course!",
 	},
-	
+
 	["GreenHearted"] = {
 		["Id"] = 4899343186,
 		["Name"] = "GreenHearted",
@@ -2349,7 +2349,7 @@ local tycoons = {
 		},
 		["Bio"] = "Why does he have a green heart you may ask? Serious medical condition.",
 	},
-	
+
 	["Gentle Elder"] = {
 		["Id"] = 5114103972,
 		["CopyBodge"] = "Gentle Elder",
@@ -2358,7 +2358,7 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3,},
 		["ChargeRequirement"] = {"EqualBoard","Opponent",1,9999,"Greater"},
 		["FaceBlock"] = true,
@@ -2371,7 +2371,7 @@ local tycoons = {
 		},
 		["Bio"] = "The gentle souls in Zanzel's wilderness never are.",
 	},
-	
+
 	["Camo Joe"] = {
 		["Id"] = 4720404514,
 		["Name"] = "spotco",
@@ -2385,14 +2385,14 @@ local tycoons = {
 		["Requirement"] = {"Playertable", "Me", 2, 999999, "TargetCount"},
 		["Effect"] = {
 			Name = "Blow Dart",
-			Description = "Cast only if two effects have targeted this turn. When this card dies: You gain 1000 life.",
+			Description = "Cast only if two effects have targeted since your last end step. When this card dies: You gain 1000 life.",
 			["Type"] = "OnDeath",
 			["Power"] = {{"Cost",-1000}},
 			Target = "Ally",
 		},
 		["Bio"] = "Lurking in places you will never find him, which is your old shoe almost exclusively.",
 	},
-	
+
 	["EfanPlayz"] = {
 		["Id"] = 5193260614,
 		["Name"] = "EfanPlayz",
@@ -2417,8 +2417,8 @@ local tycoons = {
 			Target = "Opponent",
 		},
 		["Bio"] = "What does he play, you ask? You.",
-	},	
-	
+	},
+
 	["Bloxy Announcer"] = {
 		["Id"] = 5668027251,
 		["Name"] = "Bloxy Announcer",
@@ -2439,7 +2439,7 @@ local tycoons = {
 		},
 		["Bio"] = "PREEEEEEEEESENTING!",
 	},
-		
+
 	["ThePestilentOne"] = {
 		["Id"] = 1474056814,
 		["Name"] = "ThePestilentOne",
@@ -2458,8 +2458,8 @@ local tycoons = {
 		},
 		["Bio"] = "ＴＡＰ　ＨＥＲＥ　ＴＯ　ＡＤＤ　ＴＥＸＴ",
 	},
-	
-	
+
+
 	["V_yriss"] = {
 		["Id"] = 4789958147,
 		["Name"] = "V_yriss",
@@ -2467,7 +2467,7 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 1, ["Green"] = 2,},
 		["Effect"] = {
 			Name = "Vyriss",
@@ -2479,7 +2479,7 @@ local tycoons = {
 		},
 		["Bio"] = [[Survive THIS!]],
 	},
-	
+
 	["Luchador"] = {
 		["Id"] = 4790255241,
 		["Name"] = "Blotnik",
@@ -2498,7 +2498,7 @@ local tycoons = {
 		},
 		["Bio"] = "Talented original clothing maker, Blotnik can patch up his own armor on the fly!",
 	},
-	
+
 	["BadBreadMaker"] = {
 		["Id"] = 5071970423,
 		["Name"] = "BadBreadMaker",
@@ -2517,7 +2517,7 @@ local tycoons = {
 		},
 		["Bio"] = "Even the worst bread is nutritious.",
 	},
-	
+
 	["PhireFox"] = {
 		["Id"] = 878894010,
 		["Name"] = "PhireFox",
@@ -2529,7 +2529,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 4,["Green"] = 2,},
 		["Effect"] = {
 			Name = "Amp",
-			Description = "Whenever an effect targets this card, if 3 of your effects have targeted this turn: Put a copy of it into your Baseplate.",
+			Description = "Whenever an effect targets this card, if 3 of your effects have targeted since your last end step: Put a copy of it into your Baseplate.",
 			["Type"] = "OnTarget",
 			["Power"] = {{"AddGenZone",{"PhireFox",1}}},
 			Target = "Ally",
@@ -2537,7 +2537,7 @@ local tycoons = {
 		},
 		["Bio"] = "Part time Roblox pundit. Part time Harambe slayer.",
 	},
-	
+
 	["BonesMcCormick"] = {
 		["Id"] = 4204424413,
 		["Name"] = "BonesMcCormick",
@@ -2549,7 +2549,7 @@ local tycoons = {
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "moo",
-			Description = "Whenever an effect targets this card, if it's your first effect to target a card this turn: It gains 300 health and power.",
+			Description = "Whenever an effect targets this card, if it's your first effect to target a card since your last end step: It gains 300 health and power.",
 			["Type"] = "OnTarget",
 			["Power"] = {{"Heal","300"},{"Strengthen","300"}},
 			Target = "Self",
@@ -2557,7 +2557,7 @@ local tycoons = {
 		},
 		["Bio"] = "His gum is as strong as his bones!",
 	},
-	
+
 	["Roundawsome"] = {
 		["Id"] = 4922412776,
 		["Name"] = "Roundawsome",
@@ -2565,7 +2565,7 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Transformant"] = "Round2",
 		["Effect"] = {
@@ -2577,7 +2577,7 @@ local tycoons = {
 		},
 		["Bio"] = [[Cut to Ribbons!]],
 	},
-	
+
 	["Round2"] = {
 		["Id"] = 4922412776,
 		["Name"] = "Roundawsome",
@@ -2586,7 +2586,7 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -2597,7 +2597,7 @@ local tycoons = {
 		},
 		["Bio"] = [[Slash and Burn!]],
 	},
-	
+
 	["JJ5x5"] = {
 		["Id"] = 3557089048,
 		["Name"] = "JJ5x5",
@@ -2610,7 +2610,7 @@ local tycoons = {
 		},
 		["Health"] = 500,
 		["Power"] = 400,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3,["Neutral"] = 2,},
@@ -2623,13 +2623,13 @@ local tycoons = {
 		},
 		["Bio"] = "Yo! I made Thrillville on ROBLOX and some other silly ROBLOX videos...",
 	},
-	
+
 	["Picopicoman"] = {
 		["Id"] = 5673443858,
 		["Name"] = "Picopicoman",
 		["Health"] = 700,
 		["Power"] = 500,
-		["Rarity"] = "Common",		
+		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 2,["Green"] = 4,},
@@ -2641,8 +2641,8 @@ local tycoons = {
 			Target = "NotRare",
 		},
 		["Bio"] = "Dear hearts and gentle people...~~ Who live in my hometown!..~~",
-	},	
-	
+	},
+
 	["Wizardguy34"] = {
 		["Id"] = 4899469878,
 		["Name"] = "Wizardguy34",
@@ -2650,7 +2650,7 @@ local tycoons = {
 		["Power"] = 100,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -2661,8 +2661,8 @@ local tycoons = {
 		},
 		["Bio"] = [[Use the force, Harry! Else you shall not pass!]],
 	},
-	
-	
+
+
 	["CorgiParade"] = {
 		["Id"] = 665983580,
 		["Name"] = "CorgiParade",
@@ -2680,8 +2680,8 @@ local tycoons = {
 			Target = "Rare",
 		},
 		["Bio"] = "What kind of parade is a corgi parade?",
-	},	
-	
+	},
+
 	["Yoshilove574"] = {
 		["Id"] = 5012795745,
 		["Name"] = "Alex_Dremurr",
@@ -2690,7 +2690,7 @@ local tycoons = {
 		["Power"] = 250,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -2701,7 +2701,7 @@ local tycoons = {
 		},
 		["Bio"] = [[...even after that attack, you're still standing in my way...? Wow... you really ARE something special. But don't get cocky. Up until now, I've only been using a fraction of my REAL power! Let's see what good your DETERMINATION is against THIS!!"]],
 	},
-	
+
 	["Tl_rd"] = {
 		["Id"] = 5241191372,
 		["Name"] = "ttarX4",
@@ -2710,20 +2710,19 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Rare",
 		["Token"] = true,
-		["Foil"] = true,
 		["AttackEffect"] = {"Magic", "Green"},
 		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 6,},
+		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "BEANAENAED",
-			Description = "Inert. When this card is cast: Summon a copy of a fighter from another ongoing battle in this server.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"CopyFromOtherBattle"}},
+			Description = "Inert. Whenever you discard your first card this turn: Add a random rare to your hand.",
+			["Type"] = "OnSecondDiscard",
+			["Power"] = {{"RandomAdd", "Rare"}},
 			Target = "Ally",
 		},
-		["Bio"] = "I will actually reward the first person who actually manages to summon Telamon in tournament with this card.",
+		["Bio"] = "<b>DONT GO TO THE RAVECADE AND LOOK BEHIND THE POTTED PLANT ON THE FAR LEFT SIDE OF THE BUILDING PLEASE I BEG YOU.</b>",
 	},
-	
+
 	["HasTheHero"] = {
 		["Id"] = 4926658145,
 		["Name"] = "HasTheHero",
@@ -2754,8 +2753,8 @@ local tycoons = {
 			Target = "Self",
 		},
 		["Bio"] = "But has no means to pay for him.",
-	},	
-		
+	},
+
 	["brickmason"] = {
 		["Id"] = 5673320496,
 		["Name"] = "brickmason",
@@ -2773,9 +2772,9 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "Both ROBLOX's first friend, and a professional pirate.",
-	},		
-	  
-	
+	},
+
+
 	["StickMasterLuke"] = {
 		["Id"] = 5673455978,
 		["Name"] = "StickMasterLuke",
@@ -2802,8 +2801,8 @@ local tycoons = {
 		},
 		["Bio"] = "Most likely accident prone worker at ROBLOX. He made it there from scripting, so can you!",
 	},
-	
-	
+
+
 	["WaddleTom"] = {
 		["Id"] = 4934299525,
 		["Name"] = "WaddleTom",
@@ -2822,8 +2821,8 @@ local tycoons = {
 			Increase = 500
 		},
 		["Bio"] = "Just a friendly ROBLOXian like many others. He sure won't attack you with his wooden sword, would he?",
-	},	
-	
+	},
+
 	["AII_Duck"] = {
 		["Id"] = 5124313284,
 		["Name"] = "all_duck",
@@ -2832,18 +2831,18 @@ local tycoons = {
 		["Power"] = 200,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3, ["Neutral"] = 4},
 		["Effect"] = {
 			Name = "All_Duck",
 			Description = "During your end step: Your opponent loses a Colourless stud. You gain a Colourless stud.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Neutral",1},{"Neutral",-1,"Opponent"}},			
+			["Power"] = {{"Neutral",1},{"Neutral",-1,"Opponent"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Hiding in plain sight has never been easier! Time to rob this vending machine.",
 	},
-	
+
 	["Ripull"] = {
 		["Id"] = 4819854815,
 		["Name"] = "Ripull",
@@ -2868,8 +2867,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Creator of ROBLOX Derby, Rovive and Ripull's Minigames (obviously!), Ripull created the 'Ripull Effect' and we clearly know what that means!",
-	},	
-	
+	},
+
 	["Biostream"] = {
 		["Id"] = 4919132054,
 		["Name"] = "Biostream",
@@ -2900,7 +2899,7 @@ local tycoons = {
 		},
 		["Bio"] = "The scripter of Hexaria, one of the best games on ROBLOX!",
 	},
-	
+
 	["Attack Modifier! Debuff!"] = {
 		["Id"] = 3471716264,
 		["Name"] = "Attack Modifier! Debuff!",
@@ -2927,7 +2926,7 @@ local tycoons = {
 		},
 		["Bio"] = "A general utility card in Hexaria. Helps weaken some nasty Meta Card buff combos.",
 	},
-	
+
 	["Attack Modifier! Buff!"] = {
 		["Id"] = 3471715575,
 		["Name"] = "Attack Modifier! Buff!",
@@ -2954,7 +2953,7 @@ local tycoons = {
 		},
 		["Bio"] = "Alongside this card, Precision is bae.",
 	},
-	
+
 	["Defense Modifier! Buff!"] = {
 		["Id"] = 3471734250,
 		["Name"] = "Defense Modifier! Buff!",
@@ -2981,7 +2980,7 @@ local tycoons = {
 		},
 		["Bio"] = "Like attack debuff but you can use it on yourself. Take that, cavemen rocks!",
 	},
-	
+
 	["PolyHexV2"] = {
 		["Id"] = 4975371953,
 		["Name"] = "PolyHex",
@@ -3008,8 +3007,8 @@ local tycoons = {
 		},
 		["Bio"] = "Creator of Super Bomb Survival, will you survive his wrath of missiles and bombs? Probably not.",
 	},
-	
-	
+
+
 	["Kago"] = {
 		["Id"] = 5054716708,
 		["Name"] = "kahgo",
@@ -3029,7 +3028,7 @@ local tycoons = {
 		},
 		["Bio"] = "KAhGOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO0oOOOOOOOOOOOOOOO",
 	},
-		
+
 	["BrandonOccult"] = {
 		["Id"] = 5034526419,
 		["Name"] = "BrandonOccult",
@@ -3037,7 +3036,7 @@ local tycoons = {
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -3047,8 +3046,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = [[Come to the dark side. We have famous people.]],
-	}, 
-	
+	},
+
 	["Mister Tea"] = {
 		["Id"] = 275340321,
 		["Name"] = "Mister Tea",
@@ -3069,7 +3068,7 @@ local tycoons = {
 		},
 		["Bio"] = "He never runs late for a tea party.",
 	},
-	
+
 	["Renaud800"] = {
 		["Id"] = 4204445879,
 		["Name"] = "Renaud800",
@@ -3087,8 +3086,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Try to get past this guy.",
-	},	
-	
+	},
+
 	["Doll House"] = {
 		["Id"] = 5609698500,
 		["Name"] = "DracoSwordMaster",
@@ -3097,18 +3096,18 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 5,},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "Whenever an enemy fighter dies: Deal 100 damage to all enemy fighters. This fighter gains 100 Power.",
 			["Type"] = "OnEnemyDeath",
 			["Power"] = {{"Damage",100,"Opponent"},{"Strengthen",100}},
-			Target = "Self",	
+			Target = "Self",
 		},
 		["Bio"] = "Another user implicated in the 2012 April Fools incident. Search his username to find out his fate.",
 	},
-	
+
 	["Bread Factory"] = {
 		["Id"] = 5673359369,
 		["Name"] = "Bread Factory",
@@ -3126,12 +3125,12 @@ local tycoons = {
 			Description = "At the start of each player's turn: Unlock all fighters.",
 			["Type"] = "Field",
 			["Power"] = "Unlock",
-			Target = "All",	
+			Target = "All",
 			Increase = 50,
 		},
 		["Bio"] = "Bread Factory helps deal with Bread decks. How do you work that out?",
 	},
-	
+
 	["Friend Request Spammer"] = {
 		["Id"] = 2084782054,
 		["Name"] = "Friend Request Spammer",
@@ -3139,7 +3138,7 @@ local tycoons = {
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE",
@@ -3150,8 +3149,8 @@ local tycoons = {
 		},
 		["Bio"] = "PLEASE PLEASE PLEASE PLEASE PLEASE BE MY FRIEND PLEASE PLEASE PLEASE I'LL DO ANYTHING PLEASE",
 	},
-	
-	
+
+
 	["CellBloxTango"] = {
 		["Id"] = 411802843,
 		["Name"] = "CellBloxTango",
@@ -3169,8 +3168,8 @@ local tycoons = {
 		},
 		["Cost"] = {["Neutral"] = 5,["Yellow"] = 2,},
 		["Bio"] = "Apparently enjoys to tango and loves nature.",
-	},	
-	
+	},
+
 	["Cringeleaf"] = {
 		["Id"] = 5673434188,
 		["Name"] = "TheCoderBunny",
@@ -3179,7 +3178,7 @@ local tycoons = {
 		["Power"] = 750,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 5,},
 		["Transformant"] = "Cringeleafff",
 		["Effect"] = {
@@ -3191,7 +3190,7 @@ local tycoons = {
 		},
 		["Bio"] = "Bunnybros should stick together, right?",
 	},
-	
+
 	["Cringeleafff"] = {
 		["Id"] = 5673434188,
 		["Name"] = "TheCoderBunny",
@@ -3200,12 +3199,12 @@ local tycoons = {
 		["Power"] = 750,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 5,},
 		["Bio"] = "Bunnybros should stick together, right?",
 	},
-	
-	
+
+
 	["Dun_Boof"] = {
 		["Id"] = 5673442061,
 		["Name"] = "Koopa",
@@ -3213,7 +3212,7 @@ local tycoons = {
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Charge"] = true,
 		["Cost"] = {["Neutral"] = 5, ["Yellow"] = 2,},
 		["Effect"] = {
@@ -3226,7 +3225,7 @@ local tycoons = {
 		["Bio"] = "One of ROBLOX's earliest players. Won some of the first contests, awarding him many coveted items such as the Domino Crown, Eerie Pumpkin Head, Black Iron Crown of Pwnage and The Kleos Aphthiton.",
 		--["Bio"] = "Zanzel shook her head in disappointment, for it was ignorant for him to try to take his own life from Zanzel.",
 	},
-	
+
 	["Plushie Mummy"] = {
 		["Id"] = 2810868244,
 		["Name"] = "Plushie Mummy",
@@ -3254,7 +3253,7 @@ local tycoons = {
 		},
 		["Bio"] = "SPOOKY PLUSHIES!",
 	},
-	
+
 	["Hidden Razor"] = {
 		["Id"] = 4899421765,
 		["Name"] = "mrflimflam",
@@ -3271,7 +3270,7 @@ local tycoons = {
 		["Power"] = 500,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 5,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -3282,7 +3281,7 @@ local tycoons = {
 		},
 		["Bio"] = "Still Chill.",
 	},
-	
+
 	["poke631"] = {
 		["Id"] = 2810868688,
 		["Name"] = "poke631",
@@ -3290,7 +3289,7 @@ local tycoons = {
 		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "GO! DOGE HOUND!",
@@ -3301,8 +3300,8 @@ local tycoons = {
 		},
 		["Bio"] = "An exile from Pokémon Brick Bronze. Can still tame a good pocket monster.",
 	},
-	
-	
+
+
 	["Lyv"] = {
 		["Id"] = 4720323035,
 		["Name"] = "Lyv",
@@ -3328,7 +3327,7 @@ local tycoons = {
 		},
 		["Bio"] = "Whatever she triggers should help you Lyv for just a little while longer.",
 	},
-	
+
 	["Radello"] = {
 		["Id"] = 5673379629,
 		["Name"] = "Radello",
@@ -3349,7 +3348,7 @@ local tycoons = {
 		},
 		["Bio"] = "It's pronounced as 'RA-DAY-YOH' my Spanish-speaking prodigies.",
 	},
-	
+
 	["Builderman"] = {
 		["Id"] = 5673405446,
 		["Name"] = "Builderman",
@@ -3368,7 +3367,7 @@ local tycoons = {
 		},
 		["Bio"] = "He is everyone's friend, unless you unfriend him, and that isn't nice.",
 	},
-	
+
 	["Miked"] = {
 		["Id"] = 4204439814,
 		["Name"] = "miked",
@@ -3394,8 +3393,8 @@ local tycoons = {
 		},
 		["Bio"] = "Made thirteen years ago, miked's Ultimate Paintball still puts Loleris to shame.",
 	},
-	
-	
+
+
 	["Mr.O the Traveling Merchant"] = {
 		["Id"] = 5673414652,
 		["Name"] = "badcc",
@@ -3404,7 +3403,7 @@ local tycoons = {
 		["Power"] = 800,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Bleeding",
@@ -3415,14 +3414,14 @@ local tycoons = {
 		},
 		["Bio"] = "badimo.",
 	},
-	
+
 	["Cluck Buck"] = { --DevRolve
-		["Id"] = 4801061319, 
+		["Id"] = 4801061319,
 		["Name"] = "DevRolve",
 		["CopyBodge"] = "Cluck Buck",
 		["Health"] = 1200,
 		["Power"] = 200,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,},
@@ -3435,7 +3434,7 @@ local tycoons = {
 		},
 		["Bio"] = "CEO of ROLVe. Source Engine, move over.",
 	},
-	
+
 	["Maplestick"] = {
 		["Id"] = 4538080625,
 		["Name"] = "Maplestick",
@@ -3453,8 +3452,8 @@ local tycoons = {
 			Target = "LowestPower",
 		},
 		["Bio"] = "HEY MAPLESTICK IS THAT A.... *faints from the stabs*",
-	},	
-	
+	},
+
 	["Xor's Lab"] = {
 		["Id"] = 4993617972,
 		["Name"] = "Iron Café",
@@ -3476,13 +3475,13 @@ local tycoons = {
 		},
 		["Bio"] = "Crack open a cold Bloxy Cola with the boys.",
 	},
-	
+
 	["Dun_Goof"] = {
 		["Id"] = 413918082,
 		["Name"] = "Dun_Goof",
 		["Health"] = 150,
 		["Power"] = 400,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Charge"] = true,
@@ -3496,8 +3495,8 @@ local tycoons = {
 			Target = "Rare",
 		},
 		["Bio"] = "Name your favourite card arts. Half of them were made by this guy.",
-	},	
-	
+	},
+
 	["Blitzwolfer"] = {
 		["Id"] = 4974017922,
 		["Name"] = "Blitzwolfer",
@@ -3519,7 +3518,7 @@ local tycoons = {
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 4, ["Neutral"] = 1,}, 
+		["Cost"] = {["Yellow"] = 4, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Helping Out",
 			Description = "At the end of your turns, all rare fighters gain 100 health.",
@@ -3529,7 +3528,7 @@ local tycoons = {
 		},
 		["Bio"] = "A BLOX CARDS contributor. A BLOX CARDS artist. A BLOX CARDS Wikia owner. A BLOX CARDS Hero.",
 	},
-	
+
 	["Helperbot"] = {
 		["Id"] = 5019701505,
 		["Name"] = "Helperbot",
@@ -3538,7 +3537,7 @@ local tycoons = {
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 4, ["Neutral"] = 1,}, 
+		["Cost"] = {["Yellow"] = 4, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Helping Out",
 			Description = "During your end step: All rare fighters gain 100 power.",
@@ -3548,7 +3547,7 @@ local tycoons = {
 		},
 		["Bio"] = "Hello there robloxian, what do you need help with?",
 	},
-	
+
 	["Uberubert"] = {
 		["Id"] = 4564769786,
 		["Name"] = "Uberubert",
@@ -3566,8 +3565,8 @@ local tycoons = {
 			Target = "All",
 		},
 		["Bio"] = "Inventor of the Tycoon Genre on ROBLOX.",
-	},		
-	
+	},
+
 	["Alpha Brick's Discovery"] = {
 		["Id"] = 5668027251,
 		["Name"] = "Alpha Brick's Discovery",
@@ -3586,8 +3585,8 @@ local tycoons = {
 		},
 		["Bio"] = "The Primordials stared at Mewsitive with disgust. He was encroaching on their territory. Their birthright.",
 	},
-	
-	
+
+
 	["Zaquille"] = {
 		["Id"] = 5024477772,
 		["Name"] = "Zaquille",
@@ -3595,19 +3594,19 @@ local tycoons = {
 		["Power"] = 550,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 3, ["Neutral"] = 5},
 		["Effect"] = {
 			Name = "He can't fix it after all",
 			Description = "When this card is cast, if your opponent controls at least 2 fighters: They lose all of their Colourless studs and draw two cards.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetNeutral",0,"Opponent"},{"Draw",2}},			
+			["Power"] = {{"SetNeutral",0,"Opponent"},{"Draw",2}},
 			Target = "Opponent",
 			["EffectRequirement"] = {"Board","Opponent", 2,9999},
 		},
 		["Bio"] = "Laws and bones are made to be broken.",
 	},
-	
+
 	["XiaoXiaoMan"] = {
 		["Id"] = 3300001838,
 		["Name"] = "XiaoXiaoMan",
@@ -3626,8 +3625,8 @@ local tycoons = {
 			["Rarity"] = "Epic",
 		},
 		["Bio"] = "Creator of Raging ROBLOX Reviewer and lover of Valve games, XiaoXiaoMan has no problem shooting you down with his M4A1.",
-	},	
-	
+	},
+
 	["MinePix110"] = {
 		["Id"] = 5019918403,
 		["Name"] = "MinePix110",
@@ -3645,8 +3644,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Mining for more cards.",
-	},	
-	
+	},
+
 	["MisterObvious"] = {
 		["Id"] = 4792439459,
 		["Name"] = "NewFissy",
@@ -3665,7 +3664,7 @@ local tycoons = {
 		},
 		["Bio"] = "Hi, I'm the scripter of Roblox Plague, TreeLands, and Adopt M-HEY! Stop it, that tickles!",
 	},
-	
+
 	["BrightEyes"] = {
 		["Id"] = 5167011652,
 		["Name"] = "BrightEyes",
@@ -3690,8 +3689,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Shedletsky would be proud.",
-	},		
-	
+	},
+
 	["BLOXER787"] = {
 		["Id"] = 4934300137,
 		["Name"] = "BLOXER787",
@@ -3711,7 +3710,7 @@ local tycoons = {
 		},
 		["Bio"] = "You're way out of his league.",
 	},
-	
+
 	["Merely"] = {
 		["Id"] = 5151017496,
 		["Name"] = "Merely",
@@ -3729,8 +3728,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Creator of Trade Hangout. May the biggest shark win!",
-	},			
-	
+	},
+
 	["ROBLOX"] = {
 		["Id"] = 3299952153,
 		["Name"] = "ROBLOX",
@@ -3756,8 +3755,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "ROBLOX, with bold plans on helping its company grow even more since 2004.",
-	},	
-	
+	},
+
 	["Jeeeeesus"] = {
 		["Id"] = 4899361887,
 		["Name"] = "Jeeeeesus",
@@ -3782,8 +3781,8 @@ local tycoons = {
 			Target = "Opponent",
 		},
 		["Bio"] = "Christ!",
-	},	
-	
+	},
+
 	["Ultra Doregriffon"] = {
 		["Id"] = 430948999,
 		["Name"] = "Ultra Doregriffon",
@@ -3798,11 +3797,11 @@ local tycoons = {
 			Description = "Whenever this card attacks: Set its stats to 750/750.",
 			["Type"] = "OnAttack",
 			["Power"] = {{"SetPower",750},{"SetHealth",750}},
-			Target = "Self",	
+			Target = "Self",
 		},
 		["Bio"] = "Doregriffons don't understand humans. If they didn't want to be eaten, why are they made out of meat and treasure?",
 	},
-	
+
 	["wowwow2211"] = {
 		["Id"] = 5031876827,
 		["Name"] = "wowwow2211",
@@ -3811,7 +3810,7 @@ local tycoons = {
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
-		["Cost"] = {["Yellow"] = 1,["Blue"] = 1,["Green"] = 1,["Red"] = 1,["Neutral"] = 4,}, 
+		["Cost"] = {["Yellow"] = 1,["Blue"] = 1,["Green"] = 1,["Red"] = 1,["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Police Brutality",
 			Description = "Whenever an effect targets this card: You gain 1 of each type of stud.",
@@ -3821,7 +3820,7 @@ local tycoons = {
 		},
 		["Bio"] = "WOW!",
 	},
-	
+
 	["Usering"] = {
 		["Id"] = 4899466464,
 		["Name"] = "Usering",
@@ -3839,8 +3838,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Even Pokemon can make good games.",
-	},	
-	
+	},
+
 	["Bloxikin Horde"] = {
 		["Id"] = 5039064696,
 		["Name"] = "Bloxikin Horde",
@@ -3860,13 +3859,13 @@ local tycoons = {
 		},
 		["Bio"] = "FOR THE HORDE!!",
 	},
-	
+
 	["DrPepperSlayer"] = {
 		["Id"] = 443304529,
 		["Name"] = "DrPepperSlayer",
 		["Health"] = 500,
 		["Power"] = 500,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 4, ["Red"] = 1,},
@@ -3879,8 +3878,8 @@ local tycoons = {
 			["EffectRequirement"] = {"Rarity","Ally",3,9999,"Rare"},
 		},
 		["Bio"] = "Yeah, yeah, shameless advertising is shameless. I'll give you a hug if you shut up about it.",
-	},	
-	
+	},
+
 	["Haggie125"] = {
 		["Id"] = 4984402210,
 		["Name"] = "Haggie125",
@@ -3889,7 +3888,7 @@ local tycoons = {
 		["Requirement"] = {"Rarity","Ally",2,9999,"Rare"},
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Harassing Talons",
@@ -3900,7 +3899,7 @@ local tycoons = {
 		},
 		["Bio"] = "Give me money...NOW!",
 	},
-	
+
 	["Tomarty"] = {
 		["Id"] = 5668027251,
 		["Name"] = "Tomarty",
@@ -3920,7 +3919,7 @@ local tycoons = {
 		},
 		["Bio"] = [["It’s a mistake to say turtles hide in their shells. They merely need time to contemplate how best to bite your head off."]],
 	},
-	
+
 	["Wsly"] = {
 		["Id"] = 5668027251,
 		["Name"] = "Wsly",
@@ -3941,7 +3940,7 @@ local tycoons = {
 		},
 		["Bio"] = [[]],
 	},
-		
+
 	["Nexx"] = {
 		["Id"] = 4789688861,
 		["Name"] = "Nexx",
@@ -3959,9 +3958,9 @@ local tycoons = {
 			Target = "Opponent",
 		},
 		["Bio"] = "A web contractor and a card developer too!",
-	},	
-	
-	
+	},
+
+
 	["Explode1"] = {
 		["Id"] = 4942926373,
 		["Name"] = "radiogamer",
@@ -3980,8 +3979,8 @@ local tycoons = {
 			Target = "Opponent",
 		},
 		["Bio"] = "The Goddess of Light had nothing on this glove.",
-	},	
-	
+	},
+
 	["Rukiryo"] = {
 		["Id"] = 5029503081,
 		["Name"] = "Rukiryo",
@@ -4008,8 +4007,8 @@ local tycoons = {
 		},
 		["Bio"] = "Disputed King of ROBLOX MMORPGs.",
 	},
-	
-	
+
+
 	["Kmansong2"] = {
 		["Id"] = 4564780136,
 		["Name"] = "TheKatorium",
@@ -4029,8 +4028,8 @@ local tycoons = {
 		},
 		["Bio"] = "This symphony is a ray of hope! Or some cheesy speech like that.",
 	},
-	
-	
+
+
 	["Games"] = {
 		["Id"] = 3471739821,
 		["Name"] = "Games",
@@ -4039,7 +4038,7 @@ local tycoons = {
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
-		["Cost"] = {["Neutral"] = 3,}, 
+		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Roblox",
 			Description = "When this card is cast: Give each player a Classic ROBLOX card.",
@@ -4048,8 +4047,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "He loves games.",
-	},	
-	
+	},
+
 	["Linked Sword"] = {
 		["Id"] = 3471721036,
 		["Name"] = "Linked Sword",
@@ -4068,8 +4067,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "This sword goes WAY back.",
-	},		
-	
+	},
+
 	["Trowel"] = {
 		["Id"] = 3471723411,
 		["Name"] = "Trowel",
@@ -4088,8 +4087,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "I WILL BUILD A GREAT WALL!",
-	},		
-	
+	},
+
 	["Rocket Launcher"] = {
 		["Id"] = 3471721627,
 		["Name"] = "Rocket Launcher",
@@ -4108,8 +4107,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "TFW you blow yourself up.",
-	},	
-	
+	},
+
 	["Superball"] = {
 		["Id"] = 3471722657,
 		["Name"] = "Superball",
@@ -4129,8 +4128,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "Boioioingggg.",
-	},		
-	
+	},
+
 	["Slingshot"] = {
 		["Id"] = 3471722164,
 		["Name"] = "Slingshot",
@@ -4149,8 +4148,8 @@ local tycoons = {
 			Target = "Single",
 		},
 		["Bio"] = "Your basic weapon. Now comes in rubber.",
-	},			
-	
+	},
+
 	["MiniToon"] = {
 		["Id"] = 5113679266,
 		["Name"] = "MiniToon",
@@ -4170,8 +4169,8 @@ local tycoons = {
 			Target = "Ally",
 		},
 		["Bio"] = "Creator of the Cinematic Piggy Universe.",
-	},				
-	
+	},
+
 	["Remote Mine"] = {
 		["Id"] = 5113680320,
 		["Name"] = "Bear Trap",
@@ -4192,8 +4191,8 @@ local tycoons = {
 			Target = "All",
 		},
 		["Bio"] = "Huh, that's weird. I see a bear trap but no actual bears around h-BONK!",
-	},	
-	
+	},
+
 	["Calamity Box"] = {
 		["Id"] = 4204425071,
 		["Name"] = "Calamity Box",
@@ -4209,11 +4208,11 @@ local tycoons = {
 			Description = "Inert. During your end step: Give yourself a random rare card.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"RandomAdd","Rare"}},
-			Target = "Self",	
+			Target = "Self",
 		},
 		["Bio"] = "Imagine the stalker dying to an army of NICCOs spawned from this. 50k bloxbux to the first person who manages to do it.",
 	},
-	
-	
+
+
 }
 return tycoons

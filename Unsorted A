@@ -1,5 +1,5 @@
-local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO 
-	
+local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
+
 	["Daisy"] = {
 		["Id"] = 4899283836,
 		["Name"] = "Daisy",
@@ -18,7 +18,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Daisy and her shuriken, that is all. She is also known as daisy1002.",
 	},
-	
+
 	["Fave"] = {
 		["Id"] = 3674709719,
 		["Name"] = "Faave",
@@ -45,9 +45,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Faave is a ROBLOXian who has a clone, raps, and is a ROBLOX Youtuber that only plays ROBLOX because of Youtube!",
 	},
-	
 
-	
+
+
 	["Exine"] = {
 		["Id"] = 3471768969,
 		["Name"] = "Exine",
@@ -101,7 +101,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Loogi",
 		["Power"] = 300,
 		["Health"] = 300,
-		["Rarity"] = "Token",	
+		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 3,},
@@ -153,7 +153,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "As opposed to hard cheese. How would one even make such a thing?",
 	},
-	
+
 	["Finland"] = {
 		["Id"] = 4204432471,
 		["Name"] = "Finland",
@@ -173,7 +173,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Sweden generates blue studs, whilst Norway generates red ones. Scandinavia hates grass.",
 	},
-	
+
 
 
 	["Saiier"] = {
@@ -195,7 +195,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Unknown to you as it is to me.",
 	},
-	
+
 	["Undead Voodoo Doll"] = {
 		["Id"] = 2789876682,
 		["Name"] = "Haunted Puppet",
@@ -203,7 +203,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Dash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "HURT ALL THE THINGS",
@@ -215,7 +215,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Haunted Puppets kill themselves over the most trivial of sins.",
 	},
-	
+
 	["Tarfful"] = {
 		["Id"] = 1812182032,
 		["Name"] = "Tarfful",
@@ -234,7 +234,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "If he stops eating, he'll die. Won't we all?",
 	},
-	
+
 	["Krazy Koala"] = {
 		["Id"] = 4789959352,
 		["Name"] = "Maniac Monkey",
@@ -265,7 +265,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The chances of you getting attacked by a Maniac Monkey are low. But not impossible.",
 	},
-	
+
 	["Gaomon94"] = {
 		["Id"] = 5031509896,
 		["Name"] = "Gaomon94",
@@ -284,7 +284,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Retired ROBLOX Community forum poster. If you upset him, he'll say, 'Knock it off' before you're done for.",
 	},
-	
+
 	["Ice"] = {
 		["Id"] = 3299977652,
 		["Name"] = "Ice",
@@ -304,7 +304,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He's managing to keep you at bay, and he's not even wearing pants.",
 	},
-	
+
 	["BloodSpilled"] = {
 		["Id"] = 2817092505,
 		["Name"] = "BloodSpilled",
@@ -323,7 +323,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Your blood is worth just as much as his. If I waste his, you are to be wasted too.",
 	},
-	
+
 	["Bob"] = {
 		["Id"] = 5084863201,
 		["Name"] = "Bob",
@@ -362,13 +362,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "You don't deserve to know about him.",
 	},
-	
+
 	["Hoote"] = {
 		["Id"] = 4720310236,
 		["Name"] = "Hoote",
 		["Health"] = 800,
 		["Power"] = 400,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3,["Green"] = 2,},
@@ -381,7 +381,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The paper bag hides his identity, even though you can just read the name of the card.",
 	},
-	
+
 	["MekaX"] = {
 		["Id"] = 4899390983,
 		["Name"] = "MekaX",
@@ -400,13 +400,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Do you dare to face him? I wouldn't either.",
 	},
-	
+
 	["NICCO"] = {
 		["Id"] = 4922413108,
 		["Name"] = "NICCO",
 		["Health"] = 1250,
 		["Power"] = 250,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
 		["Stealth"] = true,
@@ -434,7 +434,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "Some cards just happen to be defective, unfortunately. Sorry!",
 	},
 
-	
+
 	["Otub"] = {
 		["Id"] = 4815665977,
 		["Name"] = "Otub",
@@ -453,7 +453,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Space.",
 	},
-	
+
 	["PixelPistol"] = {
 		["Id"] = 4720350049,
 		["Name"] = "PixelPistol",
@@ -463,7 +463,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 655016789,
 				["CopyBodge"] = "PixelPistol-Val",
 				["Bio"] = "On second thought, I'm alright with my past choices.",
-			}		
+			}
 		},
 		["Health"] = 500,
 		["Power"] = 400,
@@ -481,7 +481,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Futuristic AWOL soldier who wants to escape his past self.",
 	},
-	
+
 	["QuisMo"] = {
 		["Id"] = 271752446,
 		["Name"] = "QuisMo",
@@ -501,7 +501,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Boxing Champ from the 2010 Blox Box, though he was a 'Hack Week Hero' too.",
 	},
-	
+
 	["Robber"] = {
 		["Id"] = 5679420862,
 		["Name"] = "MrWindy",
@@ -522,7 +522,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "Mess with him and you'll wind up in the freezer.",
 	},
 
-	
+
 	["Uias"] = {
 		["Id"] = 4239228794,
 		["Name"] = "Uias",
@@ -541,7 +541,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He gets the job done by building machinary that defends his allies as well as himself.",
 	},
-	
+
 	["Valletta"] = {
 		["Id"] = 3164505076,
 		["Name"] = "Valletta",
@@ -574,13 +574,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "With security and an organized team of criminals, Valletta can easily take any threat down and tie loose ends.",
 	},
-	
+
 	["Wustard"] = {
 		["Id"] = 4942878841,
 		["Name"] = "Wustard",
 		["Health"] = 700,
 		["Power"] = 200,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Gun",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 1,["Green"] = 1,},
@@ -593,7 +593,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Surviving the apocalypse in style isn't easy, unless you have a machete.",
 	},
-	
+
 	["Robic"] = {
 		["Id"] = 274145337,
 		["Name"] = "Robic",
@@ -613,14 +613,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Ranger with an attitude, that is all.",
 	},
-	
+
 	["Tom's Beans"] = {
 		["Id"] = 4980927216,
 		["Name"] = "Tom's Beans",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
-		
+
 		["AttackEffect"] = "Null",
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
@@ -633,7 +633,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Hey Smiff, I found beans!" - "Find any ammo, Tom?" - "No ammo at all, what about you, Smiff?" - "Oh, just one mag."]],
 	},
-	
+
 	["Burglar"] = {
 		["Id"] = 5125231146,
 		["Name"] = "Vupa",
@@ -661,7 +661,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Controversial forumer, got a one way trip to Banland because of it.",
 	},
-	
+
 	["Mike"] = {
 		["Id"] = 275340266,
 		["Name"] = "Mike",
@@ -672,8 +672,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 6,},
 		["Bio"] = "Hired mercenary, endorsed by IcyTea himself.",
-	},	         
-	
+	},
+
 	["Teeny Ninja"] = {
 		["Id"] = 2903829151,
 		["Name"] = "Vaktus",
@@ -693,15 +693,15 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Vaktus, Emperor of Vaktovia, a futuristic Roman Empire created to bring civilization and order to the chaos of ROBLOX.",
 	},
-	
+
 	["RiceStorage"] = {
 		["Id"] = 2857412589,
 		["Name"] = "RiceStorage",
-		["AltCards"] = {							
+		["AltCards"] = {
 			["RiceStorage-Val"] = {
 				["Id"] = 655011758,
 				["Name"] = "ChocolateStorage",
-				["CopyBodge"] = "RichStorage-Val",	
+				["CopyBodge"] = "RichStorage-Val",
 				["Effect"] = {
 					Name = "Assimilate",
 					Description = "Whenever your opponent gains life: Unlock this card. It gains 100 health and power.",
@@ -711,7 +711,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				},
 				["Bio"] = "His love of chocolate sometimes goes out of hand by filling his entire room with just chocolate, he'll store chocolate anywhere so he has plenty of chocolate to eat.",
 			},
-		},					
+		},
 		["Health"] = 450,
 		["Power"] = 300,
 		["Rarity"] = "Common",
@@ -727,7 +727,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "His love of rice sometimes goes out of hand by filling his entire room of just rice. He'll store rice anywhere so he has plenty of rice to eat.",
 	},
-	
+
 	["Salesman"] = {
 		["Id"] = 4536845389,
 		["Name"] = "Salesman",
@@ -746,7 +746,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "It's a win-win offer you cant refuse!",
 	},
-	
+
 	["TZSara"] = {
 		["Id"] = 4899463628,
 		["Name"] = "TZSara",
@@ -765,14 +765,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "She's willing to fight with her frying pan. Don't question it.",
 	},
-	
+
 	["Anderson"] = {
 		["Id"] = 2857407164,
 		["Name"] = "Anderson",
 		["AltCards"] = {
 			["Sir Keeler1"] = {
 				["Name"] = "Sir Keeler1",
-				["CopyBodge"] = "Sir Keeler1",			
+				["CopyBodge"] = "Sir Keeler1",
 				["Id"] = 5287556218,
 				["AltArt"] = true,
 				["Bio"] = "Have at thee! This card is an alt-art of Anderson.",
@@ -786,7 +786,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 1,["Neutral"] = 2,},
 		["Bio"] = "He's a huge fan of Miami Heat, and he'll destroy you in the court if you talk smack about his team!",
 	},
-	
+
 	["Bloated"] = {
 		["Id"] = 4783083439,
 		["Name"] = "Slateskin Potion",
@@ -806,7 +806,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 	},
-	
+
 	["Brunito"] = {
 		["Id"] = 5015539136,
 		["Name"] = "Brunito",
@@ -824,7 +824,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "He will gently poke you.",
-	}, 
+	},
 
 	["Dextromer"] = {
 		["Id"] = 5205636114,
@@ -842,12 +842,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "Cast only if you don't control a fighter. Inert.",
 			["Type"] = "OnSummon",
 			["Power"] = "Green",
-			Target = "Self",	
+			Target = "Self",
 			Increase = 0,
 		},
 		["Bio"] = "Just don't taunt with him while he owns a bicycle.",
 	},
-	
+
 	["Drager"] = {
 		["Id"] = 4914978988,
 		["Name"] = "Drager",
@@ -874,7 +874,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Also known as drager980, Drager is the original scripter of Blox Cards and is secretly a wizard.",
 	},
-	
+
 	["FatherChristmaz"] = {
 		["Id"] = 5409213549,
 		["Name"] = "FatherChristmaz",
@@ -907,7 +907,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Christmaz rulez! I'm not Santa but I am his cool and rad helper FatherChristmaz, and I'll help you in any battle!",
 	},
-	
+
 	["Glaecium"] = {
 		["Id"] = 4815666289,
 		["Name"] = "Glaecium",
@@ -928,7 +928,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He's a mage of science! Don't think he's that Glaciem Mage, he isn't at all!",
 	},
-	
+
 	["Godlysinha"] = {
 		["Id"] = 3299975084,
 		["Name"] = "Godlysinha",
@@ -954,7 +954,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 	},
-	
+
 	["Mackerel"] = {
 		["Id"] = 5574242525,
 		["Name"] = "Mackerel",
@@ -992,7 +992,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He sure loves the summer heat while playing some basketball. Don't ruin his day or you'll be asking for it.",
 	},
-	
+
 	["SirDapper"] = {
 		["Id"] = 4742882345,
 		["Name"] = "SirDapper",
@@ -1011,7 +1011,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Here CEO of Control Decks, I made you a sandwich! Creator of Boxing Mania.",
 	},
-	
+
 	["Tomspick"] = {
 		["Id"] = 3299998386,
 		["Name"] = "Tomspick",
@@ -1037,7 +1037,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He sure loves his cake, it gives him power and strength!",
 	},
-	
+
 	["Zolerus"] = {
 		["Id"] = 5518247514,
 		["Name"] = "Zolerus",
@@ -1063,7 +1063,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Teapots with Adurite textures are the shyest.",
 	},
-	
+
 	["2Hex"] = {
 		["Id"] = 5071967420,
 		["Name"] = "2Hex",
@@ -1092,8 +1092,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "He has no style, he has no grace.",
-	},	
-	
+	},
+
 	["AntiSammeh"] = {
 		["Id"] = 4720089549,
 		["Name"] = "AntiSammeh",
@@ -1119,7 +1119,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "It's like Sammeh, but not!",
 	},
-	
+
 	["Lord of Greed"] = {
 		["Id"] = 3471750687,
 		["Name"] = "Lord of Greed",
@@ -1128,7 +1128,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Pittacium Acolythus",
 				["CopyBodge"] = "Lord of GreedV2",
 				["Id"] = 3471760610,
-				["Bio"] = "Why are you stealing something that *I* rightfully stole first?",			
+				["Bio"] = "Why are you stealing something that *I* rightfully stole first?",
 			},
 			["Lord of Greed-Val"] = {
 				["Id"] = 662115217,
@@ -1156,7 +1156,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Lord of Greed is to Bowls as snakes are to barrels.",
 	},
-	
+
 	["Chaoszeroomega"] = {
 		["Id"] = 3299961162,
 		["Name"] = "Chaoszeroomega",
@@ -1168,7 +1168,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 5,["Green"] = 2,},
 		["Effect"] = {
 			Name = "Purlot Trap.",
-			Description = "During your end step, if an effect gave you a card this turn: Put a copy of this card into your baseplate.",
+			Description = "During your end step, if an effect gave you a card since your last end step: Put a copy of this card into your baseplate.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"GenZoneAdd","Chaoszeroomega"}},
 			Target = "Ally",
@@ -1176,20 +1176,20 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Drager's right hand man, he fixes every one of his tpyoes without faiiure.",
 	},
-	
+
 	["Crystal Cultist"] = {
 		["Id"] = 5466884724,
 		["Name"] = "Crystal Cultist",
 		["AltCards"] = {
 			["Crystal Cultist-Alt"] = {
-				["Id"] = 5649890660,					
+				["Id"] = 5649890660,
 				["AltArt"] = true,
 				["CopyBodge"] = "Crystal Cultist-Alt",
 				["Bio"] = "With great gains comes great hordes of cultists.",
 			},
 			["Aurebus"] = {
 				["Name"] = "Aurebus",
-				["Id"] = 5663971675,					
+				["Id"] = 5663971675,
 				["AltArt"] = true,
 				["Bio"] = "Nothing gives ultimate joy than an artist drawing for themselves. This card is an alt-art of Crystal Cultist.",
 			},
@@ -1210,7 +1210,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "With great power comes great hordes of cultists.",
 	},
-	
+
 	["DerptasticDevil"] = {
 		["Id"] = 2959451059,
 		["Name"] = "DerptasticDevil",
@@ -1222,7 +1222,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 5, ["Red"] = 1},
 		["Bio"] = "I bet he can beat you in a thumb war.",
 	},
-	
+
 	["GalaxyFlame"] = {
 		["Id"] = 3238116265,
 		["Name"] = "GalaxyFlame",
@@ -1249,7 +1249,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I torch noobs like you for breakfast, lunch, and dinner.",
 	},
-		
+
 	["Icepielover23"] = {
 		["Id"] = 4916244835,
 		["Name"] = "Icepielover23",
@@ -1268,7 +1268,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Give them pie, they'll give you energy.",
 	},
-	
+
 	["Icepielover23 Token"] = {
 		["Id"] = 4916244562,
 		["Name"] = "Icepielover23",
@@ -1281,7 +1281,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 1,["Green"] = 3,},
 		["Bio"] = "Give them pie, they'll give you energy.",
 	},
-				
+
 	["Lebron"] = {
 		["Id"] = 4815667686,
 		["Name"] = "mygame43",
@@ -1300,8 +1300,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Freeze in the name of this ice spell I'm about to cast! ... No, I'm not lawful.",
-	},	
-							
+	},
+
 	["MahBucket"] = {
 		["Id"] = 4204438361,
 		["Name"] = "MahBucket",
@@ -1334,7 +1334,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Candy is good for the eyes you know.",
 	},
-	
+
 	["Master Josue"] = {
 		["Id"] = 4789705595,
 		["Name"] = "SnyFort",
@@ -1344,7 +1344,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 5581173839,
 				["AltArt"] = true,
 				["CopyBodge"] = "SnyFort",
-				["Effect"] = {{"RevealHand",1,"Opponent"},{"Summon","Master Token","Ally"}},	
+				["Effect"] = {{"RevealHand",1,"Opponent"},{"Summon","Master Token","Ally"}},
 				["Bio"] = "Why did the chicken cross the road?",
 			},
 		},
@@ -1359,7 +1359,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Level Up!",
 			Description = "Reveal your opponent's hand. Summon a 450/450 fighter.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"RevealHand",1,"Opponent"},{"Summon","TokenFort","Ally"}},	
+			["Power"] = {{"RevealHand",1,"Opponent"},{"Summon","TokenFort","Ally"}},
 			Target = "ColorYellow",
 		},
 		["Bio"] = "What is the only word in the dictionary spelt incorrectly?",
@@ -1376,8 +1376,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2,["Blue"] = 2,},
 		["Bio"] = "It didn't. It became roadkill.",
-	},	
-	
+	},
+
 	["TokenFort"] = {
 		["Id"] = 4789704730,
 		["Name"] = "SnyFort",
@@ -1390,7 +1390,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2,["Blue"] = 2,},
 		["Bio"] = "Incorrectly.",
 	},
-		
+
 	["Moded"] = {
 		["Id"] = 4899402892,
 		["Name"] = "Moded",
@@ -1408,8 +1408,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 		["Bio"] = "White hat hacker for hire!",
-	},	
-		
+	},
+
 	["MyDadIsAGuest"] = {
 		["Id"] = 5059552779,
 		["Name"] = "MyDadIsAGuest",
@@ -1436,9 +1436,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "SizeGigant",
 		},
 		["Bio"] = "Meow...",
-	},		
+	},
 
-			
+
 	["Sorry"] = {
 		["Id"] = 5099110571,
 		["Name"] = "Dodgeball Throw",
@@ -1448,8 +1448,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Heart Broken",
 				["Id"] = 655013605,
 				["Bio"] = "Sorry Eddy, I've met a REAL man.",
-			},		
-		},			
+			},
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Common",
@@ -1465,8 +1465,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "LowestHealth",
 		},
 		["Bio"] = "It has to be done!",
-	},			
-		
+	},
+
 	["Xlzeck"] = {
 		["Id"] = 3303634972,
 		["Name"] = "Xlzeck",
@@ -1484,8 +1484,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "HighestHealth",
 		},
 		["Bio"] = "Pew!",
-	},	
-	
+	},
+
 	["Assist Trophy"] = {
 		["Id"] = 285152010,
 		["Name"] = "Assist Trophy",
@@ -1510,7 +1510,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "SSB Reference inbound.",
-	},	
+	},
 
 	["Bobaman1"] = {
 		["Id"] = 285152046,
@@ -1530,8 +1530,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"Board", "Opponent", 5, 9999},
 		},
 		["Bio"] = "Another one of Drager's lackeys enters the ring. What's next, the entire force?",
-	},	
-	
+	},
+
 	["SonozakiRaito"] = {
 		["Id"] = 4899440490,
 		["Name"] = "SonozakiRaito",
@@ -1549,8 +1549,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "SonozakiRaito, not Sonozaki Raito. Don't confuse yourself.",
-	},	
-	
+	},
+
 	["ZacAttackk"] = {
 		["Id"] = 5178173888,
 		["Name"] = "ZacAttackk",
@@ -1568,14 +1568,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "GO NUTS!",
-	},		
-	
+	},
+
 	["DataRaven"] = {
 		["Id"] = 4993201729,
 		["Name"] = "DataRaven",
 		["Health"] = 700,
 		["Power"] = 500,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 5,["Red"] = 1,},
@@ -1587,8 +1587,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 		["Bio"] = "He made videos, and made enemies, notice the past tense.",
-	},	
-	
+	},
+
 	["DeathETM"] = {
 		["Id"] = 4942878679,
 		["Name"] = "DeathETM",
@@ -1606,8 +1606,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Pah! Look at these newbs with their 1-drop FreezerFlames! Back in the olden days, only I could survive the wrath of Ignis Mage!",
-	},	
-	
+	},
+
 	["HyperVoxel"] = {
 		["Id"] = 5179396968,
 		["Name"] = "HyperVoxel",
@@ -1625,8 +1625,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "All",
 		},
 		["Bio"] = "Pew!",
-	},	
-	
+	},
+
 	["JackinatorMG"] = {
 		["Id"] = 285152525,
 		["Name"] = "JackinatorMG",
@@ -1652,14 +1652,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"Color", "Ally", 1, 2, "Blue"},
 		},
 		["Bio"] = "The original suggestor of combining Doritos and Mtn Dew.",
-	},		
-		
+	},
+
 	["Maelstronomer"] = {
 		["Id"] = 4974018172,
 		["Name"] = "Maelstronomer",
 		["Health"] = 800,
 		["Power"] = 400,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1,["Yellow"] = 5,},
@@ -1672,8 +1672,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"Playertable", "Me", 0, 1, "IconsYellow"},
 		},
 		["Bio"] = "One of the continuators of the Pilgrim Islands. A powerful powerhouse powerinator.",
-	},				
-	
+	},
+
 	["MICHIKUSCHI"] = {
 		["Id"] = 5059555444,
 		["CopyBodge"] = "MICHIKUSCHI",
@@ -1693,8 +1693,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"NotColor", "Ally", 1, 9999, "Blue"},
 		},
 		["Bio"] = "I swear, the next person to call me KingCactaur is going to get 【﻿[ＲＥＤＡＣＴＥＤ]】",
-	},	
-	
+	},
+
 	["MiloCortez"] = {
 		["Id"] = 4942879569,
 		["Name"] = "MiloCortez",
@@ -1721,9 +1721,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 6,
 		},
 		["Bio"] = "The UFO's did nothing wrong.",
-	},	
-	
-	
+	},
+
+
 	["Plankton124"] = {
 		["Id"] = 5103403537,
 		["Name"] = "Plankton1245",
@@ -1743,8 +1743,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 0,
 		},
 		["Bio"] = "Not a fan of Sponge baths.",
-	},	
-	
+	},
+
 	["Player"] = {
 		["Id"] = 4782788393,
 		["Name"] = "Player",
@@ -1762,8 +1762,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "If you've ever pressed Play Solo in Studio you know this name.",
-	},	
-	
+	},
+
 	["RoboticMob"] = {
 		["Id"] = 3238127191,
 		["Name"] = "RoboticMob",
@@ -1781,8 +1781,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "Fills in at local saleless stores on Black Friday.",
-	},	
-		
+	},
+
 	["SimpleBeings"] = {
 		["Id"] = 4982557371,
 		["Name"] = "SimpleBeings",
@@ -1800,8 +1800,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "ColorYellow",
 		},
 		["Bio"] = "Suave fellow who is certainly not so simple.",
-	},		
-		
+	},
+
 	["Spark"] = {
 		["Id"] = 4815667952,
 		["Name"] = "Spark",
@@ -1820,8 +1820,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 		["Bio"] = "Not related to Spyro the Dragon's companion(s).",
-	},					
-			
+	},
+
 	["Sylrath"] = {
 		["Id"] = 4710718603,
 		["Name"] = "Sylrath",
@@ -1844,7 +1844,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				},
 				["Bio"] = "Good luck trying to keep up, even *I* don't know what I'm doing next! This card is an alternate art of Sylrath.",
 			},
-		},						
+		},
 		["Health"] = 150,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
@@ -1860,8 +1860,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "One of the best Blox Card fighters in the game! See him around!",
-	},			
-			
+	},
+
 	["TheChakraTree"] = {
 		["Id"] = 3299960632,
 		["Name"] = "TheChakraTree",
@@ -1888,8 +1888,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "He's not dead. Just un-living.",
-	},			
-			
+	},
+
 	["TheNStar"] = {
 		["Id"] = 4991083472,
 		["Name"] = "TheNStar",
@@ -1908,7 +1908,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Star #789 has gone supernova. Put Star #790 on the Dinner Table, please.",
-	},		
+	},
 
 	["TheNStarrr"] = {
 		["Id"] = 4991083472,
@@ -1920,8 +1920,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 4,["Yellow"] = 1,},
 		["Bio"] = "Star #790 has gone supernova. Put Star #791 on the Dinner Table, please.",
-	},		
-			
+	},
+
 	["Birthday Suprise"] = {
 		["Id"] = 4899275806,
 		["Name"] = "Birthday Surprise",
@@ -1946,8 +1946,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "SURPRISE!",
-	},					
-	
+	},
+
 	["Bloxy Tea Party"] = {
 		["Id"] = 288040529,
 		["Name"] = "Bloxy Tea Party",
@@ -1974,14 +1974,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "All",
 		},
 		["Bio"] = "Lets just sit down and have a blast, friend or foe regardless!",
-	},		
+	},
 
 	["FancyFame"] = {
 		["Id"] = 288040658,
 		["Name"] = "FancyFame",
 		["Health"] = 650,
 		["Power"] = 400,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 3,["Blue"] = 2,},
@@ -1994,7 +1994,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Fame and fortune are only given to the fanciest of fighters.",
 	},
-	
+
 	["Halo4master233"] = {
 		["Id"] = 4710720423,
 		["Name"] = "Halo4master233",
@@ -2014,7 +2014,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Heads up!",
 	},
-	
+
 	["Mitpaul"] = {
 		["Id"] = 3667671754,
 		["Name"] = "Mitpaul",
@@ -2034,7 +2034,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 2,["Neutral"] = 2,},
 		["Bio"] = "A genuinely professional professional.",
 	},
-	
+
 	["PowerCat123"] = {
 		["Id"] = 288040922,
 		["Name"] = "PowerCat123",
@@ -2053,19 +2053,19 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A follower of Shedletsky, the Fried One.",
 	},
-	
+
 	["RandomRobloxTV"] = {
 		["Id"] = 5031873208,
 		["Name"] = "RandomRobloxTV",
 		["Health"] = 650,
 		["Power"] = 500,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 4,["Yellow"] = 1,},
 		["Bio"] = "I will not bow down to any sponsor.",
 	},
-	
+
 	["Spiderboy"] = {
 		["Id"] = 288041046,
 		["Name"] = "Spiderboy",
@@ -2081,10 +2081,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Type"] = "OnSummon",
 			["Power"] = {{"Lock",1,"Single"},{"Summon","SpiderboyToken"}},
 			Target = "Ally",
-		},	
+		},
 		["Bio"] = "Unlike Peter Parker, he was born as both a spider and a boy, none of that radioactive cheating!",
 	},
-	
+
 	["SpiderboyToken"] = {
 		["Id"] = 288041046,
 		["Name"] = "Spiderboy",
@@ -2097,7 +2097,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,},
 		["Bio"] = "Unlike Peter Parker, he was born as both a spider and a boy, none of that radioactive cheating!",
 	},
-	
+
 	["Zombie"] = {
 		["Id"] = 4782792636,
 		["Name"] = "Headless Zombie",
@@ -2122,7 +2122,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					Target = "Ally",
 				},
 			},
-			
+
 		},
 		["Health"] = 50,
 		["Power"] = 50,
@@ -2141,7 +2141,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A basic zombie. Don't let them overwhelm you!",
 	},
-	
+
 	["Zombie2"] = {
 		["Id"] = 4782792636,
 		["Name"] = "Paraplegic Zombie",
@@ -2163,7 +2163,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A basic zombie. Don't let them overwhelm you!",
 	},
-	
+
 	["Zombie3"] = {
 		["Id"] = 4782792636,
 		["Name"] = "Legless Zombie",
@@ -2186,7 +2186,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A basic zombie. Don't let them overwhelm you!",
 	},
-	
+
 	["Zombie4"] = {
 		["Id"] = 4782792636,
 		["Name"] = "Armless Zombie",
@@ -2209,7 +2209,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A basic zombie. Don't let them overwhelm you!",
 	},
-	
+
 	["Zombie5"] = {
 		["Id"] = 4782792636,
 		["Name"] = "Healthy Zombie",
@@ -2231,7 +2231,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A basic zombie. Don't let them overwhelm you!",
 	},
-	
+
 	["Nerf Zombie"] = {
 		["Id"] = 540076733,
 		["CopyBodge"] = "Nerf Zombie",
@@ -2240,7 +2240,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 350,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Dash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Archetype"] = "Zombie",
 		["Cost"] = {["Neutral"] = 4, ["Green"] = 1,},
 		["Effect"] = {
@@ -2253,7 +2253,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "IT'S NERF OR NOTHING!",
 	},
-	
+
 	["Unresting Tombstone"] = {
 		["Id"] = 540076938,
 		["Name"] = "Unresting Tombstone",
@@ -2269,7 +2269,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Dash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Archetype"] = "Zombie",
 		["Cost"] = {["Neutral"] = 2, ["Green"] = 2,},
 		["Effect"] = {
@@ -2281,7 +2281,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Construction Zombie"] = {
 		["Id"] = 1402773377,
 		["Name"] = "Construction Zombie",
@@ -2301,7 +2301,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Will build for brains.",
 	},
-	
+
 	["Zombie Cultist"] = {
 		["Id"] = 4565330178,
 		["Name"] = "Zombie Cultist",
@@ -2333,8 +2333,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Even in death, you must sacrifice your friends at altars.",
 	},
-	
-		
+
+
 	["Zom-nobi"] = {
 		["Id"] = 4782793421,
 		["CopyBodge"] = "Zom-nobi",
@@ -2374,8 +2374,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "No need for bloxikins, just zombies.",
-	},	
-	
+	},
+
 	["Zombie King"] = {
 		["Id"] = 5210938642,
 		["Name"] = "Zombie King",
@@ -2396,7 +2396,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The king of the zombies, just don't have two out. That would be awkward.",
 	},
-	
+
 	["Zombie Action"] = {
 		["Id"] = 5253923630,
 		["Name"] = "Mutative Symbiosis",
@@ -2417,7 +2417,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A terrible night to have a curse...",
 	},
-	
+
 	["Zabiehunter"] = {
 		["Id"] = 4974016370,
 		["Name"] = "Zabiehunter",
@@ -2425,7 +2425,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punchkick",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 7,},
 		["Archetype"] = "Zombie",
 		["Effect"] = {
@@ -2438,7 +2438,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[I want to see if the light can pass through me.]],
 	},
-	
+
 	["madattak"] = {
 		["Id"] = 5220242204,
 		["Name"] = "madattak",
@@ -2458,19 +2458,19 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"Archetype","Ally",3,9999,"Zombie"},
 		},
 		["Bio"] = "MY EXPERIMENT IS COMPLETE! ZOMBIES RUNNING LEFT AND RIGHT ACROSS THE WORLD! HAHAHAHAHAHAA!.",
-	},	
-	
+	},
+
 	["Ejob"] = {
 		["Id"] = 4564785292,
 		["Name"] = "Ejob",
 		["AltCards"] = {
 			["Ejob-Val"] = {
-				["Name"] = "Dogutsune",						
+				["Name"] = "Dogutsune",
 				["Id"] = 5592605879,
 				["CopyBodge"] = "Ejob-Val",
 				["Bio"] = "From Dogutsune you may expect things like 3D models, scripts, games and character design. Arsenal's Red Panda? Murder Revolver? 2 UGC Hats? That's Dogu's doing!",
 			},
-			
+
 			["Dogon"] = {
 				["Name"] = "Dogon",
 				["AltArt"] = true,
@@ -2486,7 +2486,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 				["Bio"] = "To defeat the shovelware, you must produce the shovelware. This card is an alternate art of Ejob.",
 				},
-		},						
+		},
 		["Health"] = 700,
 		["Power"] = 200,
 		["Rarity"] = "Epic",
@@ -2503,7 +2503,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "'Draw me like one of your Ejobs'",
 	},
-	
+
 	["Soul Release"] = {
 		["Id"] = 288077397,
 		["Name"] = "Soul Release",
@@ -2518,7 +2518,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "Set the power of a target fighter to 0. You gain 2000 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SetPower",0},{"Cost",-2000}},
-			Target = "Single",	
+			Target = "Single",
 		},
 		["Bio"] = "BEGONE! FOUL SPIRIT!",
 	},
@@ -2543,7 +2543,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "1 charge. Fading. Immune to effects that lower or swap his health or power. During your end step, reset Shedletsky's stats, shuffle a Scintillant Limb into your deck, draw a card, give all allies X*100 health and power, then gain a charge. X is equal to the current number of charges. [Max 3]",
 			["Type"] = "OnEnd",
 			["Power"] = {{"DeckAdd","Right Arm of the Fried One"},{"Draw",1},{"Summon","Shedletsky 3"},{"SetHealth",0,"Self"},{"Strengthen",100},{"Heal",100}},
-			Target = "Ally",	
+			Target = "Ally",
 		},
 		["Bio"] = "Blame John.",
 	},
@@ -2568,7 +2568,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "2 charges. Fading. Immune to effects that lower or swap his health or power. During your end step, reset Shedletsky's stats, shuffle a Scintillant Limb into your deck, draw a card, give all allies X*100 health and power, then gain a charge. X is equal to the current number of charges. [Max 3]",
 			["Type"] = "OnEnd",
 			["Power"] = {{"DeckAdd","Right Arm of the Fried One"},{"Draw",1},{"Summon","Shedletsky 4"},{"SetHealth",0,"Self"},{"Strengthen",200},{"Heal",200}},
-			Target = "Ally",	
+			Target = "Ally",
 		},
 		["Bio"] = "Blame John.",
 	},
@@ -2593,11 +2593,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "3 charges. Fading. Immune to effects that lower or swap his health or power. During your end step, reset Shedletsky's stats, shuffle a Scintillant Limb into your deck, draw a card, give all allies X*100 health and power, then gain a charge. X is equal to the current number of charges. [Max 3]",
 			["Type"] = "OnEnd",
 			["Power"] = {{"DeckAdd","Right Arm of the Fried One"},{"Draw",1},{"SetHealth",600,"Self"},{"SetPower",0,"Self"},{"Strengthen",300},{"Heal",300}},
-			Target = "Ally",	
+			Target = "Ally",
 		},
 		["Bio"] = "Blame John.",
 	},
-	
+
 	["DrKig"] = {
 		["Id"] = 292778152,
 		["Name"] = "DrKig",
@@ -2612,11 +2612,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "When this card is cast: It deals 350 damage to all enemy fighters. End the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",350},{"EndTurn",1,"Ally"}},
-			Target = "Opponent",	
+			Target = "Opponent",
 		},
 		["Bio"] = "Like the game to see what the like animation looks like!",
 	},
-	
+
 	["Byte"] = {
 		["Id"] = 5154308547,
 		["Name"] = "Kohltastrophe",
@@ -2633,11 +2633,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "Deal 4000 damage to a target fighter. Your opponent summons a 500/500 Kohltastrophe.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",4000,"Single"},{"Summon","Byte2"}},
-			Target = "Opponent",	
+			Target = "Opponent",
 		},
 		["Bio"] = "A Kohl attracts another.",
 	},
-	
+
 	["Byte2"] = {
 		["Id"] = 5154307803,
 		["Name"] = "Kohltastrophe",
@@ -2651,7 +2651,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Fading"] = true,
 		["Bio"] = "A Kohl attracts another.",
 	},
-	
+
 	["JoeDev"] = {
 		["Id"] = 633172522,
 		["Name"] = "JoeDev",
@@ -2669,8 +2669,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "All",
 		},
 		["Bio"] = "An amazing artist. Many thanks to your work, Joe! - Dev Team",
-	},			
-	
+	},
+
 	["Disaster Survival"] = {
 		["Id"] = 4783052563,
 		["Name"] = "Disaster Survival",
@@ -2689,12 +2689,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "Cast only if there are at least 8 fighters in play. At the start of each player's turn: Deal 100 damage to all fighters.",
 			["Type"] = "Field",
 			["Power"] = "Damage",
-			Target = "All",	
+			Target = "All",
 			Increase = 100,
 		},
 		["Bio"] = "When WOs were around this is where you lost them.",
-	},	
-	
+	},
+
 	["Crossroads"] = {
 		["Id"] = 4783051154,
 		["Name"] = "Crossroads",
@@ -2712,12 +2712,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "At the start of each player's turn: Fighters not controlled by that player gain 100 power.",
 			["Type"] = "Field",
 			["Power"] = "Strengthen",
-			Target = "Opponent",	
+			Target = "Opponent",
 			Increase = 100,
 		},
 		["Bio"] = "The ultimate battleground, apart from sitting at a table playing Blox Cards of course.",
 	},
-	
+
 	["Grandmaster's Ninja Dojo"] = {
 		["Id"] = 4783049204,
 		["Name"] = "Grandmaster's Ninja Dojo",
@@ -2728,18 +2728,18 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Terrain",
 		["Terrariant"] = "Ninja Terrain",
 		["Field"] = 295562634,
-		["Color"] = "Neutral",	
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 2},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "At the start of each player's turn: That player's opponent draws a card and gains a Red stud.",
 			["Type"] = "Field",
 			["Power"] = {{"Draw",1},{"Red",1}},
-			Target = "Opponent",	
+			Target = "Opponent",
 		},
 		["Bio"] = "The apex of all Dojos, providing both adept acceleration of mental and physical skill.",
-	},		
-	
+	},
+
 	["Haunted Mansion"] = {
 		["Id"] = 4783050582,
 		["Name"] = "Haunted Mansion",
@@ -2750,7 +2750,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 1402764709,
 				["Bio"] = "*-Jaws Theme Plays-*",
 			},
-		},	
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
@@ -2765,12 +2765,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "At the start of each player's turn: That player's fighters lose 50 power.",
 			["Type"] = "Field",
 			["Power"] = "Weaken",
-			Target = "Ally",	
+			Target = "Ally",
 			Increase = 50,
 		},
 		["Bio"] = "It'll grind your sanity to dust.",
-	},	
-	
+	},
+
 	["Leitris"] = {
 		["Id"] = 4916244033,
 		["Name"] = "Leitris",
@@ -2789,8 +2789,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 400
 		},
 		["Bio"] = "It's cold in here!",
-	},		
-	
+	},
+
 	["SkySpell"] = {
 		["Id"] = 4899245915,
 		["Name"] = "SkySpell",
@@ -2803,14 +2803,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 5,},
 		["Effect"] = {
 			Name = "Investment",
-			Description = "If an effect made you lose life this turn, this card has Haste. Whenever this card attacks and destroys another: Ready it. Your opponent loses 500 life.",
+			Description = "If an effect made you lose life since your last end step, this card has Haste. Whenever this card attacks and destroys another: Ready it. Your opponent loses 500 life.",
 			["Type"] = "OnDestroy",
 			["Power"] = {{"Unlock",1,"Self"},{"Inflict",500}},
 			Target = "Opponent",
 		},
 		["Bio"] = "An absolute zero. I'm nobody's hero.",
-	},	
-	
+	},
+
 	["Youngtan"] = {
 		["Id"] = 2857416739,
 		["Name"] = "Youngtan",
@@ -2829,10 +2829,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Aggressor",
 		},
 		["Bio"] = "One sword for trust. One sword for betrayal.",
-	},		
-	
-	
-		
+	},
+
+
+
 	["Combine Garrison"] = {
 		["Id"] = 3164484158,
 		["Name"] = "Combine Garrison",
@@ -2861,8 +2861,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			--["EffectRequirement"] = {"Playertable", "Me", 0, 0, "IconsYellow"},
 		},
 		["Bio"] = "These troops are always searching for the Stalker.",
-	},	
-	
+	},
+
 	["Combine Garrison 2"] = {
 		["Id"] = 3164484158,
 		["Name"] = "Lesser Combine Garrison",
@@ -2890,8 +2890,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			--["EffectRequirement"] = {"Playertable", "Me", 0, 0, "IconsYellow"},
 		},
 		["Bio"] = "These troops are always searching for the Stalker.",
-	},	
-	
+	},
+
 	["Combine Garrison 3"] = {
 		["Id"] = 3164484158,
 		["Name"] = "Combine",
@@ -2913,7 +2913,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 6,},
 		["Bio"] = "These troops are always searching for the Stalker.",
 	},
-	
+
 	["Cyclist"] = {
 		["Id"] = 3557088396,
 		["Name"] = "JakeTheNewb",
@@ -2934,8 +2934,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 300,
 		},
 		["Bio"] = "Did you see that move I pulled in the game's trailer? Then check THIS one out!",
-	},	
-	
+	},
+
 	["GamesBloxx"] = {
 		["Id"] = 4918928120,
 		["Name"] = "GamesBloxx",
@@ -2954,8 +2954,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Aggressor",
 		},
 		["Bio"] = "Noob toys are his favorites.",
-	},	
-	
+	},
+
 
 	["Unlimxted"] = {
 		["Id"] = 4986816348,
@@ -2985,8 +2985,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "I have many limiteds...",
-	},	
-	
+	},
+
 	["zPikmon"] = {
 		["Id"] = 4992855072,
 		["Name"] = "zPikmon",
@@ -3004,8 +3004,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Aggressor",
 		},
 		["Bio"] = "He loves the ocean so much, he uses swordfish!",
-	},	
-	
+	},
+
 	["Zedreadr"] = {
 		["Id"] = 4934955352,
 		["Name"] = "Zedreadr",
@@ -3023,8 +3023,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "His spectacles never confuse him.",
-	},	
-	
+	},
+
 	["Ultimate Bowl of Greed"] = {
 		["Id"] = 5530566278,
 		["Name"] = "Pot of Gold",
@@ -3044,7 +3044,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 	},
-	
+
 	["NobleDragon"] = {
 		["Id"] = 5002321299,
 		["Name"] = "NobleDragon",
@@ -3071,7 +3071,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I think it's time to take this game to the next level. Don't you?",
 	},
-	
+
 	["Titano's Cavern"] = {
 		["Id"] = 5699660896,
 		["Name"] = "Spooky Caverns",
@@ -3097,12 +3097,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "At the end of each player's turn: Set the Colourless studs of each player that controls a fighter to 4.",
 			["Type"] = "Field",
 			["Power"] = "SetNeutral",
-			Target = "All",	
+			Target = "All",
 			Increase = 4,
 		},
 		["Bio"] = "No Wishnites allowed.",
 	},
-	
+
 	["Berezaa"] = {
 		["Id"] = 3667676486,
 		["Name"] = "berezaa",
@@ -3136,7 +3136,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He mines havens.",
 	},
-	
+
 	["Burning Phoenix"] = {
 		["Id"] = 3307683858,
 		["Name"] = "Burning Phoenix",
@@ -3167,7 +3167,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Rebirth of pure flames!",
 	},
-	
+
 	["BuzzHamtaro"] = {
 		["Id"] = 3557008854,
 		["Name"] = "BuzzHamtaro",
@@ -3186,7 +3186,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Loves to watch Hamtaro while eating burgers from Burger Blox.",
 	},
-	
+
 	["FishBubble1002"] = {
 		["Id"] = 2900772898,
 		["Name"] = "FishBubble1002",
@@ -3205,7 +3205,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "IS IT A FISH? IS IT A BUBBLE? I'M SO CONFUSED!!",
 	},
-	
+
 	["Haydebug2003"] = {
 		["Id"] = 4951745156,
 		["Name"] = "Haydebug2003",
@@ -3225,7 +3225,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Just floating around...",
 	},
-	
+
 	["KingShadowCrow"] = {
 		["Id"] = 4899366777,
 		["Name"] = "KingShadowCrow",
@@ -3239,7 +3239,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 900,
 		["Power"] = 400,
 		["Rarity"] = "Rare",
-		
+
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 6,},
@@ -3252,8 +3252,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I just like to be fluffy.",
 	},
-	
-	
+
+
 	["Liz"] = {
 		["Id"] = 298793152,
 		["Name"] = "Liz",
@@ -3265,7 +3265,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,["Blue"] = 1,},
 		["Bio"] = "An enforcer sent to neutralize escapees in a prison station, but she might just neutralize you for her daily quota.",
 	},
-	
+
 	["LuckyTux"] = {
 		["Id"] = 3471753568,
 		["Name"] = "LuckyTux",
@@ -3284,7 +3284,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Meet the new rollercoaster ride from Mr Bones!",
 	},
-	
+
 	["Mimic"] = {
 		["Id"] = 3674694411,
 		["Name"] = "Ban Hammer",
@@ -3304,13 +3304,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Our content monitors have determined that your behavior at Roblox has been in violation of our Terms of Service.",
 	},
-	
+
 	["Oddman's Gambit"] = {
 		["Id"] = 1939791718,
 		["Name"] = "Oddman's Gambit",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Requirement"] = {"EqualBoard","Opponent",0,0,"Equal"},
@@ -3323,13 +3323,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Because only odd men play Overseers.",
 	},
-	
+
 	["PassTheToiletPaper"] = {
 		["Id"] = 3238123941,
 		["Name"] = "PassTheToiletPaper",
 		["Health"] = 800,
 		["Power"] = 200,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 2,["Red"] = 2,},
@@ -3342,7 +3342,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Seriously, bring him toilet paper!",
 	},
-	
+
 	["Totem of Pixel"] = {
 		["Id"] = 3611616602,
 		["Name"] = "Totem of Pixel",
@@ -3362,7 +3362,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Built for PixelFlame, it brings wisdom and antics.",
 	},
-	
+
 	["Witch"] = {
 		["Id"] = 3300001213,
 		["Name"] = "Witch",
@@ -3381,8 +3381,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 200,
 		},
 		["Bio"] = "She'll stop you in your tracks.",
-	},	
-	
+	},
+
 	["Toy Truck"] = {
 		["Id"] = 2793176987,
 		["Name"] = "Toy Truck",
@@ -3403,7 +3403,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Vroom Vroom!",
 	},
-	
+
 	["Toy Plane"] = {
 		["Id"] = 2793176123,
 		["Name"] = "Toy Plane",
@@ -3423,7 +3423,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Nyeauwwww!",
 	},
-	
+
 	["Toy Teeth"] = {
 		["Id"] = 2793176403,
 		["Name"] = "Toy Teeth",
@@ -3443,7 +3443,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "WARNING: DO NOT ACTUALLY WEAR THESE AS TEETH",
 	},
-	
+
 	["Toy Car"] = {
 		["Id"] = 2793175893,
 		["Name"] = "Toy Car",
@@ -3463,7 +3463,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "VROOOM!",
 	},
-	
+
 	["Toy Train"] = {
 		["Id"] = 2793176674,
 		["Name"] = "Toy Train",
@@ -3491,7 +3491,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Chugga chugga. The train is late.",
 	},
-	
+
 	["Toy Boss Dino"] = {
 		["Id"] = 2793175132,
 		["Name"] = "Toy Boss Dino",
@@ -3513,7 +3513,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The mafia is the hiding place of the dinosaurs.",
 	},
-	
+
 	["Toy Remote"] = {
 		["Id"] = 4784601945,
 		["Name"] = "Toy Remote",
@@ -3533,7 +3533,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Can't wait? GO AHEAD! Unless you're taking turns with your annoying siblings.",
 	},
-	
+
 	["Call of the Teddy Bear"] = {
 		["Id"] = 4866870229,
 		["Name"] = "Call of the Teddy Bear",
@@ -3553,7 +3553,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "There's no fluffing around with big bear.",
 	},
-	
+
 	["MegaSmiley"] = {
 		["Id"] = 4565329184,
 		["Name"] = "MegaSmiley",
@@ -3572,8 +3572,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Give a man a mask and he'll tell you the truth." - Oscar Wilde]],
 	},
-	
-	
+
+
 	["Builderman 2"] = {
 		["Id"] = 5673405446,
 		["Name"] = "Builderman",
@@ -3594,7 +3594,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He is everyone's friend, unless you unfriend him, and that isn't nice.",
 	},
-	
+
 	["Sorcus"] = {
 		["Id"] = 5309041933,
 		["Name"] = "Sorcus",
@@ -3622,10 +3622,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = "Destroy",
 			["EffectRequirement"] = {"Playertable", "Me", 0, 0, "Singleton"},
 			Target = "All",
-		},		
+		},
 		["Bio"] = "His stats seem like a joke, but read his effect, silly goose.",
 	},
-	
+
 	["WoodReviewer"] = {
 		["Id"] = 3238131029,
 		["Name"] = "WoodReviewer",
@@ -3633,25 +3633,25 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "WoodReviewer",
 			Description = "During your end step: This card gains 200 health. You lose 400 life.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Cost",400},{"Heal",200}},			
+			["Power"] = {{"Cost",400},{"Heal",200}},
 			Target = "Self",
 		},
 		["Bio"] = "You can complain about wood grain all you want, but the metal used to make that axe is truly poor. 4/10 - Sword Critic",
 	},
-	
+
 	["ASeal"] = {
 		["Id"] = 3164470651,
 		["Name"] = "ASeal",
 		["Health"] = 500,
 		["Power"] = 350,
 		["Rarity"] = "Rare",
-		
+
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 4,},
@@ -3664,7 +3664,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "You have to enjoy the frozen fish.",
 	},
-	
+
 	["Arceusdon"] = {
 		["Id"] = 4537206633,
 		["Name"] = "Arceusdon",
@@ -3697,7 +3697,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Die. o3o",
 	},
-	
+
 	["Skeleton Armada"] = {
 		["Id"] = 4720337952,
 		["Name"] = "NowDoTheHarlemShake",
@@ -3718,17 +3718,17 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Welcome back to 2013.",
 	},
-	
+
 	["Hallows Treats"] = {
 		["Id"] = 4899343999,
 		["Name"] = "Hallow's Treats",
-		["AltCards"] = {							
+		["AltCards"] = {
 			["Hallows Treats-Val"] = {
 				["Id"] = 4899278858,
 				["Name"] = "Box of Chocolates",
 				["Bio"] = "Happy Bloxentines day 2017.",
 			},
-		},					
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
@@ -3744,7 +3744,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Happy Blox-o-ween 2015! Guarantee you these don't have razorblades!",
 	},
-	
+
 	["Jack-O-Bat"] = {
 		["Id"] = 3471765605,
 		["Name"] = "Soybeen",
@@ -3756,7 +3756,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Fighter Keeler1",
 				["Bio"] = "Watch out for my special Nunchuck Hell Tiger Barrage! YAAAAAAA- *bonks himself in the head*. This card is an alt-art of Soybeen.",
 			},
-		},			
+		},
 		["Health"] = 300,
 		["Power"] = 200,
 		["Rarity"] = "Common",
@@ -3773,7 +3773,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "When life gives you lemons, eat them in three bites.",
 	},
-	
+
 	["Murtic"] = {
 		["Id"] = 4993197740,
 		["Name"] = "Murtic",
@@ -3792,7 +3792,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He just loves lemons, and unicorns...",
 	},
-	
+
 	["Nenjas"] = {
 		["Id"] = 5041869419,
 		["Name"] = "Nenjas",
@@ -3811,7 +3811,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Don't hit his cake hat, or you'll be asking for it.",
 	},
-	
+
 	["HomingBeacon"] = {
 		["Id"] = 5012346256,
 		["Name"] = "HomingBeacon",
@@ -3830,7 +3830,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A generic developer with a generic username and a generic game. Even its name has a generic title. I'm going to have to rate this one a GENERIC/10.",
 	},
-	
+
 	["Hopelesssly"] = {
 		["Id"] = 4899351738,
 		["Name"] = "Hop Lee",
@@ -3859,7 +3859,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "You're not hopping to the task fast enough.",
 	},
-	
+
 	["JackofMostTrades"] = {
 		["Id"] = 4899361241,
 		["Name"] = "JackofMostTrades",
@@ -3879,7 +3879,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Take a look at this graph, er I mean, giraffe, he has the most trades, it's a 100% fact.",
 	},
-		
+
 	["Theawesomist19"] = {
 		["Id"] = 4916245110,
 		["Name"] = "theawesomist19",
@@ -3899,7 +3899,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "This is theawesomist19. He has over 300 four-letter usernames. And no life.",
 	},
-	
+
 	["Weaven"] = {
 		["Id"] = 2791587730,
 		["Name"] = "Weaven",
@@ -3916,7 +3916,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 2,["Neutral"] = 1,},
-		
+
 		["Effect"] = {
 			Name = "Blown-in",
 			Description = "When this card is cast: Give yourself two rare cards.",
@@ -3926,7 +3926,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He uses his wind gusts and fire for good.",
 	},
-	
+
 	["Redrune Raider"] = {
 		["Id"] = 2810635229,
 		["Name"] = "Redrune Raider",
@@ -3945,7 +3945,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Power comes within the fittest.",
 	},
-	
+
 	["Sophisticated Bat"] = {
 		["Id"] = 5110842794,
 		["Name"] = "Uglypoe",
@@ -3965,7 +3965,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Becoming the monster is more fun than taming it.",
 	},
-	
+
 	["Dodgeball Player Red"] = {
 		["Id"] = 5071973680,
 		["Name"] = "Dodgeball Player Red",
@@ -3984,7 +3984,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I LIKE A DA DOGEBAWLZ!!1one!1",
 	},
-	
+
 	["Mummy Peasant"] = {
 		["Id"] = 5170483000,
 		["Name"] = "Crykee",
@@ -4004,7 +4004,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Poor you.",
 	},
-	
+
 	["Tweety Token"] = {
 		["Id"] = 4815664712,
 		["Name"] = "Ultraw",
@@ -4025,7 +4025,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "Life Gain Tycoon... I like the sound of that!",
 	},
 
-	
+
 	["Divine Favor"] = {
 		["Id"] = 4899304312,
 		["Name"] = "Divine Favor",
@@ -4054,7 +4054,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "NotArchetype",
 		},
 	},
-	
+
 	["Wrath of the Fried One"] = {
 		["Id"] = 1939172486,
 		["Name"] = "Wrath of the Fried One",
@@ -4080,8 +4080,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 300
 		},
 	},
-	
-	
+
+
 	["Mass Epidemic"] = {
 		["Id"] = 5046793430,
 		["Name"] = "Mass Epidemic",
@@ -4109,7 +4109,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "NotArchetype",
 		},
 	},
-	
+
 	["Inferno!"] = {
 		["Id"] = 326637273,
 		["Name"] = "Inferno!",
@@ -4123,13 +4123,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Requirement"] = {"Playertable","Me",1,9999,"Actions"},
 		["Effect"] = {
 			Name = "Board Clear!",
-			Description = "Cast only if you've cast an action this turn. Deal 500 damage to all fighters.",
+			Description = "Cast only if you've cast an action since your last end step. Deal 500 damage to all fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",500}},
-			Target = "All",		
+			Target = "All",
 		},
 	},
-	
+
 	["Plushie Lion"] = {
 		["Id"] = 332863655,
 		["Name"] = "Plushie Lion",
@@ -4148,13 +4148,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "PLUSHIES!",
 	},
-	
+
 	["Plushie Panda"] = {
 		["Id"] = 332863696,
 		["Name"] = "Plushie Panda",
 		["Health"] = 100,
 		["Power"] = 100,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"]= 3,},
@@ -4167,7 +4167,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "PLUSHIES!",
 	},
-	
+
 	["Plushie Polar Bear"] = {
 		["Id"] = 332863719,
 		["Name"] = "Plushie Polar Bear",
@@ -4186,7 +4186,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "PLUSHIES!",
 	},
-	
+
 	["Plushie Tiger"] = {
 		["Id"] = 332863761,
 		["Name"] = "Plushie Tiger",
@@ -4205,7 +4205,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Paper tiger. Paper tiger...",
 	},
-	
+
 	["Plushie Hula Dog"] = {
 		["Id"] = 332863613,
 		["Name"] = "Plushie Hula Dog",
@@ -4224,7 +4224,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "PARTY PLUSHIES!",
 	},
-	
+
 	["Plushie Leprechaun"] = {
 		["Id"] = 332863627,
 		["Name"] = "Plushie Leprechaun",
@@ -4243,7 +4243,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "POT O PLUSH!",
 	},
-	
+
 	["Plushie Dino"] = {
 		["Id"] = 332863593,
 		["Name"] = "Plushie Dino",
@@ -4263,7 +4263,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "PLUSHAURUS REX!",
 	},
-	
+
 	["Plushie Unicorn"] = {
 		["Id"] = 4720351008,
 		["Name"] = "Plushie Unicorn",
@@ -4289,7 +4289,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Frosty The Snowman",
 		AltCards = {
 			["Blizaki-ArtV2"] = {
-				["Name"] = "Blizaki"
+				["Name"] = "Blizaki",
 				["Id"] = 5607474134,
 				["AltArt"] = true,
 				["Bio"] = "This card is an alt-art of Frosty The Snowman",
@@ -4310,8 +4310,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "HAPPY BIRTHDAY!!!",
 	},
-	
-	
+
+
 	["Glaciem Knight"] = {
 		["Id"] = 878891184,
 		["Name"] = "Glaciem Knight",
@@ -4319,7 +4319,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 450,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4330,7 +4330,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Only the Glaciem knights remained from their legion. They're prepared for their own defense against Zanzel.",
 	},
-	
+
 	["actualtsareena"] = {
 		["Id"] = 4866865731,
 		["Name"] = "actualtsareena",
@@ -4338,7 +4338,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Yellow"] = 1, ["Blue"] = 3, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4349,7 +4349,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "For me, love is not a goal, or a set of principles, or a lifestyle, or even an instinct... it is what defines me as Valentine! It’s just my characterization! That is why I am able to pursue it with such purity.",
 	},
-	
+
 	["Stormchaser's Gambit"] = {
 		["Id"] = 893412816,
 		["Name"] = "Stormchaser's Gambit",
@@ -4357,18 +4357,18 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 1,},
 		["Requirement"] = {"Playertable", "Me", 5, 9999, "Actions"},
 		["Archetype"] = "Lunar",
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Cast only if you've cast 5 actions this turn. Unlock all allied fighters. They gain 200 health. Draw two cards.",
+			Description = "Cast only if you've cast 5 actions since your last end step. Unlock all allied fighters. They gain 200 health. Draw two cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",999},{"Heal",200},{"Draw",2}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
 	--woo look at all these expired tokens below
 	["Gambit Reminder"] = {
@@ -4379,7 +4379,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 1,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4391,11 +4391,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Damage",9999,"Archetype"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
-	
-	
+
+
+
 	["Gambit 2"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4404,7 +4404,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4416,9 +4416,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit 3"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit 3"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4427,7 +4427,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4439,9 +4439,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit 4"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit 4"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4450,7 +4450,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4462,9 +4462,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit 5"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit 5"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4473,7 +4473,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4485,9 +4485,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit 6"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit 6"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4496,7 +4496,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4508,9 +4508,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit 7"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit 7"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4519,7 +4519,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4531,9 +4531,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit 8"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit 8"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4542,7 +4542,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4554,9 +4554,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Gambit Max"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
-	
+
 	["Gambit Max"] = {
 		["Id"] = 540076783,
 		["Name"] = "Stormchaser's Gambit",
@@ -4565,7 +4565,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 99,},
 		["AttackBlock"] = true,
 		["Token"] = true,
@@ -4576,10 +4576,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Inflict",1250},{"Damage",9999,"Self"}},
 			Target = "Opponent",
 		},
-		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",		
+		["Bio"] = "Grapeshots ruined, Tendrils of Agony depleted. All that is left is the rush.",
 	},
 	--end of expired tokens
-	
+
 	["Bribery"] = {
 		["Id"] = 540075900,
 		["Name"] = "Bribery",
@@ -4587,18 +4587,18 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Your opponent draws a card. Return Bribery to your hand and end the turn.",
+			Description = "Your opponent draws a card. Put Bribery into your hand. You can't cast actions or summon fighters for the rest of this turn.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",1,"Opponent"},{"Add","Bribery"},{"Summon","Demonic Godbeast"},{"EndTurn"}},
-			Target = "Ally",
+			["Power"] = {{"Draw",1,"Opponent"},{"Add","Bribery"},{"BypassSummon","Ally"},{"BypassAction","Ally"}},
+			Target = "Ally"
 		},
 		["Bio"] = "Eisenhower was struck a deal with Hallow, hearing his wish to resurrect his love. Hallow agreed to meet at Thursday night by his tombstone.",
 	},
-	
+
 	["Candy Robber"] = {
 		["Id"] = 5182326961,
 		["CopyBodge"] = "Candy Robber",
@@ -4607,7 +4607,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1 , ["Yellow"] = 2.},
 		["Effect"] = {
 			Name = "Booster",
@@ -4618,7 +4618,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "What's in the box?",
 	},
-	
+
 	["Cotton Candy Lion"] = {
 		["Id"] = 5121493618,
 		["Name"] = "SnickTrix",
@@ -4634,7 +4634,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 800,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3,},
 		["DamageMitigation"] = 200,
 		["Effect"] = {
@@ -4646,7 +4646,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Farming sure takes your mind off the high chance you've got of falling to your death if you slip two meters away from where you stand.",
 	},
-	
+
 	["Creepy Toy"] = {
 		["Id"] = 4720319501,
 		["Name"] = "JacksSmirkingRevenge",
@@ -4664,7 +4664,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Token"] = true,
 		["Cost"] = {["Yellow"] = 2,},
 		["Effect"] = {
@@ -4677,7 +4677,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Former ROBLOX admin and Twitch Stream host. Some words are better left unspoken.",
 	},
-	
+
 	["DIY: Dark Dominus"] = {
 		["Id"] = 5125391446,
 		["Name"] = "Emerald Witch",
@@ -4686,7 +4686,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4698,7 +4698,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The first of the witch sisters, offensive by nature. Will attack almost anyone she lays her eyes upon.",
 	},
-	
+
 	["Dredger980"] = {
 		["Id"] = 5141842477,
 		["Name"] = "Yourius",
@@ -4721,7 +4721,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 800,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4732,7 +4732,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The true Lord of Nomrial. You might wanna grind your stats before taking him on.",
 	},
-	
+
 	["Reminder: Final Revels"] = { --no longer used, due to the change on how Final Revels works
 		["Id"] = 540076076,
 		["Name"] = "Reminder: Final Revels",
@@ -4740,7 +4740,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 9001,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["AttackBlock"] = true,
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
@@ -4752,7 +4752,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A reward is worthless if you aren't around to enjoy it.",
 	},
-	
+
 	["Little Girl"] = {
 		["Id"] = 5401789691,
 		["CopyBodge"] = "Little Girl",
@@ -4761,11 +4761,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 350,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 8,},
 		["Bio"] = "Cold to the touch, this giant will hold any frontline without question.",
 	},
-	
+
 	["CjMcGamingYT"] = {
 		["Name"] = "CjMcGamingYT",
 		["Id"] = 5161062511,
@@ -4784,7 +4784,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[I'm hunting wabbits. Weeboids, too.]],
 	},
-	
+
 	["RoboLoleris"] = {
 		["Id"] = 4720397094,
 		["Name"] = "RoboLoleris",
@@ -4792,7 +4792,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 350,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Slander",
@@ -4803,7 +4803,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "World war four would be fought with sticks and stones. World war three would be fought by mechs.",
 	},
-	
+
 	["Stranglevines"] = {
 		["Id"] = 1402770410,
 		["Name"] = "Stranglevines",
@@ -4811,7 +4811,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 350,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "Slander",
@@ -4822,7 +4822,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I've read enough tinglers to know where this is going.",
 	},
-	
+
 	["Spicy Lollipop"] = {
 		["Id"] = 1402766377,
 		["Name"] = "Spicy Lollipop",
@@ -4830,7 +4830,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 1,},
 		["Archetype"] = "Lunar",
 		["Effect"] = {
@@ -4842,7 +4842,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Why did you think giving our entire army a vindaloo was a good idea, sir? Now they have to cool off!",
 	},
-	
+
 	["Headless Horseman"] = {
 		["Id"] = 574314948,
 		["Name"] = "Headless Horseman",
@@ -4866,7 +4866,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4877,7 +4877,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Your laws, much like your bones, were made to be broken.",
 	},
-	
+
 	["Ignis Knight"] = {
 		["Id"] = 622231158,
 		["Name"] = "Ignis Knight",
@@ -4885,7 +4885,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 450,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4896,7 +4896,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "My dignity is on the line.",
 	},
-	
+
 	["Mitcrawl"] = {
 		["Id"] = 5113687315,
 		["Name"] = "Profane Cheese Shredder",
@@ -4905,7 +4905,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 100,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4917,7 +4917,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "This tool was never meant to be used this way.",
 	},
-	
+
 	["It that was Silenced"] = {
 		["Id"] = 2787100115,
 		["Name"] = "It that was Silenced",
@@ -4928,7 +4928,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Lycanthrope",
 		["Fading"] = true,
 		["AttackBlock"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 5,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4939,7 +4939,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Eisenhower began the resurrection, whilst Hallow kept the shadows at bay.",
 	},
-	
+
 	["It that is Whispering"] = {
 		["Id"] = 638703994,
 		["Name"] = "It that is Whispering",
@@ -4950,7 +4950,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Lycanthrope",
 		["Fading"] = true,
 		["CounterBlock"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4961,7 +4961,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The blood shard was placed on the grave, and the werewolves howled to summon their father.",
 	},
-	
+
 	["It that will Howl"] = {
 		["Id"] = 638703765,
 		["Name"] = "It that will Howl",
@@ -4972,7 +4972,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Lycanthrope",
 		["Fading"] = true,
 		["FaceBlock"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -4983,8 +4983,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A lei of skulls was placed around the grave, cradling his return. The shadows were relentless in their assault.",
 	},
-	
-	
+
+
 	["Bedsheet Ghost"] = {
 		["Id"] = 4899428269,
 		["Name"] = "olafisawesome100",
@@ -4993,7 +4993,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["CopyBodge"] = "Bedsheet Ghost",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 1,},
 		["Effect"] = {
 			Name = "BOO!",
@@ -5004,7 +5004,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hiding behind a wall with a paintball gun.",
 	},
-	
+
 	["Hacker"] = {
 		["Id"] = 5128727401,
 		["Name"] = "Caleb244",
@@ -5013,7 +5013,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -5024,8 +5024,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The ROBLOX Admin Panel? Give me a second - *mashes keyboard* - I'm in. ",
 	},
-	
-	
+
+
 	["Groucho Mask"] = {
 		["Id"] = 4899391298,
 		["Name"] = "Melvin Hat",
@@ -5033,7 +5033,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Impersonate",
@@ -5044,7 +5044,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Still hunting for the right head.",
 	},
-	
+
 	["Script Robber"] = {
 		["Id"] = 5131517551,
 		["Name"] = "Diamond Witch",
@@ -5070,7 +5070,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Fading"] = true,
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["Transformant"] = "Robber Token",
 		["Effect"] = {
@@ -5082,7 +5082,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The second of the witch sisters, defensive by nature. Spends most of her days inside her witch hut.",
 	},
-	
+
 	["Robber Token"] = {
 		["Id"] = 5131517551,
 		["Name"] = "Diamond Witch",
@@ -5105,7 +5105,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5116,7 +5116,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The second of the witch sisters, defensive by nature. Spends most of her days inside her witch hut.",
 	},
-	
+
 	["Unplumbed Lead"] = {
 		["Id"] = 5120108827,
 		["Name"] = "DeadzoneZackZak",
@@ -5126,7 +5126,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Fading"] = true,
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 7,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5137,7 +5137,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Forever unturned.",
 	},
-	
+
 	["Lead"] = {
 		["Id"] = 5120108827,
 		["Name"] = "DeadzoneZackZak",
@@ -5146,7 +5146,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 7,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5157,7 +5157,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Forever unturned.",
 	},
-	
+
 	["Frankenstein"] = {
 		["Id"] = 4916103822,
 		["Name"] = "Morgenne",
@@ -5166,7 +5166,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 700,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["AttackBlock"] = true,
 		["Cost"] = {["Blue"] = 2, ["Neutral"] = 4,},
 		["Effect"] = {
@@ -5178,8 +5178,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I'm.. I'm not afraid. Not anymore.",
 	},
-	
-	
+
+
 	["DoeDoe"] = {
 		["Id"] = 5129336437,
 		["Name"] = "Magic277",
@@ -5188,7 +5188,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 350,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5199,7 +5199,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "His checkpoint obbies are superb!",
 	},
-	
+
 	["DoeDoe Token"] = {
 		["Id"] = 5129336437,
 		["Name"] = "Magic277",
@@ -5209,7 +5209,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Token"] = true,
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3, ["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5220,7 +5220,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Albeit with only 25 lives...",
 	},
-	
+
 	["Tooth Decay"] = {
 		["Id"] = 540076554,
 		["Name"] = "Tooth Decay",
@@ -5228,7 +5228,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 2, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5239,7 +5239,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hallow has inventive ways of getting people to speak.",
 	},
-	
+
 	["Swarm of Bats"] = {
 		["Id"] = 4899429655,
 		["Name"] = "Panwellz",
@@ -5248,7 +5248,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 350,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 2, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5259,7 +5259,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I've heard of insurance fraud, but this is ridiculous!",
 	},
-	
+
 	["Apheliotropic Syzygy"] = {
 		["Id"] = 540076960,
 		["Name"] = "Apheliotropic Syzygy",
@@ -5267,7 +5267,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Archetype"] = "Mythic",
 		["Cost"] = {["Green"] = 1,},
 		["Effect"] = {
@@ -5279,7 +5279,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A flower that runs from the sun.",
 	},
-	
+
 	["Explosive Toad"] = {
 		["Id"] = 4815666880,
 		["Name"] = "TypicalType",
@@ -5287,7 +5287,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5298,7 +5298,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "This ain't no game, boy. It's a minigame!",
 	},
-	
+
 	["Fearmiredon"] = {
 		["Id"] = 574177392,
 		["Name"] = "Fearmiredon",
@@ -5306,7 +5306,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 900,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 9,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5317,7 +5317,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Zanzel is the greatest leader.",
 	},
-	
+
 	["Hallow's Boon"] = {
 		["Id"] = 5115564898,
 		["Name"] = "Hallow's Boon",
@@ -5325,8 +5325,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
-		["Fading"] = true, 
+		["Color"] = "Yellow",
+		["Fading"] = true,
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -5337,7 +5337,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hallow regrets having anything to do with him.",
 	},
-	
+
 	["Boon Token"] = {
 		["Id"] = 5115564898,
 		["Name"] = "Hallow's Boon",
@@ -5345,7 +5345,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
@@ -5356,7 +5356,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hallow regrets having anything to do with him.",
 	},
-	
+
 	["LeTruth"] = {
 		["Id"] = 585558515,
 		["Name"] = "LeTruth",
@@ -5376,7 +5376,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "To know something requires three things. It must be true, must know why it's true, and you must believe it's true.",
 	},
-	
+
 	["Xenotrent"] = {
 		["Id"] = 5008808821,
 		["Name"] = "Xenotrent",
@@ -5384,7 +5384,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Haydoscale",
@@ -5395,16 +5395,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He rocks your world. Literally.",
 	},
-	
+
 	["Deep Sea Diver"] = {
 		["Id"] = 3299947217,
 		["Name"] = "Deep Sea Diver",
 		["Health"] = 600,
 		["Power"] = 400,
 		["Rarity"] = "Rare",
-		
+
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,["Neutral"] = 1},
 		["Effect"] = {
 			Name = "Massive Stamaina",
@@ -5415,7 +5415,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Yes, diving 100 meters without a scuba gear is totally fine.",
 	},
-	
+
 	["Dicey Dave"] = {
 		["Id"] = 543830125,
 		["Name"] = "Dicey Dave",
@@ -5423,7 +5423,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 4,["Neutral"] = 1},
 		["Effect"] = {
 			Name = "Assimilate",
@@ -5434,7 +5434,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Careful, greenshirt. A single cut of the cards can be fatal."]],
 	},
-	
+
 	["Dicey Drake"] = {
 		["Id"] = 543830416,
 		["Name"] = "Dicey Drake",
@@ -5457,7 +5457,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 4,["Neutral"] = 2},
 		["Transformant"] = "Dicey Drake Token",
 		["Effect"] = {
@@ -5469,7 +5469,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A hammer wielding fighter that's itching for a gamble of the century.",
 	},
-	
+
 	["Dicey Drake Token"] = {
 		["Id"] = 543830416,
 		["Name"] = "Dicey Drake",
@@ -5486,13 +5486,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["CopyBodge"] = "HowlingHealer",
 				["Bio"] = "Famous last words: Look it's a unicorn! This card is an alternate art of Dicey Drake.",
 			},
-			
+
 		},
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 4,["Neutral"] = 2},
 		["Effect"] = {
 			Name = "Gamble till you drop",
@@ -5503,7 +5503,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A hammer wielding fighter that's itching for a gamble of the century.",
 	},
-	
+
 	["Has"] = {
 		["Id"] = 5407826446,
 		["Name"] = "Has",
@@ -5518,13 +5518,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					["Power"] = {{"Summon","Has-AltToken"}},
 					Target = "Ally",
 				},
+				["Bio"] = [["The other Has? Sure, that Has has more intimidating looks, but he isn't as cool as this Has."]],
 			},
 		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Effect"] = {
 			Name = "Hot Ancient News",
@@ -5533,9 +5534,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Has Token"}},
 			Target = "Ally",
 		},
-		["Bio"] = "The other Has? Sure, that Has has more intimidating looks, but he isnt as cool as this Has.",
+		["Bio"] = "You can hasard a guess as to how this is going to end.",
 	},
-	
+
 	["Has Token"] = {
 		["Id"] = 4720306765,
 		["Name"] = "Has",
@@ -5543,14 +5544,15 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Has-AltToken"] = {
 				["Id"] = 4782926389,
 				["CopyBodge"] = "Has-AltToken",
+				["Bio"] = [["I mean seriously, are you telling me that the other Has has ever beaten a literal demigod? Didn't think so."]],
 			},
 		},
 		["CopyBodge"] = "Has Token",
 		["Health"] = 750,
 		["Power"] = 650,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["AttackEffect"] = "Slash",
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6,},
 		["Effect"] = {
 			Name = "Hot Ancient News",
@@ -5559,9 +5561,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Strengthen",100}},
 			Target = "Ally",
 		},
-		["Bio"] = "I mean seriously, are you telling me that the other Has has ever beaten a literal demigod? Didn't think so.",
+		["Bio"] = "Horribly.",
 	},
-	
+
 	["RaveTea"] = {
 		["Id"] = 626083911,
 		["Name"] = "RaveTea",
@@ -5595,7 +5597,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 450,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Join The Rave",
@@ -5606,7 +5608,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The mind does not control the tea. The tea controls the mind.",
 	},
-	
+
 	["RaveTea Token"] = {
 		["Id"] = 626083911,
 		["Name"] = "RaveTea",
@@ -5619,20 +5621,20 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "The Eternal Howling",
 				["CopyBodge"] = "TheEternalHowling Token",
 				["Bio"] = "Join the howl. This card is an alternate art of RaveTea.",
-				
+
 			},
-			
+
 		},
 		["Health"] = 450,
 		["Power"] = 450,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 3,},
 		["Bio"] = "The mind does not control the body. The tea controls the body.",
 	},
-	
-	
+
+
 	["madkey900"] = {
 		["Id"] = 4806849686,
 		["Name"] = "Cearnou",
@@ -5648,12 +5650,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "During your end step, if you have no Blue studs in your Baseplate: This card generates thrice.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Generate",3}},
-			["EffectRequirement"] = {"Color","AllyGenZone",0,1,"Blue"},		
+			["EffectRequirement"] = {"Color","AllyGenZone",0,1,"Blue"},
 			Target = "Self",
 		},
 		["Bio"] = "He likes memes. That's basically all you need to know.",
-	},				
-	
+	},
+
 	["Ghost Dragon"] = {
 		["Id"] = 4993204152,
 		["Name"] = "Chillian Snowdin",
@@ -5672,8 +5674,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Another Devil Beater intern joins the fight! It's a Cold World.",
-	},		
-	
+	},
+
 	["Treas0ner"] = {
 		["Id"] = 3164492523,
 		["Name"] = "Treasoner",
@@ -5707,7 +5709,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "*Annoying, cliched kidnapper noises*",
 	},
-	
+
 	["Razikai's Exploration"] = {
 		["Id"] = 892550270,
 		["Name"] = "Razikai's Exploration",
@@ -5725,8 +5727,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "NOT THE OTUBS! ANYTHING BUT THAT!",
-	},	
-	
+	},
+
 	["The Space Monster"] = {
 		["Id"] = 4125734553,
 		["Name"] = "The Space Monster",
@@ -5748,8 +5750,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "It's in the light. The moon came in. He found me through the mirror. Moonlight white. White like eyes. Not light but blood. I drown in him. If you are afraid, we will look together.",
-	},	
-	
+	},
+
 	["Exotic Murtic"] = {
 		["Id"] = 4984087082,
 		["Name"] = "Exotic Murtic",
@@ -5767,8 +5769,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Kweh.",
-	},	
-	
+	},
+
 	["MurticUnicorn 4"] = {
 		["Id"] = 4984087082,
 		["Name"] = "Exotic Murtic",
@@ -5787,8 +5789,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Kweh, Kweh!",
-	},	
-	
+	},
+
 	["MurticUnicorn 1"] = {
 		["Id"] = 4984238303,
 		["Name"] = "Exotic Murtic",
@@ -5807,8 +5809,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Chocobooru!",
-	},	
-	
+	},
+
 	["74Riley"] = {
 		["Id"] = 3238108095,
 		["Name"] = "74Riley",
@@ -5826,8 +5828,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "The first 73 Rilies caused him trouble.",
-	},	
-	
+	},
+
 	["Thesupernessiiiii"] = {
 		["Id"] = 3471749764,
 		["Name"] = "Thesupernessiiiii",
@@ -5846,7 +5848,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A wandering bard, playing his music so loud that nothing that hurt him.",
 	},
-	
+
 	["SubZeroExtaByte0"] = {
 		["Id"] = 616082672,
 		["Name"] = "SubZeroExtaByte0",
@@ -5865,7 +5867,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Fatality.",
 	},
-	
+
 	["Javier Killer"] = {
 		["Id"] = 4918499526,
 		["Name"] = "xXJavier_killer1xX",
@@ -5877,8 +5879,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2,},
 		["Bio"] = "I will destroy the middle class.",
-	}, 
-	
+	},
+
 	["Kariu"] = {
 		["Id"] = 627331996,
 		["Name"] = "Kariu",
@@ -5887,7 +5889,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 5573601981,
 				["AltArt"] = true,
 				["CopyBodge"] = "Kariu-ArtV",
-				
+
 			},
 		},
 		["Health"] = 500,
@@ -5905,8 +5907,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "Consider me blessed.",
-	}, 
-	
+	},
+
 	["Beyondthegong"] = {
 		["Id"] = 2959452895,
 		["Name"] = "Beyondthegong",
@@ -5924,8 +5926,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Helmsmasher in one timeline. Bellstriker in another.",
-	}, 
-	
+	},
+
 	["Peika Sammai"] = {
 		["Id"] = 662457643,
 		["Name"] = "Peika Sammai",
@@ -5943,8 +5945,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "THIS IS A LATE BIRTHDAY GIFT, ISN'T IT",
-	}, 
-	
+	},
+
 	["FixingFailure"] = {
 		["Id"] = 4899316300,
 		["Name"] = "FixingFailure",
@@ -5963,8 +5965,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "If he fixes failure, why hasn't he fixed himself?",
-	}, 	
-	
+	},
+
 	["Eye of Heaven"] = {
 		["Id"] = 5485630974,
 		["Name"] = "Eye of Heaven",
@@ -5978,7 +5980,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Gun",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 25,},
 		["Effect"] = {
 			Name = "Rebuilding The Place",
@@ -5988,8 +5990,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 		["Bio"] = "",
-	},	
-	
+	},
+
 	["Steam Razikai"] = {
 		["Id"] = 5718530470,
 		["Name"] = "Steam Razikai",
@@ -5997,7 +5999,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 100,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2, ["Yellow"] = 1,},
 		["CloneImmune"] = true,
 		["Effect"] = {
@@ -6009,7 +6011,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Not to be confused with Valve's premier gaming service.",
 	},
-	
+
 	["PlaceRebuilder"] = {
 		["Id"] = 3164497244,
 		["Name"] = "PlaceRebuilder",
@@ -6017,7 +6019,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 100,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Gun",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Charge"] = true,
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 6,},
 		["Effect"] = {
@@ -6028,8 +6030,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Aggressor",
 		},
 		["Bio"] = "He can easily tear a place down, then rebuild it.",
-	},	
-	
+	},
+
 	["DominiusConfabricor"] = {
 		["Id"] = 3471755749,
 		["Name"] = "DominiusConfabricor",
@@ -6062,7 +6064,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Love your neighbor as you love yourself. There is no greater commandment.",
 	},
-	
+
 	["SoulSearch"] = {
 		["Id"] = 3557113879,
 		["Name"] = "SoulSearch",
@@ -6073,7 +6075,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["CopyBodge"] = "SoulSearch-Val",
 				["Bio"] = "Always searching for the perfect soulmate.",
 			},
-			
+
 			["SoulSearchEngine"] = {
 				["Id"] = 1762558487,
 				["Name"] = [[Soul"Search"]],
@@ -6096,7 +6098,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Always searching for the perfect soul.",
 	},
-	
+
 	["hyp3rdeath"] = {
 		["Id"] = 4924599096,
 		["Name"] = "hyp3rdeath",
@@ -6116,7 +6118,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I'm sorry, what were we doing? I was procrastinating so much that I kicked your butt on accident.",
 	},
-	
+
 	["Deadly Dicey Duo"] = { --RellSin & RellVex
 		["Id"] = 4800942883, --677356865 Old Art
 		["Name"] = "RellSin & RellVex",
@@ -6146,7 +6148,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Co-creators of NRPG. Singing anime intros power them up!",
 	},
-	
+
 	["Dicey Token"] = {
 		["Id"] = 4800942883, ----677356865 Old Art
 		["Name"] = "RellSin & RellVex",
@@ -6174,14 +6176,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Co-creators of NRPG Beyond. Singing anime intros power them up!",
 	},
-	
+
 	["Friaza"] = {
 		["Id"] = 668506369,
 		["Name"] = "Friaza",
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = "Punch",		
+		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 6,},
 		["Effect"] = {
@@ -6194,7 +6196,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "THIS ISN'T EVEN MY FINAL FORM!",
 	},
-	
+
 	["AII_Dragon"] = {
 		["Id"] = 3471735681,
 		["Name"] = "DregSystem",
@@ -6211,10 +6213,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Type"] = "OnAttackEnd",
 			["Power"] = {{"CheckPower",{0,301}}},
 			Target = "Aggressor",
-		},	
+		},
 		["Bio"] = "Multiple Keter and Euclid containment breaches? I don't see an-SNAP",
 	},
-	
+
 	["colesans16"] = {
 		["Id"] = 3471727828,
 		["Name"] = "colesans16",
@@ -6233,9 +6235,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "I'll be keeping those under locks.",
-	},	
-	
-	
+	},
+
+
 	["Cindering Token"] = {
 		["Id"] = 3164483304,
 		["Name"] = "Cindering",
@@ -6257,8 +6259,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He certainly isn't.",
 	},
-	
-	
+
+
 	["wikiwakiwoirier"] = {
 		["Id"] = 5602933177,
 		["Name"] = "wikiwakiwoirier",
@@ -6277,8 +6279,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["EffectRequirement"] = {"Playertable", "Me", 0, 2, "Fighters"},
 		},
 		["Bio"] = "Truth lies beyond the plane of existance, and stretches out further beyond to the endless grasp of the universe.",
-	},	
-	
+	},
+
 	["TheJazzCat22"] = {
 		["Id"] = 5022292577,
 		["Name"] = "TheJazzCat22",
@@ -6298,7 +6300,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Ya' like jazz?",
 	},
-	
+
 	["ChaoticCommando"] = {
 		["Id"] = 3299961860,
 		["Name"] = "ChaoticCommando",
@@ -6317,8 +6319,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "If chaos could ever be controlled, world peace would be restored. *It* begs to differ...",
-	},		
-	
+	},
+
 	["Broken Dreams"] = {
 		["Id"] = 689622877,
 		["Name"] = "Broken Dreams",
@@ -6337,7 +6339,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "",
 	},
-	
+
 	["Damaging26"] = {
 		["Id"] = 701255714,
 		["Name"] = "Damaging26",
@@ -6359,7 +6361,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 1,["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Redead",
@@ -6370,7 +6372,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I always claim the first strike. Literally.",
 	},
-	
+
 	["iiSmolToaster"] = {
 		["Id"] = 4899357703,
 		["Name"] = "iiSmolToaster",
@@ -6378,7 +6380,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 2,["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Toasty",
@@ -6388,8 +6390,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "SmolToasters are sold without smol bread or batteries included.",
-	},	
-	
+	},
+
 	["Aesura"] = {
 		["Id"] = 4899261984,
 		["Name"] = "Aesura",
@@ -6397,7 +6399,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Uzi",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 8,},
 		["Effect"] = {
 			Name = "Toasty",
@@ -6408,7 +6410,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[Do you deserve a snappy "Boom, Headshot?"]],
 	},
-	
+
 	["Graalgamer"] = {
 		["Id"] = 4710674935,
 		["Name"] = "Graalgamer",
@@ -6416,7 +6418,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Toasty",
@@ -6427,7 +6429,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[Now, to make a martini, you first need two parts lemon, three parts ma - *PEW!* - three parts mango, and four parts oyster.]],
 	},
-	
+
 	["Shaylan007"] = {
 		["Id"] = 712738238,
 		["Name"] = "Shaylan007",
@@ -6442,7 +6444,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -6453,7 +6455,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[His hoverboard is fuelled with the souls of the dead.]],
 	},
-	
+
 	["Indoorsnowball"] = {
 		["Id"] = 5518576416,
 		["Name"] = "Indoorsnowball",
@@ -6461,7 +6463,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 8,},
 		["Effect"] = {
 			Name = "INDOORSNOWTALL",
@@ -6472,7 +6474,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[Even robots have souls.]],
 	},
-	
+
 	["Snowball1"] = {
 		["Id"] = 5640892114,
 		["Name"] = "Indoorsnowball",
@@ -6481,7 +6483,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Indoorsnowball",
@@ -6492,7 +6494,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[And if you can mass produce robots, you can mass produce souls.]],
 	},
-	
+
 	["Snowball2"] = {
 		["Id"] = 5640892936,
 		["Name"] = "Indoorsnowball",
@@ -6513,7 +6515,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[But even souls must end someday.]],
 	},
-	
+
 	["BandiheartYT"] = {
 		["Id"] = 4782775590,
 		["Name"] = "BandisWarehouse",
@@ -6538,7 +6540,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 8,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -6549,7 +6551,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[What's inside, does anyone know?]],
 	},
-	
+
 	["Bandi1"] = {
 		["Id"] = 4782775590,
 		["Name"] = "BandisWarehouse",
@@ -6568,13 +6570,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					Target = "Ally",
 				},
 			},
-			
+
 		},
 		["Health"] = 900,
 		["Power"] = 300,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 8,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -6585,7 +6587,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[What's inside, does anyone know?]],
 	},
-	
+
 	["Bandi2"] = {
 		["Id"] = 4782775590,
 		["Name"] = "BandisWarehouse",
@@ -6609,7 +6611,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 8,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -6620,7 +6622,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[What's inside, does anyone know?]],
 	},
-	
+
 	["Bandi3"] = {
 		["Id"] = 4782775590,
 		["Name"] = "BandisWarehouse",
@@ -6632,17 +6634,17 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 4994544589,
 				["Bio"] = [[Four. Don't know how to count no more.]],
 			},
-			
+
 		},
 		["Health"] = 300,
 		["Power"] = 900,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 8,},
 		["Bio"] = [[What's inside, does anyone know?]],
 	},
-	
+
 	["Bandi4"] = { -- Retired token; do whatever you want
 		["Id"] = 714801837,
 		["Name"] = "BandiheartYT",
@@ -6650,12 +6652,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 900,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 8,},
 		["Bio"] = [[Or a good card.]],
 	},
-	
-	
+
+
 	["Satyr Firemaster"] = {
 		["Id"] = 4784602588,
 		["Name"] = "Satyr Firemaster",
@@ -6678,7 +6680,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Blue"},
 		["Cost"] = {["Red"] = 6, ["Yellow"] = 6, ["Green"] = 6,},
 		["Effect"] = {
@@ -6690,7 +6692,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["I was feeling lonely one day, so I made a friend out of charcoal! Then I thought, hey, why not make a party out of charcoal!? :D :D"]],
 	},
-	
+
 	["Great Paraselene Sage"] = {
 		["Id"] = 4998333643,
 		["Name"] = "Great Beastbreaker",
@@ -6709,7 +6711,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["DamageImmune"] = true,
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Green"] = 6, ["Blue"] = 6, ["Red"] = 6,},
 		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Yellow"},
 		["Effect"] = {
@@ -6721,7 +6723,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [["Freedom is coming, to all beasts who bend their will."]],
 	},
-	
+
 	["Delirious Ooze"] = {
 		["Id"] = 5014643538,
 		["Name"] = "Delirious Ooze",
@@ -6731,7 +6733,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["TransformImmune"] = true,
 		["ReturnImmune"] = true,
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Blue"] = 6, ["Red"] = 6, ["Yellow"] = 6,},
 		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Green"},
 		["Effect"] = {
@@ -6743,7 +6745,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Let it show you everything nature cannot do.",
 	},
-	
+
 	["Confusion Elemental?"] = {
 		["Id"] = 4951755638,
 		["Name"] = "Confusion Elemental?",
@@ -6753,7 +6755,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Erasure",
 		["AssignRandom"] = 25,
 		["AssignRandomMininum"] = -5, -- In the code, it's math.random(25)*50 + (-5)*50
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Blue"] = 6, ["Green"] = 6, ["Yellow"] = 6,},
 		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Red"},
 		["Effect"] = {
@@ -6765,7 +6767,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[]],
 	},
-	
+
 	["iamlogic"] = {
 		["Id"] = 4536837512,
 		["Name"] = "iamlogic",
@@ -6781,7 +6783,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -6792,7 +6794,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[Why do you pity the fallen? I rejoice, for they died for me.]],
 	},
-	
+
 	["Micpro1234"] = {
 		["Id"] = 785620627,
 		["Name"] = "Micpro1234",
@@ -6816,7 +6818,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -6827,7 +6829,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[I'm a pro, pro, prototype.]],
 	},
-	
+
 	["MrEyeso"] = {
 		["Id"] = 5188678821,
 		["Name"] = "MrEyeso",
@@ -6835,7 +6837,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 3, ["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -6846,7 +6848,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[All trials have a reward.]],
 	},
-	
+
 	["BenCanova1"] = {
 		["Id"] = 3557004037,
 		["Name"] = "BenCanova1",
@@ -6854,7 +6856,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 4,},
 		["Charge"] = true,
 		["Effect"] = {
@@ -6866,7 +6868,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[VROOM.]],
 	},
-	
+
 	["RealPiggy1261"] = {
 		["Id"] = 4899433817,
 		["Name"] = "RealPiggy1261",
@@ -6874,7 +6876,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -6885,7 +6887,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[He wipes clean all stench of Suidae.]],
 	},
-	
+
 	["Round7"] = { --crystal noob
 		["Id"] = 4899422795,
 		["Name"] = "Noob",
@@ -6908,7 +6910,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "And here we see the common noob, socializing on his natural habitat.",
 	},
-	
+
 	["Dairingpoophead, Tix God"] = {
 		["Id"] = 2810641139,
 		["Name"] = "Dairingpoophead, Tix God",
@@ -6916,7 +6918,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 7,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -6927,7 +6929,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Go forth my tix minions, make ROBLOX bow down to us until tix rise once again!",
 	},
-	
+
 	["Regular_Talkshow"] = {
 		["Id"] = 920650049,
 		["Name"] = "Regular_Talkshow",
@@ -6935,7 +6937,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["CounterBlock"] = true,
 		["CounterAttackBlock"] = true,
@@ -6951,7 +6953,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hello Blox Cards nation! I'm your host, Regular_Talkshow, let's get ROOOIIIGHT into the news!",
 	},
-	
+
 	["EvilJacobthehero2013"] = {
 		["Id"] = 4975917283,
 		["Name"] = "EvilJacobthehero2013",
@@ -6959,7 +6961,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 6,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -6970,8 +6972,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Anyone else wonder why people put random years like 2013 in their username? That's like putting your birthday in your username.",
 	},
-	
-	
+
+
 	["Killar1234567"] = {
 		["Id"] = 3557090623,
 		["Name"] = "Killar1234567",
@@ -6979,7 +6981,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 2,},
 		["Transformant"] = "KillarToken",
 		["Effect"] = {
@@ -6991,7 +6993,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "So...anyone up for a game of football?",
 	},
-	
+
 	["KillarToken"] = {
 		["Id"] = 3557090623,
 		["Name"] = "Killar1234567",
@@ -7002,7 +7004,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Slash",
 		["Mitigation"] = 100000,
 		["DamageMitigation"] = 100000,
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 2,},
 		["Transformant"] = "Killar1234567",
 		["Effect"] = {
@@ -7014,7 +7016,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "So...anyone up for a game of football?",
 	},
-	
+
 	["superkicker2005"] = {
 		["Id"] = 3557117216,
 		["Name"] = "superkicker2005",
@@ -7030,7 +7032,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2,["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7041,7 +7043,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hey what's up guys, it's your boi - SUPAHKICKER2005! Back with another LEGIT Minecraft review.",
 	},
-	
+
 	["kickertoken"] = {
 		["Id"] = 3526510566,
 		["Name"] = "VoxTrigati",
@@ -7051,7 +7053,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 1, ["Blue"] = 4,},	
+		["Cost"] = {["Neutral"] = 1, ["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Blow Dart",
 			Description = "After this card attacks, set the locks on a target fighter to 2.",
@@ -7060,8 +7062,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "Shining bright, smacking you with all her might!",
-	},	
-	
+	},
+
 	["xiVirtual"] = {
 		["Id"] = 4986817682,
 		["Name"] = "xiVirtual",
@@ -7069,7 +7071,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7079,8 +7081,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Aggressor",
 		},
 		["Bio"] = "I am a champion... maybe just a virtual champion, but still a champion!",
-	},	
-	
+	},
+
 	["Enderlox1"] = {
 		["Id"] = 4897456410,
 		["Name"] = "Enderlox1",
@@ -7088,7 +7090,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 1,},
 		["Fading"] = true,
 		["Effect"] = {
@@ -7099,8 +7101,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 		},
 		["Bio"] = "Demonic Godbeasts sit completely still. It's impossible to get through them until they move away.",
-	},	
-	
+	},
+
 	["Histor, Blood Warrior"] = {
 		["Id"] = 3164473958,
 		["Name"] = "Histor, Blood Warrior",
@@ -7111,7 +7113,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["AltArt"] = true,
 				["Bio"] = "You had to pay money to get this communist card. That's kind of hypocritical.",
 			},
-			
+
 			["Histor, Memecraft Slayer"] = {
 				["Name"] = "Histor, Meincraft Slayer",
 				["Id"] = 1761365881,
@@ -7129,9 +7131,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 650,
 		["Power"] = 650,
 		["Rarity"] = "Rare",
-		
+
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 		
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 7,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7142,7 +7144,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Curses are more like gifts, enjoy them while they last...",
 	},
-	
+
 	["caone"] = {
 		["Id"] = 1402769671,
 		["Name"] = "caone",
@@ -7151,7 +7153,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
-		["Archetype"] = "Morphic", 		
+		["Archetype"] = "Morphic",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7162,7 +7164,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "My goo is the goodest goo around. No goo is as good as my goo.",
 	},
-	
+
 	["ProjectSlayer"] = {
 		["Id"] = 3164497722,
 		["Name"] = "ProjectSlayer",
@@ -7170,7 +7172,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Purple"},
-		["Color"] = "Red", 		
+		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7181,7 +7183,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I'm a eurosceptic.",
 	},
-	
+
 	["Bigtank_s"] = {
 		["Id"] = 3164473249,
 		["Name"] = "Bigtank_s",
@@ -7196,7 +7198,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
-		["Color"] = "Yellow", 		
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7207,7 +7209,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "You know you're in trouble when Bigtank_s comes out of his custom Panzerkampfwagen VI Tiger II just to fight you.",
 	},
-	
+
 	["ImaUMBREON"] = {
 		["Id"] = 2791594990,
 		["Name"] = "ImaUMBREON",
@@ -7224,7 +7226,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 450,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Blue", 		
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Dark Strike",
@@ -7235,7 +7237,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Once a dual blade master, now a mage apprentice. Funny how that happens.",
 	},
-	
+
 	["Fate_Sealed"] = {
 		["Id"] = 4784622535,
 		["Name"] = "Fate_Sealed",
@@ -7243,7 +7245,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 4, ["Green"] = 1,},
 		["Effect"] = {
 			Name = "Life fam",
@@ -7254,7 +7256,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[Pfft. How would you make someone's fate sealed? With glue?]],
 	},
-	
+
 	["Lord of Auctions"] = {
 		["Id"] = 997944529,
 		["Name"] = "Lord of Auctions",
@@ -7262,7 +7264,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 7,},
 		["Effect"] = {
 			Name = "Auction God",
@@ -7273,15 +7275,15 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Kudos if you bought it from the auction.",
 	},
-	
+
 	["Superland6"] = {
 		["Id"] = 1003361089,
 		["Name"] = "Superland6",
 		["Health"] = 800,
-		["Power"] = 800,	
+		["Power"] = 800,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Gust",
-		["Color"] = "Green", 
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 6,},
 		["Effect"] = {
 			Name = "BLEU",
@@ -7293,7 +7295,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Red cards are just edgy yellow cards.",
 	},
-	
+
 	["how_inconvenient"] = {
 		["Id"] = 3164490739,
 		["Name"] = "how_inconvenient",
@@ -7312,7 +7314,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "This effect is really inconvenient.",
 	},
-	
+
 	["Jimmyin1"] = {
 		["Id"] = 4934300554,
 		["Name"] = "Jimmyin1",
@@ -7331,7 +7333,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Dang, Myrmiredon has really let himself go this time!",
 	},
-	
+
 	["Turtleuser3"] = { --Changed from FreckledTurtle to GordonRox24 per commissioner req, check Headless Horseman alt
 		["Id"] = 4519801552,
 		["Name"] = "GordonRox24",
@@ -7351,7 +7353,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "GordonRox24 is a former forum moderator and administrator. He used to moderate All Things ROBLOX and Help(Technical Support and Account Issues). While he is no longer an administrator, he is still on the platform from time to time and remains a huge fan to this day.",
 	},
-	
+
 	["Neutrinous"] = {
 		["Id"] = 3557108873,
 		["Name"] = "Neutrinous",
@@ -7370,7 +7372,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He cooks up a mean stew. It's neutritious.",
 	},
-	
+
 	["Elioofsheep"] = {
 		["Id"] = 3164487612,
 		["Name"] = "Elioofsheep",
@@ -7390,7 +7392,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "GET OUT OF MY ROOM I'M PLAYING BLOX CARDS",
 	},
-	
+
 	["ChaseThePsycho"] = {
 		["Id"] = 5188680960,
 		["Name"] = "ChaseThePsycho",
@@ -7409,8 +7411,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Life's just one big chase, but sometimes, it helps to stop and smell the flowers.",
-	},	
-	
+	},
+
 	["Damaging26, Flaming Fighter"] = {
 		["Id"] = 4536835345,
 		["Name"] = "Fut_re",
@@ -7419,7 +7421,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 550,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Red", 		
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 4, ["Red"] = 5,},
 		["Effect"] = {
 			Name = "Burning Fists of Rage",
@@ -7430,7 +7432,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Ｎｏｗ ｔｈａｔ＇ｓ ａ ｌｏｔｔａ ｄａｍａｇｅ",
 	},
-	
+
 	["FourXIV"] = {
 		["Id"] = 3299972520,
 		["Name"] = "Quf3y",
@@ -7439,7 +7441,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 		
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Setstat Shenanigans",
@@ -7450,7 +7452,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Ｈｅ ｃｅｒｔａｉｎｌｙ ｉｓ.",
 	},
-	
+
 	["midastheking123"] = {
 		["Id"] = 5004322263,
 		["Name"] = "Rawblocky",
@@ -7473,10 +7475,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Health"] = 500,
 		["Power"] = 500,
-		["Rarity"] = "Legendary",		
+		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["Charge"] = true,
-		["Color"] = "Yellow", 		
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 5, ["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Burning Fists of Rage",
@@ -7487,7 +7489,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The ultimate drawing game about plagiarism!",
 	},
-	
+
 	["Midas's Stand"] = {
 		["Id"] = 5004322856,
 		["Name"] = "Rawblocky's Drawing",
@@ -7502,7 +7504,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Health"] = 500,
 		["Power"] = 500,
-		["Rarity"] = "Token",		
+		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Charge"] = true,
@@ -7516,16 +7518,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "This salty cracker packs a punch!",
-	},	
-	
+	},
+
 	["vanjohnson"] = {
 		["Id"] = 3164505638,
 		["Name"] = "vanjohnson",
 		["Health"] = 1200,
 		["Power"] = 300,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Rare",
 		["AttackEffect"] = "Pulse",
-		["Color"] = "Green", 		
+		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 2, ["Green"] = 4,},
 		["Effect"] = {
 			Name = "Vroom",
@@ -7536,7 +7538,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Those of you who volunteered to be injected with praying mantis DNA, I've got some good news and bad news. Bad news is that we're postponing those tests indefinitely. Good news is that we've got a new test for you: Fighting an army of mantis men.",
 	},
-	
+
 	["Silver_Semtexagon"] = {
 		["Id"] = 4537213244,
 		["Name"] = "Silver_Semtexagon",
@@ -7566,7 +7568,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "For the player that just can't stand green.",
 	},
-	
+
 	["ExtolYT"] = {
 		["Id"] = 4720268480,
 		["Name"] = "ExtolYT",
@@ -7585,7 +7587,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[Aha! After studying various "planets" collapsing under their own "power", I have managed to create this "contraption" which will only affect a select few "beings". The "effects" of this "contraption" not only "sends" those whom are within its "requirements" to a different "spacial position", but it also "awakens" their "true potential".]],
 	},
-	
+
 	["ExtolYToken"] = {
 		["Id"] = 3164488016,
 		["Name"] = "ExtolYT",
@@ -7598,7 +7600,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 7,},
 		["Bio"] = [[And now... it is time you "witness" firsthand this "power" that I have "granted" to those "individuals". Try not to "waste" away your "strength" by "charging" straight into their "full power".]],
 	},
-	
+
 	["Yggdrasil Faerie"] = {
 		["Id"] = 4899472249,
 		["Name"] = "Yggdrasil Faerie",
@@ -7625,7 +7627,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Regardless if you call it Fairy, faery, or faerie;  it’s still going to kick your butt.",
 	},
-	
+
 	["MesouricPhantom976"] = {
 		["Id"] = 5054915234,
 		["Name"] = "MesouricPhantom976",
@@ -7644,7 +7646,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Sit down. Let's talk about that iFunny watermark.",
 	},
-	
+
 	["MesouricToken"] = {
 		["Id"] = 2789830362,
 		["Name"] = "MesouricPhantom976",
@@ -7664,7 +7666,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Considering you're gonna use this in a green/blue deck, the number probably represents the ammount of studs you already have.",
 	},
-	
+
 	["B550"] = {
 		["Id"] = 3164471144,
 		["Name"] = "B550",
@@ -7672,7 +7674,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
-		["Color"] = "Red", 		
+		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 2, ["Red"] = 3,},
 		["Effect"] = {
 			Name = "550 Miles",
@@ -7684,7 +7686,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "B550 is a blank slate - A gunman with no identity: stripped of humanity and built for only one purpose. His story - not important; his name - even less so.",
 	},
-	
+
 	["ThatGrimGuy"] = {
 		["Id"] = 5216116236,
 		["Name"] = "ThatGrimGuy",
@@ -7704,8 +7706,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 4,["Red"] = 1,},
 		["Bio"] = "Is your big head too SMALL? Just add water to achieve BIGGERHEAD.",
-	},	
-	
+	},
+
 	["ThatGrimGuyTOKEN"] = {
 		["Id"] = 2969037732,
 		["Name"] = "Blockerwiz",
@@ -7740,7 +7742,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Soulplz",
 	},
-	
+
 	["Permafrost Storm"] = {
 		["Id"] = 4743992205,
 		["Name"] = "Remorseless Winter",
@@ -7761,7 +7763,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The process of freezing to death is usually very painful in the beginning as the nerves can still feel the cold and report the pain to the body.",
 	},
-	
+
 	["Permafrost 1"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7782,7 +7784,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Some people who experienced a near death experience in a cold environment reported feeling very sleepy.",
 	},
-	
+
 	["Permafrost 2"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7802,8 +7804,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Target"] = "Ally",
 		},
 		["Bio"] = "As the skin dies and the nerves lose their ability to communicate pain, a person will stop feeling pain as a result of the very cold temperature.",
-	}, 
-	
+	},
+
 	["Permafrost 3"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7824,7 +7826,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The muscles become stiffer as they cool down, thus making it hard for a person to maintain balance and co-ordination.",
 	},
-	
+
 	["Permafrost 4"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7845,7 +7847,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Many people act irrational while freezing to death. Some people get raw while others try to get inside small holes to seek shelter. The motives behind those actions are still not completely understood.",
 	},
-	
+
 	["Permafrost 5"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7866,7 +7868,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The body slows down its metabolic rate greatly and this is why some people experience feelings of calmness during such a situation.",
 	},
-	
+
 	["Permafrost 6"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7887,7 +7889,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The slow metabolic rate in addition to the low amount of oxygen going to the brain can sometimes trigger visual and auditory hallucinations.",
 	},
-	
+
 	["Permafrost 7"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7908,7 +7910,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Muscles that previously tried to limit blood flow to extremities fail, the blood rushes back to the extremities, thus a person feels hot.",
 	},
-	
+
 	["Permafrost 8"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7929,7 +7931,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Once the body cools down below a certain temperature, unconsciousness usually happens and the person appears to be dead even though he is still alive.",
 	},
-	
+
 	["Permafrost 9"] = {
 		["Id"] = 4899430631,
 		["Name"] = "Permafrost Storm",
@@ -7950,7 +7952,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "As a result of the failure of internal organs, a person can experience a cardiac arrest that leads to his death.",
 	},
-	
+
 	["Permafrost 10"] = {
 		["Id"] = 4899675480,
 		["Name"] = "Permafrost Storm",
@@ -7971,7 +7973,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Speaking of death, who let this happen? Who actually loses to this?",
 	},
-	
+
 	["DrWeaseI"] = {
 		["Id"] = 4537787989,
 		["Name"] = "DrWeaseI",
@@ -7990,7 +7992,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Looks like we couldn't weasel our way out of putting this in the game.",
 	},
-	
+
 	["The Gentlemaniac"] = {
 		["Id"] = 4204449272,
 		["Name"] = "The Gentlemaniac",
@@ -8009,7 +8011,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He'll be gentle... For a while.",
 	},
-	
+
 	["Wooden Chair"] = {
 		["Id"] = 5221721483,
 		["Name"] = "Wooden Chair",
@@ -8017,9 +8019,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Color"] = "Green",	
+		["Color"] = "Green",
 		["Cost"] = {["Green"] = 1,},
-		["Archetype"] = "Chair", 
+		["Archetype"] = "Chair",
 		["Charge"] = true,
 		["Effect"] = {
 			Name = "Helping Out",
@@ -8030,7 +8032,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The standard of Robloxian sitting requirements for over 10000 years.",
 	},
-	
+
 	["Modern Chair"] = {
 		["Id"] = 5221729301,
 		["Name"] = "Modern Chair",
@@ -8038,8 +8040,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Color"] = "Blue",		
-		["Cost"] = {["Blue"] = 1,}, 
+		["Color"] = "Blue",
+		["Cost"] = {["Blue"] = 1,},
 		["Charge"] = true,
 		["Effect"] = {
 			Name = "Helping Out",
@@ -8050,7 +8052,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The new trend in chair fashion, throw out your boring WOOD chairs and get our new MODERN chair.",
 	},
-	
+
 	["Royal Chair"] = {
 		["Id"] = 5221727526,
 		["Name"] = "Royal Chair",
@@ -8060,7 +8062,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 1,},
-		["Archetype"] = "Chair", 
+		["Archetype"] = "Chair",
 		["Charge"] = true,
 		["Effect"] = {
 			Name = "Helping Out",
@@ -8071,7 +8073,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Quite fancy if I do say so myself...",
 	},
-	
+
 	["SpeedySeat"] = {
 		["Id"] = 5072446973,
 		["Name"] = "SpeedySeat",
@@ -8079,7 +8081,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 1200,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Color"] = "Neutral",		
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 12,},
 		["Effect"] = {
 			Name = "Helping Out",
@@ -8090,8 +8092,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "He saw his four-legged friend, battered and destroyed. As the jockey, he felt a remorse so immense that it consumed him. He knew what had to be done.",
 	},
-	
-	
+
+
 	["Lord Westinghouse"] = {
 		["Id"] = 3526479916,
 		["Name"] = "Lord Westinghouse",
@@ -8101,7 +8103,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Requirement"] = {"Archetype","Ally",2,9999,"Chair"},
 		["DamageImmune"] = true,
-		["Color"] = "Yellow",		
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 6,},
 		["Effect"] = {
 			Name = "Helping Out",
@@ -8113,7 +8115,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "You have violated the laws of our people. Your life is now forfeit.",
 	},
-	
+
 	["Creeperkiller510"] = {
 		["Id"] = 3611609880,
 		["Name"] = "Creeperkiller510",
@@ -8132,8 +8134,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "CREEPA. AWWWWWW MAN.",
-	},	
-	
+	},
+
 	["Damarioguy"] = {
 		["Id"] = 1495347928,
 		["Name"] = "Damarioguy",
@@ -8152,7 +8154,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = [[The protector and connoisseur of fair and balanced gameplay.]],
 	},
-	
+
 	["DunclubDuncan"] = {
 		["Id"] = 1512697995,
 		["Name"] = "DunclubDuncan",
@@ -8160,7 +8162,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 5, ["Blue"] = 6,},
 		["Effect"] = {
 			Name = "Clash",
@@ -8171,7 +8173,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "me me big boy",
 	},
-	
+
 	["DunclubDuncan Token"] = {
 		["Id"] = 1512698272,
 		["Name"] = "DunclubDuncan",
@@ -8180,7 +8182,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 5, ["Blue"] = 6,},
 		["Effect"] = {
 			Name = "Clash",
@@ -8191,7 +8193,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "me me smol boy",
 	},
-	
+
 	["Enriched Neutrinous"] = {
 		["Id"] = 1549643103,
 		["Name"] = "Enriched Neutrinous",
@@ -8210,7 +8212,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Get up lazy bones! While you slept and took fire, we did ALL the work!",
 	},
-	
+
 	["PurgatoryToken"] = {
 		["Id"] = 3472388460,
 		["Name"] = "BurnToken!",
@@ -8220,7 +8222,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
-		["Cost"] = {["Red"] = 0,}, 
+		["Cost"] = {["Red"] = 0,},
 		["Fading"] = true,
 		["Effect"] = {
 			Name = "i mean, its not like anyones gonna even be able to read this cards effect and bio ingame",
@@ -8231,7 +8233,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Burn.mp3.wav.jpeg.tiff.ogg.png.rbxl.svg.spc",
 	},
-	
+
 	["jojobinks321"] = {
 		["Id"] = 5039066147,
 		["Name"] = "jojobinks321",
@@ -8248,7 +8250,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Nightmare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
-		["Cost"] = {["Green"] = 3, ["Neutral"] = 3,}, 
+		["Cost"] = {["Green"] = 3, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Restless Reward",
 			Description = "Cast only if you control another Nightmare-related fighter. When you do: Shuffle six nightmares into your opponent's deck.",
@@ -8258,7 +8260,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Wake up? Give me more time. Your hope is mine to treasure.",
 	},
-	
+
 	["Rubber Duck"] = {
 		["Id"] = 1555340100,
 		["Name"] = "Rubber Duck",
@@ -8281,7 +8283,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "TEH EPIK DUCK IS COMING!!!",
 	},
-	
+
 	["ZeDerpyDonal"] = {
 		["Id"] = 4782791906,
 		["Name"] = "ZeDerpyDonal",
@@ -8302,7 +8304,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I'm too busy reading. I'll attack some other time.",
 	},
-	
+
 	["Cheesycakes"] = {
 		["Id"] = 4987105177,
 		["Name"] = "Cheeseycakes",
@@ -8322,7 +8324,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Cheesecakes are the true best cake, better than some silly half-baked pancake.",
 	},
-	
+
 	["saud20"] = {
 		["Id"] = 3299993726,
 		["Name"] = "saud20",
@@ -8341,7 +8343,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Don't let him near ants.",
 	},
-	
+
 	["God's Fury"] = {
 		["Id"] = 2810630566,
 		["Name"] = "Arrow of God's Fury",
@@ -8359,8 +8361,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "PURGE!",
-	},	
-	
+	},
+
 	["God's Fury 2"] = {
 		["Id"] = 2810630566,
 		["Name"] = "Arrow of God's Fury",
@@ -8380,7 +8382,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "PURGE!",
 	},
-	
+
 	["Hell's Wrath"] = {
 		["Id"] = 2810631750,
 		["Name"] = "Arrow of Hell's Wrath",
@@ -8399,7 +8401,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "BURN!",
 	},
-	
+
 	["Nature's Poison"] = {
 		["Id"] = 2810636868,
 		["Name"] = "Arrow of Nature's Poison",
@@ -8417,8 +8419,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Single",
 		},
 		["Bio"] = "SUFFER!",
-	},	
-	
+	},
+
 	["Blinding Light"] = {
 		["Id"] = 2810628973,
 		["Name"] = "Arrow of Blinding Light",
@@ -8437,7 +8439,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "CRIPPLE!",
 	},
-	
+
 	["Toy Jet Fighter"] = {
 		["Id"] = 2793175407,
 		["Name"] = "Toy Jet Fighter",
@@ -8445,8 +8447,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Archetype"] = "Toy",		
-		["CounterBlock"] = true,		
+		["Archetype"] = "Toy",
+		["CounterBlock"] = true,
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2,},
 		["Token"] = true,
@@ -8460,7 +8462,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "ZOOM ZAM ZOW, IT'S A REUSED BIO!",
 	},
-	
+
 	["MyCutenesskills"] = {
 		["Id"] = 4922413634,
 		["Name"] = "MyCutenesskills",
@@ -8470,7 +8472,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Slash",
 		["AttackBlock"] = true,
 		["Color"] = "Blue",
-		["Cost"] = {["Blue"] = 2,}, 
+		["Cost"] = {["Blue"] = 2,},
 		["Requirement"] = {"DeckContains","Ally",0,8,"Fighters"},
 		["AltCards"] = {
 			["Emperor Keeler1"] = {
@@ -8496,7 +8498,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "It's true, you know. Not even Erisyphia is more kawaii than I.",
 	},
-	
+
 	["MyCutenesskillsToken"] = {
 		["Id"] = 4922413315,
 		["Name"] = "MyCutenesskills",
@@ -8514,10 +8516,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
-		["Cost"] = {["Blue"] = 2,}, 
+		["Cost"] = {["Blue"] = 2,},
 		["Bio"] = "The only creature that can resist me is Sword Critic.",
 	},
-	
+
 	["ianmossaboss"] = {
 		["Id"] = 4815665243,
 		["Name"] = "ianmossaboss",
@@ -8533,8 +8535,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow", 
-		["Cost"] = {["Yellow"] = 2,["Neutral"] = 1,}, 
+		["Color"] = "Yellow",
+		["Cost"] = {["Yellow"] = 2,["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "/e cheer",
 			Description = "When this card is cast: All enemy fighters lose 100 power.",
@@ -8544,7 +8546,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Nice knife you got there, mind if I take it real quick?",
 	},
-	
+
 	["lilBismarck"] = {
 		["Id"] = 4537699001,
 		["Name"] = "lilBismarck",
@@ -8552,8 +8554,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Yellow", 
-		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 2,}, 	
+		["Color"] = "Yellow",
+		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Anime Detected",
 			Description = "Whenever an effect draws you a card, if you have five or fewer cards in your deck: Your opponent loses 400 Life.",
@@ -8564,7 +8566,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "######## ### Anime Patrol ##### ##.",
 	},
-	
+
 	["SmashDude88"] = {
 		["Id"] = 1828656843,
 		["Name"] = "SmashDude88",
@@ -8572,7 +8574,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Pulse",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 5,},
 		["Effect"] = {
 			Name = "Assembly",
@@ -8584,7 +8586,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "88 is a really dodgy number to have in a username. Can you don't?",
 	},
-	
+
 	["SmashDude88TOKEN"] = {
 		["Id"] = 1828656843,
 		["Name"] = "SmashDude88",
@@ -8593,11 +8595,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Pulse",
-		["Color"] = "Yellow", 
+		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 0,},
 		["Bio"] = "I dare ya, make the joke about his name again.",
 	},
-	
+
 	["PurpleBoy329"] = {
 		["Id"] = 4564777339,
 		["Name"] = "PurpleBoy329",
@@ -8613,7 +8615,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 200,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Flood",
-		["Color"] = "Blue", 
+		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Viable Lunargain",
@@ -8624,7 +8626,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Hey guys my good pal Llendlar told me  I had a viable lifegain deck.",
 	},
-	
+
 	["Llendlar"] = {
 		["Id"] = 5152310344,
 		["Name"] = "Wheatlies",
@@ -8632,7 +8634,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 900,
 		["Power"] = 900,
 		["Rarity"] = "Epic",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 9,},
 		["Effect"] = {
@@ -8644,7 +8646,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The Gods are pleased. You get to keep your skin.",
 	},
-	
+
 	["Call to Arms"] = {
 		["Id"] = 4899279736,
 		["Name"] = "Call to Arms",
@@ -8665,7 +8667,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 8,},
 		["Effect"] = {
@@ -8676,8 +8678,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 		},
 		["Bio"] = "Every inch of this battlefield claimed, in blood or in glory.",
-	},	
-	
+	},
+
 	["New Recruit"] = {
 		["Id"] = 3164494560,
 		["Name"] = "New Recruit",
@@ -8711,7 +8713,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Token"] = true,
 		["Cost"] = {["Yellow"] = 0,},
@@ -8724,7 +8726,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Why are these 'boom' tubes again?",
 	},
-	
+
 	["Reinforcements"] = {
 		["Id"] = 3164498998,
 		["AltCards"] = {
@@ -8745,7 +8747,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
@@ -8755,9 +8757,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"Add","Reinforcements"},{"EndTurn",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "More. More! At any cost!",	
+		["Bio"] = "More. More! At any cost!",
 	},
-	
+
 	["Baseplate"] = {
 		["Id"] = 4899263636,
 		["Name"] = "Baseplate",
@@ -8775,19 +8777,19 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Description = "(This terrain has no effect. Good for wiping away other terrain.)",
 			["Type"] = "Field",
 			["Power"] = "Draw",
-			Target = "All",	
+			Target = "All",
 			Increase = 0,
 		},
 		["Bio"] = "What will you build?",
 	},
-	
+
 	["Melon Desu"] = {
 		["Id"] = 4974016156,
 		["Name"] = "Melon Desu",
 		["Health"] = 500,
 		["Power"] = 300,
 		["Rarity"] = "Common",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2,},
 		["Effect"] = {
@@ -8797,16 +8799,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"DestroyTerrain"}},
 			Target = "Ally",
 		},
-		["Bio"] = "It's not like I like watermelons o-or anything...",	
+		["Bio"] = "It's not like I like watermelons o-or anything...",
 	},
-	
+
 	["SpacielChiald"] = {
 		["Id"] = 5152347947,
 		["Name"] = "SpacielChiald",
 		["Health"] = 700,
 		["Power"] = 50,
 		["Rarity"] = "Common",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2,},
 		["Token"] = true,
@@ -8817,16 +8819,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"RandomAdd",{"Sword Fights on the Heights", "Disaster Survival", "Crossroads", "Haunted Mansion","Titano's Cavern", "Bread Factory", "Heavy Rain", "Xor's Lab", "Sands of Purgatory", "Baseplate", "Forest of Paradise", "Noli's Domain", "Banland", "Person299's Minigames", "Alpha Brick's Presence"}}},
 			Target = "Ally",
 		},
-		["Bio"] = "She is a master beyblader. That's pretty special.",	
+		["Bio"] = "She is a master beyblader. That's pretty special.",
 	},
-	
+
 	["WookieCookieHD"] = {
 		["Id"] = 4784610693,
 		["Name"] = "WookieCookieHD",
 		["Health"] = 900,
 		["Power"] = 600,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = {"Magic", "Yellow"},		
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 6,},
 		["Effect"] = {
@@ -8836,9 +8838,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Lock",2},{"Heal",300}},
 			Target = "Aggressor",
 		},
-		["Bio"] = "He can calculate interest to six decimal places, even in the midst of a deadly duel.",	
+		["Bio"] = "He can calculate interest to six decimal places, even in the midst of a deadly duel.",
 	},
-	
+
 	["Darr1432"] = {
 		["Id"] = 1868966520,
 		["Name"] = "Darr1432",
@@ -8858,9 +8860,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Heal",100,"Ally"},{"Transform"}},
 			Target = "Self",
 		},
-		["Bio"] = "Curing your meat with the power of radioactive GMOs.",	
+		["Bio"] = "Curing your meat with the power of radioactive GMOs.",
 	},
-	
+
 	["DarrToken"] = {
 		["Id"] = 1868966520,
 		["Name"] = "Darr1432",
@@ -8880,9 +8882,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Heal",100}},
 			Target = "Ally",
 		},
-		["Bio"] = "Curing your illness with the power of radioctive GMOs.",	
+		["Bio"] = "Curing your illness with the power of radioctive GMOs.",
 	},
-	
+
 	["Totem of Frost"] = { --now useless Token
 		["Id"] = 1869779921,
 		["Name"] = "Totem of Frost",
@@ -8900,9 +8902,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Blue",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "-3-",	
+		["Bio"] = "-3-",
 	},
-	
+
 	["Vinrole"] = {
 		["Id"] = 2969038404,
 		["Name"] = "Vinrole",
@@ -8920,15 +8922,15 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 			["EffectRequirement"] = {"Playertable","Him",2,9999,"Fighters"},
 		},
-		["Bio"] = "Guy Fieri? He's popular because of me.",	
+		["Bio"] = "Guy Fieri? He's popular because of me.",
 	},
-	
+
 	["SnailMan39"] = {
 		["Id"] = 1899486051,
 		["Name"] = "SnailMan39",
 		["Health"] = 800,
 		["Power"] = 400,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 3,},
@@ -8940,9 +8942,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Snail"},{"Summon","Snail"}},
 			Target = "Ally",
 		},
-		["Bio"] = "The nice thing about snails is they always have a home. I wish humans always had a place to go back to.",	
+		["Bio"] = "The nice thing about snails is they always have a home. I wish humans always had a place to go back to.",
 	},
-	
+
 	["Snail"] = {
 		["Id"] = 3164500244,
 		["Name"] = "Snail",
@@ -8960,9 +8962,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Damage",100,"Self"}},
 			Target = "Opponent",
 		},
-		["Bio"] = "The nice thing about snails is they always have a home. I wish humans always had a place to go back to.",	
+		["Bio"] = "The nice thing about snails is they always have a home. I wish humans always had a place to go back to.",
 	},
-	
+
 	["Unc, Uncorrupted"] = {
 		["Id"] = 4899465477,
 		["Name"] = "Unc, Uncorrupted",
@@ -8986,9 +8988,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Draw",1}},
 			Target = "All",
 		},
-		["Bio"] = "Despite common belief, axes are quite effective against nightmares.",	
+		["Bio"] = "Despite common belief, axes are quite effective against nightmares.",
 	},
-	
+
 	["Corrupt SoulSearch"] = {
 		["Id"] = 1948470319,
 		["Name"] = "Corrupt SoulSearch",
@@ -9006,9 +9008,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			--["EffectRequirement"] = {"Turns","Ally",0,7},
 			Target = "All",
 		},
-		["Bio"] = "Ｈａｃｋｅｄ.",	
+		["Bio"] = "Ｈａｃｋｅｄ.",
 	},
-	
+
 	["ScareAndCrow"] = {
 		["Id"] = 3238128404,
 		["Name"] = "Scare & Crow",
@@ -9017,11 +9019,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Yellow"] = 3,},
 		["Bio"] = "Crow once belonged to the Matriarch. Scare once belonged to Hallow. Now, they belong to themselves, on a mission to undo their black-hearted past.",
 	},
-	
+
 	["DoomedAdventurer"] = {
 		["Id"] = 3611802597,
 		["Name"] = "Doomed Adventurer",
@@ -9030,11 +9032,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Red"] = 3,},
 		["Bio"] = "Bears the Curse of the Acolyte, which binds him to slay Dragons. If he doesn't, his soul will become ash. If he fails, his body will.",
 	},
-	
+
 	["Tootso"] = {
 		["Id"] = 2107434647,
 		["Name"] = "Tootso",
@@ -9042,11 +9044,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Green"] = 3,},
 		["Bio"] = "Tootso is a friendly toothy wizard! He loves to plant fruit trees wherever he goes! He is a pacifist by nature. He can also burst your lungs open by magically summoning pineapples inside you. Don't mess with Tootso.",
 	},
-	
+
 	["WrathOfAzure"] = {
 		["Id"] = 2107484195,
 		["Name"] = "Wrath of Azure",
@@ -9055,11 +9057,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Blue"] = 3,},
 		["Bio"] = "A wraith is an incorporeal creature born of evil and darkness, despising light and all living things. A wraith drains the constitution from living creatures, turning them into new wraiths upon death. A wraith is powerless in natural sunlight and will flee from it.",
 	},
-	
+
 	["MesoSad"] = {
 		["Id"] = 5059536109,
 		["Name"] = "M3soSAd",
@@ -9077,9 +9079,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"FleetingDraw",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "Holy cow, this has got to be the fattest cow I've EVER seen! Just look at this total FATSO! Fat, fat, fat! Now for a quick scientific selfie.",	
+		["Bio"] = "Holy cow, this has got to be the fattest cow I've EVER seen! Just look at this total FATSO! Fat, fat, fat! Now for a quick scientific selfie.",
 	},
-	
+
 	["Despacito"] = {
 		["Id"] = 4971841060,
 		["Name"] = "Despacito",
@@ -9115,7 +9117,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Go commit die.",
 	},
-	
+
 	["Forest of Paradise"] = {
 		["Id"] = 4783068835,
 		["Name"] = "Forest of Paradise",
@@ -9137,7 +9139,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Do you not feel the spirits?",
 	},
-	
+
 	["ParadiseToken"] = {
 		["Id"] = 2257349789,
 		["Name"] = "ViableLifegainToken!",
@@ -9147,7 +9149,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
-		["Cost"] = {["Green"] = 0,}, 
+		["Cost"] = {["Green"] = 0,},
 		["Fading"] = true,
 		["Effect"] = {
 			Name = "i mean, its not like anyones gonna even be able to read this cards effect and bio ingame",
@@ -9158,7 +9160,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "When the Classic Border dies, it becomes the Luna Border.",
 	},
-	
+
 	["lilBismarck, Anime Avenger"] = {
 		["Id"] = 2786556403,
 		["Name"] = "lilBismarck, Anime Avenger",
@@ -9184,7 +9186,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "oh hey onii-chan, w-what am I doing in your room? I'm just playing your ps4, you don't have many games for it though... w-what are you doing~? why are y-you why are you getting so close?",
 	},
-	
+
 	["Construction"] = {
 		["Id"] = 4899282966,
 		["Name"] = "Construction",
@@ -9203,7 +9205,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "You know how the best defence is a good offence? I feel like this is a bit too much defence.",
 	},
-	
+
 	["Barricade"] = {
 		["Id"] = 2817085894,
 		["Name"] = "Barricade",
@@ -9233,7 +9235,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Are you listening to me?! It feels like I'm talking to a brick wall!",
 	},
-	
+
 	["Shirozaru"] = {
 		["Id"] = 4947535279,
 		["Name"] = "Shirozaru",
@@ -9241,7 +9243,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 800,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Color"] = "Neutral",		
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 4, ["Green"] = 4,},
 		["Effect"] = {
 			Name = "Spam",
@@ -9253,7 +9255,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "People believe that good and evil exist. They do not.",
 	},
-	
+
 	["Spatial Soul"] = {
 		["Id"] = 2857414528,
 		["Name"] = "Spatial Soul",
@@ -9263,7 +9265,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 0,},
-		["Token"] = true, 
+		["Token"] = true,
 		["Archetype"] = "Spatial",
 		["Effect"] = {
 			Name = "Spam",
@@ -9274,7 +9276,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Morality and peace exist only subjectively. Am I evil for merely opposing you?",
 	},
-	
+
 	["Spatial Crow"] = {
 		["Id"] = 2857412253,
 		["Name"] = "Primordial Crow",
@@ -9296,7 +9298,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Give us your answer.",
 	},
-	
+
 	["Horologium"] = {
 		["Id"] = 2857409111,
 		["Name"] = "Horologium",
@@ -9317,8 +9319,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "A lie will remain a lie. Knowing this, do you still desire peace?",
 	},
-	
-	
+
+
 	["Animate Cannonman!"] = {
 		["Id"] = 4789583049,
 		["Name"] = "Animate Cannonman!",
@@ -9370,7 +9372,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Real Boys breathe, so I must breathe too! Fetch the canisters!",
 	},
-	
+
 	["Epic DrWeaseI"] = {
 		["Id"] = 4409765149,
 		["Name"] = "Epic DrWeaseI",
@@ -9389,8 +9391,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Increase = 0,
 		},
 		["Bio"] = "I will contradict reality itself.",
-	}, 
-	
+	},
+
 	["Shadoward12"] = {
 		["Id"] = 4645486927,
 		["Name"] = "Shadoward12",
@@ -9410,7 +9412,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The land falls, and the land reemerges. Thus is the evershifting expanse of Ultimate Power.",
 	},
-	
+
 	["Periastron Strike"] = {
 		["Id"] = 5530585038,
 		["Name"] = "Periastron Strike",
@@ -9430,7 +9432,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Precise, Clean cuts. Perfect mastery of blade and form. A truly accurate weapon, 9/10. - Sword Critic",
 	},
-	
+
 	["Bored Mo"] = {
 		["Id"] = 5363992070,
 		["Name"] = "Bored Mo",
@@ -9438,7 +9440,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 900,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 9,},
 		["Effect"] = {
 			Name = "Switch",
@@ -9449,7 +9451,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I guess you can say he really switch-ed the game's direction... ahah. Help mohammed1336 coded this and doesn't know what to do with it!",
 	},
-	
+
 	["Mo Token"] = {
 		["Id"] = 5363992070,
 		["Name"] = "Bored Mo",
@@ -9457,7 +9459,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 900,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["TransformImmune"] = true,
 		["ReturnImmune"] = true,
 		["Cost"] = {["Neutral"] = 9,},
@@ -9470,8 +9472,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "I guess you can say he really switch-ed the game's direction... ahah. Help mohammed1336 coded this and doesn't know what to do with it!",
 	},
-	
-	
+
+
 	["Mo's Dungeon"] = {
 		["Id"] = 5102447708,
 		["Name"] = "Mo's Dungeon",
@@ -9480,7 +9482,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Terrain"] = true,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
-		["Color"] = "Neutral", 
+		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 2},
 		["Effect"] = {
 			Name = "Switched Deck",
@@ -9491,7 +9493,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "Yes, mohammed1336 has been coding on the floor since day 1...",
 	},
-	
+
 	["Business Off Pork-O-Mech"] = {
 		["Id"] = 5118841422,
 		["Name"] = "Hampunk Mecha",
@@ -9512,7 +9514,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "This machine runs on pure pig. Don't ask how.",
 	},
-	
+
 	["Gork, the Caveman"] = {
 		["Id"] = 5406524848,
 		["Name"] = "Gork, the Caveman",
@@ -9530,9 +9532,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "Gork mad. Gork go hit you with rock. Ooga chaka.",
-	}, 
-	
+	},
+
 
 }
- 
+
 return base
