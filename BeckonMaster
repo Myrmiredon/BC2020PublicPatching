@@ -1940,7 +1940,7 @@ local beckoned = {
 		["Bio"] = "My boy, bombs are what all true warriors strive for!",
 		["Effect"] = {
 			Name = "DO0M",
-			Description = "When this card is cast, if effects have made you lose life this turn: Destroy a card in your opponent's hand. They lose 350 life.",
+			Description = "When this card is cast, if effects have made you lose life since your last endstep: Destroy a card in your opponent's hand. They lose 350 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Inflict",350},{"RandomDiscard",1}},
 			Target = "Opponent",
@@ -2328,7 +2328,7 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 1, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = [[During your end step, if an effect swapped an allied fighter's stats this turn: Give yourself Witches' Brew.]],
+			Description = [[During your end step, if an effect swapped an allied fighter's stats since your last endstep: Give yourself Witches' Brew.]],
 			["Type"] = "OnEnd",
 			["Power"] = {{"Add","Awful Good"}},
 			Target = "Ally",
@@ -2606,7 +2606,7 @@ local beckoned = {
 		["Cost"] = {["Red"] = 2, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "I refuse to believe that miku is alive.",
-			Description = "Whenever you lose life, if you've lost less than 1000 life this turn: Your opponent loses 200 life.",
+			Description = "Whenever you lose life, if you've lost less than 1000 life since your last endstep: Your opponent loses 200 life.",
 			["Type"] = "OnHealthLoss",
 			["Power"] = {{"Inflict",200}},
 			Target = "Opponent",
@@ -2829,7 +2829,7 @@ local beckoned = {
 		["Effect"] = {
 			Name = "Pyrotechnics",
 			Description = "When this card dies: Enemy fighters lose 100 Power. Allied fighters gain 100 Power.",
-			["Type"] = "OnSummon",
+			["Type"] = "OnDeath",
 			["Power"] = {{"Weaken",100,"Opponent"},{"Strengthen",100}},
 			Target = "Ally",
 		},

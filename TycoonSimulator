@@ -2385,7 +2385,7 @@ local tycoons = {
 		["Requirement"] = {"Playertable", "Me", 2, 999999, "TargetCount"},
 		["Effect"] = {
 			Name = "Blow Dart",
-			Description = "Cast only if two effects have targeted this turn. When this card dies: You gain 1000 life.",
+			Description = "Cast only if two effects have targeted since your last end step. When this card dies: You gain 1000 life.",
 			["Type"] = "OnDeath",
 			["Power"] = {{"Cost",-1000}},
 			Target = "Ally",
@@ -2529,7 +2529,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 4,["Green"] = 2,},
 		["Effect"] = {
 			Name = "Amp",
-			Description = "Whenever an effect targets this card, if 3 of your effects have targeted this turn: Put a copy of it into your Baseplate.",
+			Description = "Whenever an effect targets this card, if 3 of your effects have targeted since your last end step: Put a copy of it into your Baseplate.",
 			["Type"] = "OnTarget",
 			["Power"] = {{"AddGenZone",{"PhireFox",1}}},
 			Target = "Ally",
@@ -2549,7 +2549,7 @@ local tycoons = {
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
 			Name = "moo",
-			Description = "Whenever an effect targets this card, if it's your first effect to target a card this turn: It gains 300 health and power.",
+			Description = "Whenever an effect targets this card, if it's your first effect to target a card since your last end step: It gains 300 health and power.",
 			["Type"] = "OnTarget",
 			["Power"] = {{"Heal","300"},{"Strengthen","300"}},
 			Target = "Self",

@@ -1935,7 +1935,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 2,["Red"] = 5,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Whenever you cast an action, if you've cast 3 actions this turn: Give yourself a Blue or Red action card.",
+			Description = "Whenever you cast an action, if you've cast 3 actions since your last end step: Give yourself a Blue or Red action card.",
 			["Type"] = "OnAllyCast",
 			["Power"] = {{"RandomAdd","Lunar"}},
 			Target = "Ally",	
@@ -2743,7 +2743,7 @@ local twentyeleveneighteen = {
 		["Health"] = 700,
 		["Power"] = 700,
 		["Rarity"] = "Epic",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Gun",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 6, ["Neutral"] = 1,},
 		["Effect"] = {
@@ -3014,7 +3014,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Capture",
-			Description = "Whenever you cast your first action this turn: Give yourself a random Blue or Red action card.",
+			Description = "Whenever you cast your first action since your last end step: Give yourself a random Blue or Red action card.",
 			["Type"] = "OnAllyCast",
 			["Power"] = {{"RandomAdd","Lunar"}},
 			Target = "Ally",
@@ -3285,7 +3285,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 5, ["Red"] = 4,},
 		["Effect"] = {
 			Name = "Double Bleeding",
-			Description = "Whenever you lose life, if you've lost less than 1000 life this turn: Your opponent loses 200 life. Draw a card.",
+			Description = "Whenever you lose life, if you've lost less than 1000 life since your last end step: Your opponent loses 200 life. Draw a card.",
 			["Type"] = "OnHealthLoss",
 			["Power"] = {{"Draw",1},{"Inflict",200,"Opponent"}},
 			["Requirement"] = {"Playertable","Me",0,1000,"Lifeloss"},
@@ -3718,7 +3718,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Too lucky 4 me",
-			Description = "When this card is cast, if you've cast 3 other fighters this turn: Unlock all fighters. You can't cast fighters this turn.",
+			Description = "When this card is cast, if you've cast 3 other fighters since your last end step: Unlock all fighters. You can't cast fighters this turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",9999,"All"},{"BypassSummon"}},
 			["EffectRequirement"] = {"Playertable","Me",4,9999,"Fighters"},

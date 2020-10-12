@@ -491,7 +491,7 @@ local LivingWorldTerrarians = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = "This fighter can't be exiled, destroyed, or returnt. When this fighter dies, destroy all fighters. Until the start of your next turn, your opponent can't attack or cast anything, and skips the end of their turn.",
+			Description = "This fighter can't be exiled, destroyed, or replaced. When this fighter dies, destroy all fighters. Until the start of your next turn, your opponent can't attack or cast anything, and skips the end of their turn.",
 			["Type"] = "OnDeath",
 			["Power"] = {{"Destroy",030,"All"},{"BypassAttack"},{"BypassGeneration"},{"BypassSummon"},{"BypassCasts"},{"BypassAction"},{"BypassTerrain"},{"BypassEnd"},{"BypassLock"}},
 			Target = "Opponent",

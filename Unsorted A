@@ -1168,7 +1168,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 5,["Green"] = 2,},
 		["Effect"] = {
 			Name = "Purlot Trap.",
-			Description = "During your end step, if an effect gave you a card this turn: Put a copy of this card into your baseplate.",
+			Description = "During your end step, if an effect gave you a card since your last end step: Put a copy of this card into your baseplate.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"GenZoneAdd","Chaoszeroomega"}},
 			Target = "Ally",
@@ -2803,7 +2803,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 5,},
 		["Effect"] = {
 			Name = "Investment",
-			Description = "If an effect made you lose life this turn, this card has Haste. Whenever this card attacks and destroys another: Ready it. Your opponent loses 500 life.",
+			Description = "If an effect made you lose life since your last end step, this card has Haste. Whenever this card attacks and destroys another: Ready it. Your opponent loses 500 life.",
 			["Type"] = "OnDestroy",
 			["Power"] = {{"Unlock",1,"Self"},{"Inflict",500}},
 			Target = "Opponent",
@@ -4123,7 +4123,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Requirement"] = {"Playertable","Me",1,9999,"Actions"},
 		["Effect"] = {
 			Name = "Board Clear!",
-			Description = "Cast only if you've cast an action this turn. Deal 500 damage to all fighters.",
+			Description = "Cast only if you've cast an action since your last end step. Deal 500 damage to all fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",500}},
 			Target = "All",		
@@ -4363,7 +4363,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Lunar",
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Cast only if you've cast 5 actions this turn. Unlock all allied fighters. They gain 200 health. Draw two cards.",
+			Description = "Cast only if you've cast 5 actions since your last end step. Unlock all allied fighters. They gain 200 health. Draw two cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",999},{"Heal",200},{"Draw",2}},
 			Target = "Ally",
@@ -5518,12 +5518,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 					["Power"] = {{"Summon","Has-AltToken"}},
 					Target = "Ally",
 				},
+				["Bio"] = [["The other Has? Sure, that Has has more intimidating looks, but he isn't as cool as this Has."]],
 			},
 		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 6,},
 		["Effect"] = {
@@ -5533,7 +5534,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Has Token"}},
 			Target = "Ally",
 		},
-		["Bio"] = "The other Has? Sure, that Has has more intimidating looks, but he isnt as cool as this Has.",
+		["Bio"] = "You can hasard a guess as to how this is going to end.",
 	},
 	
 	["Has Token"] = {
@@ -5543,13 +5544,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Has-AltToken"] = {
 				["Id"] = 4782926389,
 				["CopyBodge"] = "Has-AltToken",
+				["Bio"] = [["I mean seriously, are you telling me that the other Has has ever beaten a literal demigod? Didn't think so."]],
 			},
 		},
 		["CopyBodge"] = "Has Token",
 		["Health"] = 750,
 		["Power"] = 650,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 6,},
 		["Effect"] = {
@@ -5559,7 +5561,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Strengthen",100}},
 			Target = "Ally",
 		},
-		["Bio"] = "I mean seriously, are you telling me that the other Has has ever beaten a literal demigod? Didn't think so.",
+		["Bio"] = "Horribly.",
 	},
 	
 	["RaveTea"] = {
