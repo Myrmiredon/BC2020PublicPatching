@@ -4591,7 +4591,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Your opponent draws a card. You can't cast actions or summon fighters for the rest of this turn.",
+			Description = "Your opponent draws a card. Put Bribery into your hand. You can't cast actions or summon fighters for the rest of this turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",1,"Opponent"},{"Add","Bribery"},{"BypassSummon","Ally"},{"BypassAction","Ally"}},
 			Target = "Ally"
