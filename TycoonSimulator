@@ -1105,7 +1105,7 @@ local tycoons = {
 		["Name"] = "SlingshotJunkie",
 		["Health"] = 700,
 		["Power"] = 0,
-		["Rarity"] = "Rare",		
+		["Rarity"] = "Common",		
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,},
