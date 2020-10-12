@@ -1647,7 +1647,7 @@ local beckoned = {
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
-		["Cost"] = {["Neutral"] = 1, ["Red"] = 2, ["Yellow"] = 2,},
+		["Cost"] = {["Neutral"] = 1, ["Red"] = 3, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Minigames.",
 			Description = "When this card is cast: Deal damage to a target fighter equal to the target's power.",

@@ -4591,10 +4591,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Your opponent draws a card. Return Bribery to your hand and end the turn.",
+			Description = "Your opponent draws a card. Put Bribery into your hand. You can't cast actions or summon fighters for the rest of this turn.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",1,"Opponent"},{"Add","Bribery"},{"Summon","Demonic Godbeast"},{"EndTurn"}},
-			Target = "Ally",
+			["Power"] = {{"Draw",1,"Opponent"},{"Add","Bribery"},{"BypassSummon","Ally"},{"BypassAction","Ally"}},
+			Target = "Ally"
 		},
 		["Bio"] = "Eisenhower was struck a deal with Hallow, hearing his wish to resurrect his love. Hallow agreed to meet at Thursday night by his tombstone.",
 	},
