@@ -1052,7 +1052,7 @@ local Strife = {
 			Target = "Self",
 			Increase = 2,
 		},
-		["Bio"] = "You just dared him. Prepare for browan dairy.",
+		["Bio"] = "You just dared him. Prepare for brown dairy.",
 	},	
 	
 	["AsrielMemer"] = {
@@ -1387,11 +1387,10 @@ local Strife = {
 		["AttackEffect"] = "Freeze",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 2,["Blue"] = 6,},
-		["ReturnImmune"] = true,
 		["Effect"] = {
 			Name = "King's Freeze",
-			Description = "Effects can't return this card. When this card is cast: Lock all enemy fighters for 2 turns.",
-			["Type"] = "OnSummon",
+			Description = "When this card dies: Lock all enemy fighters for 2 turns.",
+			["Type"] = "OnDeath",
 			["Power"] = {{"Lock",2}},
 			Target = "Opponent",
 		},
