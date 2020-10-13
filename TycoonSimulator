@@ -3902,7 +3902,7 @@ local tycoons = {
 	},
 	
 	["Tomarty"] = {
-		["Id"] = 5823252261,
+		["Id"] = 5823252249,
 		["Name"] = "Tomarty",
 		["Health"] = 600,
 		["Power"] = 600,
@@ -3922,7 +3922,7 @@ local tycoons = {
 	},
 	
 	["Wsly"] = {
-		["Id"] = 5823252061,
+		["Id"] = 5823252050,
 		["Name"] = "Wsly",
 		["Health"] = 600,
 		["Power"] = 300,

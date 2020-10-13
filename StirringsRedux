@@ -507,7 +507,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	
 	
 	["Demon 6"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 6"] = {
@@ -541,7 +541,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Demon 7"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 7"] = {
@@ -575,7 +575,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Demon 8"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 8"] = {
@@ -609,7 +609,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Demon 9"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 9"] = {
@@ -643,7 +643,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Demon 10"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 10"] = {
@@ -676,7 +676,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Demon 11"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 11"] = {
@@ -710,7 +710,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Demon 12"] = {
-		["Id"] = 5820065802,
+		["Id"] = 5820065783,
 		["Name"] = "Death-Defying Demon",
 		["AltCards"] = {
 			["Shining Axe Beam of Light 12"] = {
@@ -778,7 +778,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Ancalagon, Sword Critic"] = {
-		["Id"] = 5819767365,
+		["Id"] = 5819767345,
 		["Name"] = "David Crissbach",
 		["Health"] = 100,
 		["Power"] = 100,
@@ -1878,7 +1878,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Hallow's Knight"] = {
-		["Id"] = 5819832599,
+		["Id"] = 5819832587,
 		["AltCards"] = {
 			["Knight Token"] = {
 				["CopyBodge"] = "Knight Token",
@@ -2152,7 +2152,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Consult the Archives"] = {
-		["Id"] = 5823223328,
+		["Id"] = 5823223314,
 		["Name"] = "Consult the Archives",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2232,7 +2232,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally1-1"] = {
-		["Id"] = 5819847687,
+		["Id"] = 5819847647,
 		["Name"] = "Fun's End",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2258,7 +2258,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-1"] = {
-		["Id"] = 5819847687,
+		["Id"] = 5819847647,
 		["Name"] = "Fun's End",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2284,7 +2284,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally1-2"] = {
-		["Id"] = 5819847300,
+		["Id"] = 5819847282,
 		["Name"] = "Shadow Market",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2310,7 +2310,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-2"] = {
-		["Id"] = 5819847300,
+		["Id"] = 5819847282,
 		["Name"] = "Shadow Market",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2336,7 +2336,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally1-3"] = {
-		["Id"] = 5819847024,
+		["Id"] = 5819847002,
 		["Name"] = "Titanic Elixir",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2362,7 +2362,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-3"] = {
-		["Id"] = 5819847024,
+		["Id"] = 5819847002,
 		["Name"] = "Titanic Elixir",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2388,7 +2388,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally1-4"] = {
-		["Id"] = 5819846591,
+		["Id"] = 5819846571,
 		["Name"] = "Penumbra Shield",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2414,7 +2414,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-4"] = {
-		["Id"] = 5819846591,
+		["Id"] = 5819846571,
 		["Name"] = "Penumbra Shield",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2941,7 +2941,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},		
 
 	["Evil Prince"] = {
-		["Id"] = 5819973774,
+		["Id"] = 5819973760,
 		["CopyBodge"] = "Evil Prince",
 		["Name"] = "Accursed Bladesman",
 		["AltCards"] = {
@@ -3014,7 +3014,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Blessed Acolyte"] = {
-		["Id"] = 5819974113,
+		["Id"] = 5819974090,
 		["CopyBodge"] = "Blessed Acolyte",
 		["Name"] = "Blessed Sage",
 		["AltCards"] = {
@@ -3052,7 +3052,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Blessed Acolyte Token"] = {
-		["Id"] = 5819974333,
+		["Id"] = 5819974320,
 		["CopyBodge"] = "Blessed Acolyte Token",
 		["Name"] = "Blessed Sage",
 		["AltCards"] = {
@@ -3091,7 +3091,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Werewyrm"] = {
-		["Id"] = 5819974805,
+		["Id"] = 5819974783,
 		["Name"] = "Mooncaller",
 		["CopyBodge"] = "Werewyrm",
 		["AltCards"] = {
@@ -3267,7 +3267,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Lycan Lorekeeper"] = {
-		["Id"] = 5819763145,
+		["Id"] = 5819763085,
 		["Name"] = "Lycan Lorekeeper",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -3287,12 +3287,12 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Lycan Lorekeeper Token"] = {
-		["Id"] = 5819763447,
+		["Id"] = 5819763434,
 		["Name"] = "Lycan Lorekeeper",
 		["CopyBodge"] = "Lycan Lorekeeper Token",
 		["AltCards"] = {
 			["Rattlebone Oracle"] = {
-				["Id"] = 5819764009,
+				["Id"] = 5819764001,
 				["Rarity"] = "Token",
 				["Name"] = "Rattlebone Oracle",
 				["Transformant"] = "Lycan Lorekeeper Token",
@@ -3346,7 +3346,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Eclipse's Vassal"] = {
-		["Id"] = 5819974562,
+		["Id"] = 5819974544,
 		["Name"] = "Eclipse's Vassal",
 		["AltCards"] = {
 			["Lightning Wolf"] = {
@@ -3480,7 +3480,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["AA1"] = {
-		["Id"] = 5819925515,
+		["Id"] = 5819925463,
 		["Name"] = "Apocryphasing",
 		["Cloneant"] = "Maladeity's Pustule",
 		["Health"] = 0,
@@ -3534,7 +3534,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["AA3"] = {
-		["Id"] = 5819925901,
+		["Id"] = 5819925883,
 		["Name"] = "Zanzel's Apocrypha",
 		["CopyBodge"] = "AA3",
 		["Cloneant"] = "Maladeity's Pustule",
@@ -3558,7 +3558,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["AA4"] = {
-		["Id"] = 5819924622,
+		["Id"] = 5819924605,
 		["Name"] = "Apocryphage",
 		["CopyBodge"] = "AA4",
 		["Cloneant"] = "Maladeity's Pustule",
@@ -3582,7 +3582,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["AA5"] = {
-		["Id"] = 5819894714,
+		["Id"] = 5819894707,
 		["Name"] = "Apocryphantasy",
 		["CopyBodge"] = "AA4",
 		["Cloneant"] = "Maladeity's Pustule",
@@ -3606,7 +3606,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["AA6"] = {
-		["Id"] = 5819924892,
+		["Id"] = 5819924874,
 		["Name"] = "Apocryphalanx Formation",
 		["CopyBodge"] = "AA6",
 		["Cloneant"] = "Maladeity's Pustule",

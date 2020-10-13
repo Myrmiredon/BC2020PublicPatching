@@ -217,7 +217,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Tarfful"] = {
-		["Id"] = 5823252652,
+		["Id"] = 5823252646,
 		["Name"] = "Tarfful",
 		["Health"] = 900,
 		["Power"] = 450,
@@ -4805,7 +4805,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Stranglevines"] = {
-		["Id"] = 5823241393,
+		["Id"] = 5823241383,
 		["Name"] = "WhoToTrus",
 		["Health"] = 350,
 		["Power"] = 350,
@@ -9054,10 +9054,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Wrath of Azure",
 		["AltCards"] = {
 			["Steve The Explorer"] = {
-				["Id"] = 5823227233,
+				["Id"] = 5823227213,
 				["Name"] = "Steve, the Explorer",
 				["CopyBodge"] = "Steve The Explorer",
-				["Bio"] = [["WRITEME"]],
+				["Bio"] = "This card is an alternate art of Wrath of Azure.",
 			},
 		["CopyBodge"] = "WrathOfAzure",
 		["Health"] = 500,

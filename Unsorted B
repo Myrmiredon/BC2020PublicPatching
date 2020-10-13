@@ -1,7 +1,7 @@
 local twentyeleveneighteen = {
 	
 	["ItssPaladin"] = {
-		["Id"] = 5823251815,
+		["Id"] = 5823251788,
 		["Name"] = "ConnorVIII",
 		["Health"] = 800,
 		["Power"] = 400,

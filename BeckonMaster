@@ -232,7 +232,7 @@ local beckoned = {
 	},
 	
 	["Uncreation"] = {
-		["Id"] = 5823252433,
+		["Id"] = 5823252427,
 		["Name"] = "Uncreation",
 		["Health"] = 1300,
 		["Power"] = 300,
@@ -766,19 +766,19 @@ local beckoned = {
 				["Color"] = "Yellow",
 			},
 			["Lucina_Lowell"] = {
-				["Id"] = 5823425865,
+				["Id"] = 5823425853,
 				["Name"] = "Lucina_Lowell",
 				["CopyBodge"] = "Lucina_Lowell",
 				["Summonant"] = "Lucina_LowellY",
-				["Bio"] = "Leader of the Anti Zero Twos, and hitman for hire. Got annoying pink haired dinosaur anime girls you need to deal with? Give him a call. This is an alt art of Hedonist Acolyte."
+				["Bio"] = "Leader of the Anti Zero Twos, and hitman for hire. Got annoying pink haired dinosaur anime girls you need to deal with? Give him a call. This card is an alternate art of Hedonist Acolyte."
 			},
 			["Lucina_LowellY"] = {
-				["Id"] = 5823426207,
+				["Id"] = 5823426198,
 				["Name"] = "Lucina_Lowell Anti Zero Two",
 				["CopyBodge"] = "Lucina_LowellY",
 				["Rarity"] = "Token",
 				["Color"] = "Yellow",
-				["Bio"] = [[s̷̗͋t̴͆̅i̴̬͂n̶̘̒ǩ̵͗y̸͑ͅ ̷̐̓z̷̎̈́ẻ̷̮r̴̡͂o̵͝͠ ̵̥̾t̸̅̍w̵̆̍o̶̐͂ This is an alt art of Hedonist Acolyte.]]
+				["Bio"] = [[s̷̗͋t̴͆̅i̴̬͂n̶̘̒ǩ̵͗y̸͑ͅ ̷̐̓z̷̎̈́ẻ̷̮r̴̡͂o̵͝͠ ̵̥̾t̸̅̍w̵̆̍o̶̐͂ This card is an alternate art of Hedonist Acolyte.]]
 			},
 		},
 		["Health"] = 800,
@@ -1567,7 +1567,7 @@ local beckoned = {
 	},	
 	
 	["Frinigus"] = {
-		["Id"] = 5823252889,
+		["Id"] = 5823252882,
 		["Name"] = "Frinigus",
 		["Health"] = 500,
 		["Power"] = 300,

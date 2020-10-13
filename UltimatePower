@@ -4225,7 +4225,7 @@ local ultpower = {
 	},	
 	
 	["MustagedWorldYT"] = {
-		["Id"] = 5823253194,
+		["Id"] = 5823253184,
 		["Name"] = "MustagedWorldYT",
 		["AltCards"] = {
 			["MustagedWorldYT-ALT"] = {
