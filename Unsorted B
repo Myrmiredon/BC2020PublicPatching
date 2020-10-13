@@ -3881,7 +3881,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Yellow"] = 3, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Protection",
-			Description = "Whenever your opponent gains life: They draw a card. Monopoly man gains 200 health.",
+			Description = "Whenever your opponent gains life: They draw a card. Monopoly Man gains 200 health.",
 			["Type"] = "OnEnemyLifeGain",
 			["Power"] = {{"Draw",1},{"Heal",200,"Self"}},
 			Target = "Opponent",

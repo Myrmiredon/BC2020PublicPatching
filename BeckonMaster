@@ -2231,7 +2231,7 @@ local beckoned = {
 			Description = [[When this card is cast: A target fighter gains 50 power. Swap the stats of all fighters, then swap them back.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",50,"Single"},{"Swap",99999},{"Swap",99999}},
-			Target = "Ally",
+			Target = "All",
 		},
 		["Bio"] = "To a witch, talking to frogs is like talking to themself: The only way to get intelligent conversation.",
 	},
@@ -3472,7 +3472,7 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 4,["Blue"] = 2, ["Yellow"] = 4},
 		["Effect"] = {
 			Name = "Revival",
-			Description = "Haste. This card can't counter or attack directly. Whenever this card attacks a figther: Summon a clone of that fighter. Lock this card for 3 turns.",
+			Description = "Haste. This card can't counter or attack directly. Whenever this card attacks a fighter: Summon a clone of that fighter. Lock this card for 3 turns.",
 			["Type"] = "OnAttack",
 			["Power"] = {{"SummonCopy"},{"Lock",3,"Self"}},
 			Target = "Aggressor",
