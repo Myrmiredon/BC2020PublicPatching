@@ -217,7 +217,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Tarfful"] = {
-		["Id"] = 1812182032,
+		["Id"] = 5823252652,
 		["Name"] = "Tarfful",
 		["Health"] = 900,
 		["Power"] = 450,
@@ -4805,12 +4805,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Stranglevines"] = {
-		["Id"] = 1402770410,
-		["Name"] = "Stranglevines",
+		["Id"] = 5823241393,
+		["Name"] = "WhoToTrus",
 		["Health"] = 350,
 		["Power"] = 350,
 		["Rarity"] = "Uncommon",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Green"},
 		["Color"] = "Green", 
 		["Cost"] = {["Green"] = 3,},
 		["Effect"] = {
@@ -4820,7 +4820,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Add","Green Titan Essence","Ally"}},
 			Target = "All",
 		},
-		["Bio"] = "I've read enough tinglers to know where this is going.",
+		["Bio"] = "WRITEME",
 	},
 	
 	["Spicy Lollipop"] = {
@@ -9052,6 +9052,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["WrathOfAzure"] = {
 		["Id"] = 2107484195,
 		["Name"] = "Wrath of Azure",
+		["AltCards"] = {
+			["Steve The Explorer"] = {
+				["Id"] = 5823227233,
+				["Name"] = "Steve, the Explorer",
+				["CopyBodge"] = "Steve The Explorer",
+				["Bio"] = [["WRITEME"]],
+			},
 		["CopyBodge"] = "WrathOfAzure",
 		["Health"] = 500,
 		["Power"] = 500,

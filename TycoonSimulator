@@ -3902,12 +3902,12 @@ local tycoons = {
 	},
 	
 	["Tomarty"] = {
-		["Id"] = 5668027251,
+		["Id"] = 5823252261,
 		["Name"] = "Tomarty",
 		["Health"] = 600,
 		["Power"] = 600,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = {"Magic", "Yellow"},
+		["AttackEffect"] = {"Magic", "Green"},
 		["Color"] = "Neutral",
 		["Requirement"] = {"Rarity","Ally",2,9999,"Rare"},
 		["Cost"] = {["Neutral"] = 4, ["Green"] = 1,},
@@ -3922,12 +3922,12 @@ local tycoons = {
 	},
 	
 	["Wsly"] = {
-		["Id"] = 5668027251,
+		["Id"] = 5823252061,
 		["Name"] = "Wsly",
 		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = {"Magic", "Yellow"},
+		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral",
 		["Requirement"] = {"Rarity","Ally",2,9999,"Rare"},
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 1,},
@@ -3939,7 +3939,7 @@ local tycoons = {
 			Target = "Aggressor",
 			["Rarity"] = "Rare",
 		},
-		["Bio"] = [[]],
+		["Bio"] = [[WRITEME]],
 	},
 		
 	["Nexx"] = {

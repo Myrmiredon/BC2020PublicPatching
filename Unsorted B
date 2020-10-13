@@ -1,12 +1,12 @@
 local twentyeleveneighteen = {
 	
 	["ItssPaladin"] = {
-		["Id"] = 462725876,
-		["Name"] = "ItssPaladin",
+		["Id"] = 5823251815,
+		["Name"] = "ConnorVIII",
 		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = {"Magic", "Yellow"},
+		["AttackEffect"] = {"Magic", "Blue"},
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2,["Neutral"] = 4,},
 		["Effect"] = {
@@ -17,7 +17,7 @@ local twentyeleveneighteen = {
 			Target = "Single",
 			Increase = 3,
 		},
-		["Bio"] = "He thinks colored studs are more important than neutral ones!",
+		["Bio"] = "WRITEME",
 	},
 
 	["Plushie Santa"] = {

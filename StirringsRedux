@@ -1993,7 +1993,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 450,
 		["Power"] = 400,
 		["Rarity"] = "Common", -- Common
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
@@ -2034,7 +2034,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 300,
 		["Rarity"] = "Common", --Common
 		["Archetype"] = "Survivor",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
 		["TransformImmune"] = true,
@@ -2056,7 +2056,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Common", -- Common
 		["Unique"] = true,
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Slash",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 4,},
 		["Effect"] = {
@@ -2152,7 +2152,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Consult the Archives"] = {
-		["Id"] = 543041104,
+		["Id"] = 5823223328,
 		["Name"] = "Consult the Archives",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2410,7 +2410,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Draw",4,"Ally"},{"Heal",50,"Self"},{"Damage",400,"Archetype"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-3"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
-		["Bio"] = [[The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off long enough until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.]],
+		["Bio"] = [[The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.]],
 	},	
 	
 	["Ally2-4"] = {
@@ -2436,7 +2436,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Draw",4,"Ally"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
-		["Bio"] = "The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off long enough until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.",
+		["Bio"] = "The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.",
 	},	
 	
 	["The Skull Collector"] = {
@@ -2465,7 +2465,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 400,
 		["Rarity"] = "Token",
 		["Archetype"] = "Skull",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 1, ["Neutral"] = 1,},
 		["Bio"] = "The skull of a tyrannical dwarf-king that led his people to ruin centuries ago.",
@@ -2477,7 +2477,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Blue"},
 		["Color"] = "Blue", 
 		["Archetype"] = "Skull",
 		["Cost"] = {["Blue"] = 1, ["Neutral"] = 1,},
@@ -2497,7 +2497,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Green"},
 		["Archetype"] = "Skull",
 		["Color"] = "Green", 
 		["Cost"] = {["Green"] = 1, ["Neutral"] = 1,},
@@ -2517,7 +2517,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow", 
 		["Archetype"] = "Skull",
 		["Cost"] = {["Yellow"] = 1, ["Neutral"] = 1,},
@@ -2538,7 +2538,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Health"] = 700,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow", 
 		["Cost"] = {["Yellow"] = 13,},
 		["AlternateCost"] = {["Yellow"] = 9,},
