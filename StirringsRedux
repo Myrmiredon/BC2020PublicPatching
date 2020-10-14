@@ -3780,6 +3780,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 6, ["Yellow"] = 6},
 		["Archetype"] = "Sinister",
+		["ReturnImmune"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
 			Description = "Effects can't return this card. During your end step, if your opponent has 13 or more Colourless studs: Remove them all. Return all allied fighters to your hand, then summon each other member of the Sinister family.",
