@@ -3539,23 +3539,23 @@ local ultpower = {
 	},	
 	
 	["BlossomGardens"] = {
-		["Id"] = 5648791506,
+		["Id"] = 5827700833,
 		["Name"] = "BlossomGardens",
 		["Health"] = 1000,
 		["Power"] = 500,
 		["Rarity"] = "Common",
-		["AttackEffect"] = "Slash",
+		["AttackEffect"] = "Punch",
 		["Color"] = "Blue", 
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 6,},
 		["ChargeRequirement"] = {"Playertable","Me",600,99999,"Lifegain"},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Whenever you discard your first card each turn: You gain 600 life. Put a Titan Essence into your hand.",
+			Description = "This card has Haste if you gained 600 Life this turn. Whenever you discard your first card each turn: You gain 600 life. Put a Titan Essence into your hand.",
 			["Type"] = "OnSecondDiscard",
 			["Power"] = {{"Cost",-600},{"RandomAdd",{"Red Titan Essence","Blue Titan Essence","Green Titan Essence","Yellow Titan Essence"}}},
 			Target = "Ally",
 		},
-		["Bio"] = "",
+		["Bio"] = "He doesn't know exactly how he ended up here. Is it because he's way too competitive for his own good? Or maybe it's just because he has a fascination with all things related to inanimate objects? The world may never know...",
 	},
 	
 	["Y05H1M4N"] = {
