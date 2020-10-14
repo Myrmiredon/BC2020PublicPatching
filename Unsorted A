@@ -8558,10 +8558,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3, ["Yellow"] = 2,}, 	
 		["Effect"] = {
 			Name = "Anime Detected",
-			Description = "Whenever an effect draws you a card, if you have five or fewer cards in your deck: Your opponent loses 400 Life.",
-			["Type"] = "OnAllyDraw",
+			Description = "Whenever an effect draws your second card, if you have six or fewer cards in your deck: Your opponent loses 400 Life.",
+			["Type"] = "OnSecondDraw",
 			["Power"] = {{"Inflict",400}},
-			["EffectRequirement"] = {"Deck","Ally",0,6,"Cards"},
+			["EffectRequirement"] = {"Deck","Ally",0,7,"Cards"},
 			Target = "Opponent",
 		},
 		["Bio"] = "######## ### Anime Patrol ##### ##.",
