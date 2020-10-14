@@ -3201,13 +3201,13 @@ local twentyeleveneighteen = {
 	["ShockingRobux"] = {
 		["Id"] = 5473756269,
 		["Name"] = "ShockingRobux",
-		["Health"] = 800,
+		["Health"] = 750,
 		["Power"] = 250,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Charge"] = true,
-		["Cost"] = {["Green"] = 3, ["Blue"] = 3,},
+		["Cost"] = {["Neutral"] = 1, ["Green"] = 3, ["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Trout Slap",
 			Description = "Haste. Whenever this card attacks and destroys another: Give yourself a copy of it.",
