@@ -3662,7 +3662,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Yellow", 
 		["Archetype"] = "Sinister",
 		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
-		["ChargeRequirement"] = {"Archetype", "Ally", 1,9999,"Sinister"},
+		["ChargeRequirement"] = {"Archetype", "Ally", 2,9999,"Sinister"},
 		["Effect"] = {
 			Name = "Haydoscale",
 			Description = "If you control another member of the Sinister family, this card has Haste. Whenever this card attacks: Each player gains two Colourless studs.",
@@ -3708,7 +3708,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Haydoscale",
 			Description = "During your end step, if your opponent has 5 or more Colourless studs: Draw a card. Put a Pact of Condemnation into each player's Baseplate.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Draw",1},{"AddGenZone","Pact of Condemnation"},{"AddGenZone","Pact of Condemnation","Opponent"}},
+			["Power"] = {{"Draw",1},{{"AddGenZone",{"Pact of Condemnation",1},"Ally"},{"AddGenZone",{"Pact of Condemnation",1},"Opponent"}}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 5,9999,"IconsNeutral"},
 		},
