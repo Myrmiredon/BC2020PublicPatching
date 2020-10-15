@@ -4608,14 +4608,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
-		["Cost"] = {["Neutral"] = 1 , ["Yellow"] = 2.},
-		["Effect"] = {
-			Name = "Booster",
-			Description = "When this card is cast, generate a colourless stud.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Neutral",1}},
-			Target = "Ally",
-		},
+		["Cost"] = {["Yellow"] = 2,},
 		["Bio"] = "What's in the box?",
 	},
 	
