@@ -1598,7 +1598,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"ReplaceEffect"}},
 			Target = "Opponent",
 		},
-		["Bio"] = "Easy as pie.",
+		["Bio"] = "Scotch.",
 	},
 
 	["FatalWing"] = {
