@@ -17,7 +17,7 @@ local twentyeleveneighteen = {
 			Target = "Single",
 			Increase = 3,
 		},
-		["Bio"] = "WRITEME",
+		["Bio"] = "Current Developer of Freeze Tag. Go near him and you'll be iced.",
 	},
 
 	["Plushie Santa"] = {
@@ -1612,7 +1612,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "Revival",
-			Description = "Whenever this card's stats are swapped: Put a random Green card into your hand",
+			Description = "Whenever this card's stats are swapped: Put a random Green card into your hand.",
 			["Type"] = "OnSwap",
 			["Power"] = {{"RandomAdd","Green"}},
 			Target = "All",
