@@ -195,7 +195,7 @@ local halo = {
 	},
 
 	["Noli's Domain"] = {
-		["Id"] = 5041737220,
+		["Id"] = 5832411101,
 		["Name"] = "Noli's Domain",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -216,7 +216,7 @@ local halo = {
 	},
 	
 	["Eisenhower Reunited"] = {
-		["Id"] = 4536834413,
+		["Id"] = 5832360214,
 		["Name"] = "Eisenhower Reunited",
 		["AltCards"] = {
 			["Elon Musk"] = {
@@ -1221,7 +1221,7 @@ local halo = {
 		},
 		
 	["Anthrested War Mech"] = { 
-		["Id"] = 5019185111,
+		["Id"] = 5821491009,
 		["CopyBodge"] = "Anthrested War Mech",
 		["Name"] = "Anthrested Simplifier",
 		["Health"] = 200,
@@ -1243,7 +1243,7 @@ local halo = {
 	},
 		
 	["Anthrested Attack Helicopter"] = { 
-		["Id"] = 5210944448,
+		["Id"] = 5832338100,
 		["Name"] = "Anthrested Attack Helicopter",
 		["Health"] = 600,
 		["Power"] = 600,
@@ -1285,7 +1285,7 @@ local halo = {
 	},
 		
 	["Anthrestation Infestation"] = { 
-		["Id"] = 5019183091,
+		["Id"] = 5821617543,
 		["Name"] = "Anthrested Consumer",
 		["CopyBodge"] = "Anthrestation Infestation",
 		["Health"] = 200,
@@ -1308,7 +1308,7 @@ local halo = {
 	},
 	
 	["Anthrested Tree"] = { 
-		["Id"] = 5677803791,
+		["Id"] = 5832333947,
 		["Name"] = "Anthrested Tree",
 		["Health"] = 2000,
 		["Power"] = 100,
@@ -1351,7 +1351,7 @@ local halo = {
 	},
 		
 	["Passion for Fashion"] = { 
-		["Id"] = 5019184423,
+		["Id"] = 5821541569,
 		["Name"] = "Anthrested Degenerator",
 		["CopyBodge"] = "Passion for Fashion",
 		["Health"] = 400,
@@ -1376,7 +1376,7 @@ local halo = {
 	},
 	
 	["Anthrested Dragon"] = { 
-		["Id"] = 5210948672,
+		["Id"] = 5832333430,
 		["Name"] = "Anthrested Dragon",
 		["Health"] = 600,
 		["Power"] = 600,
@@ -1397,7 +1397,7 @@ local halo = {
 	},
 		
 	["Cycle the Contagion"] = { 
-		["Id"] = 5019188781,
+		["Id"] = 5832348590,
 		["Name"] = "Cycle the Contagion",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -1603,7 +1603,7 @@ local halo = {
 	},
 	
 	["Orinthian Fleet: Valkyrie Mech"] = {  --Orinthian Wings
-		["Id"] = 5263579234,
+		["Id"] = 5832414917,
 		["Name"] = "Orinthian Fleet: Valkyrie Mech",
 		["Health"] = 600,
 		["Power"] = 150,
@@ -1674,7 +1674,7 @@ local halo = {
 	},
 	
 	["Orinthian Gate: Power Parallax"] = { 
-		["Id"] = 5031773111,
+		["Id"] = 5832415860,
 		["Name"] = [[Orinthian Gate: Power Parallax]],
 		["Health"] = 300,
 		["Power"] = 300,
@@ -2163,7 +2163,7 @@ local halo = {
 	},
 	
 	["Construct! Sentry Alpha!"] = {
-		["Id"] = 4720099996,
+		["Id"] = 5805137455,
 		["Name"] = "Construct! Sentry Alpha!",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2206,7 +2206,7 @@ local halo = {
 	},
 	
 	["Construct! Sentry Beta!"] = {
-		["Id"] = 4923205268,
+		["Id"] = 5832346718,
 		["Name"] = "Construct! Sentry Beta!",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2250,7 +2250,7 @@ local halo = {
 	},	
 	
 	["Construct! Sentry Gamma!"] = {
-		["Id"] = 4923204290,
+		["Id"] = 5832347379,
 		["Name"] = "Construct! Sentry Gamma!",
 		["Health"] = 0,
 		["Power"] = 0,
