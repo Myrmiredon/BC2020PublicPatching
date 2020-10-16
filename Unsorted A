@@ -3297,9 +3297,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 6,},
 		["Effect"] = {
 			Name = "Mimic",
-			Description = "Deal 2000 damage to a target fighter.",
+			Description = "Destroy a target fighter.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",2000}},
+			["Power"] = {{"Destroy"}},
 			Target = "Single",
 		},
 		["Bio"] = "Our content monitors have determined that your behavior at Roblox has been in violation of our Terms of Service.",
