@@ -4085,10 +4085,10 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Booming Red",
-			Description = "Whenever an effect draws you a card: Shuffle a Rare card into your deck.",
+			Description = "Whenever an effect draws you a card: Shuffle a Rare card into each player's deck.",
 			["Type"] = "OnAllyDraw",
-			["Power"] = {{"RandomAdd","Rare"}},
-			Target = "Ally",
+			["Power"] = {{"RandomDeckAdd","Rare"}},
+			Target = "All",
 		},
 		["Bio"] = [["It's a tack, not attack."]],
 	},
