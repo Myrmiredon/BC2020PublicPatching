@@ -2052,7 +2052,7 @@ local ultpower = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Archetype"] = "Titan",
-		["Requirement"] = {"Archetype","Ally",1,9999,"Titan"},
+		["Requirement"] = {"Archetype","Ally",2,9999,"Titan"},
 		["Cost"] = {["Red"] = 1,},
 		["Effect"] = {
 			Name = "I quit.",
@@ -2073,7 +2073,7 @@ local ultpower = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
 		["Archetype"] = "Titan",
-		["Requirement"] = {"Archetype","Ally",1,9999,"Titan"},
+		["Requirement"] = {"Archetype","Ally",2,9999,"Titan"},
 		["Cost"] = {["Blue"] = 1,},
 		["Effect"] = {
 			Name = "I quit.",
@@ -2094,7 +2094,7 @@ local ultpower = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
 		["Archetype"] = "Titan",
-		["Requirement"] = {"Archetype","Ally",1,9999,"Titan"},
+		["Requirement"] = {"Archetype","Ally",2,9999,"Titan"},
 		["Cost"] = {["Green"] = 1,},
 		["Effect"] = {
 			Name = "I quit.",
@@ -2115,7 +2115,7 @@ local ultpower = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Archetype"] = "Titan",
-		["Requirement"] = {"Archetype","Ally",1,9999,"Titan"},
+		["Requirement"] = {"Archetype","Ally",2,9999,"Titan"},
 		["Cost"] = {["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "I quit.",
