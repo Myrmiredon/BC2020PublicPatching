@@ -805,7 +805,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Skull Collector's Ritual",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Epic", -- Epic
+		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral", 
 		["Cost"] = {["Neutral"] = 2,},
@@ -813,7 +813,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Haydoscale",
 			Description = "Search each Ritual Part from your deck. Cast them all to summon Eclipse, a 2000/2000 Werewolf Colossus.", 
 			["Type"] = "OnSummon",
-			["Power"] = {{"Add","Eclipse's Resurrection"},{"Tutorfor","Ritual Part: Werewolf Fur"},{"Tutorfor","Ritual Part: Vitality Wellspring"},{"Tutorfor","Ritual Part: Husk Newt"},{"Tutorfor","Godbeast's Skull"}},
+			["Power"] = {{"Add","Eclipse's Resurrection"},{"Tutorfor","Ritual Part: Werewolf Fur"},{"Tutorfor","Ritual Part: Vitality Wellspring"},{"Tutorfor","Ritual Part: Husk Newt"},{"Tutorfor","Ritual Part: Godbeast's Skull"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Body, Spirit, Fur, and Vitality. This would resurrect the Moonbreaker. A question remained: How to obtain them?",
@@ -824,7 +824,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Eclipse's Resurrection",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Token", -- Epic
+		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral", 
 		["Cost"] = {["Neutral"] = 6,},
@@ -844,7 +844,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Eclipse, Werewolf Colossus",
 		["Health"] = 2000,
 		["Power"] = 2000,
-		["Rarity"] = "Token", -- Token
+		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
 		["Archetype"] = "Lycanthrope",
 		["CounterAttackBlock"] = true,
@@ -2258,7 +2258,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-1"] = {
-		["Id"] = 5819847647,
+		["Id"] = 5832363639,
 		["Name"] = "Fun's End",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2310,7 +2310,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-2"] = {
-		["Id"] = 5819847282,
+		["Id"] = 5832424141,
 		["Name"] = "Shadow Market",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2362,7 +2362,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-3"] = {
-		["Id"] = 5819847002,
+		["Id"] = 5832432799,
 		["Name"] = "Titanic Elixir",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2414,7 +2414,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Ally2-4"] = {
-		["Id"] = 5819846571,
+		["Id"] = 5832416461,
 		["Name"] = "Penumbra Shield",
 		["Health"] = 600,
 		["Power"] = 0,
@@ -2797,7 +2797,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Ultra Obliterator",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Token",
+		["Rarity"] = "Epic",
 		["AttackEffect"] = "Flood",		
 		["Color"] = "Neutral",
 		["Token"] = true,
@@ -2820,7 +2820,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Ultra Annihilator",
 		["Health"] = 2000,
 		["Power"] = 2000,
-		["Rarity"] = "Token",
+		["Rarity"] = "Legendary",
 		["AttackEffect"] = "UziShot", -- Grey the opposing card out.	
 		["Color"] = "Neutral",
 		["Archetype"] = "Ultra",
@@ -2892,7 +2892,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
-        ["Color"] = "Red", 
+        	["Color"] = "Red", 
 		["Archetype"] = "Lycanthrope",
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
@@ -2981,7 +2981,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 5689847144,
 		["CopyBodge"] = "Werefrog",
 		["Name"] = "Hazenwyld's Blade",
-			["AltCards"] = {
+		["AltCards"] = {
 			["Werefrog-Val"] = {
 				["Id"] = 893428350,
 				["Name"] = "Loving Frog",
