@@ -1,7 +1,7 @@
 local twentyeleveneighteen = {
 	
 	["ItssPaladin"] = {
-		["Id"] = 5823251788,
+		["Id"] = 5832345212,
 		["Name"] = "ConnorVIII",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -59,7 +59,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Plushie Snowman"] = {
-		["Id"] = 2810636143,
+		["Id"] = 5832418655,
 		["Name"] = "Plushie Snowman",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -228,7 +228,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Bebee2"] = {
-		["Id"] = 335986392,
+		["Id"] = 5832339441,
 		["Name"] = "Bebee2",
 		["Health"] = 500,
 		["Power"] = 400,
@@ -2977,6 +2977,12 @@ local twentyeleveneighteen = {
 				["Id"] = 1567591506,
 				["CopyBodge"] = "Western Bandit-E",
 				["Bio"] = "He ALWAYS ruins easter for the cowboysâ€¦",
+			},
+			
+			["Luminarus"] = {
+				["Id"] = 5832405808,
+				["Name"] = "Luminarus",
+				["Bio"] = "This card is an alternate art of Western Bandit.",
 			},
 		},
 		["Health"] = 250,

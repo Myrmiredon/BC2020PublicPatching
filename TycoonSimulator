@@ -1,8 +1,8 @@
 local tycoons = {
 	
 	["Primordial Developer Container"] = {
-		["Id"] = 2857414948,
-		["Name"] = "TheGamer101",
+		["Id"] = 5138306439,
+		["Name"] = "Primordial Developer Container",
 		["AltCards"] = {	
 			["TheGamer101"] = {
 				["Id"] = 5673313638,
@@ -108,7 +108,7 @@ local tycoons = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Cost"] = {["Neutral"] = 4},
 		["Archetype"] = "Primordial Developer",
-		["Bio"] = "A powerful swordfighter powered by two people, crazy right?",
+		["Bio"] = ":pensive:",
 	},	
 	-------------------------------------
 	
@@ -194,7 +194,7 @@ local tycoons = {
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 1,["Blue"] = 2,},
 		["Effect"] = {
-			Name = "Split Ego",
+			Name = "FlySwatter",
 			Description = "When this card is cast: All Police gain 250 power. Lock them for 1 turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Lock",1},{"Strengthen",250}},
@@ -666,7 +666,7 @@ local tycoons = {
 	-------------------------------------
 
 	["Edgelord"] = {
-		["Id"] = 540076100,
+		["Id"] = 5832372968,
 		["Name"] = "Kenami",
 		["AltCards"] = {
 			["Sugarlord"] = {
@@ -955,7 +955,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 2,},
 		["Effect"] = {
 			Name = "Stop It, Slender!",
-			Description = "When this card is cast, if you have any Colourless cards in your Baseplate: Destroy them all. Put two copies of this card into your Baseplate. You gain two Red studs.",
+			Description = "When this card is cast, if you have any Colourless cards in your Baseplate: Destroy them all. Put two copies of this card into your Baseplate.",
 			["Type"] = "OnAllySummon",
 			["Power"] = {{"GenZoneDiscard",{"Neutral",-10}},{"AddGenZone",{"Kinnis97",2}}},
 			Target = "Ally",
@@ -1169,7 +1169,7 @@ local tycoons = {
 	},
 	
 	["UristMcSparks"] = {
-		["Id"] = 413927726,
+		["Id"] = 5832436717,
 		["Name"] = "UristMcSparks",
 		["Health"] = 1000,
 		["Power"] = 200,
@@ -1416,7 +1416,7 @@ local tycoons = {
 		["SwapImmune"] = true,
 		["Effect"] = {
 			Name = "Master Blast",
-			Description = "Max level. Effects can't damage or destroy this card card. During your end step: If your opponent controls at least one fighter, he loses all of their Colourless studs. This card gains 1200 Health and Power.",
+			Description = "Max level. Effects can't damage or destroy this card card. During your end step: If your opponent controls at least one fighter, they lose all of their Colourless studs. This card gains 1200 Health and Power.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Heal",1200},{"Strengthen",1200},{"SetNeutral",0,"Opponent"}},
 			Target = "Self",
@@ -1604,7 +1604,7 @@ local tycoons = {
 	},
 	
 	["Round3"] = {
-		["Id"] = 5172096327,
+		["Id"] = 5832354645,
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
 		["Health"] = 900,
@@ -1625,7 +1625,7 @@ local tycoons = {
 	},
 	
 	["Round4"] = {
-		["Id"] = 5172096327,
+		["Id"] = 5832354645,
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
 		["Health"] = 900,
@@ -1635,13 +1635,6 @@ local tycoons = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue", 
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 5,},
-		["Effect"] = {
-			Name = "Life fam",
-			Description = "Fading. Whenever an allied fighter dies: Summon a clone of it. This effect triggers only once.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",0}},
-			Target = "Ally",
-		},
 		["Bio"] = [[A butler's duty is to protect the duties of others, sir.]],
 	},
 	
@@ -2703,7 +2696,7 @@ local tycoons = {
 	},
 	
 	["Tl_rd"] = {
-		["Id"] = 5241191372,
+		["Id"] = 5832434262,
 		["Name"] = "ttarX4",
 		["CopyBodge"] = "Tl_rd",
 		["Health"] = 500,
@@ -2713,15 +2706,15 @@ local tycoons = {
 		["Foil"] = true,
 		["AttackEffect"] = {"Magic", "Green"},
 		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 6,},
+		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "BEANAENAED",
-			Description = "Inert. When this card is cast: Summon a copy of a fighter from another ongoing battle in this server.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"CopyFromOtherBattle"}},
+			Description = "Inert. Whenever you discard your first card each turn: Give yourself a random Rare card.",
+			["Type"] = "OnSecondDiscard",
+			["Power"] = {{"RandomAdd","Rare"}},
 			Target = "Ally",
 		},
-		["Bio"] = "I will actually reward the first person who actually manages to summon Telamon in tournament with this card.",
+		["Bio"] = "Tap\nhere\nto\nadd\ntext",
 	},
 	
 	["HasTheHero"] = {
@@ -3185,7 +3178,7 @@ local tycoons = {
 		["Transformant"] = "Cringeleafff",
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "When this card is targeted: Reduce the power of all fighters by 200. This card loses this effect.",
+			Description = "If an effect would target this card: All fighters lose 200 power instead. This effect triggers only once.",
 			["Type"] = "OnTarget",
 			["Power"] = {{"Weaken",200,"All"},{"Transform"}},
 			Target = "Self",
@@ -3904,7 +3897,7 @@ local tycoons = {
 	},
 	
 	["Tomarty"] = {
-		["Id"] = 5823252249,
+		["Id"] = 5832433614,
 		["Name"] = "Tomarty",
 		["Health"] = 600,
 		["Power"] = 600,
@@ -3924,21 +3917,21 @@ local tycoons = {
 	},
 	
 	["Wsly"] = {
-		["Id"] = 5823252050,
+		["Id"] = 5832439577,
 		["Name"] = "Wsly",
 		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Neutral",
-		["Requirement"] = {"Rarity","Ally",2,9999,"Rare"},
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 1,},
 		["Effect"] = {
 			Name = " Plushie Amp",
-			Description = "Whenever you cast a Rare fighter, if you control 3 Rare fighters: That fighter and this card gain 100 health. A target fighter loses 100 power.",
+			Description = "Whenever you cast a Rare fighter, if you control 2 other Rare fighters: That fighter and this card gain 100 health. A target fighter loses 100 power.",
 			["Type"] = "OnAllySummon",
-			["Power"] = {{"Heal",100},{"Heal",100,"Self"},{"Weaken",100,"Single"}},
+			["Power"] = {{"Heal",100,"Rare"},{"Weaken",100,"Single"}},
 			Target = "Aggressor",
+			["EffectRequirement"] = {"Rarity","Ally",3,9999,"Rare"},
 			["Rarity"] = "Rare",
 		},
 		["Bio"] = [[WRITEME]],
