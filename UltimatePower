@@ -548,7 +548,7 @@ local ultpower = {
 			["MrBeeBee2"] = {
 				["Name"] = "Zombee",
 				["CopyBodge"] = "MrBeeBee2",
-				["Id"] = 3293642456,
+				["Id"] = 5832446685,
 				["Bio"] = "Don't you hate it when you're a bee, then you just suddenly DIE from colony collapse disorder?",
 			},
 		},
@@ -800,7 +800,7 @@ local ultpower = {
 	},
 	
 	["GiottoBee"] = {
-		["Id"] = 5610457713,
+		["Id"] = 5828290056,
 		["Name"] = "Beatrix, The Bee Cadet",
 		["CopyBodge"] = "GiottoBee",
 		["Health"] = 500,
@@ -1626,11 +1626,10 @@ local ultpower = {
 		["Id"] = 4899422795,
 		["Name"] = "Noob",
 		["AltCards"] = {
-			["Spongebob"] = {
-				["Id"] =  4782859187,
-				["Name"] = "Spongebob Squarepants",
-				["CopyBodge"] = "Spongebob",
-				["Bio"] = "OOOOOOO WHO LIVES IN A PINEAPPLE UNDER THE SEA! This card is an alternate art of Noob.",
+			["Bananas"] = {
+				["Id"] =  5832349768,
+				["Name"] = "Dancing Bananas",
+				["Bio"] = "ITS PEANUT BUTTER JELLY TIME! This card is an alternate art of Noob.",
 			},
 			["CaptainUnderpants"] = {
 				["Id"] =  5221763988,
@@ -2213,7 +2212,7 @@ local ultpower = {
 		["Name"] = "Meebling",
 		["AltCards"] = {
 			["Meebling-Sun"] = {
-				["Id"] = 897243957,
+				["Id"] = 5832407919,
 				["CopyBodge"] = "Meebling-Sun",
 				["Bio"] = "Meeblings are composed of 90% raw cuteness and 10% goof. This means that your average Meeboid weighs over five hundred tons.",
 			},
@@ -3539,7 +3538,7 @@ local ultpower = {
 	},	
 	
 	["BlossomGardens"] = {
-		["Id"] = 5827700833,
+		["Id"] = 5832341039,
 		["Name"] = "BlossomGardens",
 		["Health"] = 1000,
 		["Power"] = 500,
@@ -3619,7 +3618,7 @@ local ultpower = {
 	},
 	
 	["Her0z"] = {
-		["Id"] = 5650512627,
+		["Id"] = 5832369725,
 		["Name"] = "Her0z",
 		["Health"] = 700,
 		["Power"] = 100,
@@ -4075,7 +4074,7 @@ local ultpower = {
 	},
 	
 	["65popcan"] = {
-		["Id"] = 5648791506,
+		["Id"] = 5835879317,
 		["Name"] = "65popcan",
 		["Health"] = 700,
 		["Power"] = 300,
@@ -4167,7 +4166,7 @@ local ultpower = {
 	},
 	
 	["Split Ego"] = {
-		["Id"] = 4784602331,
+		["Id"] = 5832423356,
 		["Name"] = "Split Ego",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -4186,7 +4185,7 @@ local ultpower = {
 	},	
 	
 	["WeirdSauce210"] = {
-		["Id"] = 5648791506,
+		["Id"] = 5832438173,
 		["Name"] = "WeirdSauce210",
 		["Health"] = 1100,
 		["Power"] = 200,
@@ -4225,7 +4224,7 @@ local ultpower = {
 	},	
 	
 	["MustagedWorldYT"] = {
-		["Id"] = 5823253184,
+		["Id"] = 5832410516,
 		["Name"] = "MustagedWorldYT",
 		["AltCards"] = {
 			["MustagedWorldYT-ALT"] = {
