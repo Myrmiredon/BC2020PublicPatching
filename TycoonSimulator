@@ -1,8 +1,8 @@
 local tycoons = {
 	
 	["Primordial Developer Container"] = {
-		["Id"] = 2857414948,
-		["Name"] = "TheGamer101",
+		["Id"] = 5138306439,
+		["Name"] = "Primordial Developer Container",
 		["AltCards"] = {	
 			["TheGamer101"] = {
 				["Id"] = 5673313638,
@@ -108,7 +108,7 @@ local tycoons = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Cost"] = {["Neutral"] = 4},
 		["Archetype"] = "Primordial Developer",
-		["Bio"] = "A powerful swordfighter powered by two people, crazy right?",
+		["Bio"] = ":pensive:",
 	},	
 	-------------------------------------
 	
@@ -1416,7 +1416,7 @@ local tycoons = {
 		["SwapImmune"] = true,
 		["Effect"] = {
 			Name = "Master Blast",
-			Description = "Max level. Effects can't damage or destroy this card card. During your end step: If your opponent controls at least one fighter, he loses all of their Colourless studs. This card gains 1200 Health and Power.",
+			Description = "Max level. Effects can't damage or destroy this card card. During your end step: If your opponent controls at least one fighter, they lose all of their Colourless studs. This card gains 1200 Health and Power.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Heal",1200},{"Strengthen",1200},{"SetNeutral",0,"Opponent"}},
 			Target = "Self",
@@ -1635,13 +1635,6 @@ local tycoons = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue", 
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 5,},
-		["Effect"] = {
-			Name = "Life fam",
-			Description = "Fading. Whenever an allied fighter dies: Summon a clone of it. This effect triggers only once.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",0}},
-			Target = "Ally",
-		},
 		["Bio"] = [[A butler's duty is to protect the duties of others, sir.]],
 	},
 	
