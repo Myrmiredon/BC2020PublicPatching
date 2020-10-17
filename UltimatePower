@@ -2169,11 +2169,11 @@ local ultpower = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Build Up",
-			Description = "Whenever you cast a Meeboid, if you control another Meeboid: It gains 300 health. You gain 300 life. Put a copy of this card into your Baseplate.",
+			Description = "Whenever you cast a Meeboid, if you control 2 Meeboids: It gains 300 health. You gain 300 life. Put a copy of this card into your Baseplate.",
 			["Type"] = "OnAllySummon",
 			["Archetype"] = "Meeboid",
 			["Power"] = {{"Heal",300},{"Cost",-300},{"AddGenZone",{"Meeboid",1},"Ally"}},
-			["EffectRequirement"] = {"Archetype","Ally",2,9999,"Meeboid"},
+			["EffectRequirement"] = {"Archetype","Ally",3,9999,"Meeboid"},
 			Target = "Aggressor",
 		},
 		["Bio"] = "Meep.",
