@@ -3762,7 +3762,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Endless Spooks",
-			Description = "Destroy all fighters with 350 or less health. End the turn.",
+			Description = "Destroy all fighters with 350 or less health. If you control a fighter, end the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"CheckHealth",{0,350}},{"EndTurn",1}},
 			Target = "All",
@@ -9460,7 +9460,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red",
-		["Cost"] = {["Red"] = 5, ["Blue"] = 5,},
+		["Cost"] = {["Neutral"] = 3, ["Red"] = 5, ["Blue"] = 5,},
 		["Archetype"] = "Lunar",
 		["Effect"] = {
 			Name = "Nature's Reconciliation",
