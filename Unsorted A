@@ -8858,7 +8858,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Canine ninja fox deterrent",
-			Description = "When this card is cast, return each fighter with the highest health to their owner's hand.",
+			Description = "When this card is cast: Return each fighter with the highest health to their owner's hand.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Return",030}},
 			Target = "HighestHealth",
