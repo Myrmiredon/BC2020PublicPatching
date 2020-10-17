@@ -2329,10 +2329,11 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 1, ["Green"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = [[If this card's stats would be swapped: Put a copy of it into your Baseplate first.]],
-			["Type"] = "OnSwap",
+			Description = [[During your end step, if an effect swapped an allied fighter's stats since your last endstep: put a copy of this card into your baseplate.]],
+			["Type"] = "OnEnd",
 			["Power"] = {{"AddGenZone",{"Angry Attack Squirrel",1}}},
-			Target = "Self",
+			Target = "Ally",
+			["EffectRequirement"] = {"Playertable","Me",1,9999,"SwapCount"}
 		},
 		["Bio"] = "Don't make them go nuts.",
 	},
