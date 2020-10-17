@@ -1715,9 +1715,9 @@ local twentyeleveneighteen = {
 		["Name"] = "Ezebel, Pirate Queen",
 		["CopyBodge"] = "Bearded Captain",
 		["Health"] = 400,
-		["Power"] = 0,
+		["Power"] = 100,
 		["Rarity"] = "Uncommon",
-		["AttackEffect"] = {"Magic", "Yellow"},
+		["AttackEffect"] = {"Slash"},
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
@@ -1727,7 +1727,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"Weaken",400}},
 			Target = "Single",
 		},
-		["Bio"] = "Arrrrr. I wish I had some soda for my pirate dinner.",
+		["Bio"] = "The oceans are controlled by the pirates, and the pirates are controlled by Ez. You want anything done on the ocean, well you will have to talk to Ez first.",
 	},			
 	
 	["ROBLOXADOR!!"] = {
