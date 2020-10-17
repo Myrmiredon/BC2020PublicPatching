@@ -101,7 +101,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Lock",5,"Ally"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Out of desparation, Eisenhower asked to see his loved one again, trusting words he had no knowledge or control over.",
+		["Bio"] = "A tome filled with essential Moon sorcery. It drains the conjurer in exchange for the knowledge of what is held within.",
 	},
 	
 	
@@ -249,7 +249,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 			["EffectRequirement"] = {"Playertable","Me",1,2,"Actions"},
 		},
-		["Bio"] = [["When I saw the Laboratory's lower floors, I froze. The Robot didn't." - Sword Critic]],
+		["Bio"] = [["When I saw the Laboratory's lower floors, I froze. The Robot didn't." - David Crissbach]],
 	},
 	
 	["Lunar Banishment"] = {
