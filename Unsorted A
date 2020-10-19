@@ -217,7 +217,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Tarfful"] = {
-		["Id"] = 5823252646,
+		["Id"] = 5832427304,
 		["Name"] = "Tarfful",
 		["Health"] = 900,
 		["Power"] = 450,
@@ -308,6 +308,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["BloodSpilled"] = {
 		["Id"] = 2817092505,
 		["Name"] = "BloodSpilled",
+		["AltCards"] = {
+			["AsAsSino142"] = {
+				["Id"] =  5832337543,
+				["Name"] = "AsAsSino142",
+				["AltArt"] = true,
+				["Bio"] = "This card is an alternate art of BloodSpilled.",
+			},
+		},
 		["Health"] = 150,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
@@ -316,7 +324,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 1,["Red"] = 3,},
 		["Effect"] = {
 			Name = "seventh jutsu of the final sun's rend",
-			Description = "When this card is cast: Deal 400 damage to a target fighter. You lose 600 life.",
+			Description = "When this card is cast: You lose 600 life. Deal 400 damage to a target fighter.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Cost",600},{"Damage",400}},
 			Target = "Single",
@@ -385,6 +393,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["MekaX"] = {
 		["Id"] = 4899390983,
 		["Name"] = "MekaX",
+		["AltCards"] = {
+			["Elite Commander S_leepyhead"] = {
+				["Id"] =  5832362457,
+				["Name"] = "Elite Commander S_leepyhead",
+				["AltArt"] = true,
+				["Bio"] = "This card is an alternate art of MekaX.",
+			},
+		},
 		["Health"] = 1800,
 		["Power"] = 150,
 		["Rarity"] = "Uncommon",
@@ -1675,7 +1691,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},				
 	
 	["MICHIKUSCHI"] = {
-		["Id"] = 5059555444,
+		["Id"] = 5832353344,
 		["CopyBodge"] = "MICHIKUSCHI",
 		["Name"] = "EndlessCactuar",
 		["Health"] = 150,
@@ -2475,12 +2491,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Dogon",
 				["AltArt"] = true,
 				["CopyBodge"] = "Dogon",
-				["Id"] = 4782858173,
+				["Id"] = 5832352650,
 				["Effect"] = {
 					Name = "Stud",
 					Description = "When this card is cast, if your opponent controls two fighters: Summon 7 Shovelware Studio Stars. End the turn.",
 					["Type"] = "OnSummon",
-					["Power"] = {{"Summon","CaptainUnderpants"},{"Summon","Minions"},{"Summon","Rowley"},{"Summon","Spongebob" },{"Summon","Rowley"},{"Summon","Minions"},{"Summon","CaptainUnderpants"},{"EndTurn",1}},
+					["Power"] = {{"Summon","CaptainUnderpants"},{"Summon","Minions"},{"Summon","Rowley"},{"Summon","Bananas"},{"Summon","Rowley"},{"Summon","Minions"},{"Summon","CaptainUnderpants"},{"EndTurn",1}},
 					Target = "Ally",
 					["EffectRequirement"] = {"Board", "Opponent", 2,9999},
 		},
@@ -2601,6 +2617,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["DrKig"] = {
 		["Id"] = 292778152,
 		["Name"] = "DrKig",
+		["AltCards"] = {
+			["Unc, the Fourth Match Flame"] = {
+				["Name"] = "Unc, the Fourth Match Flame",
+				["Id"] = 5832435619,
+				["AltArt"] = true,
+				["Bio"] = "This card is an alternate art of DrKig.",
+			},
+		},
 		["Health"] = 800,
 		["Power"] = 700,
 		["Rarity"] = "Legendary",
@@ -2838,7 +2862,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Combine Garrison",
 		["AltCards"] = {
 			["Senpai Garrison"] = {
-				["Id"] = 655016996,
+				["Id"] = 5832344006,
 				["AltArt"] = true,
 				["Name"] = "Senpai Garrison",
 				["Bio"] = "These high school students are always ignoring Stalker-Chan.",
@@ -2867,8 +2891,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 3164484158,
 		["Name"] = "Lesser Combine Garrison",
 		["CopyBodge"] = "Combine Garrison",
-		["AltCards"] = {			["Senpai Garrison 2"] = {
-				["Id"] = 655016996,
+		["AltCards"] = {
+			["Senpai Garrison 2"] = {
+				["Id"] = 5832344006,
 				["CopyBodge"] = "Senpai Garrison",
 				["Name"] = "Lesser Senpai Garrison",
 				["Bio"] = "These high school students are always ignoring Stalker-Chan.",
@@ -2898,7 +2923,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["CopyBodge"] = "Combine Garrison",
 		["AltCards"] = {
 			["Senpai Garrison 3"] = {
-				["Id"] = 655016996,
+				["Id"] = 5832344006,
 				["Name"] = "Yandere Garrison",
 				["CopyBodge"] = "Senpai Garrison",
 				["Bio"] = "These high school students are always ignoring Stalker-Chan.",
@@ -3079,7 +3104,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Spooky Caverns-Sun"] = {
 				["Name"] = "Underwater Caverns",
 				["Terrariant"] = "Caverns Terrain-Sun",
-				["Id"] = 897247423,
+				["Id"] = 5835880044,
 				["Bio"] = "-Jaws theme plays-",
 			},
 		},
@@ -3297,9 +3322,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 6,},
 		["Effect"] = {
 			Name = "Mimic",
-			Description = "Deal 2000 damage to a target fighter.",
+			Description = "Destroy a target fighter.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",2000}},
+			["Power"] = {{"Destroy"}},
 			Target = "Single",
 		},
 		["Bio"] = "Our content monitors have determined that your behavior at Roblox has been in violation of our Terms of Service.",
@@ -3737,7 +3762,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Endless Spooks",
-			Description = "Destroy all fighters with 350 or less health. End the turn.",
+			Description = "Destroy all fighters with 350 or less health. If you control a fighter, end the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"CheckHealth",{0,350}},{"EndTurn",1}},
 			Target = "All",
@@ -4292,7 +4317,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Blizaki",
 				["Id"] = 5607474134,
 				["AltArt"] = true,
-				["Bio"] = "This card is an alt-art of Frosty The Snowman",
+				["Bio"] = "This card is an alt-art of Frosty The Snowman.",
 			},
 		},
 		["Health"] = 600,
@@ -4600,7 +4625,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Candy Robber"] = {
-		["Id"] = 5182326961,
+		["Id"] = 5832424825,
 		["CopyBodge"] = "Candy Robber",
 		["Name"] = "silky_dev",
 		["Health"] = 550,
@@ -4798,7 +4823,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Stranglevines"] = {
-		["Id"] = 5823241383,
+		["Id"] = 5832439107,
 		["Name"] = "WhoToTrus",
 		["Health"] = 350,
 		["Power"] = 350,
@@ -6618,7 +6643,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	
 	
 	["Satyr Firemaster"] = {
-		["Id"] = 4784602588,
+		["Id"] = 5832422553,
 		["Name"] = "Satyr Firemaster",
 		["AltCards"] = {
 			["Satyr Firemaster-Sun"] = {
@@ -6653,7 +6678,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Great Paraselene Sage"] = {
-		["Id"] = 4998333643,
+		["Id"] = 5832364764,
 		["Name"] = "Great Beastbreaker",
 		["AltCards"] = {
 			["Divine Emperor  Keeler1"] = {
@@ -6684,7 +6709,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Delirious Ooze"] = {
-		["Id"] = 5014643538,
+		["Id"] = 5832350963,
 		["Name"] = "Delirious Ooze",
 		["Health"] = 700,
 		["Power"] = 0,
@@ -6706,8 +6731,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Confusion Elemental?"] = {
-		["Id"] = 4951755638,
+		["Id"] = 5832344605,
 		["Name"] = "Confusion Elemental?",
+		["AltCards"] = {
+			["Illusionist Keeler1"] = {
+				["Id"] = 5832372155,
+				["Name"] = "Illusionist Keeler1",
+				["AltArt"] = true,
+				["Bio"] = "Is this card an alternate art of Confusion Elemental?",
+			},
+		},
 		["Health"] = 4000,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
@@ -6735,7 +6768,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 3471743968,
 				["Name"] = "iamlogic, Purple Psion",
 				["CopyBodge"] = "iamlogicPurplePsion",
-				["Bio"] = "kek gaming clan tryouts are open. This card is an alternate art of...iamlogic. Seriously?",
+				["Bio"] = "kek gaming clan tryouts are open. This card is an alternate art of... iamlogic. Seriously?",
 			},
 		},
 		["Health"] = 800,
@@ -7107,18 +7140,17 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["caone"] = {
 		["Id"] = 1402769671,
 		["Name"] = "caone",
-		["Health"] = 400,
-		["Power"] = 400,
+		["Health"] = 1000,
+		["Power"] = 100,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Color"] = "Blue",
-		["Archetype"] = "Morphic", 		
+		["Color"] = "Blue", 		
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Whenever an effect draws your opponent a card: Draw a card.",
+			Description = "Whenever an effect draws your opponent a card: Caone loses 100 health. Draw a card.",
 			["Type"] = "OnEnemyDraw",
-			["Power"] = {{"Draw",1}},
+			["Power"] = {{"Damage",100,"Self"},{"Draw",1}},
 			Target = "Ally",
 		},
 		["Bio"] = "My goo is the goodest goo around. No goo is as good as my goo.",
@@ -8784,18 +8816,18 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["WookieCookieHD"] = {
 		["Id"] = 4784610693,
 		["Name"] = "WookieCookieHD",
-		["Health"] = 900,
-		["Power"] = 600,
+		["Health"] = 400,
+		["Power"] = 400,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},		
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 2, ["Blue"] = 6,},
+		["Cost"] = {["Neutral"] = 3, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Canine ninja fox deterrent",
-			Description = "Whenever you cast an allied fighter: Lock it for two turns. It gains 300 health.",
-			["Type"] = "OnAllySummon",
-			["Power"] = {{"Lock",2},{"Heal",300}},
-			Target = "Aggressor",
+			Description = "When this card is cast: Return each fighter with the highest health to their owner's hand.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Return",030}},
+			Target = "HighestHealth",
 		},
 		["Bio"] = "He can calculate interest to six decimal places, even in the midst of a deadly duel.",	
 	},
@@ -8986,6 +9018,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["DoomedAdventurer"] = {
 		["Id"] = 3611802597,
 		["Name"] = "Doomed Adventurer",
+		["AltCards"] = {
+			["ObamaXJesus"] = {
+				["Id"] = 5780957007,
+				["Name"] = "ObamaXJesus",
+				["Bio"] = "This card is an alternate art of Doomed Adventurer.",
+			},
+		},
 		["CopyBodge"] = "DoomedAdventurer",
 		["Health"] = 500,
 		["Power"] = 500,
@@ -9012,12 +9051,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 2107484195,
 		["Name"] = "Wrath of Azure",
 		["AltCards"] = {
-			["Steve The Explorer"] = {
-				["Id"] = 5823227213,
+			["Steve, The Explorer"] = {
+				["Id"] = 5832426559,
 				["Name"] = "Steve, the Explorer",
-				["CopyBodge"] = "Steve The Explorer",
 				["Bio"] = "This card is an alternate art of Wrath of Azure.",
 			},
+		},
 		["CopyBodge"] = "WrathOfAzure",
 		["Health"] = 500,
 		["Power"] = 500,
@@ -9387,7 +9426,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red",
-		["Cost"] = {["Red"] = 5, ["Blue"] = 5,},
+		["Cost"] = {["Neutral"] = 3, ["Red"] = 5, ["Blue"] = 5,},
 		["Archetype"] = "Lunar",
 		["Effect"] = {
 			Name = "Nature's Reconciliation",

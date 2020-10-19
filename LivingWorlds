@@ -80,7 +80,7 @@ local LivingWorldTerrarians = {
 	--},
 	
 	["Blue Stud"] = {
-		["Id"] = 4952824244,
+		["Id"] = 5832341521,
 		["Name"] = "Blue Stud",
 		["Health"] = 200,
 		["Power"] = 200,
@@ -92,7 +92,7 @@ local LivingWorldTerrarians = {
 	},
 	
 	["Yellow Stud"] = {
-		["Id"] = 4952824244,
+		["Id"] = 5832440157,
 		["Name"] = "Yellow Stud",
 		["Health"] = 200,
 		["Power"] = 200,
@@ -118,7 +118,7 @@ local LivingWorldTerrarians = {
 	},
 	
 	["Green Stud"] = {
-		["Id"] = 4952824244,
+		["Id"] = 5832365495,
 		["Name"] = "Green Stud",
 		["Health"] = 200,
 		["Power"] = 200,
@@ -420,7 +420,7 @@ local LivingWorldTerrarians = {
 	},
 	
 	["Fens Terrain"] = {
-		["Id"] = 4841675345,
+		["Id"] = 5832429085,
 		["CopyBodge"] = "Fens Terrain",
 		["Name"] = "The Fens Resurgent",
 		["Health"] = 1200,
@@ -548,7 +548,7 @@ local LivingWorldTerrarians = {
 	},
 			
 	["Domain Terrain"] = {
-		["Id"] = 5041740233,
+		["Id"] = 5832432027,
 		["CopyBodge"] = "Domain Terrain",
 		["Name"] = "The Tempest", 
 		["Health"] = 1200,
@@ -578,7 +578,7 @@ local LivingWorldTerrarians = {
 	},
 	
 	["Presence Terrain"] = {
-		["Id"] = 4789667522,
+		["Id"] = 5832364177,
 		["CopyBodge"] = "Presence Terrain",
 		["Name"] = "Ghashendex's Sanctum", 
 		["Health"] = 400,

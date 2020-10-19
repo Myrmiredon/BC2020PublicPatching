@@ -1,7 +1,7 @@
 local twentyeleveneighteen = {
 	
 	["ItssPaladin"] = {
-		["Id"] = 5823251788,
+		["Id"] = 5832345212,
 		["Name"] = "ConnorVIII",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -17,7 +17,7 @@ local twentyeleveneighteen = {
 			Target = "Single",
 			Increase = 3,
 		},
-		["Bio"] = "WRITEME",
+		["Bio"] = "Current Developer of Freeze Tag. Go near him and you'll be iced.",
 	},
 
 	["Plushie Santa"] = {
@@ -59,7 +59,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Plushie Snowman"] = {
-		["Id"] = 2810636143,
+		["Id"] = 5832418655,
 		["Name"] = "Plushie Snowman",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -228,7 +228,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Bebee2"] = {
-		["Id"] = 335986392,
+		["Id"] = 5832339441,
 		["Name"] = "Bebee2",
 		["Health"] = 500,
 		["Power"] = 400,
@@ -1598,7 +1598,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"ReplaceEffect"}},
 			Target = "Opponent",
 		},
-		["Bio"] = "Easy as pie.",
+		["Bio"] = "Scotch.",
 	},
 
 	["FatalWing"] = {
@@ -1612,7 +1612,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "Revival",
-			Description = "Whenever this card's stats are swapped: Put a random Green card into your hand",
+			Description = "Whenever this card's stats are swapped: Put a random Green card into your hand.",
 			["Type"] = "OnSwap",
 			["Power"] = {{"RandomAdd","Green"}},
 			Target = "All",
@@ -1715,9 +1715,9 @@ local twentyeleveneighteen = {
 		["Name"] = "Ezebel, Pirate Queen",
 		["CopyBodge"] = "Bearded Captain",
 		["Health"] = 400,
-		["Power"] = 0,
+		["Power"] = 100,
 		["Rarity"] = "Uncommon",
-		["AttackEffect"] = {"Magic", "Yellow"},
+		["AttackEffect"] = {"Slash"},
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
@@ -1727,7 +1727,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"Weaken",400}},
 			Target = "Single",
 		},
-		["Bio"] = "Arrrrr. I wish I had some soda for my pirate dinner.",
+		["Bio"] = "The oceans are controlled by the pirates, and the pirates are controlled by Ez. You want anything done on the ocean, well you will have to talk to Ez first.",
 	},			
 	
 	["ROBLOXADOR!!"] = {
@@ -2681,9 +2681,9 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Blue"] = 3,["Red"] = 3,},
 		["Effect"] = {
 			Name = "Sneak Attack",
-			Description = "When this card is cast: Lock a target fighter for 1 turn. You gain two Blue studs and two Red studs. Give yourself a random Blue or Red action. Draw a card.",
+			Description = "Lock a target fighter for 1 turn. You gain two Blue studs and two Red studs. Draw a card.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Lock",1,"Single"},{"Red",2},{"Blue",2},{"RandomAdd","Lunar"},{"Draw",1}},
+			["Power"] = {{"Lock",1,"Single"},{"Red",2},{"Blue",2},{"Draw",1}},
 			Target = "Ally",
 		},
 		["Bio"] = "Come to me, darkness.",
@@ -2976,6 +2976,12 @@ local twentyeleveneighteen = {
 				["Id"] = 1567591506,
 				["CopyBodge"] = "Western Bandit-E",
 				["Bio"] = "He ALWAYS ruins easter for the cowboysâ€¦",
+			},
+			
+			["Luminarus"] = {
+				["Id"] = 5832405808,
+				["Name"] = "Luminarus",
+				["Bio"] = "This card is an alternate art of Western Bandit.",
 			},
 		},
 		["Health"] = 250,
@@ -4084,10 +4090,10 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Booming Red",
-			Description = "Whenever an effect draws you a card: Shuffle a Rare card into your deck.",
+			Description = "Whenever an effect draws you a card: Shuffle a Rare card into each player's deck.",
 			["Type"] = "OnAllyDraw",
-			["Power"] = {{"RandomAdd","Rare"}},
-			Target = "Ally",
+			["Power"] = {{"RandomDeckAdd","Rare"}},
+			Target = "All",
 		},
 		["Bio"] = [["It's a tack, not attack."]],
 	},

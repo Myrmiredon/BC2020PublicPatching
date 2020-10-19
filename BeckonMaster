@@ -232,7 +232,7 @@ local beckoned = {
 	},
 	
 	["Uncreation"] = {
-		["Id"] = 5823252427,
+		["Id"] = 5832436189,
 		["Name"] = "Uncreation",
 		["Health"] = 1300,
 		["Power"] = 300,
@@ -548,7 +548,7 @@ local beckoned = {
 	},
 	
 	["Dragon Horde"] = {
-		["Id"] = 4899306444,
+		["Id"] = 5832352047,
 		["Name"] = "Dragon Horde",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -766,14 +766,14 @@ local beckoned = {
 				["Color"] = "Yellow",
 			},
 			["Lucina_Lowell"] = {
-				["Id"] = 5823425853,
+				["Id"] = 5832404460,
 				["Name"] = "Lucina_Lowell",
 				["CopyBodge"] = "Lucina_Lowell",
 				["Summonant"] = "Lucina_LowellY",
 				["Bio"] = "Leader of the Anti Zero Twos, and hitman for hire. Got annoying pink haired dinosaur anime girls you need to deal with? Give him a call. This card is an alternate art of Hedonist Acolyte."
 			},
 			["Lucina_LowellY"] = {
-				["Id"] = 5823426198,
+				["Id"] = 5832405207,
 				["Name"] = "Lucina_Lowell Anti Zero Two",
 				["CopyBodge"] = "Lucina_LowellY",
 				["Rarity"] = "Token",
@@ -1032,14 +1032,14 @@ local beckoned = {
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["WeakenImmune"] = true,
-		["SwapImmune"] = true,
 		["DamageImmune"] = true,
+		["SetImmune"] = true,
 		["Color"] = "Neutral",
 		["Archetype"] = "Shedletsky",
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Effects can't weaken, damage, or swap this card's stats. During your end step: Draw a card.",
+			Description = "Effects can't weaken, damage, or set this card's stats. During your end step: Draw a card.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Draw",1}},
 			Target = "Ally",	
@@ -1061,7 +1061,7 @@ local beckoned = {
 		["UnityImmune"] = true,
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Turn Shedletsky into his blue form, The Resonator. He gains 500 health.",
+			Description = "Turn Shedletsky into his blue form, The Resonator. He gains 500 health. Effects can't return Shedletsky while in this form.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"TransformWithRarity","Shedletsky, the Resonator"},{"Heal",500}},
 			Target = "Archetype",	
@@ -1078,13 +1078,14 @@ local beckoned = {
 		["AttackEffect"] = "Punch",
 		["WeakenImmune"] = true,
 		["DamageImmune"] = true,
-		["SwapImmune"] = true,
+		["SetImmune"] = true,
+		["ReturnImmune"] = true,
 		["Archetype"] = "Shedletsky",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't weaken, damage, or swap this card's stats. During your end step: Draw two cards. Put a nightmare into your opponen's hand. Reveal it.",
+			 Description = "Effects can't return, weaken, damage, or set this card's stats. During your end step: Draw two cards. Put a nightmare into your opponen's hand. Reveal it.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Draw",2},{"Add","Nightmare","Opponent"},{"RevealHand",030,"Opponent"}},
 			Target = "Ally",	
@@ -1106,7 +1107,7 @@ local beckoned = {
 		["UnityImmune"] = true,
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Turn Shedletsky into his red form, The Raging Pulse. It gains 500 power.",
+			Description = "Turn Shedletsky into his red form, The Raging Pulse. He gains 500 power. Effects can't destroy Shedletsky while in this form.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"TransformWithRarity","Shedletsky, the Raging Pulse"},{"Strengthen",500}},
 			Target = "Archetype",	
@@ -1123,13 +1124,14 @@ local beckoned = {
 		["AttackEffect"] = "Punch",
 		["WeakenImmune"] = true,
 		["DamageImmune"] = true,
-		["SwapImmune"] = true,
+		["SetImmune"] = true,
+		["DestroyImmune"] = true,
 		["Archetype"] = "Shedletsky",
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't weaken, damage, or swap this card's stats. During your end step: Draw a card. Deal 200 damage to all enemy fighters.",
+			 Description = "Effects can't destroy, weaken, damage, or set this card's stats. During your end step: Draw a card. Deal 200 damage to all enemy fighters.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Draw",1},{"Inflict",200,"Opponent"},{"Damage",200,"Opponent"}},
 			Target = "Ally",	
@@ -1151,7 +1153,7 @@ local beckoned = {
 		["UnityImmune"] = true,
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Turn Shedletsky into his green form, Locus of Icons. He gains 500 health.",
+			Description = "Turn Shedletsky into his green form, Locus of Icons. He gains 500 health. Effects can't swap Shedletsky's stats while in this form.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"TransformWithRarity","Shedletsky, Locus of Icons"},{"Heal",500}},
 			Target = "Archetype",	
@@ -1168,13 +1170,14 @@ local beckoned = {
 		["AttackEffect"] = "Punch",
 		["WeakenImmune"] = true,
 		["DamageImmune"] = true,
+		["SetImmune"] = true,
 		["SwapImmune"] = true,
 		["Archetype"] = "Shedletsky",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't weaken, damage, or swap this card's stats. During your end step: Draw a card. Gain a stud of every colour.",
+			 Description = "Effects can't swap, weaken, damage, or set this card's stats. During your end step: Draw a card. Gain a stud of every colour.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Draw",1},{"Yellow",1},{"Blue",1},{"Red",1},{"Green",1},{"Neutral",1}},
 			Target = "Ally",	
@@ -1195,7 +1198,7 @@ local beckoned = {
 		["UnityImmune"] = true,
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Turn Shedletsky into his yellow form, Paragon of Unity. It gains 500 health.",
+			Description = "Turn Shedletsky into his yellow form, Paragon of Unity. He gains 500 health. Shedletsky can't be counterattacked while in this form.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"TransformWithRarity","Shedletsky, Paragon of Unity 1"},{"Heal",500}},
 			Target = "Archetype",	
@@ -1212,14 +1215,15 @@ local beckoned = {
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["WeakenImmune"] = true,
-		["SwapImmune"] = true,
 		["DamageImmune"] = true,
+		["SetImmune"] = true,
+		["CounterAttackBlock"] = true,
 		["Archetype"] = "Shedletsky",
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't weaken, damage, or swap this card's stats. During your end step: Draw a card. Summon a noob, then all allied fighters gain 100 power.",
+			 Description = "Effects can't weaken, damage, or set this card's stats. This card can't be countered. During your end step: Draw a card. Summon a noob, then all allied fighters gain 100 power.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Draw",1},{"Summon","Noob"},{"Strengthen",100,"Ally"}},
 			Target = "Ally",	
@@ -1567,7 +1571,7 @@ local beckoned = {
 	},	
 	
 	["Frinigus"] = {
-		["Id"] = 5823252882,
+		["Id"] = 5832363069,
 		["Name"] = "Frinigus",
 		["Health"] = 500,
 		["Power"] = 300,
@@ -1656,7 +1660,7 @@ local beckoned = {
 	},
 	
 	["Person299"] = {
-		["Id"] = 5804858630,
+		["Id"] = 5832417409,
 		["Name"] = "Person299",
 		["Health"] = 600,
 		["Power"] = 300,
@@ -1806,7 +1810,7 @@ local beckoned = {
 	},
 	
 	["Alpha Brick's Sealing"] = {
-		["Id"] = 5600397731,
+		["Id"] = 5835878585,
 		["Name"] = "Alpha Brick's Sealing",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2048,7 +2052,7 @@ local beckoned = {
 	},
 	
 	["UHunterU"] = {
-		["Id"] = 638721475,
+		["Id"] = 5832434901,
 		["Name"] = "UHunterU",
 		["Health"] = 600,
 		["Power"] = 300,
@@ -2087,7 +2091,7 @@ local beckoned = {
 	}, 
 	
 	["Odin"] = {
-		["Id"] = 2810635639,
+		["Id"] = 5832412551,
 		["Name"] = "Odin",
 		["AltCards"] = {
 			["Odin-ArtV"] = {
@@ -2218,7 +2222,7 @@ local beckoned = {
 	},
 	
 	["Cauldron's Familiar"] = {
-		["Id"] = 5600397731,
+		["Id"] = 5830738917,
 		["Name"] = "Cauldron's Familiar",
 		["Health"] = 200,
 		["Power"] = 200,
@@ -2315,8 +2319,8 @@ local beckoned = {
 	},
 	
 	["Angry Attack Squirrel"] = {
-		["Id"] = 5600397731,
-		["Name"] = "Angry Attack Squirrel",
+		["Id"] = 5832331471,
+		["Name"] = "Angry Attack Squirrels",
 		["Health"] = 1000,
 		["Power"] = 50,
 		["Rarity"] = "Common",
@@ -2325,16 +2329,17 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 1, ["Green"] = 1,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = [[If this card's stats would be swapped: Put a copy of it into your Baseplate first.]],
-			["Type"] = "OnSwap",
+			Description = [[During your end step, if an effect swapped an allied fighter's stats since your last endstep: put a copy of this card into your baseplate.]],
+			["Type"] = "OnEnd",
 			["Power"] = {{"AddGenZone",{"Angry Attack Squirrel",1}}},
-			Target = "Self",
+			Target = "Ally",
+			["EffectRequirement"] = {"Playertable","Me",1,9999,"SwapCount"}
 		},
-		["Bio"] = "Don't make it go nuts.",
+		["Bio"] = "Don't make them go nuts.",
 	},
 	
 	["Vie, Battle Witch"] = {
-		["Id"] = 5600397731,
+		["Id"] = 5832437516,
 		["Name"] = "Vie, Battle Witch",
 		["Health"] = 400,
 		["Power"] = 500,
@@ -2632,7 +2637,7 @@ local beckoned = {
 	},
 	
 	["Crazyblox"] = {
-		["Id"] = 5650801885,
+		["Id"] = 5832349149,
 		["Name"] = "Crazyblox",
 		["Health"] = 1600,
 		["Power"] = 200,
@@ -2689,8 +2694,8 @@ local beckoned = {
 	["Rinicye"] = {
 		["Id"] = 4960465971,
 		["Name"] = "Rinicye",
-		["Health"] = 800,
-		["Power"] = 800,
+		["Health"] = 650,
+		["Power"] = 650,
 		["Rarity"] = "Rare",		
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
@@ -3088,7 +3093,7 @@ local beckoned = {
 	},	
 	
 	["StaySpy"] = {
-		["Id"] = 5600397731,
+		["Id"] = 5832425598,
 		["Name"] = "StaySpy",
 		["Health"] = 100,
 		["Power"] = 400,

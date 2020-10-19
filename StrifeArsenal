@@ -83,7 +83,7 @@ local Strife = {
 			["Korblox Deathknight-Val"] = {
 				["Name"] = "Korblox Deathknight",
 				["CopyBodge"] = "Korblox Deathknight-Val",
-				["Id"] = 5677497113,
+				["Id"] = 5832403765,
 				["Bio"] = "This fighter hails from an alternate universe where all the warring factions in Robloxia are teenagers from rival schools. Prom time!"
 			},
 		},
@@ -587,7 +587,7 @@ local Strife = {
 	},	
 	
 	["Redcliff: Decimate!"] = {
-		["Id"] = 5001526211,
+		["Id"] = 5832420387,
 		["Name"] = "Redcliff: Decimate!",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -608,7 +608,7 @@ local Strife = {
 	},
 	
 	["Redcliff: Rise!"] = {
-		["Id"] = 4239213853,
+		["Id"] = 5832421148,
 		["Name"] = "Redcliff: Rise!",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -1370,11 +1370,11 @@ local Strife = {
 	},
 	
 	["IcyTea"] = {
-		["Id"] = 3238120375,
+		["Id"] = 5832370981,
 		["Name"] = "IcyTea",
 		["AltCards"] = {
 			["IcyTea-ArtV"] = {
-				["Id"] = 5575630669,
+				["Id"] = 5832370273,
 				["CopyBodge"] = "IcyTea-ArtV",
 				["AltArt"] = true,
 				["Bio"] = "Master of arts and ice, IcyTea is an impeccable fighter capable of advanced magic and destructive power. Watch out! Part of the 'Aife' Collection! Collect them all!",
@@ -2218,7 +2218,7 @@ local Strife = {
 		["CopyBodge"] = "IlIll",
 		["AltCards"] = {
 			["IlIll-Val"] = {
-				["Id"] = 655013736,
+				["Id"] = 5832371572,
 				["Name"] = "IlIll",
 				["CopyBodge"] = "IlIll-Val",
 				["Bio"] = "Now haunting a teddy bear on a shelf, he is sure to make your valentines day a living hell.",
@@ -2599,7 +2599,7 @@ local Strife = {
 		},
 		["Bio"] = "Representing Devil Beater by Drager, is the con-artist himself. Make a bet with him, I dare you.",
 	},	
-				
+	
 	["Preston"] = {
 		["Id"] = 2857411965,
 		["Name"] = "Preston",
@@ -2613,7 +2613,7 @@ local Strife = {
 	},
 	
 	["ChildofGiotto"] = {
-		["Id"] = 2810865616,
+		["Id"] = 5832343506,
 		["Name"] = "ChildofGiotto",
 		["Health"] = 50,
 		["Power"] = 200,
@@ -2771,12 +2771,12 @@ local Strife = {
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 2, ["Red"] = 7,},
+		["Cost"] = {["Neutral"] = 2, ["Red"] = 6},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Destroy a target fighter. If you control a fighter, end the turn.",
+			Description = "Destroy a target fighter.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Destroy"},{"EndTurn",030,"Ally"}},
+			["Power"] = {{"Destroy"}},
 			Target = "Single",
 		},
 		["Bio"] = "Redcliff, Overseer, Korblox, Doge. Their ceaseless fighting scorched the world harrow.",
