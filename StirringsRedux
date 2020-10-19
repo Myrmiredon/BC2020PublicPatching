@@ -94,11 +94,12 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Blue", 
 		["Archetype"] = "Lunar",
 		["Cost"] = {["Blue"] = 2, ["Neutral"] = 2,},
+		["Requirement"] = {"Playertable","Me",1,9999,"Actions"},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Lock all allied fighters for 5 turns. Put three random Red or Blue actions into your hand.",
+			Description = "Cast only if you've cast an action this turn. Actions you cast this turn trigger their effect twice.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Lock",5,"Ally"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"}},
+			["Power"] = {{"ActionOverdrive"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Out of desparation, Eisenhower asked to see his loved one again, trusting words he had no knowledge or control over.",
@@ -2216,7 +2217,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Desperate Alliance",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Epic", -- Rare
+		["Rarity"] = "Epic", -- Epic
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 4, ["Yellow"] = 4,},
@@ -2228,7 +2229,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Summon","Ally1-1"},{"Summon","Ally1-2"},{"Summon","Ally1-3"},{"Summon","Ally1-4"},{"Add","Targeting Blip"},{"Add","Targeting Blip"}},
 			Target = "Self",
 		},
-		["Bio"] = "A surprise attack against all odds ",
+		["Bio"] = "Lua launched a surprise attack against all odds, and Eisenhower calcuated those odds. They were not in Hallow's favour.",
 	},	
 	
 	["Ally1-1"] = {
@@ -2254,7 +2255,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"CheckHealth",{0,401},"All"},{"Heal",50,"Self"},{"Damage",600,"Archetype"},{"Summon","Ally2-2"},{"Summon","Ally2-3"},{"Summon","Ally2-4"},{"Damage",400,"Archetype"}},
 			Target = "Self",
 		},
-		["Bio"] = [["Eisen, I'm sorry. This next attack will most likely cull all your squishy blobs you brought along. Expect a complementary gift basket if we make it out alive."]],
+		["Bio"] = [["Eisen, I'm sorry. This next attack will most likely cull all those squishy blobs you brought along. Expect a complementary gift basket if we make it out alive."]],
 	},	
 	
 	["Ally2-1"] = {
@@ -2551,7 +2552,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Heal",1300,"Single"},{"Strengthen",1300,"Single"},{"EndTurn",030}},
 			Target = "Ally",
 		},
-		["Bio"] = "The air crackles with the raw heat of a raging neutron star. There can be no bravery without madness, and these two have plenty to share.",
+		["Bio"] = "The air crackled with the raw heat of a raging neutron star. There can be no bravery without madness, and those two have plenty to share.",
 	},
 	
 	["Moorph"] = {
@@ -2603,7 +2604,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}},{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}}},
 			Target = "Ally",
 		},
-		["Bio"] = "The four fundamental icons dictate what can be and what cannot be, yet the most alien of forces transcend colour altogether.",
+		["Bio"] = "The four fundamental studs dictate what can be and what cannot be, yet the most alien of forces transcend colour altogether.",
 	},	
 	
 	["Ultra Enhancer"] = {
@@ -2626,7 +2627,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}},{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}},{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}},{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}},{"RandomDeckAdd",{"Ultra Otherer","Ultra Bestower","Ultra Enhancer","Ultra Beseecher","Ultra Severer","Ultra Depriver","Ultra Desirer","Ultra Vanquisher","Ultra Orator"}}},
 			Target = "Ally",
 		},
-		["Bio"] = "Colourless icons are icons already used by mages. Icons can be used multiple times, but lose their colour after the first use.",
+		["Bio"] = "Colourless studs are icons already used by mages. Studszx can be used multiple times, but lose their colour after the first use.",
 	},	
 	
 	["Ultra Otherer"] = {

@@ -1890,8 +1890,7 @@ local twentyeleveneighteen = {
 		["Name"] = "Brick Bacon",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Rare",
-		
+		["Rarity"] = "Rare",	
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 4,},

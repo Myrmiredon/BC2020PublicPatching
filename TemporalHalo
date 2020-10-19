@@ -364,24 +364,24 @@ local halo = {
 		["Bio"] = "I look like a toothy deer, so I'm hiding!",
 	},
 
-	["Unity"] = {
-		["Id"] = 4789597634, 
-		["Name"] = "Unity",
-		["Health"] = 0,
-		["Power"] = 0,
-		["Rarity"] =  "Uncommon",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Yellow",
-		["Cost"] = {["Neutral"] = 4,},
-		["Effect"] = {
-			Name = "Temporal Halo",
-			Description = [[This turn, ignore the archetype restrictions on coloured cards.]],
-			["Type"] = "OnSummon",
-			["Power"] = {{"BypassArchetype"}},
-			Target = "Ally",
-		},
-		["Bio"] = [[We are all of different skins. Different creeds. Different ideas. Yet, we all agree on one thing - A bunch of "humans" mucking up a tree looks really digusting, alright?]],
-	},
+	-- ["Unity"] = {
+		-- ["Id"] = 4789597634, 
+		-- ["Name"] = "Unity",
+		-- ["Health"] = 0,
+		-- ["Power"] = 0,
+		-- ["Rarity"] =  "Uncommon",
+		-- ["AttackEffect"] = "Punch",
+		-- ["Color"] = "Yellow",
+		-- ["Cost"] = {["Neutral"] = 4,},
+		-- ["Effect"] = {
+			-- Name = "Temporal Halo",
+			-- Description = [[This turn, ignore the archetype restrictions on coloured cards.]],
+			-- ["Type"] = "OnSummon",
+			-- ["Power"] = {{"BypassArchetype"}},
+			-- Target = "Ally",
+		-- },
+		-- ["Bio"] = [[We are all of different skins. Different creeds. Different ideas. Yet, we all agree on one thing - A bunch of "humans" mucking up a tree looks really digusting, alright?]],
+	-- },
 	
 	["Eclipse, the Rage Gyre"] = { 
 		["Id"] = 4789771431,
@@ -2349,7 +2349,7 @@ local halo = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[When this card is cast: Search a "Living World" from your deck.]],
+			Description = [[When this card is cast: Search "Living World" from your deck.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Tutorfor","Living World"}},
 			Target = "Ally",
@@ -2360,17 +2360,19 @@ local halo = {
 	["Living World"] = {
 		["Id"] = 5574241280,
 		["Name"] = "Living World",
+			["LivingWorldEmpowered"] = {
+				["Cost"] = {["Green"] = 3,},
+			},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] =  "Epic",
-		["DiscardToken"] = true,
 		["Stealth"] = true,
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = "Stealth. Inert when discarded. Animate the current terrain into a fighter. Return this card to your hand.",
+			Description = "Stealth. Animate the current terrain into a fighter. Return this card to your hand.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"AnimateTerrain"},{"Add","Living World"}},
 			Target = "Ally",

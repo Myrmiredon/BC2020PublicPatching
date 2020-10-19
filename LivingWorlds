@@ -372,9 +372,9 @@ local LivingWorldTerrarians = {
 	["Paradise Terrain"] = {
 		["Id"] = 4899307995,
 		["CopyBodge"] = "Paradise Terrain",
-		["Name"] = "Eclipse's Hunting Grounds",
-		["Health"] = 1500,
-		["Power"] = 0,
+		["Name"] = "Slumbering Serpent Beneath the Earth",
+		["Health"] = 800,
+		["Power"] = 800,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green",
@@ -382,12 +382,19 @@ local LivingWorldTerrarians = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = "Whenever you gain Life : Summon a 200/200 Pack Wolf. All Terrarians gain 100 Health.",
-			["Type"] = "OnLifeGain",
-			["Power"] = {{"Summon","Pack Wolf"},{"Heal",100,"Archetype"}},
+			Description = [[When this card dies: Give yourself "Living World." Change its cost to three Green studs.]],
+			["Type"] = "OnDeath",
+			["Power"] = {{"Add","LivingWorldEmpowered"}},
 			Target = "Ally",
 		},
-		["Bio"] = "No one stopped to ask whose paradise this forest was meant for. Here's the answer.",
+		-- ["Effect"] = {
+			-- Name = "Temporal Halo",
+			-- Description = "Whenever you gain Life : Summon a 200/200 Pack Wolf. All Terrarians gain 100 Health.",
+			-- ["Type"] = "OnLifeGain",
+			-- ["Power"] = {{"Summon","Pack Wolf"},{"Heal",100,"Archetype"}},
+			-- Target = "Ally",
+		-- },
+		["Bio"] = "No ever one stopped to ask for whose paradise this forest was meant for.",
 	},
 	
 	["Banland Terrain"] = {

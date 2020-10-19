@@ -5455,43 +5455,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Transformant"] = "Dicey Drake Token",
 		["Effect"] = {
 			Name = "Gamble till you drop",
-			Description = "When this card is first cast: Lock all enemy fighters for 1 turn. Whenever your opponent casts a fighter: It loses 150 power.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Lock",1,"Opponent"},{"Transform"}},
-			Target = "Self",
-		},
-		["Bio"] = "A hammer wielding fighter that's itching for a gamble of the century.",
-	},
-	
-	["Dicey Drake Token"] = {
-		["Id"] = 543830416,
-		["Name"] = "Dicey Drake",
-		["AltCards"] = {
-			["Icy Drake Token"] = {
-				["Id"] = 1247063996,
-				["Name"] = "Icy Drake",
-				["CopyBodge"] = "Icy Drake Token",
-				["Bio"] = "My new years resolution: Keep gambling.",
-			},
-			["HowlingHealer Token"] = {
-				["Id"] = 5135802609,
-				["Name"] = "HowlingHealer",
-				["CopyBodge"] = "HowlingHealer",
-				["Bio"] = "Famous last words: Look it's a unicorn! This card is an alternate art of Dicey Drake.",
-			},
-			
-		},
-		["Health"] = 400,
-		["Power"] = 400,
-		["Rarity"] = "Token",
-		["AttackEffect"] = "Punch",
-		["Color"] = "Blue", 
-		["Cost"] = {["Blue"] = 4,["Neutral"] = 2},
-		["Effect"] = {
-			Name = "Gamble till you drop",
-			Description = "Whenever your opponent casts a fighter: It loses 150 power.",
+			Description = "Whenever your opponent casts a fighter: It loses 200 power.",
 			["Type"] = "OnEnemySummon",
-			["Power"] = {{"Weaken",150}},
+			["Power"] = {{"Weaken",200}},
 			Target = "Aggressor",
 		},
 		["Bio"] = "A hammer wielding fighter that's itching for a gamble of the century.",
