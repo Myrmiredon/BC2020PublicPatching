@@ -21,7 +21,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR2"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Intelligence Array",
@@ -40,7 +40,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR3"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Resource Array",
@@ -61,7 +61,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR4"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Defence Array",
@@ -82,7 +82,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR5"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Halting Array",
@@ -103,7 +103,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR6"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Delay Array",
@@ -124,7 +124,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR7"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Conjuring Array",
@@ -145,7 +145,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR8"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Shield Array",
@@ -164,7 +164,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR9"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Vitality Array",
@@ -186,7 +186,7 @@ local SolarConquest = {
 		--{"RandomAdd",{"LR1","LR2","LR3","LR4","LR5","LR6","LR7","LR8","LR9","LR0","LRA","LRB","LRC","LRD","LRE"}},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LR0"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Destruction Array",
@@ -206,7 +206,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LRA"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Transmutation Array",
@@ -227,7 +227,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LRB"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Construction Array",
@@ -248,7 +248,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LRC"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Counterspell Array",
@@ -269,7 +269,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LRD"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Paraselence Array",
@@ -290,7 +290,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["LRE"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Endurance Array",
@@ -311,7 +311,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["Thoughtlich"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Thoughtlich",
@@ -323,7 +323,7 @@ local SolarConquest = {
 		["Cost"] = {["Neutral"] = 0,},
 		["Bio"] = [["Two lives overlapped into one body. What wonderful efficiency." --Ptenda]],
 	},
-	
+
 	["Viscount of the Federation"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Viscount of the Federation",
@@ -333,8 +333,6 @@ local SolarConquest = {
 		["AttackEffect"] = {"Magic", "Blue"},
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3,},
-		["Token"] = true,
-		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Syzygy's Sheen",
 			Description = "Whenever you cast an action that costs 8 or more total studs: This card gains 400 health and power.",
@@ -345,7 +343,7 @@ local SolarConquest = {
 		},
 		["Bio"] = "WRITEME",
 	},
-	
+
 	["Spirit Seed"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Spirit Seed",
@@ -359,14 +357,14 @@ local SolarConquest = {
 		["Plantant"] = "Spirit Seed",
 		["Effect"] = {
 			Name = "Syzygy's Sheen",
-			Description = "Summon a 500/400 Thoughtlich. Plant this card into a target fighter. (Its owner gets a copy of it the next time it attacks.)",
+			Description = "Summon a 500/400 Thoughtlich. Plant this card into a target fighter. (Its owner gets a copy of it the next time it attacks directly.)",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Summon","Summonant"},{"Encode","Plantant"}},
-			Target = "Ally",
+			["Power"] = {{"Summon","Summonant","Ally"},{"Encode","Plantant"}},
+			Target = "Single",
 		},
 		["Bio"] = [["I will remind you: Grass grows in dirt. Spirits grow in people." --Ptenda]],
 	},
-	
+
 	["Aeonite Challenger"] = {
 		["Id"] = 5823251788,
 		["Name"] = "Aeonite Challenger",
@@ -378,7 +376,7 @@ local SolarConquest = {
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 6,},
 		["Effect"] = {
 			Name = "Syzygy's Sheen",
-			Description = "During your end step, if a card is planted nto this card: All planted fighters gain 100 power.",
+			Description = "During your end step, if a card is planted into this card: All planted fighters gain 100 power.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Strengthen",100}},
 			["Planted"] = true,
