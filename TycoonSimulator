@@ -3420,7 +3420,7 @@ local tycoons = {
 		["Rarity"] = "Rare",	
 		["AttackEffect"] = {"Gun"},
 		["Color"] = "Yellow",
-		["Cost"] = {["White"] = 2,},
+		["Cost"] = {["Neutral"] = 2,},
 		["Summonant"] = "Cluck Buck",
 		["Effect"] = {
 			Name = "Yarrge",
@@ -3482,12 +3482,12 @@ local tycoons = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 2,},
-		["ChargeRequirement"] = {"Rarity", "Ally", 2,9999,"Rare"}
+		["ChargeRequirement"] = {"Rarity", "Ally", 2,9999,"Rare"},
 		["Effect"] = {
 			Name = "Conflux",
 			Description = "When this card is cast: if you control another Rare fighter, give Dun_Goof Haste. All Rare fighters gain 100 Power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Strengthen",100}}
+			["Power"] = {{"Strengthen",100}},
 			Target = "Rare",
 		["EffectRequirement"] = {"Rarity","Ally", 2, 9999,"Rare"},
 		},

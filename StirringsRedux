@@ -201,7 +201,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue", 
-		["Cost"] = {["Red"] = 3, ["Blue"] = 3,},
+		["Cost"] = {["Red"] = 2, ["Blue"] = 2,},
 		["DamageImmune"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
