@@ -836,11 +836,11 @@ local halo = {
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Whenever your opponent discards a card other than their first card each turn: Draw a card.]],
+			Description = [[Whenever your opponent discards second or third card each turn: Draw a card.]],
 			["Type"] = "OnEnemyDiscard",
 			["Power"] = {{"Draw",1}}, 
 			Target = "Ally",
-			["EffectRequirement"] = {"Playertable", "Him", 2, 9999, "DiscardCount"},
+			["EffectRequirement"] = {"Playertable", "Him", 2, 3, "DiscardCount"},
 		},
 		["Bio"] = [[Are we getting anywhere with this!?]],
 	},
