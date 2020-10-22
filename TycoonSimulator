@@ -1814,7 +1814,7 @@ local tycoons = {
 		["Name"] = "KnightDude",
 		["Health"] = 500,
 		["Power"] = 500,
-		["Rarity"] = "Rare",	
+		["Rarity"] = "Common",	
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,["Blue"] = 2,},
