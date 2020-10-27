@@ -3738,7 +3738,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Endless Spooks",
 			Description = [[When this card is cast: Give yourself a copy of it. All cards named NowDoTheHarlemShake gain 400 Health and Power. Obliterate a Red card in your Baseplate.]],
 			["Type"] = "OnSummon",
-			["Power"] = {{"Add","Skeleton Armada"},{"Strengthen",400},{"Heal",400},{"GenZoneDiscard"},{"Red",-1}},
+			["Power"] = {{"Add","Skeleton Armada"},{"Strengthen",400},{"Heal",400},{"GenZoneDiscard",{"Red",-1}}},
 			Target = "Archetype",
 		},
 		["Bio"] = "Welcome back to 2013.",
