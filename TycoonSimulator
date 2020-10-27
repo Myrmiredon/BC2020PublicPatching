@@ -958,7 +958,7 @@ local tycoons = {
 			Name = "Stop It, Slender!",
 			Description = "When this card is cast, if you have any Colourless cards in your Baseplate: Destroy them all. Put two copies of this card into your Baseplate.",
 			["Type"] = "OnAllySummon",
-			["Power"] = {{"GenZoneDiscard",{"Neutral",-10}},{"AddGenZone",{"Kinnis97",2}}},
+			["Power"] = {{"GenZoneDiscard",{"Neutral",0}},{"AddGenZone",{"Kinnis97",2}}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Color","AllyGenZone",1,9999,"Neutral"},
 		},
