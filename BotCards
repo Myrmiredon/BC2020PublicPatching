@@ -304,7 +304,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Name = "Stud",
 			Description = "Effects can't target, damage, weaken, return, destroy, exile, transform, steal, or set or swap the stats of this card. At the end of your turns: Obliterate your opponents baseplate, then unlock all tokens.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"GenZoneDiscard",{"Red",-10}},{"GenZoneDiscard",{"Green",-10}},{"GenZoneDiscard",{"Blue",-10}},{"GenZoneDiscard",{"Yellow",-10}},{"GenZoneDiscard",{"Neutral",-10}},{"Unlock",999,"Token"}},
+			["Power"] = {{"GenZoneDiscard",{"Red",0}},{"GenZoneDiscard",{"Green",0}},{"GenZoneDiscard",{"Blue",0}},{"GenZoneDiscard",{"Yellow",0}},{"GenZoneDiscard",{"Neutral",0}},{"Unlock",999,"Token"}},
 			Target = "Opponent",	
 		},
 		["Bio"] = "THAT'S SOME STRONG GOO, ISN'T IT",
