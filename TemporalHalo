@@ -670,9 +670,9 @@ local halo = {
 		["Cost"] = {["Green"] = 4, ["Red"] = 4},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Obliterate the board, the terrain, and each player's hands and studs.]],
+			Description = [[Obliterate the board, the terrain, and each player's hand and baseplate. Put 2 Studs into each players baseplate.]],
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetNeutral",0},{"SetRed",0},{"SetGreen",0},{"SetBlue",0},{"SetYellow",0},{"Obliterate",030},{"AnimateTerrain"},{"Obliterate",030},{"RandomDiscard",10},{"GenZoneDiscard",{"Red",0}},{"GenZoneDiscard",{"Green",0}},{"GenZoneDiscard",{"Blue",0}},{"GenZoneDiscard",{"Yellow",0}},{"GenZoneDiscard",{"Neutral",2}}},
+			["Power"] = {{"SetNeutral",0},{"SetRed",0},{"SetGreen",0},{"SetBlue",0},{"SetYellow",0},{"Obliterate",030},{"AnimateTerrain"},{"Obliterate",030},{"RandomDiscard",10},{"GenZoneDiscard",{"Red",0}},{"GenZoneDiscard",{"Green",0}},{"GenZoneDiscard",{"Blue",0}},{"GenZoneDiscard",{"Yellow",0}},{"GenZoneDiscard",{"Neutral",0}},{"AddGenZone",{"Mark Stud",2}}},
 			Target = "All",
 		},
 		["Bio"] = [[The end of everything marked the start of a new era. Again and again. When will the Dwarven Meteor be stopped?]],
