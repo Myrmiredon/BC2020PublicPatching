@@ -553,7 +553,7 @@ local twentyeleveneighteen = {
 				["Effect"] = {
 					Name = "Dreadsteed",
 					Description = "When this card is cast: Shuffle a copy of it into your deck. Obliterate a Green card in your Baseplate.",
-					["Power"] = {{"DeckAdd","MyrmiredonV2"},{"GenZoneDiscard"},{"Green",-1}},
+					["Power"] = {{"DeckAdd","MyrmiredonV2"},{"GenZoneDiscard",{"Green",-1}}},
 					Target = "Ally",
 				},
 				["Bio"] = "Corrupted from the internet and their disappointing reality. This card is an alt-art of Myrmiredon."
@@ -570,7 +570,7 @@ local twentyeleveneighteen = {
 			Name = "Dreadsteed",
 			Description = "When this card is cast: Shuffle a copy of it into your deck. Obliterate a Green card in your Baseplate.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"DeckAdd","Myrmiredon"},{"GenZoneDiscard"},{"Green",-1}},
+			["Power"] = {{"DeckAdd","Myrmiredon"},{"GenZoneDiscard",{"Green",-1}}},
 			Target = "Ally",
 		},
 		["Bio"] = "A leader is the greatest servant. A master is the greatest tyrant. Myrmiredon is both.",
@@ -581,11 +581,17 @@ local twentyeleveneighteen = {
 		["Name"] = "BlackSymphony",
 		["AltCards"] = {							
 			["BlackSymphony-Val"] = {
-				["Id"] = 655010800,					
+				["Id"] = 655010800,
+				["Effect"] = {
+					["Power"] = {{"DeckAdd","BlackSymphony-Val"},{"GenZoneDiscard",{"Blue",-1}}},
+				}
 				["Bio"] = "Stop showing your shoulders like that, it's l-l-lewd.",
 			},
 			["BlackSymphony-Val-Aurebus"] = {
-				["Id"] = 5566543122,					
+				["Id"] = 5566543122,
+				["Effect"] = {
+					["Power"] = {{"DeckAdd","BlackSymphony-Val-Aurebus"},{"GenZoneDiscard",{"Blue",-1}}},
+				}
 				["Bio"] = "We're reaching levels of lewd previously considered impossible.",
 			},
 		},	

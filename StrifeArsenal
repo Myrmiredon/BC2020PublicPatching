@@ -1134,7 +1134,7 @@ local Strife = {
 			Name = "Stud",
 			Description = "When this card is cast: Obliterate all blue cards in your baseplate.", --generate a blue icon for each card destroyed this way.
 			["Type"] = "OnSummon",
-			["Power"] = {{"GenZoneDiscard",{"Blue",-10}}}, --AlterEV currently doesnt have a way to check baseplate as far as i know. neither is there an effect that makes cards in baseplate generate.	
+			["Power"] = {{"GenZoneDiscard",{"Blue",0}}}, --AlterEV currently doesnt have a way to check baseplate as far as i know. neither is there an effect that makes cards in baseplate generate.	
 			Target = "Single",
 			},
 		["Bio"] = "Hovering skull doesn't scare you? Maybe my skill will.",
