@@ -557,10 +557,10 @@ local beckoned = {
 		["Requirement"] = {"Archetype", "Ally", 1, 9999, "Acolyte"},		
 		["Archetype"] = "Acolyte",
 		["Color"] = "Neutral",
-		["Cost"] = {["Neutral"] = 4, ["Red"] = 1, ["Green"] = 1, ["Blue"] = 1, ["Yellow"] = 1,},
+		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Build Up",
-			Description = "Summon three Draconic Acolytes. Lock all allied fighters for two turns.",
+			Description = "Cast only if you control an Acolyte. Summon three Draconic Acolytes. Lock all allied fighters for two turns.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Glaurung"},{"Summon","Smaug"},{"Summon","Aer Draco"},{"Lock",2}},
 			Target = "Ally",
