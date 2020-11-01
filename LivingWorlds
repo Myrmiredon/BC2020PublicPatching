@@ -22,6 +22,27 @@ local LivingWorldTerrarians = {
 		["Bio"] = "The basic energy of Robloxia. Studs contain great power.",
 	},
 	
+	["Crowd's Favour"] = {
+		["Id"] = 4952824244,
+		["Name"] = "Crowd's Favour",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Neutral",
+		["Archetype"] = "Crowd's Favour",
+		["Cost"] = {["Neutral"] = 0,},
+		["Effect"] = {
+			Name = "Stud",
+			Description = "You once had eight fighters in play. You have the crowd's favour for the rest of the game.",
+			["Type"] = "OnSummon",
+			["Power"] = "Neutral",
+			Target = "Ally",
+			Increase = 0,
+		},
+		["Bio"] = "The crowd roared in delight as Kara Lye ripped the Gucciling apart. She stared at Hallow. Now she had his attention, she could do whatever she wanted to him.",
+	},
+	
 	--["Stud Lover"] = {
 	--	["Id"] = 4952824244,
 	--	["Name"] = "Stud Lover",

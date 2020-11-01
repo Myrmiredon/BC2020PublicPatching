@@ -1,5 +1,5 @@
 local botcards = { -- Cards used by an AI that are not meant for human play go here.
-	
+
 	--Used by the MasterHand AI.
 	["MasterHand"] = { 
 		["Id"] = 502550783,
@@ -26,10 +26,10 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "No gimmicks... Apart from this one.",
 	},		
-	
-	
+
+
 	--Used by the MahBucket AI.
-	
+
 	["Bert"] = { 
 		["Id"] = 4899274587,
 		["Name"] = "Bert",
@@ -48,7 +48,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Always as twice as strong as his opponents.",
 	},	
-	
+
 	["Timothy"] = { 
 		["Id"] = 4899451417,
 		["Name"] = "Timothy",
@@ -67,9 +67,9 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "He certainly is!",
 	},	
-	
+
 	--Used by the Hallow AI.
-	
+
 	["Hallow's Eve"] = { 
 		["Id"] = 3899534211,
 		["Name"] = "Hallow's Eve",
@@ -90,9 +90,9 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "The true spirit of Halloween.",
 	},	
-	
+
 	--Used by the Matriarch AI.	
-	
+
 	["Crow of Eternal Torment"] = { 
 		["Id"] = 1469009998,
 		["Name"] = "Crow of Eternal Torment",
@@ -113,7 +113,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "The Matriarch's favourite bird. Well rounded, versatile, and good on the front lines.",
 	},	
-	
+
 	["Bird of Eternal Paradise"] = { 
 		["Id"] = 1469010000,
 		["Name"] = "Bird of Eternal Paradise",
@@ -135,7 +135,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "The Matriarch searched far and wide, to all corners of Robloxia to find her most exotic allies.",
 	},	
-	
+
 	["Parrot of Eternal Dominion"] = { 
 		["Id"] = 1469082737,
 		["Name"] = "Parrot of Eternal Dominion",
@@ -156,7 +156,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "The best birds are those with birds of their own.",
 	},
-	
+
 	["Eternal Tweety"] = { 
 		["Id"] = 1469068943,
 		["Name"] = "Eternal Tweety",
@@ -176,7 +176,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Does The Matriarch control Tweety, or does Tweety control The Matriarch?",
 	},	
-	
+
 	["Bird Colossus"] = { 
 		["Id"] = 1469010033,
 		["Name"] = "Bird Colossus",
@@ -197,7 +197,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Does The Matriarch control Tweety, or does Tweety control The Matriarch?",
 	},		
-	
+
 	["Bird Colossus 2"] = { 
 		["Id"] = 1469010033,
 		["Name"] = "Bird Colossus",
@@ -223,7 +223,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "We know who is in charge now.",
 	},			
-		
+
 	["Blacken the Skies"] = { 
 		["Id"] = 1469009996,
 		["Name"] = "Blacken the Skies",
@@ -259,7 +259,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	},	
 
 	--This card is used by The Scholar.
-	
+
 	["Fatal Discovery"] = { 
 		["Id"] = 1480499313,
 		["Name"] = "Fatal Discovery",
@@ -278,9 +278,9 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "At last, The Scholar found what he was looking for.",
 	},
-	
+
 	--These cards are used by The Merchant.
-	
+
 	["Shedletsky, the Fried One"] = { 
 		["Id"] = 291389590,
 		["Name"] = "Shedletsky, the Fried One",
@@ -304,12 +304,12 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Name = "Stud",
 			Description = "Effects can't target, damage, weaken, return, destroy, exile, transform, steal, or set or swap the stats of this card. At the end of your turns: Obliterate your opponents baseplate, then unlock all tokens.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"GenZoneDiscard",{"Red",0}},{"GenZoneDiscard",{"Green",0}},{"GenZoneDiscard",{"Blue",0}},{"GenZoneDiscard",{"Yellow",0}},{"GenZoneDiscard",{"Neutral",0}},{"Unlock",999,"Token"}},
+			["Power"] = {{"GenZoneDiscard",{"Red",-10}},{"GenZoneDiscard",{"Green",-10}},{"GenZoneDiscard",{"Blue",-10}},{"GenZoneDiscard",{"Yellow",-10}},{"GenZoneDiscard",{"Neutral",-10}},{"Unlock",999,"Token"}},
 			Target = "Opponent",	
 		},
 		["Bio"] = "THAT'S SOME STRONG GOO, ISN'T IT",
 	},
-	
+
 	["InceptionTime Token"] = {
 		["Id"] = 3238120727,
 		["Name"] = "InceptionTime",
@@ -338,7 +338,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "And people said living world was dumb...",
 	},
-	
+
 	["Master Acolyte's Altar"] = {
 		["Id"] = 1480565605,
 		["Name"] = "Master Acolyte's Altar",
@@ -359,9 +359,9 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Tfw the devs can't make AI play well so they have to make OP cards and cheat their way to victory.",
 	},
-	
+
 	--This card is used by Drager.
-	
+
 	["Drager's Disgust"] = {
 		["Id"] = 362314946,
 		["Name"] = "PEEPSTERS",
@@ -381,9 +381,11 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "I wonder if Drager ever realized he could just have nerfed this himself so he wouldn't have to get an aneurysm and quit.",
 	},
-	
+
 	--These cards are used by the Tutorial AI.
 	
+	--Tutorial Green
+
 	["TG1"] = {
 		["Id"] = 3410792271,
 		["Name"] = "Crazy Robloxian",
@@ -396,7 +398,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = "A shining example of the joy of Old Roblox.",
 	},
-	
+
 	["TG2"] = {
 		["Id"] = 3416136920,
 		["Name"] = "Astral Isle Sorcerer",
@@ -409,7 +411,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 4,},
 		["Bio"] = "Violence is crass and destructive. Magic is used to grow, not to destroy.",
 	},
-	
+
 	["TG3"] = {
 		["Id"] = 3410792370,
 		["Name"] = "Egg Hunter",
@@ -422,7 +424,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Green"] = 1,},
 		["Bio"] = "Remember when Roblox rained eggs onto every game so hard they broke their servers? Good times.",
 	},
-	
+
 	["TG4"] = {
 		["Id"] = 3410792475,
 		["Name"] = "Epic Turtle",
@@ -435,7 +437,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2, ["Green"] = 1,},
 		["Bio"] = [[Feed it berries and watch its epicness grow!]],
 	},
-	
+
 	["TG5"] = {
 		["Id"] = 3410793651,
 		["CopyBodge"] = "TG5",
@@ -449,6 +451,8 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = [[The lords of Nomrial put our Great Leader to rest. He will rise again.]],
 	},
 	
+	--Tutorial Red
+
 	["TR1"] = {
 		["Id"] = 3416718679,
 		["CopyBodge"] = "TR1",
@@ -467,7 +471,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = [[Who among you has the courage to face certain death? Who among you will heed our call?]],
 	},
-	
+
 	["TR2"] = {
 		["Id"] = 3410793416,
 		["Name"] = "Pro Swordfighter",
@@ -480,7 +484,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 3,},
 		["Bio"] = [[Try lagswitching out of this one, casual.]],
 	},
-	
+
 	["TR3"] = {
 		["Id"] = 3410969294,
 		["Name"] = "Black Hat Hacker",
@@ -499,7 +503,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Red"] = 1,},
 		["Bio"] = [[You forgot to add FilteringEnabled, nerd.]],
 	},
-	
+
 	["TR4"] = {
 		["Id"] = 5002677937,
 		["Name"] = "Armoured Patrol Tank",
@@ -526,7 +530,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 2,},
 		["Bio"] = [[We've gotta take their base!]],
 	},
-	
+
 	["TR5"] = {
 		["Id"] = 5013757153,
 		["Name"] = "Lord Crimsonwrath",
@@ -543,20 +547,20 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Red"] = 5,},
 		["Bio"] = [[You'll wish for the coldness of the Void.]],
 	},
-	
+
 	["TR6"] = {
 		["Id"] = 4151870171,
 		["CopyBodge"] = "TR6",
 		["Name"] = "Linked Sword Strike",
 		["DiscardBlock"] = true,
 		["Effect"] = {
-					["Id"] = 4151870586,
-					Name = "BossMonster",
-					Description = [[Deal 200 damage to all enemy fighters.]],
-					["Type"] = "OnSummon",
-					["Power"] = {{"Damage",200}},
-					Target = "Opponent",	
-				},
+			["Id"] = 4151870586,
+			Name = "BossMonster",
+			Description = [[Deal 200 damage to all enemy fighters.]],
+			["Type"] = "OnSummon",
+			["Power"] = {{"Damage",200}},
+			Target = "Opponent",	
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
@@ -565,6 +569,8 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2, ["Red"] = 2,},
 		["Bio"] = [[The bigger they are, the larger the hitbox.]],
 	},
+	
+	--Tutorial Blue
 	
 	["TB1"] = {
 		["Id"] = 3410793546,
@@ -578,7 +584,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = [[Studio has stopped working? I'll just wait a few more minutes, I'm sure it will be up and running soon!]],
 	},
-	
+
 	["TB2"] = {
 		["Id"] = 3410793322,
 		["Name"] = "Pinewood Architect",
@@ -609,7 +615,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = [[For the love of God, can we NOT cause today's 5th nuclear core meltdown!?]],
 	},
-	
+
 	["TB3"] = {
 		["Id"] = 3410793874,
 		["Name"] = "White Hat Hacker",
@@ -622,7 +628,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Blue"] = 2,},
 		["Bio"] = [[Like a bandit that locks up your house for you.]],
 	},
-	
+
 	["TB4"] = {
 		["Id"] = 3410792709,
 		["Name"] = "Legokid",
@@ -635,7 +641,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Blue"] = 3,},
 		["Bio"] = [[equip sword:]],
 	},
-	
+
 	["TB5"] = {
 		["Id"] = 3410791825,
 		["Name"] = "Biograft Cyborg",
@@ -649,6 +655,8 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = [[I never asked for this.]],
 	},
 	
+	--Tutorial Yellow
+	
 	["TY1"] = {
 		["Id"] = 3410794286,
 		["Name"] = "Meepcity Fisherman",
@@ -661,7 +669,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 1,},
 		["Bio"] = [[Welcome to the Club!]],
 	},
-	
+
 	["TY2"] = {
 		["Id"] = 3410792030,
 		["Name"] = "Blockhead",
@@ -674,7 +682,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 4,},
 		["Bio"] = [[:>]],
 	},
-	
+
 	["TY3"] = {
 		["Id"] = 5002451730,
 		["Name"] = "Builders Club Trainee",
@@ -687,7 +695,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Yellow"] = 1,},
 		["Bio"] = [[Huh? Why did they give this helmet ou-]],
 	},
-	
+
 	["TY4"] = {
 		["Id"] = 3410793785,
 		["Name"] = "Skateboarder",
@@ -700,7 +708,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 2,},
 		["Bio"] = [[So here I am doing / everything I can / holding on to what I am / pretending I'm a Superman]],
 	},
-	
+
 	["TY5"] = {
 		["Id"] = 3410792853,
 		["Name"] = "Limited Tradeshark",
@@ -713,8 +721,8 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Yellow"] = 3,},
 		["Bio"] = [[Yeah, I've got a Valkyrie and a Wanwood Crown. LMAD?]],
 	},
-	
-		
+
+
 	["TY6"] = {
 		["Id"] = 3410793190,
 		["Name"] = "Outrageous Builder",
@@ -726,6 +734,389 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 6,},
 		["Bio"] = [[Before the introduction of DevEx, you could buy a lifetime of Outrageous Builder's club for $349.95. (That's about six Yellow icons.)]],
+	},
+	
+	-- New Zanzel
+	["Aura of the Promised One"] = {
+		["Id"] = 5392400529,
+		["Name"] = "Aura of the Promised One",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Lightning",
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 0,},
+		["DiscardBlock"] = true,
+		["Effect"] = {
+			Name = "deez nuts",
+			Description = "When this card is cast: Add a Green Stud and a Mark Stud to your Baseplate.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"AddGenZone",{"Green Stud",1},"Ally"}, {"AddGenZone",{"Mark Stud",1},"Ally"}},
+			Target = "Ally",
+		},
+		["Bio"] = "right me",
+	},
+	
+	["ZanzelApocryphantasm"] = {
+		["Id"] = 5392400529,
+		["Name"] = "Apocryphantasm",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Lightning",
+		["Color"] = "Green",
+		["Archetype"] = "Apocrypha",
+		["Cost"] = {["Green"] = 5,},
+		["Effect"] = {
+			Name = "deez nuts",
+			Description = "When this card is cast: Give yourself 2 Apocrypha actions. Then, all Apocryphantom cards in your hand gain 200 Health and Power.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"RandomAdd",{"AA1","AA2","AA3","AA4","AA5","AA6"}}, {"RandomAdd",{"AA1","AA2","AA3","AA4","AA5","AA6"}}, {"ArchetypeHandHeal", 200},{"ArchetypeHandStrengthen", 200}},
+			Target = "Ally",
+		},
+		["Bio"] = "right me",
+	},
+	
+	["Alpha Brick's Aid"] = {
+		["Id"] = 5832330973,
+		["Name"] = "Alpha Brick's Aid",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Lightning",
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 0,},
+		["DiscardBlock"] = true,
+		["Effect"] = {
+			Name = "deez nuts",
+			Description = "When this card is cast: Obliterate the board. Gain 2000 Life. Draw 4 cards.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Obliterate", 030}, {"Add","Alpha Brick's Destruction-AltBorder"} ,{"Draw", 3, "Ally"}, {"Inflict", -2000, "Ally"}},
+			Target = "All",
+		},
+		["Bio"] = "write me",
+	},
+	
+	["ZanzelParadise"] = { 
+		["Id"] = 1469010000,
+		["Name"] = "Bird of Eternal Paradise",
+		["Health"] = 200,
+		["Power"] = 200,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Fire",
+		["Color"] = "Green",
+		["Cost"] = {["Neutral"] = 0,},
+		["Archetype"] = "Bird",
+		["DamageImmune"] = true,
+		["WeakenImmune"] = true,
+		["Effect"] = {
+			Name = "Matriarch",
+			Description = [[Immune to effects that lower Health or Power. When this card is cast: All birds gain 100 Health. Draw a card.]],
+			["Type"] = "OnSummon",
+			["Power"] = {{"Heal",100,"Archetype"},{"Draw",1}},
+			Target = "Ally",	
+		},
+		["Bio"] = "The Matriarch searched far and wide, to all corners of Robloxia to find her most exotic allies.",
+	},	
+	
+	["ZanzelCharging"] = {
+		["Id"] = 5832341946,
+		["Name"] = "Charging Apocryphantom",
+		["Health"] = 200,
+		["Power"] = 200,
+		["Rarity"] = "Token", 
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green", 
+		["Archetype"] = "Apocrypha",
+		["Cost"] = {["Green"] = 2,},
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = [[When this card is cast, if there are 5 Apocrypha cards in your deck: Give yourself an Apocryphantasmal action card.]],
+			["Type"] = "OnSummon",
+			["Power"] = {{"RandomAdd",{"AA1","AA2","AA3","AA4","AA5","AA6"}}},
+			["EffectRequirement"] = {"Deck","Ally",5,9999,"Archetype"},
+			Target = "Ally",
+		},
+		["Bio"] = "A reality that wants to disappear.",
+	},
+	
+	["ZanzelSpiteful"] = {
+		["Id"] = 5832421885,
+		["Name"] = "Spiteful Apocryphantom",
+		["Health"] = 500,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green", 
+		["Archetype"] = "Apocrypha",
+		["Cost"] = {["Green"] = 3,},
+		["Effect"] = {
+			Name = "Haydoscale",
+			Description = "When this card is cast: Summon a clone of it. All Apocrypha in play and in your hand gain 100 Health and Power. Actions buffed this way manifest into fighters.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Summon","Spiteful Apocryphantom"},{"Heal",100,"Archetype"},{"Strengthen",100,"Archetype"},{"ArchetypeHandHeal",100,"Ally"},{"ArchetypeHandStrengthen",100,"Ally"}},
+			Target = "Ally",
+		},
+		["Bio"] = "A reality that wants to disappear.",
+	},
+	
+	["ZanzelCat"] = {
+		["Id"] = 4793138029,
+		["Name"] = "Magic Broom Black Cat",
+		["Health"] = 700,
+		["Power"] = 250,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green",		
+		["Cost"] = {["Green"] = 3,},
+		["Effect"] = {
+			Name = "Me-OUCH!",
+			Description = "When this card is cast: Transform a target fighter into a Snail.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Transform","Snail","Single"}},
+			Target = "Single",
+		},
+		["Bio"] = "Dormant since October 5th 2016.",
+	},
+	
+	["ZanzelTree"] = {
+		["Id"] = 4899305650,
+		["Name"] = "Dominus Praefectus",
+		["Health"] = 700,
+		["Power"] = 700,
+		["Rarity"] = "Token",       
+		["AttackEffect"] = "Punch",
+		["Color"] = "Neutral", 
+		["Cost"] = {["Neutral"] = 10,},
+		["Effect"] = {
+			Name = "Fanaticism",
+			Description = "When this card dies: Put three Green Studs into your Baseplate.",
+			["Type"] = "OnDeath",
+			["Power"] = {{"AddGenZone",{"Green Stud",3}}},
+			Target = "Ally",
+		},
+		["Bio"] = "Why grow anything when you can grow heaven?",
+	},
+	
+	["ZanzelEpidemic"] = {
+		["Id"] = 5046793430,
+		["Name"] = "Mass Epidemic",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["Archetype"] = "Boardwipe",
+		["AttackEffect"] = "Null",
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 6},
+		["Effect"] = {
+			Name = "Board Clear Preparation!",
+			Description = "Deal 1000 damage to all fighters.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Damage",1000}},
+			Target = "NotArchetype",
+		},
+		["Bio"] = "NOOOOO!! MY SKELETON ARMY!!!",
+	},
+
+
+	["ZanzelPerfection"] = {
+		["Id"] = 5594609488,
+		["Name"] = "Survivors of Perfection",
+		["Health"] = 500,
+		["Power"] = 200,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green", 
+		["Cost"] = {["Neutral"] = 3,},
+		["WeakenImmune"] = true,
+		["BypassOverdrive"] = true,
+		["TransformImmune"] = true,
+		["Archetype"] = "Survivor",
+		["Effect"] = {
+			Name = "Haydoscale",
+			Description = "Effects can't transform this card or lower its power. When this card is cast: Each allied fighter becomes a copy of it.", 
+			["Type"] = "OnSummon",
+			["Power"] = {{"Transform","Survivors of Perfection"}},
+			Target = "Ally",
+		},
+		["Bio"] = "Zanzel's people didn't get a vote in any of this. Their role was to witness it.",
+	},
+	
+		["ZanzelH-Thunder"] = {
+		["Id"] = 4784604008,
+		["Name"] = "Lightning Blast",
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Null",
+		["Color"] = "Yellow",
+		["Cost"] = {["Neutral"] = 6,},
+		["EffectAnimation"] = "Thunderbolt",
+		["Effect"] = {
+			Name = "Zappow!",
+			Description = "Deal 4000 damage to fighters.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Damage",4000}},
+			Target = "All",
+		},
+		["Bio"] = "Perish.",
+	},
+	
+	["ZanzelTBolt"] = {
+		["Id"] = 4784599356,
+		["Name"] = "Thunder Bolt",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Null",
+		["Color"] = "Blue",
+		["Cost"] = {["Neutral"] = 6,},
+		["EffectAnimation"] = "Thunderbolt",
+		["Effect"] = {
+			Name = "Zappow!",
+			Description = "Deal 4000 damage to fighters.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Damage",4000}},
+			Target = "All",
+		},
+		["Bio"] = "Zap!",
+	},
+	
+	["ZanzelRepentant"] = {
+		["Id"] = 4720418762,
+		["Name"] = "Zanzel Repentant",
+		["Health"] = 1500,
+		["Power"] = 0,
+		["Rarity"] =  "Token", 
+		["AttackEffect"] = "Punch",
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 6,},
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = [[When this card is first cast: Shuffle five bird cards into your deck. Whenever you cast a Bird: Transform Zanzel. She gains 600 health and power.]],
+			["Type"] = "OnSummon",
+			["Power"] = {{"DeckAdd", "Crow of Eternal Torment"},{"DeckAdd","Bird of Eternal Paradise"},{"DeckAdd","Parrot of Eternal Dominion"},{"DeckAdd", "Crow of Eternal Torment"},{"DeckAdd","Bird of Eternal Paradise"},{"DeckAdd","Parrot of Eternal Dominion"},{"Transform","ZanzelRepentantToken","Self"}},
+			Target = "Ally",
+		},
+		["Bio"] = "The vision from the Alpha Brick lead me to break the world. The transgression is too great. I will pay for what I did...",
+	},
+
+	["ZanzelRepentantToken"] = {
+		["Id"] = 4841680843,
+		["Name"] = "Zanzel Repentant",
+		["Health"] = 1500,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 6,},
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = [[Whenever you cast a Bird: Transform Zanzel. She gains 600 health and power.]],
+			["Type"] = "OnAllySummon",
+			["Power"] = {{"Heal",600,"Self"},{"Strengthen",600,"Self"},{"Transform","ZanzelRekindled","Self"}},
+			Archetype = "Bird",
+			Target = "Ally",
+		},
+		["Bio"] = "The vision from the Alpha Brick lead me to break the world. The transgression is too great. I will pay for what I did...",
+	},
+
+	["ZanzelRekindled"] = { 
+		["Id"] = 4841680843,
+		["Name"] = "Zanzel Rekindled",
+		["Health"] = 1500,
+		["Power"] = 1500,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 6,},
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = [[Whenever you cast a Bird: Shuffle a Bird card into your deck.]],
+			["Type"] = "OnAllySummon",
+			["Power"] = {{"DeckAdd", "Crow of Eternal Torment"}},
+			Archetype = "Bird",
+			Target = "Ally",
+		},
+		["Bio"] = "...But I will hardly stand idly by while these heathens break the world twice over!",
+	},
+	
+	["ZanzelsWorld"] = {
+		["Id"] = 5574241280,
+		["Name"] = "Living World",
+		["LivingWorldEmpowered"] = {
+			["Cost"] = {["Green"] = 3,},
+		},
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] =  "Token",
+		["Stealth"] = true,
+		["AttackEffect"] = "Slash",
+		["Color"] = "Green",
+		["Cost"] = {["Neutral"] = 4,},
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = "Stealth. Animate the current terrain into a fighter. Return this card to your hand.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"AnimateTerrain"},{"Add","ZanzelsWorld"}},
+			Target = "Ally",
+		},
+		["Bio"] = "The neodragons weren't the only creations sprang from time's destruction.",
+	},
+	
+	["ZanzelObservant"] = {
+		["Id"] = 5468496033,
+		["Name"] = "Observant Apocryphantom",
+		["Health"] = 1300,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green", 
+		["Archetype"] = "Apocrypha",
+		["Cost"] = {["Green"] = 5,},
+		["TransformImmune"] = true,
+		["Effect"] = {
+			Name = "Haydoscale",
+			Description = "Effects can't transform this card. When this card is cast or during your end steps, if you have 4 or fewer cards in your hand: Give yourself an Apocrypha action.",
+			["Type"] = "OnSummonOrEnd",
+			["Power"] = {{"RandomAdd",{"AA1","AA2","AA3","AA4","AA5","AA6"}}},
+			Target = "Ally",
+			["EffectRequirement"] = {"Playertable","Me",0,5,"Hand"},
+		},
+		["Bio"] = "A reality that wants to disappear.",
+	},
+
+	["ZanzelJudgmental"] = {
+		["Id"] = 5433939479,
+		["Name"] = "Judgmental Apocryphantom",
+		["Health"] = 800,
+		["Power"] = 200,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Green"},
+		["Color"] = "Green", 
+		["Archetype"] = "Apocrypha",
+		["Cost"] = {["Green"] = 4,},
+		["TransformImmune"] = true,
+		["Effect"] = {
+			Name = "Haydoscale",
+			Description = "Effects can't transform this card. Whenever you discard your second card each turn: Give yourself an Apocryphantasmal action card.",
+			["Type"] = "OnAllyDiscard",
+			["Power"] = {{"RandomAdd",{"AA1","AA2","AA3","AA4","AA5","AA6"}}},
+			Target = "Ally",
+			["EffectRequirement"] = {"Playertable","Me",2,3,"DiscardCount"},
+		},
+		["Bio"] = "A reality that wants to disappear.",
+	},
+	
+	["ZanzelLittleGirl"] = {
+		["Id"] = 5401789691,
+		["Name"] = "Crystal Golem",
+		["Health"] = 2100,
+		["Power"] = 350,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Green", 
+		["Cost"] = {["Green"] = 8,},
+		["Bio"] = "Cold to the touch, this giant will hold any frontline without question.",
 	},
 
 }

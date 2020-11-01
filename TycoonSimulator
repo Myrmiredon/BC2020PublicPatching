@@ -1919,7 +1919,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 5,},
 		["Effect"] = {
 			Name = "FA-FA-FA-FAMOUS",
-			Description = "At the end of your turns, put a random Epic card into both players hands, then give all Epic fighters 100 Health.",
+			Description = "During your end step: Give each player an Epic card. All Epic fighter gains 100 health.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"RandomAdd","Epic","Ally"},{"RandomAdd","Epic","Opponent"},{"Heal",100,"Epic"}},
 			Target = "Ally",
@@ -2431,7 +2431,7 @@ local tycoons = {
 			["Power"] = {{"Strengthen",300}},
 			Target = "Single",
 		},
-		["Bio"] = "PREEEEEEEEESENTING!",
+		["Bio"] = "PREEEEEEEEEEEEEESENTING!",
 	},
 		
 	["ThePestilentOne"] = {
@@ -3935,7 +3935,7 @@ local tycoons = {
 			["EffectRequirement"] = {"Rarity","Ally",3,9999,"Rare"},
 			["Rarity"] = "Rare",
 		},
-		["Bio"] = [[WRITEME]],
+		["Bio"] = [[]],
 	},
 		
 	["Nexx"] = {
