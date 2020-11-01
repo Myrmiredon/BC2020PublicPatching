@@ -2360,9 +2360,19 @@ local halo = {
 	["Living World"] = {
 		["Id"] = 5574241280,
 		["Name"] = "Living World",
+		["AltCards"] = {
 			["LivingWorldEmpowered"] = {
+				["Rarity"] = "Token",
 				["Cost"] = {["Green"] = 3,},
+				["Effect"] = {
+					Name = "Temporal Halo",
+					Description = "Stealth. Animate the current terrain into a fighter. Return this card to your hand.",
+					["Type"] = "OnSummon",
+					["Power"] = {{"AnimateTerrain"},{"Add","LivingWorldEmpowered"}},
+					Target = "Ally",
+				},
 			},
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] =  "Epic",
