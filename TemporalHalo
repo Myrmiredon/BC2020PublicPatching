@@ -305,7 +305,7 @@ local halo = {
 	},
 	
 	["Zanzel Rekindled Token"] = {
-		["Id"] = 4841680843,
+		["Id"] = 4720418762,
 		["Name"] = "Zanzel Repentant",
 		["CopyBodge"] = "Zanzel Rekindled Token",
 		["Health"] = 1500,
