@@ -1118,7 +1118,138 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Green"] = 8,},
 		["Bio"] = "Cold to the touch, this giant will hold any frontline without question.",
 	},
-
+	-- Puzzle Cards
+	
+	-- Blue
+	["PuzzleYoshius"] = {
+		["Id"] = 4899472737,
+		["Name"] = "Yoshius",
+		["Health"] = 500,
+		["Power"] = 100,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Blue", 
+		["Cost"] = {["Blue"] = 2,},
+		["Effect"] = {
+			Name = "Dum dum",
+			Description = "When this card is cast: Swap a target fighter's stats.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Swap",100000}},
+			Target = "Single",
+		},
+		["Bio"] = "No, Jim! Fun is allowed. Only for us, though.",
+	},
+	
+	["PuzzleMike"] = {
+		["Id"] = 275340266,
+		["Name"] = "Mike",
+		["Health"] = 2000,
+		["Power"] = 200,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Gun",
+		["Color"] = "Blue",
+		["Cost"] = {["Neutral"] = 6,},
+		["Bio"] = "Hired mercenary, endorsed by IcyTea himself.",
+	},
+	
+	["PuzzleKorblox Archer"] = {
+		["Id"] = 2810632305,
+		["Name"] = "Korblox Archer",
+		["Health"] = 400,
+		["Power"] = 300,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Archetype"] = "Korblox",
+		["Color"] = "Blue",
+		["Cost"] = {["Neutral"] = 3,["Blue"] = 2,},
+		["Effect"] = {
+			Name = "Jagged Arrow",
+			Description = "When this card is cast: A target fighter loses 300 power.",
+			["Type"] = "OnSummon",
+			["Power"] = "Weaken",
+			Target = "Single",
+			Increase = 300
+		},
+		["Bio"] = "Korblox arrows are made of a powerful ore known as Iron. Check up with your GP for symptoms if you get shot by one.",
+	},
+	-- Red
+	["PuzzleSauske2000"] = {
+		["Id"] = 5650700118,
+		["Name"] = "Sauske2000",
+		["Health"] = 400,
+		["Power"] = 150,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Red"},
+		["Color"] = "Red",
+		["Cost"] = {["Neutral"] = 1,["Red"] = 1,},
+		["Effect"] = {
+			Name = "Faker Hit",
+			Description = "When this card is cast: You may put another card into your Baseplate this turn.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"DiscardLimit",1}},
+			Target = "Ally",
+		},
+		["Bio"] = "He just wants to get choked like his idol from some anime he watched or something.",
+	},	
+	
+	["PuzzleDrakobloxxer"] = {
+		["Id"] = 4564776044,
+		["Name"] = "Drakobloxxer",
+		["Health"] = 350,
+		["Power"] = 350,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["Color"] = "Red",
+		["Cost"] = {["Red"] = 3,},
+		["Effect"] = {
+			Name = "Firaja",
+			Description = "During your end step: Deal 100 damage to all enemy fighters.",
+			["Type"] = "OnEnd",
+			["Power"] = "Damage",
+			Target = "Opponent",
+			Increase = 100
+		},
+		["Bio"] = "NOM NOM NOM!",
+	},	 	
+	
+	["PuzzlePapasmurf"] = {
+		["Id"] = 4564788615,
+		["Name"] = "Papasmurf",
+		["Health"] = 500,
+		["Power"] = 500,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Red",
+		["Cost"] = {["Red"] = 8,},
+		["Effect"] = {
+			Name = "Stud",
+			Description = "When this card is cast: Summon each copy of a Drakobloxxer from your Baseplate.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"}},
+			Target = "Ally",
+		},
+		["Bio"] = "Papa got drakobloxxers on his side.",
+	},
+	
+	["Puzzlerachjumper"] = {
+		["Id"] = 5650754273,
+		["Name"] = "rachjumper",
+		["Health"] = 150,
+		["Power"] = 750,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["DestroyImmune"] = true,
+		["Color"] = "Red",
+		["Cost"] = {["Neutral"] = 3, ["Red"] = 8,},
+		["Effect"] = {
+			Name = "Unleash Hell",
+			Description = "Effects can't Destroy this card. When this card is cast: Your opponent loses 250 Life for each fighter on the field. Destroy all fighters.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"SetVariable","All"},{"MultiplyVariable",250,"Self"},{"Inflict","Variable"},{"Destroy"}},
+			Target = "All",
+		},
+		["Bio"] = "You can run, but you can't hide.",
+	},
 }
 
 return botcards
