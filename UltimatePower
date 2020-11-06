@@ -3198,38 +3198,9 @@ local ultpower = {
 			["Power"] = {{"AlterEV",{"Set","AllBoard","Fighters"}},{"AlterEV",{"Multiply","Math",250}},{"Inflict","Variable","Opponent"},{"Destroy",0,"All"},{"EndTurn",1,"Ally"}},
 			Target = "Self",
 		},
-		["Bio"] = "You can run...",
+		["Bio"] = "You can run, but you can't hide.",
 	},
-	
-	--["Rach Token"] = {
-	--	["Id"] = 5650754273,
-	--	["Name"] = "rachjumper",
-	--	["AltCards"] = {
-	--		["Brendan03red, The Hate-Filled Token"] = {
-	--			["Id"] = 5650763528,
-	--			["CopyBodge"] = "Brendan03red, The Hate-Filled Token",
-	--			["Name"] = "Brendan03red, The Hate-Filled",
-	--			["Bio"] = "Even angels have their hatred, and the end result sends shivers up a God's spine. This card is an alternate art of rachjumper.",
-	--		},
-	--	},
-	--	["Health"] = 2000,
-	--	["Power"] = 750,
-	--	["Rarity"] = "Token",
-	--	["AttackEffect"] = {"Magic", "Yellow"},
-	--	["DestroyImmune"] = true,
-	--	["Color"] = "Red",
-	--	["Fading"] = true,
-	--	["Cost"] = {["Neutral"] = 3, ["Red"] = 8,},
-	--	["Effect"] = {
-	--		Name = "Unleash Hell",
-	--		Description = "When this card is cast: Destroy all fighters. Your opponent loses 250 Life for each fighter destroyed this way. Then deal 4000 damage to all other allied fighters. End the turn.",
-	--		["Type"] = "OnAnyDeath",
-	--		["Power"] = {{"Inflict",250}},
-	--		Target = "Opponent",
-	--	},
-	--	["Bio"] = "...but you can't hide.",	
-	--},
-	
+  
 	["Developer"] = {
 		["Id"] = 3164484937,
 		["Name"] = "Developer",
