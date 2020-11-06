@@ -3181,13 +3181,6 @@ local ultpower = {
 				["Id"] = 5650763528,
 				["CopyBodge"] = "Brendan03red, The Hate-Filled",
 				["Name"] = "Brendan03red, The Hate-Filled",
-				["Effect"] = {
-					Name = "Unleash Hell",
-			Description = "Effects can't Destroy this card. When this card is cast: Your opponent loses 250 Life for each fighter on the field. Destroy all other fighters. End the turn.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"SetVariable","All"},{"MultiplyVariable",250,"Self"},{"Inflict","Variable"},{"Destroy"},{"EndTurn",1,"Ally"}},
-			Target = "All",
-				},
 				["Bio"] = "Even angels have their hatred, and the end result sends shivers up a God's spine. This card is an alternate art of rachjumper.",
 			},
 		},
@@ -3200,14 +3193,14 @@ local ultpower = {
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 8,},
 		["Effect"] = {
 			Name = "Unleash Hell",
-			Description = "Effects can't Destroy this card. When this card is cast: Your opponent loses 250 Life for each fighter on the field. Destroy all other fighters. End the turn.",
+			Description = "This card can't be destroyed by effects. When this card is cast: Your opponent loses 250 life for each fighter on either players field. Destroy all fighters. End the turn.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetVariable","All"},{"MultiplyVariable",250,"Self"},{"Inflict","Variable"},{"Destroy"},{"EndTurn",1,"Ally"}},
-			Target = "All",
+			["Power"] = {{"AlterEV",{"Set","AllBoard","Fighters"}},{"AlterEV",{"Multiply","Math",250}},{"Inflict","Variable","Opponent"},{"Destroy",0,"All"},{"EndTurn",1,"Ally"}},
+			Target = "Self",
 		},
 		["Bio"] = "You can run, but you can't hide.",
 	},
-
+  
 	["Developer"] = {
 		["Id"] = 3164484937,
 		["Name"] = "Developer",
