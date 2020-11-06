@@ -1245,7 +1245,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Name = "Unleash Hell",
 			Description = "Effects can't Destroy this card. When this card is cast: Your opponent loses 250 Life for each fighter on the field. Destroy all fighters.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"AlterEV",{"Set","AllBoard","Fighters"}},{"AlterEV",{"Multiply","Math",250}},{"Inflict","Variable"},{"Destroy"}},
+			["Power"] = {{"AlterEV",{"Set","AllBoard","Fighters"}},{"AlterEV",{"Multiply","Math",250}},{"Inflict","Variable"},{"Destroy"}}
 			Target = "All",
 		},
 		["Bio"] = "You can run, but you can't hide.",
