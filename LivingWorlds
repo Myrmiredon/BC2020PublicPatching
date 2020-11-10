@@ -24,7 +24,7 @@ local LivingWorldTerrarians = {
 	
 	["Crowd's Favour"] = {
 		["Id"] = 4952824244,
-		["Name"] = "Crowd's Favour",
+		["Name"] = "Achievement: Crowd's Favour",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
