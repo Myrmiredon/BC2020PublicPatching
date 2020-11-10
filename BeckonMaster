@@ -1687,7 +1687,7 @@ local beckoned = {
 				["Bio"] = "Blueshunder189 is a French Developer who makes lots of Models like Weapons, Guns, Robots, Vehicles, and Much More! This card is an alternate art of destruction5033",
 			},
 		},
-		["Health"] = 1000,
+		["Health"] = 200,
 		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},

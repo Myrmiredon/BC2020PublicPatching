@@ -247,7 +247,7 @@ local halo = {
 		["CopyBodge"] = "Contumacious Astrobleme",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] =  "Rare", -- Rare
+		["Rarity"] =  "Token", -- Rare
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
