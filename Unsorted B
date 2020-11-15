@@ -584,14 +584,14 @@ local twentyeleveneighteen = {
 				["Id"] = 655010800,
 				["Effect"] = {
 					["Power"] = {{"DeckAdd","BlackSymphony-Val"},{"GenZoneDiscard",{"Blue",-1}}},
-				}
+				},
 				["Bio"] = "Stop showing your shoulders like that, it's l-l-lewd.",
 			},
 			["BlackSymphony-Val-Aurebus"] = {
 				["Id"] = 5566543122,
 				["Effect"] = {
 					["Power"] = {{"DeckAdd","BlackSymphony-Val-Aurebus"},{"GenZoneDiscard",{"Blue",-1}}},
-				}
+				},
 				["Bio"] = "We're reaching levels of lewd previously considered impossible.",
 			},
 		},	

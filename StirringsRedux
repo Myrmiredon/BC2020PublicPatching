@@ -3911,19 +3911,16 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue", 
 		["Archetype"] = "Morphic",
-		["Cost"] = {["Blue"] = 6,},
+		["Cost"] = {["Neutral"] = 2, ["Blue"] = 6,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Whenever this fighter attacks, if you control another Goo-related fighter: Give yourself a Morphic Goo.",
+			Description = "Whenever this fighter attacks: Give yourself a Morphic Goo.",
 			["Type"] = "OnAttack",
 			["Power"] = {{"Add","Morphic Goo"}},
 			Target = "Ally",
-			["EffectRequirement"] = {"Archetype", "Ally", 2, 9999, "Morphic"},
 		},
 		["Bio"] = "A less refined version of the Morphic Goo. It is living, but lacks the ability to transform like the final product does.",
-	},
-	
-	
+	},	
 	
 	["Morphic Goo"] = {
 		["Id"] = 5378454543,

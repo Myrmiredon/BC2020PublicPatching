@@ -2827,7 +2827,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 5,},
 		["Effect"] = {
 			Name = "Investment",
-			Description = "If an effect made you lose life since your last end step, this card has Haste. Whenever this card attacks and destroys another: Ready it. Your opponent loses 500 life.",
+			Description = "If an effect made you lose life since your last end step, this card has Haste. Whenever this card destroys another: Ready it. Your opponent loses 500 life.",
 			["Type"] = "OnDestroy",
 			["Power"] = {{"Unlock",1,"Self"},{"Inflict",500}},
 			Target = "Opponent",
@@ -3478,10 +3478,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Toy",
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 1,["Yellow"] = 2,},
-		["ChargeRequirement"] = {"Archetype","Ally",1,9999,"Toy"},
+		["ChargeRequirement"] = {"Archetype","Ally",2,9999,"Toy"},
 		["Effect"] = {
 			Name = "Build Up",
-			Description = "If you control a toy, this card has Haste. When this card destroys another: All non-toy fighters lose 100 power.",
+			Description = "If you control another toy, this card has Haste. When this card destroys another: All non-toy fighters lose 100 power.",
 			["Type"] = "OnDestroy",
 			["Power"] = {{"Weaken",100}},
 			Target = "NotArchetype",
@@ -4233,21 +4233,22 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	
 	["Plushie Hula Dog"] = {
 		["Id"] = 332863613,
-		["Name"] = "Plushie Hula Dog",
-		["Health"] = 500,
-		["Power"] = 300,
+		["Name"] = "Mood Swing",
+		["Health"] = 0,
+		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 4,},
+		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 3,},
+		["Requirement"] = {"Board", "All", 10},
 		["Effect"] = {
 			Name = "Plushie Amp",
-			Description = "When this card is cast: You may put any number of cards into your Baseplate this turn.",
+			Description = "Cast only if there are 10 fighters in play. Unlock all allied fighters. They gain 200 health and power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"DiscardLimit",99}},
+			["Power"] = {{"Unlock",999,"All"},{"Heal",200},{"Strengthen",200}},
 			Target = "Ally",
 		},
-		["Bio"] = "PARTY PLUSHIES!",
+		["Bio"] = "Yuki's mood changes with enough speed to pierce armour.",
 	},
 	
 	["Plushie Leprechaun"] = {
@@ -6978,7 +6979,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Transformant"] = "KillarToken",
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Whenever an action is cast: This card becomes immune to all damage until the next end step.",
+			Description = "Whenever an action or terrain card is cast: This card becomes immune to all damage until the next end step.",
 			["Type"] = "OnAnyCast",
 			["Power"] = {{"Transform"}},
 			Target = "Self",
@@ -7744,12 +7745,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Freeze",
 		["Archetype"] = "Permafrost",
 		["Color"] = "Blue",
-		["Cost"] = {["Blue"] = 8,},
+		["Cost"] = {["Blue"] = 6,},
 		["Effect"] = {
 			Name = "Icerain, Harbinger of Frost",
-			Description = "Destroy all Permafrost Storms. Summon a Permafrost Storm. Put a copy of this card into your hand.",
+			Description = "Summon a 1000/100 fighter that resets its stats during your end steps. If it survives six of your end steps, you win the game.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Destroy",030,"Archetype"},{"Summon","Permafrost 2"},{"Add","Permafrost Storm"}},
+			["Power"] = {{"Summon","Permafrost 2"}},
 			["Target"] = "Ally",
 		},
 		["Bio"] = "The process of freezing to death is usually very painful in the beginning as the nerves can still feel the cold and report the pain to the body.",
@@ -7768,7 +7769,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, Inquisitor of Winter",
-			Description = "9 Charges. At the end of your turns: remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "6 Charges. At the end of your turns: remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 2"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7789,7 +7790,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, the Persistent Chill",
-			Description = "8 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "5 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 3"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7810,7 +7811,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, the Glacial Gloater",
-			Description = "7 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "4 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 4"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7831,7 +7832,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, Frigid Foreshadower",
-			Description = "6 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "3 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 5"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7852,7 +7853,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, Blurrer of Lines between Epic and Legendary rarities and their meaning",
-			Description = "5 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "2 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 6"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7873,7 +7874,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, the Frozen Gaia",
-			Description = "4 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "1 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 7"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -9323,59 +9324,6 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "A lie will remain a lie. Knowing this, do you still desire peace?",
-	},
-	
-	
-	["Animate Cannonman!"] = {
-		["Id"] = 4789583049,
-		["Name"] = "Animate Cannonman!",
-		["AltCards"] = {
-			["The Cannonman is Angry!"] = {
-				["Id"] = 4789583410,
-				["Name"] = "The Cannonman is Angry!",
-				["Bio"] = "Real Boys destroy the buildings of people they don't like! Take that, Goldman Sachs!",
-				["Rarity"] = "Token",
-				["Color"] = "Red",
-			},
-			["The Cannonman is Scared!"] = {
-				["Id"] = 4789582031,
-				["Name"] = "The Cannonman is Scared!",
-				["Bio"] = "R-Real Boys get sad when their leaders die. Only the strong survive.",
-				["Rarity"] = "Token",
-				["Color"] = "Blue",
-			},
-			["The Cannonman is Gone!"] = {
-				["Id"] = 4789582500,
-				["Name"] = "The Cannonman is Gone!",
-				["Bio"] = "Real Boys hide from counter-revolutionaries, brothers.",
-				["Rarity"] = "Token",
-				["Color"] = "Green",
-			},
-			["The Cannonman is Curious!"] = {
-				["Id"] = 4789581519,
-				["Name"] = "The Cannonman is Curious!",
-				["Bio"] = "Real Boys buy children off the internet! I needa start mining bitcoin!",
-				["Rarity"] = "Token",
-				["Color"] = "Yellow",
-			},
-		},
-		["Health"] = 500,
-		["Power"] = 500,
-		["Rarity"] = "Epic",
-		["AttackEffect"] = "Gun",
-		["Color"] = "Neutral",
-		["CounterBlock"] = true,
-		["Cost"] = {["Neutral"] = 5,},
-		["Archetype"] = "Cannonman",
-		["Effect"] = {
-			Name = "Metalurgy",
-			Description = "This card can't counter. When this card dies, if you control a fighter with the same colour as it: Summon a clone of it. Its colour is random.",
-			["Type"] = "OnDeath",
-			["Power"] = {{"RandomSummon",{"Animate Cannonman!","The Cannonman is Angry!","The Cannonman is Scared!","The Cannonman is Gone!", "The Cannonman is Curious!"}}},
-			Target = "Ally",
-			["EffectRequirement"] = {"Color","Ally", 1, 999,"Self"},
-		},
-		["Bio"] = "Real Boys breathe, so I must breathe too! Fetch the canisters!",
 	},
 	
 	["Epic DrWeaseI"] = {

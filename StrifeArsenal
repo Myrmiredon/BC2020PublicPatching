@@ -1254,12 +1254,12 @@ local Strife = {
 				["Bio"] = "Wow, I didn’t even notice that egg. What a decearing egg.",
 			},
 		},
-		["Power"] = 400,
+		["Power"] = 300,
 		["Health"] = 300,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
-		["Cost"] = {["Blue"] = 3,},
+		["Cost"] = {["Neutral"] = 1, ["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Recognize",
 			Description = [[When this card is cast: Draw a card.]],
@@ -1750,7 +1750,7 @@ local Strife = {
 		["EffectAnimation"] = "Lobsters",
 		["Effect"] = {
 			Name = "Damage for Top Deck",
-			Description = "Cast only if your opponent controls 4 or more fighters. Deal 4000 damaage to all fighters.",
+			Description = "Cast only if your opponent controls 4 or more fighters. Deal 4000 damage to all fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",4000}},
 			Target = "NotArchetype",
