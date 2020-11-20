@@ -2486,7 +2486,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["CopyBodge"] = "Ejob-Val",
 				["Bio"] = "From Dogutsune you may expect things like 3D models, scripts, games and character design. Arsenal's Red Panda? Murder Revolver? 2 UGC Hats? That's Dogu's doing!",
 			},
-			
+
 			["Dogon"] = {
 				["Name"] = "Dogon",
 				["AltArt"] = true,
@@ -2494,14 +2494,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Id"] = 5832352650,
 				["Effect"] = {
 					Name = "Stud",
-					Description = "When this card is cast, if your opponent controls two fighters: Summon 7 Shovelware Studio Stars. End the turn.",
+					Description = "When this card is cast, if your opponent controls four fighters: Summon 7 Shovelware Studio Stars. End the turn.",
 					["Type"] = "OnSummon",
 					["Power"] = {{"Summon","CaptainUnderpants"},{"Summon","Minions"},{"Summon","Rowley"},{"Summon","Bananas"},{"Summon","Rowley"},{"Summon","Minions"},{"Summon","CaptainUnderpants"},{"EndTurn",1}},
 					Target = "Ally",
-					["EffectRequirement"] = {"Board", "Opponent", 2,9999},
-		},
-				["Bio"] = "To defeat the shovelware, you must produce the shovelware. This card is an alternate art of Ejob.",
+					["EffectRequirement"] = {"Board", "Opponent", 4,9999},
 				},
+				["Bio"] = "To defeat the shovelware, you must produce the shovelware. This card is an alternate art of Ejob.",
+			},
 		},						
 		["Health"] = 700,
 		["Power"] = 200,
@@ -2511,15 +2511,15 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 4,["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "When this card is cast, if your opponent controls two fighters: Summon seven Noobs. End the turn.",
+			Description = "When this card is cast, if your opponent controls four fighters: Summon 7 Noobs. End the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"EndTurn",1}},
 			Target = "Ally",
-			["EffectRequirement"] = {"Board", "Opponent", 2,9999},
+			["EffectRequirement"] = {"Board", "Opponent", 4,9999},
 		},
 		["Bio"] = "'Draw me like one of your Ejobs'",
 	},
-	
+
 	["Soul Release"] = {
 		["Id"] = 288077397,
 		["Name"] = "Soul Release",
@@ -8631,9 +8631,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 9,},
 		["Effect"] = {
 			Name = "Sacrificial Destruction",
-			Description = "Whenever an effect gives you a card for the first time each turn: Both players draw six cards.",
+			Description = "Whenever an effect gives you a card for the first time each turn: Both players draw three cards.",
 			["Type"] = "OnSecondPut",
-			["Power"] = {{"Draw",6,"All"}},
+			["Power"] = {{"Draw",3,"All"}},
 			Target = "All",
 		},
 		["Bio"] = "The Gods are pleased. You get to keep your skin.",
