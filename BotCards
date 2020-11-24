@@ -186,7 +186,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["AttackEffect"] = "Fire",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 0,},
-		["Requirement"] = {"Archetype",8,9999},
+		["Requirement"] = {"Archetype", "Ally", 8, 9999, "Bird"},
 		["Archetype"] = "Bird",
 		["Effect"] = {
 			Name = "Matriarch",
