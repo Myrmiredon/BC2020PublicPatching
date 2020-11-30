@@ -1385,7 +1385,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Haydoscale",
 			Description = "During your end step: This card loses all of its power. Then it gains 27 power for each stud your opponent has, rounded down.", 
 			["Type"] = "OnEnd",
-			["Power"] = {{"SetPower",0,"Self"},{"BloxgoneMonster",20}},
+			["Power"] = {{"SetPower",0,"Self"},{"BloxgoneMonster",27}},
 			Target = "Opponent",
 		},
 		["Bio"] = "Hedwyn stopped when he felt it. That was his first mistake. He then channeled all his might into a single Periastron Strike. That was his last.",
