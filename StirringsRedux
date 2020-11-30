@@ -3996,7 +3996,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue", 
 		["Archetype"] = "Morphic",
-		["Archetype"] = {"Archetype","Ally",2,9999,"Morphic"},
+		["Requirement"] = {"Archetype","Ally",2,9999,"Morphic"},
 		["Cost"] = {["Blue"] = 7, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",

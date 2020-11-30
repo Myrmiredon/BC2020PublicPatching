@@ -1751,7 +1751,6 @@ local tycoons = {
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
-		["Fading"] = true,
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Degenerate Nekotare",
