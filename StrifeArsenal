@@ -1755,7 +1755,7 @@ local Strife = {
 			Description = "Cast only if you have 1500 or less life. Deal 4000 damage to all fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",4000}},
-			Target = "Aggressor",
+			Target = "All",
 		},
 		["Bio"] = "Sometimes, you just have to trust in lobsters.",
 	},
