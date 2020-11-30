@@ -3196,7 +3196,7 @@ local ultpower = {
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 8,},
 		["Effect"] = {
 			Name = "Unleash Hell",
-			Description = "If your opponent has 1500 or less life, caat this card ignoring its Red cost. When you do, if there is a Red card in your baseplate: Your opponent loses 250 life.",
+			Description = "If your opponent has 1500 or less life, cast this card ignoring its Red cost. When you do, if there is a Red card in your baseplate: Your opponent loses 250 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Inflict",250}},
 			Target = "Opponent",
