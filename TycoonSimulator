@@ -152,8 +152,8 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Counter Strike",
-			Description = "Whenever your opponent discards a card: This card gains 200 health and power.",
-			["Type"] = "OnOpponentDiscard",
+			Description = "Whenever your opponent discards a card: This card gains 200 Health and Power.",
+			["Type"] = "OnEnemyDiscard",
 			["Power"] = {{"Heal",200},{"Strengthen",200}},
 			Target = "Self",
 		},
@@ -1918,7 +1918,7 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 5,},
 		["Effect"] = {
 			Name = "FA-FA-FA-FAMOUS",
-			Description = "During your end step: Give each player an Epic card. All Epic fighter gains 100 health.",
+			Description = "During your end step: Give each player an Epic card. All Epic fighters gain 100 Health.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"RandomAdd","Epic","Ally"},{"RandomAdd","Epic","Opponent"},{"Heal",100,"Epic"}},
 			Target = "Ally",
