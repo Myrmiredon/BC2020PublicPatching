@@ -460,7 +460,7 @@ local twentyeleveneighteen = {
 			Name = "Infinite Wishes",
 			Description = "Stealth. Put a copy of this card into your Baseplate. Give yourself a copy of this card.",
 			["Type"] = "OnSummon",
-			["Power"] = {["Power"] = {{"AddGenZone",{"Infinite Wishes",1}}},{"Add","Infinite Wishes"}},
+			["Power"] = {{"AddGenZone",{"Infinite Wishes",1}},{"Add","Infinite Wishes"}},
 			Target = "Ally",
 		},
 		["Bio"] = "ALWAYS wish for more wishes.",
