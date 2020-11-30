@@ -4319,7 +4319,7 @@ local twentyeleveneighteen = {
 			Name = "derp",
 			Description = "Effects can't transform this card. Whenever this card destroys another: It deals 200 damage to itself. You lose 600 Life.",
 			["Type"] = "OnDestroy",
-			["Power"] = {{"Damage",200},{"Cost",600}},
+			["Power"] = {{"Cost",600},{"Damage",200}},
 			Target = "Self",
 		},
 		["Bio"] = "TOO... MUCH... SAUCE... MUST... SLAY THE POGGERS...",
