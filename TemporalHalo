@@ -124,9 +124,9 @@ local halo = {
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 4, ["Red"] = 4,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[When this card is cast: Destroy your hand. For each fighter your opponent controls, give yourself a card that's a copy of it.]],
+			Description = [[When this card is cast: For each fighter your opponent controls, give yourself a card that's a copy of it.]],
 			["Type"] = "OnSummon",
-			["Power"] = {{"RandomDiscard",10},{"AddCopy",9999,"Opponent"}},
+			["Power"] = {{"AddCopy",9999,"Opponent"}},
 			Target = "Ally",
 		},
 		["Bio"] = "An ancient scourge returned once more.",
@@ -394,7 +394,7 @@ local halo = {
 		["Archetype"] = "Lycanthrope",
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[When this card is cast, if you have 500 or less life, Quadruple Eclipse's stats. Unlock all Lycanthropes.]],
+			Description = [[When this card is cast, if you have 500 or less life: Quadruple this card's stats. Unlock all Lycanthropes.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"MultiplyPower",4,"Self"},{"MultiplyHealth",4,"Self"},{"Unlock",9999}},
 			["EffectRequirement"] = {"Playertable", "Me", 0, 501, "Life"},
@@ -1079,9 +1079,9 @@ local halo = {
 		["Requirement"] = {"Archetype", "Ally", 1 ,9999, "World of Wood"},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Cast only if you control a fighter from the World of Wood. At the start of each player's turn: Deal 50 damage to all fighters not from the World of Wood. Fighters from the World of Wood gain 50 power.]],
+			Description = [[Cast only if you control a fighter from the World of Wood. At the start of each player's turn: Deal 50 damage to all fighters not from the World of Wood that player controls. All fighters from the World of Wood gain 50 power.]],
 			["Type"] = "Field",
-			["Power"] = {{"Damage",50,"NotArchetype"},{"Strengthen",50}},
+			["Power"] = {{"Damage",50,"NotAllArchetype"},{"Strengthen",50}},
 			Target = "AllArchetype",
 		},
 		["Bio"] = [[The outskirts of the World of Wood were the first to be overlayed through time. Their bark is infested with the eggs of the Anthrests.]],

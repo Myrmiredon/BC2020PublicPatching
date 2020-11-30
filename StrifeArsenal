@@ -1,5 +1,5 @@
 local Strife = {
-	
+
 	["Korblox Archer"] = {
 		["Id"] = 2810632305,
 		["Name"] = "Korblox Archer",
@@ -34,7 +34,7 @@ local Strife = {
 		},
 		["Bio"] = "Korblox arrows are made of a powerful ore known as Iron. Check up with your GP for symptoms if you get shot by one.",
 	},
-	
+
 	["Korblox General"] = {
 		["Id"] = 2817091500,
 		["Name"] = "Korblox General",
@@ -47,19 +47,19 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Instill",
-			Description = "When this card is cast: Lock a target fighter for 3 turns.",
+			Description = "When this card is cast: Lock a target fighter for 2 turns.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Lock",3}},
+			["Power"] = {{"Lock",2}},
 			Target = "Single",
 		},
 		["Bio"] = "CHARGE FORWARD!",
 	},
-	
+
 	["Korblox Defender"] = {
 		["Id"] = 2817088764,
 		["Name"] = "Korblox Defender",
-		["Health"] = 600,
-		["Power"] = 250,
+		["Health"] = 800,
+		["Power"] = 200,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Korblox",
@@ -67,7 +67,7 @@ local Strife = {
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Quick Shot",
-			Description = "When this card is cast: All Korblox gain 400 health.",
+			Description = "When this card is cast: All Korblox gain 200 health.",
 			["Type"] = "OnSummon",
 			["Power"] = "Heal",
 			Target = "Archetype",
@@ -75,7 +75,7 @@ local Strife = {
 		},
 		["Bio"] = "CHARGE NOWHERE! STAND GROUND!",
 	},
-	
+
 	["Korblox Deathknight"] = {
 		["Id"] = 5574373206,
 		["Name"] = "Korblox Deathknight",
@@ -104,20 +104,20 @@ local Strife = {
 		},
 		["Bio"] = "Regardless of how threatening he looks. He just wants a hug. But everyone he comes near dies, hence the nickname.",
 	},
-	
+
 	["Korblox Deathkeeper"] = {
 		["Id"] = 3611612075,
 		["Name"] = "Korblox Deathkeeper",
-		["Health"] = 1000,
-		["Power"] = 500,
+		["Health"] = 800,
+		["Power"] = 400,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Korblox",
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 5,["Blue"] = 3,},
+		["Cost"] = {["Neutral"] = 5,["Blue"] = 1,},
 		["Effect"] = {
 			Name = "Quick Shot",
-			Description = "Whenever your effects target a card for the first or second time each turn: Summon a 450/200 Korblox Skeleton.",
+			Description = "Whenever your effects target a card for the first or second time each turn: Summon a 400/200 Korblox Skeleton.",
 			["Type"] = "OnAllyTarget",
 			["Power"] = {{"Summon","Korblox Skeleton"}},
 			Target = "Ally",
@@ -125,33 +125,32 @@ local Strife = {
 		},
 		["Bio"] = "Minions, servants, soldiers of the cold dark. Obey the call of your mother, dinner is ready.",
 	},
-	
+
 	["Korblox Archmage"] = {
 		["Id"] = 3238122629,
 		["Name"] = "Korblox Archmage",
-		["Health"] = 650,
-		["Power"] = 500,
+		["Health"] = 1500,
+		["Power"] = 200,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Korblox",
 		["Color"] = "Blue",
 		["Charge"] = true,
-		["Cost"] = {["Neutral"] = 4, ["Blue"] = 4,},
+		["Cost"] = {["Neutral"] = 1, ["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Quick Shot",
-			Description = "Haste. When this card is cast, if you control 3 Korblox: Unlock a target fighter. Give yourself a Korblox card.",
+			Description = "Haste. When this card is cast: Give yourself three Korblox cards.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Unlock",999,"Single"},{"RandomAdd","Korblox"}},
+			["Power"] = {{"Unlock",999,"Single"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"}},
 			Target = "Ally",
-			["EffectRequirement"] = {"Archetype", "Ally", 3, 9999, "Korblox"},
 		},
 		["Bio"] = "He's a regular attendee of the Beard Grooming Club. His next beard style will be the Fu Manchu.",
 	},
-	
+
 	["Korblox Squire"] = {
 		["Id"] = 2810633420,
 		["Name"] = "Korblox Squire",
-		["Health"] = 400,
+		["Health"] = 500,
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
@@ -160,7 +159,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = "He's enchanted to meet you.",
 	},
-	
+
 	["Korblox Shaman"] = {
 		["Id"] = 5574295920,
 		["Name"] = "Korblox Shaman",
@@ -181,7 +180,7 @@ local Strife = {
 		},
 		["Bio"] = "Someday, someone will best me. But it won't be today, and it won't be you.",
 	},
-	
+
 	["Serhat12"] = {
 		["Id"] = 5097694617,
 		["Name"] = "Korblox Scourgelord",
@@ -196,7 +195,7 @@ local Strife = {
 		["Fading"] = true,
 		["Effect"] = {
 			Name = "Pepper Spray",
-			Description = "Fading. Whenever another Korblox you control dies: Draw a card.",
+			Description = "Fading. (This fighter dying doesn't trigger effects.)\nWhenever another Korblox you control dies: Draw a card.",
 			["Type"] = "OnAllyDeath",
 			["Power"] = {{"Draw",1}},
 			["Archetype"] = "Korblox",
@@ -204,32 +203,31 @@ local Strife = {
 		},
 		["Bio"] = "Her cold heart betrays an undying rage.",
 	},
-	
+
 	["Korblox Skeleton"] = {
 		["Id"] = 3611612876,
 		["Name"] = "Korblox Skeleton",
-		["Health"] = 450,
+		["Health"] = 400,
 		["Power"] = 200,
 		["Rarity"] = "Uncommon",
-		["Fading"] = true,
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Archetype"] = "Korblox",
-		["Cost"] = {["Blue"] = 2,},
+		["Cost"] = {["Blue"] = 1,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Fading. Whenever you cast a Korblox: A target fighter gains 100 Health. Deal 400 damage to this card.",
+			Description = "Whenever you cast a Korblox: A target fighter gains 100 Health. Deal 200 damage to this card.",
 			["Type"] = "OnAllySummon",
-			["Power"] = {{"Heal",100,"Single"},{"Damage",400,"Self"}},
+			["Power"] = {{"Heal",100,"Single"},{"Damage",200,"Self"}},
 			Target = "Ally",
 			["Archetype"] = "Korblox",
 		},
 		["Bio"] = "Nobody truly realizes the damage of our mistakes unless we experience them ourselves.",
 	},
-	
-	
+
+
 	-------------
-	
+
 	["Doge"] = {
 		["Id"] = 4784611236,
 		["Name"] = "Doge",
@@ -250,8 +248,8 @@ local Strife = {
 		},
 		["Bio"] = "Such claws. Much stats. Very game. Wow.",
 	},
-	
-	
+
+
 	["Shamrock Doge"] = {
 		["Id"] = 2810834606,
 		["Name"] = "Shamrock Doge",
@@ -271,7 +269,7 @@ local Strife = {
 		},
 		["Bio"] = "Such potato. Many luck. Much doge. Wow.",
 	},
-	
+
 	["Uncle Doge"] = {
 		["Id"] = 3471770962,
 		["Name"] = "Uncle Doge",
@@ -291,8 +289,8 @@ local Strife = {
 		},
 		["Bio"] = "very battle. much join.",
 	},
-	
-	
+
+
 	["Captain Doge"] = {
 		["Id"] = 2810826452,
 		["Name"] = "Captain Doge",
@@ -313,7 +311,7 @@ local Strife = {
 		},
 		["Bio"] = "woofe. my inu comrade.",
 	},
-	
+
 	["Abraham Doge"] = {
 		["Id"] = 3471762064,
 		["Name"] = "President Doge",
@@ -341,7 +339,7 @@ local Strife = {
 		},
 		["Bio"] = "Trading leadership secrets for dog biscuits and internet fame.",
 	},
-	
+
 	["TrollTideTroll"] = {
 		["Id"] = 3471767771,
 		["Name"] = "TrollTideTroll",
@@ -362,7 +360,7 @@ local Strife = {
 		},
 		["Bio"] = "The woofmeister.",
 	},		
-	
+
 	["Kolby2020"] = {
 		["Id"] = 5014424358,
 		["Name"] = "Kolby2020",
@@ -382,7 +380,7 @@ local Strife = {
 		},
 		["Bio"] = "Kolby can doge a ball.",
 	},		
-	
+
 	["PEEPSTERS"] = {
 		["Id"] = 3472387514,
 		["Name"] = "PEEPSTERS",
@@ -403,7 +401,7 @@ local Strife = {
 		},
 		["Bio"] = "'tfw you thought doges were finished.' wow. much pranked.",
 	},	
-	
+
 	["animallogic"] = {
 		["Id"] = 2810824138,
 		["Name"] = "animallogic",
@@ -424,7 +422,7 @@ local Strife = {
 		},
 		["Bio"] = "Killing people with 15th century European armour and weaponry. That's animals for you.",
 	},
-	
+
 	["Themediamogul99"] = {
 		["Id"] = 5574278668,
 		["Name"] = "Themediamogul99",
@@ -445,7 +443,7 @@ local Strife = {
 		},
 		["Bio"] = [[Much Summon. Many Doge.]],
 	},
-	
+
 	["CALL OF DOGE!?!"] = {
 		["Id"] = 5574358422,
 		["Name"] = "Doge Doge",
@@ -468,7 +466,7 @@ local Strife = {
 		},
 		["Bio"] = "Much Sin. Very Purge. Wow.",
 	},	
-	
+
 	["Doge Hound"] = {
 		["Id"] = 5596032639,
 		["Name"] = "Doge Hound",
@@ -481,14 +479,14 @@ local Strife = {
 		["Cost"] = {["Yellow"] = 2,},
 		["Bio"] = "So it was all his work!",
 	},	
-	
+
 	---------
-	
+
 	["Redcliff Archer"] = {
 		["Id"] = 4974018583,
 		["Name"] = "Redcliff Archer",
-		["Health"] = 200,
-		["Power"] = 200,
+		["Health"] = 500,
+		["Power"] = 50,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Hammer",
 		["Archetype"] = "Redcliff",
@@ -496,80 +494,83 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 1,["Red"] = 1,},
 		["Effect"] = {
 			Name = "Knockdown",
-			Description = "When this card is cast: Deal 100 damage to all Non-Redcliff fighters.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",100}},
-			Target = "NotArchetype",
+			Description = "Whenever you cast your first fighter each turn, if it's a Redcliff: Deal 150 damage to a target fighter.",
+			["Type"] = "OnAllySummon",
+			["Power"] = {{"Damage",150}},
+			["Archetype"] = "Redcliff",
+			Target = "Single",
+			["EffectRequirement"] = {"Playertable","Me",0,2,"Fighters"},
 		},
 		["Bio"] = "Redcliff arrows are tipped with a special ore known as Iron. Don't get shot by one of these arrows, they hurt.",
 	},
-	
+
 	["Redcliff Enforcer"] = {
 		["Id"] = 5602947356,
 		["Name"] = "Redcliff Enforcer",
-		["Health"] = 600,
-		["Power"] = 300,
+		["Health"] = 400,
+		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Archetype"] = "Redcliff",
 		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 3,["Red"] = 4,},
+		["Cost"] = {["Neutral"] = 2,["Red"] = 3,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "When this card dies: All Redcliff gain 300 Health and Power.",
+			Description = "When this card dies: All Redcliff gain 400 Health and Power.",
 			["Type"] = "OnDeath",
-			["Power"] = {{"Strengthen",300},{"Heal",300}},
+			["Power"] = {{"Strengthen",400},{"Heal",400}},
 			Target = "Archetype",
 		},
 		["Bio"] = "Hail Redcliff!",
 	},		
-	
+
 	["Redcliff Mauler"] = {
 		["Id"] = 4974019497,
 		["Name"] = "Redcliff Mauler",
-		["Health"] = 200,
-		["Power"] = 250,
+		["Health"] = 400,
+		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},	
 		["Archetype"] = "Redcliff",	
 		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 1,["Red"] = 1,},
+		["Cost"] = {["Neutral"] = 1,["Red"] = 2,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "When this card is cast: All redcliff gain 100 power.",
+			Description = "When this card is cast: All redcliff gain 100 health and power.",
 			["Type"] = "OnSummon",
-			["Power"] = "Strengthen",
+			["Power"] = {{"Strengthen",100},{"Heal",100}},
 			Target = "Archetype",
 			Increase = 100,
 		},
 		["Bio"] = "I have to maul you, nothing personal.",
 	},	
-	
+
 	["Redcliff Elite Commander"] = {
 		["Id"] = 4974018932,
 		["Name"] = "Redcliff Elite Commander",
-		["Health"] = 600,
-		["Power"] = 600,
+		["Health"] = 500,
+		["Power"] = 500,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},	
 		["Archetype"] = "Redcliff",	
 		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 5,["Red"] = 5,},
+		["Cost"] = {["Neutral"] = 1,["Red"] = 5,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "When this card dies: All Redcliff gain 600 health and power.",
-			["Type"] = "OnDeath",
-			["Power"] = {{"Strengthen",600},{"Heal",600}},
-			Target = "Archetype",
+			Description = "When this card is cast, if there's over 1500 power amongst fighters you control: It deals 300 damage to a target fighter. Draw a card.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Draw",1},{"Damage",300}},
+			Target = "Single",
+			["EffectRequirement"] = {"Power","Ally",1500,99999},
 		},
 		["Bio"] = "The armies of Redcliff will RISE!",
 	},	
-	
+
 	["Redcliff Messenger"] = {
 		["Id"] = 3299992527,
 		["Name"] = "Redcliff Messenger",
-		["Health"] = 200,
-		["Power"] = 200,
+		["Health"] = 300,
+		["Power"] = 100,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Archetype"] = "Redcliff",
@@ -585,7 +586,7 @@ local Strife = {
 		},
 		["Bio"] = [[They sent us a message. "If we enter your village, we will burn it down and kill all your children." Our reply? "If".]],
 	},	
-	
+
 	["Redcliff: Decimate!"] = {
 		["Id"] = 5832420387,
 		["Name"] = "Redcliff: Decimate!",
@@ -594,7 +595,7 @@ local Strife = {
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Null",
 		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 2, ["Red"] = 6},
+		["Cost"] = {["Neutral"] = 1, ["Red"] = 4},
 		["Archetype"] = "Redcliff",
 		["Requirement"] = {"Archetype", "Ally", 1, 2, "Redcliff"},
 		["Effect"] = {
@@ -606,7 +607,7 @@ local Strife = {
 		},
 		["Bio"] = "SUPRISE! REDCLIFFS!",
 	},
-	
+
 	["Redcliff: Rise!"] = {
 		["Id"] = 5832421148,
 		["Name"] = "Redcliff: Rise!",
@@ -618,16 +619,15 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2, ["Red"] = 6},
 		["Archetype"] = "Redcliff",
 		["Bio"] = "TWO ARMS, MEN!",
-		["Requirement"] = {"Archetype", "Ally", 1, 2, "Redcliff"},
 		["Effect"] = {
 			Name = "Board Boost!",
-			Description = "Cast only if you control exactly one Redcliff. Summon a card that's a copy of that Redcliff. Deal 400 damage to a target fighter.",
+			Description = "Deal 250 damage to all fighters. All Redcliff fighters gain 500 power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SummonCopy"},{"Damage",400,"Single"}},
+			["Power"] = {{"Damage",250,"All"},{"Strengthen",500}},
 			Target = "Archetype",
 		},
 	},
-	
+
 	["Redcliff Heretic"] = {
 		["Id"] = 5574260703,
 		["Name"] = "Redcliff Adept",
@@ -650,7 +650,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Bio"] = "I think that enemy got THE POINT!",
 	},
-	
+
 	["Redcliff Rogue"] = {
 		["Id"] = 5574340196,
 		["Name"] = "Redcliff King Richard",
@@ -672,9 +672,9 @@ local Strife = {
 		},
 		["Bio"] = "It shall be swift.",
 	},	
-	
+
 	-----------------
-	
+
 	["Eye of Overseer"] = {
 		["Id"] = 2810866505,
 		["Name"] = "Eye of Overseer",
@@ -687,36 +687,37 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "a dodgeball to a the face!",
-			Description = "During your end step, if there are 10 or more Green studs in your fighters' costs: Summon a clone of this card.",
-			["Type"] = "OnEnd",
-			["Power"] = {{"Summon","Eye of Overseer"}},
-			Target = "Ally",
-			["EffectRequirement"] = {"Cost","Ally",10,9999,"Green"},
+			Description = "When this card is cast, if there are 7 or more Green studs in your fighters' costs: This card gains 500 health.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Heal",500}},
+			Target = "Self",
+			["EffectRequirement"] = {"Cost","Ally",7,9999,"Green"},
 		},
 		["Bio"] = "Eye of Overseers patrol their fortresses until they have to blink.",
 	},
-	
+
 	["Overseer Beast"] = {
 		["Id"] = 298793501,
 		["Name"] = "Overseer Beast",
-		["Health"] = 900,
-		["Power"] = 900,
+		["Health"] = 500,
+		["Power"] = 400,
 		["Rarity"] = "Epic",
 		["Archetype"] = "Overseer",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
-		["Cost"] = {["Green"] = 7,},
+		["Cost"] = {["Neutral"] = 4,},
+		["Summonant"] = "Overseer Beast",
 		["Effect"] = {
 			Name = "a dodgeball to a the face!",
-			Description = "When this card is cast, if there are 15 or more Green studs in your fighters' costs: Summon a clone of this card.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Summon","Overseer Beast"}},
+			Description = "During your end step, if there are 10 or more Green studs in your fighters' costs: Summon a clone of this card.",
+			["Type"] = "OnEnd",
+			["Power"] = {{"Summon","Summonant"}},
 			Target = "Ally",
-			["EffectRequirement"] = {"Cost","Ally",15,9999,"Green"},
+			["EffectRequirement"] = {"Cost","Ally",10,9999,"Green"},
 		},
 		["Bio"] = "Never let the dogs out.",
 	},
-	
+
 	["Overseer General"] = {
 		["Id"] = 3307684341,
 		["Name"] = "Overseer General",
@@ -737,7 +738,7 @@ local Strife = {
 		},
 		["Bio"] = "Generalising is his hobby, but knitting is his passion.",
 	},
-	
+
 	["Overseer Prophet"] = {
 		["Id"] = 3299989216,
 		["Name"] = "Overseer Prophet",
@@ -758,82 +759,83 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Green"] = 3,},
 		["Effect"] = {
 			Name = "Demon Eye",
-			Description = "When this card is cast, if you control another Overseer: Put a Green Stud into your Baseplate.",
+			Description = "When this card is cast, if you control another Overseer: You gain four Colourless studs.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"AddGenZone",{"Green Stud",1}}},
+			["Power"] = {{"Neutral",4}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Archetype", "Ally", 2, 999999, "Overseer"},
 		},
 		["Bio"] = "His title sounds cool until you realise there are 2500 prophets in the Overseer army.",
 	},
-	
+
 	["stereoplexus"] = {
 		["Id"] = 3557118261,
 		["Name"] = "stereoplexus",
-		["Health"] = 500,
-		["Power"] = 500,
+		["Health"] = 600,
+		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch1",
 		["Color"] = "Green",
 		["Archetype"] = "Overseer",
-		["Cost"] = {["Neutral"] = 3, ["Green"] = 3,},
+		["Cost"] = {["Neutral"] = 2, ["Green"] = 4,},
 		["Effect"] = {
 			Name = "Trout Slap",
-			Description = "When this card is cast: Search a copy of it from your deck.",
-			["Type"] = "OnSummon",
+			Description = "When this card dies: Search a copy of it from your deck.",
+			["Type"] = "OnDeath",
 			["Power"] = {{"Tutorfor","stereoplexus"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Plexus descending, winter unending. Plexus departing, summer is starting.",
 	},
-	
+
 	["Overseer's Steed"] = {
 		["Id"] = 331404735,
 		["Name"] = "Overseer's Steed",
-		["Health"] = 300,
-		["Power"] = 300,
+		["Health"] = 600,
+		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["Archetype"] = "Overseer",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Green",
-		["Cost"] = {["Green"] = 2,},
+		["Cost"] = {["Green"] = 1,},
 		["Effect"] = {
 			Name = "Dreadsteed",
-			Description = "When this card is cast, if there are 8 or more Green studs in your fighters' costs: All allied fighters gain 150 health and power.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",150},{"Strengthen",150}},
-			Target = "Ally",
-			["EffectRequirement"] = {"Cost","Ally",8,9999,"Green"},
+			Description = "During your end step, if there are 11 or more Green studs in your fighters' costs: All allied Overseers in your hand and in play gain 100 health and power.",
+			["Type"] = "OnEnd",
+			["Power"] = {{"Heal",100},{"Strengthen",100},{"ArchetypeHandHeal",100,"Ally"},{"ArchetypeHandStrengthen",100,"Ally"}},
+			Target = "Archetype",
+			["EffectRequirement"] = {"Cost","Ally",11,9999,"Green"},
 		},
 		["Bio"] = "And you thought Meebling Infestation was bad?",
 	},
-	
+
 	["Overseer Drake"] = {
 		["Id"] = 488695841,
 		["Name"] = "Overseer Drake",
 		["Health"] = 300,
 		["Power"] = 300,
 		["Rarity"] = "Rare",
-		["AttackEffect"] = "Dash",
-		["Color"] = "Green", 
 		["Archetype"] = "Overseer",
-		["Cost"] = {["Green"] = 2,},
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["Color"] = "Green",
+		["Cost"] = {["Green"] = 8,},
+		["AlternateCost"] = {["Green"] = 2,},
+		["AlternateCostRequirement"] = {"Archetype", "Ally", 1, 999999, "Overseer"},
 		["Effect"] = {
 			Name = "Dreadsteed",
-			Description = "When this card is cast, if there are 8 or more Green studs in your fighters' costs: All enemy fighters lose 150 health and power.",
+			Description = "If you control an Overseer, cast this card using two Green studs. When you do: Destroy each fighter with the highest health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Weaken",150},{"Damage",150}},
-			Target = "Opponent",
-			["EffectRequirement"] = {"Cost","Ally",8,9999,"Green"},
+			["Power"] = {{"Destroy",2}},
+			Target = "HighestHealth",
 		},
 		["Bio"] = "The messengers of the overseer army.",
 	},
-	
-	
+
+
 	["Bereghost"] = {
 		["Id"] = 5574349909,
 		["Name"] = "Bereghost",
-		["Health"] = 100,
+		["Health"] = 150,
 		["Power"] = 400,
 		["Rarity"] = "Legendary",
 		["Archetype"] = "Overseer",
@@ -842,17 +844,17 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "Explosive Spoils!",
-			Description = "During your end step: This card gains 50 health for each Green stud in your fighters' costs.", 
+			Description = "During your end step: Set this card's health to 150. Then it gains 50 health for each Green stud in your fighter's costs.", 
 			["Type"] = "OnEnd",
-			["Power"] = {{"Berezaa",50}},
+			["Power"] = {{"SetHealth",150,"Self"},{"Berezaa",50}},
 			Target = "Ally",
 		},
 		["Bio"] = "It's Bereghost, what else should I say?!",
 	},
-	
+
 	---------------------
-	
-		
+
+
 	["EXLatios"] = {
 		["Id"] = 4899314675,
 		["Name"] = "EXLatios",
@@ -872,7 +874,7 @@ local Strife = {
 		},
 		["Bio"] = "He's just a guy who loves twin blades.",
 	},
-	
+
 	["EpicLatiosLord"] = {
 		["Id"] = 4899314359,
 		["Name"] = "EpicLatiosLord",
@@ -891,8 +893,8 @@ local Strife = {
 		},
 		["Bio"] = "He renders snow meaningless.",
 	},
-	
-		["Razikai"] = {
+
+	["Razikai"] = {
 		["Id"] = 4800946348,
 		["Name"] = "Razikai",
 		["AltCards"] = {
@@ -907,7 +909,7 @@ local Strife = {
 					["Type"] = "OnDeath",
 					["Power"] = {{"Summon","Pac-Blox"}},	
 					Target = "Ally",
-		},
+				},
 				["Bio"] = "Soon, freshly squeezed. This card is an alt-art of Razikai.",
 			},
 		},
@@ -946,7 +948,7 @@ local Strife = {
 		["Cost"] = {["Blue"] = 3, ["Neutral"] = 1,},
 		["Bio"] = "Rainbow science helps me delay death actually...",
 	},
-	
+
 	["Olafisawesome100"] = {
 		["Id"] = 4784598521,
 		["Name"] = "Toothy Deer's Blessing",
@@ -966,7 +968,7 @@ local Strife = {
 		},
 		["Bio"] = "If you look like a toothy deer, make sure to hide.",
 	},	
-	
+
 	["Newbie"] = {
 		["Id"] = 3667704129,
 		["Name"] = "Newbie",
@@ -977,7 +979,7 @@ local Strife = {
 				["Id"] = 4899315911,
 				["Bio"] = "Is that even a problem?",
 			},
-				["Julsons"] = {
+			["Julsons"] = {
 				["Name"] = "Julsons",
 				["CopyBodge"] = "Julsons",
 				["Id"] = 5131519565,
@@ -1000,8 +1002,8 @@ local Strife = {
 		},
 		["Bio"] = "But alas, the common noob has been predated on ever since a new species of newb entered its flock. The common noob faces extinction from war and loss of habitat.",
 	},
-	
-		
+
+
 	["DeadZoneHark"] = {
 		["Id"] = 3471729421,
 		["Name"] = "DeadZoneHark",
@@ -1021,7 +1023,7 @@ local Strife = {
 		["Cost"] = {["Blue"] = 2},
 		["Bio"] = "DeadZone seems innocent enough... until his glove touches you.",
 	},
-	
+
 	["DairingPoopHead"] = {
 		["Id"] = 4564769569,
 		["Name"] = "Dairingpoophead",
@@ -1031,7 +1033,7 @@ local Strife = {
 				["AltArt"] = true,
 				["Bio"] = "You just dared him. Prepare for hellish dairy.",
 			},
-			
+
 			["PoopHead"] = {
 				["Id"] = 1761903851,
 				["Name"] = [[Dairing "Poophead"]],
@@ -1054,7 +1056,7 @@ local Strife = {
 		},
 		["Bio"] = "You just dared him. Prepare for brown dairy.",
 	},	
-	
+
 	["AsrielMemer"] = {
 		["Id"] = 4934903224,
 		["Name"] = "AsrielMemer",
@@ -1073,7 +1075,7 @@ local Strife = {
 		},
 		["Bio"] = "You're a kid now! Dark souls fills you with determination! Zhang He is love, Zhang He is life! Storm Crow OP! Git Gud! End him rightly! Fractal anything is a viable deck! Jet fuel can't melt steel beams!",
 	},
-	
+
 	["FuryBlocks"] = {
 		["Id"] = 5485457577,
 		["Name"] = "FuryBlocks",
@@ -1091,7 +1093,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = "Don't touch his bucket at all.",
 	},
-	
+
 	["Glaciem Mage"] = {
 		["Id"] = 4792440007,
 		["Name"] = "Glaciem Mage",
@@ -1120,7 +1122,7 @@ local Strife = {
 		},
 		["Bio"] = "All frost mages befriend a toothy deer from birth. This teaches them not to give random animals frostbite.",
 	},
-	
+
 	["ShyLightness"] = {
 		["Id"] = 3487801621,
 		["Name"] = "ShyLightness",
@@ -1136,10 +1138,10 @@ local Strife = {
 			["Type"] = "OnSummon",
 			["Power"] = {{"GenZoneDiscard",{"Blue",0}}}, --AlterEV currently doesnt have a way to check baseplate as far as i know. neither is there an effect that makes cards in baseplate generate.	
 			Target = "Single",
-			},
+		},
 		["Bio"] = "Hovering skull doesn't scare you? Maybe my skill will.",
 	},	
-	
+
 	["Heavy Rain"] = {
 		["Id"] = 4783066231,
 		["Name"] = "Heavy Rain",
@@ -1189,7 +1191,7 @@ local Strife = {
 		},
 		["Bio"] = "I will make it rain.",
 	},
-	
+
 	["Eye Spy"] = {
 		["Id"] = 4783087019,
 		["Name"] = "Eye Spy",
@@ -1216,7 +1218,7 @@ local Strife = {
 		},
 		["Bio"] = "I spy with my floating eye, someone's about to die.",
 	},
-	
+
 	["DIY Azurewrath"] = {
 		["Id"] = 4989224718,
 		["Name"] = "DIY Azurewrath",
@@ -1243,7 +1245,7 @@ local Strife = {
 		},
 		["Bio"] = "It's like the country club for hobos!",
 	},
-	
+
 	["SharpTH"] = {
 		["Id"] = 3526500628,
 		["Name"] = "SharpTH",
@@ -1269,8 +1271,8 @@ local Strife = {
 		},
 		["Bio"] = "If you come first in this race, I will give you a holy sword. Come third and I'll give you a toaster, though.",
 	},
-	
-		
+
+
 	["Lord Tethamet"] = {
 		["Id"] = 4926028946,
 		["Name"] = "Lord Tethamet",
@@ -1290,7 +1292,7 @@ local Strife = {
 		},
 		["Bio"] = "Just dark magic and a sword, nothing much you can do about it.",
 	},	
-	
+
 	["KrocoStar"] = {
 		["Id"] = 4720320716,
 		["Name"] = "KrocoStar",
@@ -1307,10 +1309,10 @@ local Strife = {
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 2, ["Blue"] = 10,},
+		["Cost"] = {["Neutral"] = 3, ["Blue"] = 7,},
 		["Bio"] = "NO. ITS KROCOSTAR! GET IT RIGHT, MOM!",
 	},
-	
+
 	["Thunder Bolt"] = {
 		["Id"] = 4784599356,
 		["Name"] = "Thunder Bolt",
@@ -1322,7 +1324,7 @@ local Strife = {
 				["Power"] = 0,
 				--["EffectAnimation"] = "Thunderbolt",
 			},		
-			
+
 			["H-ThunderAlt"] = {
 				["Id"] = 3471756486,
 				["Name"] = "Lightning Blast",
@@ -1337,18 +1339,18 @@ local Strife = {
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Null",
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 6,},
+		["Cost"] = {["Neutral"] = 4,},
 		--["EffectAnimation"] = "Thunderbolt",
 		["Effect"] = {
 			Name = "Zappow!",
-			Description = "Destroy all fighters.",
+			Description = "Obliterate all fighters and all coloured cards in your Baseplate.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Destroy",4000}},
-			Target = "All",
+			["Power"] = {{"GenZoneDiscard",{"Blue",0}},{"GenZoneDiscard",{"Green",0}},{"GenZoneDiscard",{"Red",0}},{"GenZoneDiscard",{"Yellow",0}},{"Obliterate",030,"All"}},
+			Target = "Ally",
 		},
-		["Bio"] = "Zap!",
+		["Bio"] = "The world is bored of war.",
 	},
-	
+
 	["SONICTHEHEDGEHOGXXX"] = {
 		["Id"] = 5465306583,
 		["Name"] = "SONICTHEHEDGEHOGXX",
@@ -1365,10 +1367,11 @@ local Strife = {
 			["Type"] = "OnSummon",
 			["Power"] = {{"Return",030}},
 			Target = "SingleEnemy",
+			["EffectRequirement"] = {"Board", "Opponent", 1},
 		},
 		["Bio"] = "SCREAM IN ALL CAPS! INDEED! MAXIMUM LOGIC!",
 	},
-	
+
 	["IcyTea"] = {
 		["Id"] = 5832370981,
 		["Name"] = "IcyTea",
@@ -1395,9 +1398,9 @@ local Strife = {
 		},
 		["Bio"] = "Master of ice. Conquerer of redcliff. Slayer of dragons. Dies to noob spray.",
 	},
-	
+
 	---------------------
-	
+
 	["Ambamby"] = {
 		["Id"] = 5059533283,
 		["Name"] = "Ambamby",
@@ -1416,7 +1419,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Bio"] = "Amber and Ambamby are the same person, only Amber is older. Does this mean that she's her own mother?",
 	},
-	
+
 	["Kamov"] = {
 		["Id"] = 2959461488,
 		["Name"] = "Kamov",
@@ -1436,7 +1439,7 @@ local Strife = {
 		},
 		["Bio"] = "Not even Russia is safe from Doges.",
 	},
-	
+
 	["Blockerwiz"] = {
 		["Id"] = 4783076830,
 		["Name"] = "Blockerwiz",
@@ -1462,8 +1465,8 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 4,},
 		["Bio"] = "Detects any foes with his tail, so be cautious!",
 	},
-	
-			
+
+
 	["Mag"] = {
 		["Id"] = 4782787778,
 		["Name"] = "Mag",
@@ -1475,7 +1478,7 @@ local Strife = {
 		["Cost"] = {["Red"] = 1,},
 		["Bio"] = "Nobody knows what he really does, most just think of him as Ignis Mage Jr.",
 	},	
-	
+
 	["Ignis Mage"] = {
 		["Id"] = 4536837769,
 		["Name"] = "Ignis Mage",
@@ -1501,7 +1504,7 @@ local Strife = {
 		},
 		["Bio"] = "From a spark, he generates a power that can cause instant combustion to anyone.",
 	},  
-	
+
 	["Rad"] = {
 		["Id"] = 5680151677,
 		["Name"] = "Rad",
@@ -1513,7 +1516,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3,["Red"] = 4,},
 		["Bio"] = "Molten and furious.",
 	},
-	
+
 	["Beam Sword"] = {
 		["Id"] = 430971444,
 		["Name"] = "Beam Sword",
@@ -1533,7 +1536,7 @@ local Strife = {
 		},
 		["Bio"] = "Now with 100% less crossguard.",
 	}, 
-	
+
 	["Dayren"] = {
 		["Id"] = 4899284229,
 		["Name"] = "Dayren",
@@ -1560,7 +1563,7 @@ local Strife = {
 		},
 		["Bio"] = "First to charge, first to fight.",
 	},
-	
+
 	["Oz"] = {
 		["Id"] = 4934299823,
 		["Name"] = "Oz",
@@ -1572,7 +1575,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3,["Red"] = 2,},
 		["Bio"] = "Don't touch the pointy bits.",
 	},	
-	
+
 	["Pixellus"] = {
 		["Id"] = 4977887167,
 		["Name"] = "Pixellus",
@@ -1592,7 +1595,7 @@ local Strife = {
 					["Type"] = "OnSummon",
 					["Power"] = {{"Damage",250}},
 					Target = "Single",
-		},
+				},
 				["Bio"] = "He doesn't sleep. This card is an alternate art of Pixellus.",
 			},
 		},
@@ -1611,7 +1614,7 @@ local Strife = {
 		},
 		["Bio"] = "Adventure Club enthusiast. Bit cheesy. Likes McNuggets.",
 	},	
-	
+
 	["DIY Biggerhead"] = {
 		["Id"] = 4982705657,
 		["Name"] = "DIY Biggerhead",
@@ -1623,7 +1626,7 @@ local Strife = {
 				["Bio"] = "Who needs robux for a biggerhead, ill just kill them and take it myself.",
 			},
 		},
-		["Health"] = 350,
+		["Health"] = 300,
 		["Power"] = 700,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Red"},
@@ -1632,14 +1635,14 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Red"] = 2},
 		["Effect"] = {
 			Name = "Inflated Ego",
-			Description = "Inert. When this card is cast: Deal 250 damage to a target fighter. It gains 300 Power. ",
+			Description = "Inert. When this card is cast: Deal 250 damage to a target fighter. It gains 300 Power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",300},{"Damage",250}},
 			Target = "Single",
 		},
 		["Bio"] = "He just wants to have a Biggerhead hat!",
 	},
-	
+
 	["Grim Reaper"] = {
 		["Id"] = 4815668190,
 		["Name"] = "Firebrand1",
@@ -1658,7 +1661,7 @@ local Strife = {
 		},
 		["Bio"] = "Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.",
 	},
-	
+
 	["Fallen Guardian"] = {
 		["Id"] = 4783090081,
 		["Name"] = "Fallen Guardian",
@@ -1671,14 +1674,15 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Red"] = 4,},
 		["Effect"] = {
 			Name = "Fallen Guardian",
-			Description = "Set the power of a target fighter to 0. It gains 1500 health.",
+			Description = "Set the stats of a target allied fighter to 1500/0.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetPower",0},{"Heal",1500}},
+			["Power"] = {{"SetPower",0},{"SetHealth",1500}},
 			Target = "Single",
+			["EffectRequirement"] = {"Board","Ally",1,9999},
 		},
 		["Bio"] = "And he cant get up.",
 	},
-	
+
 	["WafflzDude"] = {
 		["Id"] = 4720416109,
 		["Name"] = "WafflzDude",
@@ -1698,8 +1702,8 @@ local Strife = {
 		},
 		["Bio"] = "KABOOM!?",
 	},	
-	
-	
+
+
 	["Lady RedNight"] = {
 		["Id"] = 5079412421,
 		["Name"] = "Lady RedNight",
@@ -1710,7 +1714,7 @@ local Strife = {
 				["Bio"] = " Lady Red, White, and BlueNight. Green too, but we didn’t have the budget for Yellow.",
 			},
 		},
-		
+
 		["Health"] = 700,
 		["Power"] = 500,
 		["Rarity"] = "Rare",
@@ -1727,8 +1731,8 @@ local Strife = {
 		},
 		["Bio"] = "A powerful commander that leads her main squad to success in each mission they take.",
 	},
-	
-	
+
+
 	["Luck o The Lobsters"] = {
 		["Id"] = 5407842792,
 		["Name"] = "Luck o' the Lobsters",
@@ -1743,21 +1747,20 @@ local Strife = {
 		["Power"] = 0,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Archetype"] = "Boardwipe",
 		["Color"] = "Red",
-		["Requirement"] = {"Board", "Opponent", 4},
+		["Requirement"] = {"Playertable", "Me", 0, 1501, "Life"},
 		["Cost"] = {["Neutral"] = 4,},
 		["EffectAnimation"] = "Lobsters",
 		["Effect"] = {
 			Name = "Damage for Top Deck",
-			Description = "Cast only if your opponent controls 4 or more fighters. Deal 4000 damage to all fighters.",
+			Description = "Cast only if you have 1500 or less life. Deal 4000 damage to all fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",4000}},
-			Target = "NotArchetype",
+			Target = "Aggressor",
 		},
 		["Bio"] = "Sometimes, you just have to trust in lobsters.",
 	},
-		
+
 	["ChosenCoast"] = {
 		["Id"] = 5144813665,
 		["Name"] = "ChosenCoast",
@@ -1778,8 +1781,8 @@ local Strife = {
 		},
 		["Bio"] = "How was the coast chosen? Reverse-Meritocracy.",
 	},	
-	
-		
+
+
 	["Dignity"] = {
 		["Id"] = 4536840941,
 		["Name"] = "Dignity",
@@ -1791,7 +1794,7 @@ local Strife = {
 		["Cost"] = {["Red"] = 3,["Neutral"] = 2,},
 		["Bio"] = "Some say he's an exploiter, others claim he was an anonymous hacker, all we know is that he's back with a powerful orb.",
 	},
-	
+
 	["Cindering"] = {
 		["Id"] = 3164483304,
 		["Name"] = "Cindering",
@@ -1812,9 +1815,9 @@ local Strife = {
 		},
 		["Bio"] = "He hexes six people to burn in hell every six hours.",
 	}, 
-	
+
 	----------
-	
+
 	["Pillager"] = {
 		["Id"] = 4819852818,
 		["Name"] = "Pillager",
@@ -1833,8 +1836,8 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = "He pillages.",
 	},	
-	
-		
+
+
 	["Pirate"] = {
 		["Id"] = 3238125667,
 		["Name"] = "Pirate",
@@ -1862,7 +1865,7 @@ local Strife = {
 		},
 		["Bio"] = "I'm not stealing. I'm merely stimulating the economy.",
 	},	
-	
+
 	["Langz"] = {
 		["Id"] = 3299982063,
 		["Name"] = "Langz",
@@ -1888,8 +1891,8 @@ local Strife = {
 		},
 		["Bio"] = "It is time for your army to languish.",
 	},
-	
-	
+
+
 	["Chef"] = {
 		["Id"] = 3164482815,
 		["Name"] = "Chef",
@@ -1929,7 +1932,7 @@ local Strife = {
 		},
 		["Bio"] = "Today's lunch special is YOU! Delicious plastic in every bite!",
 	},
-	
+
 	["Cillow"] = {
 		["Id"] = 4352224843,
 		["Name"] = "Cillow",
@@ -1948,7 +1951,7 @@ local Strife = {
 		},
 		["Bio"] = [[Sometimes, I like to throw ice on the ground and pretend I'm a walrus.]],
 	},
-	
+
 	["Brycen27"] = {
 		["Id"] = 430951310,
 		["Name"] = "Brycen27",
@@ -1973,8 +1976,8 @@ local Strife = {
 		},
 		["Bio"] = "Sponsored by the archnemesis of blender, Brice7 (TM)",
 	},
-	
-		["Life Potion"] = {
+
+	["Life Potion"] = {
 		["Id"] = 5409411348,
 		["Name"] = "Life Potion",
 		["AltCards"] = {
@@ -2000,7 +2003,7 @@ local Strife = {
 			Increase = 750,
 		},
 	},
-	
+
 	["Spikle"] = {
 		["Id"] = 3238129571,
 		["Name"] = "Spikle",
@@ -2021,7 +2024,7 @@ local Strife = {
 		},
 		["Bio"] = "This is a turtle robot. Don't ask why, don't ask how.",
 	},
-	
+
 	["Kcbeast666"] = {
 		["Id"] = 5530617050,
 		["Name"] = "kc666beast",
@@ -2034,7 +2037,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 4,},
 		["Bio"] = [[Sit. Fetch. Devastate.]],
 	},
-	
+
 	["TigerCode"] = {
 		["Id"] = 3164501969,
 		["Name"] = "TigerCode",
@@ -2053,7 +2056,7 @@ local Strife = {
 		},
 		["Bio"] = "The President of ROGO magazine. I didn't know ROBOTIC pogo sticks was such an interesting topic.",
 	},
-	
+
 	["Duckywow"] = {
 		["Id"] = 5188678151,
 		["Name"] = "Duckywow",
@@ -2065,7 +2068,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Green"] = 3,},
 		["Bio"] = "He loves his ducks, but is he possessed by an evil one?",
 	},
-	
+
 	["Samksoon321"] = {
 		["Id"] = 4924764808,
 		["Name"] = "samksoon321",
@@ -2085,8 +2088,8 @@ local Strife = {
 		},
 		["Bio"] = "Shiny glowing neon green crystals never hurt anyone.",
 	},
-	
-	
+
+
 	["Smart Planner"] = {
 		["Id"] = 3238129940,
 		["Name"] = "Stonetroid Warrior",
@@ -2106,7 +2109,7 @@ local Strife = {
 		},
 		["Bio"] = "Unlike the tyrannical Redcliff or the cruel Korblox, the Overseers see the growth of other under their gaze as an accomplishment.",
 	},
-	
+
 	["Oozlebachr"] = {
 		["Id"] = 4806849382,
 		["Name"] = "Oozlebachr",
@@ -2119,7 +2122,7 @@ local Strife = {
 			},
 		},
 		["Health"] = 500,
-		["Power"] = 400,
+		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
@@ -2133,7 +2136,7 @@ local Strife = {
 		},
 		["Bio"] = "Sleeping voice of nature. Forumer too.",
 	},	
-	
+
 	["DIY Dominus"] = {
 		["Id"] = 4720104463,
 		["Name"] = "DIY Dominus",
@@ -2160,11 +2163,11 @@ local Strife = {
 		},
 		["Bio"] = "I want to be rich so I made a dominus in crayons!",
 	},
-	
+
 	["Lord_Gizmo"] = {
 		["Id"] = 4974016571,
 		["Name"] = "Lord_Gizmo",
-		["Health"] = 450,
+		["Health"] = 400,
 		["Power"] = 500,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Gun",
@@ -2172,14 +2175,14 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Hellfire",
-			Description = "When this card is cast: All allied fighters gain 50 health.",
+			Description = "When this card is cast: All allied fighters gain 100 health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",50}},
+			["Power"] = {{"Heal",100}},
 			Target = "Ally",
 		},
 		["Bio"] = "OMG COMMANDO PENGU 030",
 	},
-	
+
 	["KingCactaur"] = {
 		["Id"] = 288040760,
 		["Name"] = "KingCactaur",
@@ -2195,23 +2198,23 @@ local Strife = {
 				["Bio"] = "I'm the advisor of valuetown. You're the mayor.",
 			},							
 		},
-		["Health"] = 400,
-		["Power"] = 200,
+		["Health"] = 500,
+		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 3,["Green"] = 1,},
-		["TargetImmune"] = true,
+		["Cost"] = {["Neutral"] = 3,["Green"] = 1,},		
 		["Effect"] = {
 			Name = "Value gaining",
-			Description = "Effects can't target this card. When this card is cast: Put a clone of a target fighter into its owner's Baseplate. (It has to have a colour.)",
+			Description = "When this card is cast: Put a target allied fighter into your baseplate. (This removes it from play.)",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SummonCopyGenZone"}},
-			Target = "Single",
+			["Power"] = {{"MoveGenZone"}},
+			Target = "SingleAlly",
+			["EffectRequirement"] = {"Board","Ally",1,9999},
 		},
 		["Bio"] = "Senior advisor of Value Town.",
 	},
-	
+
 	["IlIll"] = {
 		["Id"] = 5067343187,
 		["Name"] = "Il Ill",
@@ -2223,7 +2226,7 @@ local Strife = {
 				["CopyBodge"] = "IlIll-Val",
 				["Bio"] = "Now haunting a teddy bear on a shelf, he is sure to make your valentines day a living hell.",
 			},
-			
+
 			["IlIll-Timothy"] = {
 				["Id"] = 4899451107,
 				["Name"] = "Timothy",
@@ -2246,7 +2249,7 @@ local Strife = {
 		},
 		["Bio"] = "He's an escapee from a local toystore, now he's back to have his revenge.",
 	},	
-	
+
 	["KasoduS"] = {
 		["Id"] = 4536838054,
 		["Name"] = "KasoduS",
@@ -2266,7 +2269,7 @@ local Strife = {
 		},
 		["Bio"] = "Try some of my factory new Kasoda!",
 	},	
-	
+
 	["Blockhaak"] = {
 		["Id"] = 5574308358,
 		["Name"] = "Blockhaak",
@@ -2285,8 +2288,8 @@ local Strife = {
 		},
 		["Bio"] = "His effect idea TOTALLY not taken from his League of Roblox skillset.",
 	},	
-	
-		["XxWonderzxX"] = {
+
+	["XxWonderzxX"] = {
 		["Id"] = 5609840663,
 		["Name"] = "XxWonderzxX",
 		["Health"] = 1500,
@@ -2304,7 +2307,7 @@ local Strife = {
 		},
 		["Bio"] = "TOP BREAD, TOP ROBLOXIAN.",
 	},
-	
+
 
 	["1337"] = {
 		["Id"] = 4897457258,
@@ -2330,7 +2333,7 @@ local Strife = {
 		},
 		["Bio"] = "... Those stats are close enough, right? Just like, remove the 0's.",
 	},		
-	
+
 	["emilvita"] = {
 		["Id"] = 5518239090,
 		["Name"] = "emilvita",
@@ -2342,7 +2345,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 1,},
 		["Bio"] = "SQUAT! SQUAT! SQUAT LUNGE SQUAT!",
 	},
-	
+
 	["Pilgrim"] = {
 		["Id"] = 4899431183,
 		["Name"] = "Pilgrim",
@@ -2354,8 +2357,8 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,},
 		["Bio"] = "Time for a turkey hunt boys!",
 	},	
-	
-		
+
+
 	["TeeVee"] = {
 		["Id"] = 3300006853,
 		["Name"] = "TeeVee",
@@ -2379,8 +2382,8 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Yellow"] = 3,},
 		["Bio"] = "One of the many species of TeeVee, they help you find your favorite channel.",
 	},
-	
-		
+
+
 	["Training Dummy"] = {
 		["Id"] = 3164502718,
 		["Name"] = "Training Dummy",
@@ -2400,8 +2403,8 @@ local Strife = {
 		},
 		["Bio"] = "How does a dummy regenerate all its fluff anyway?",
 	},
-	
-		
+
+
 	["Cereal Killer"] = {
 		["Id"] = 4934901462,
 		["Name"] = "CAROLlNE",
@@ -2430,7 +2433,7 @@ local Strife = {
 		},
 		["Bio"] = "Welcome to my little Sunshine World.",
 	},
-	
+
 	["Pilot"] = {
 		["Id"] = 2810867669,
 		["Name"] = "Pilot",
@@ -2458,7 +2461,7 @@ local Strife = {
 		},
 		["Bio"] = "ZOOM ZAM ZOW, IT'S A PLANE!",
 	},
-	
+
 	["WarbearNomkins"] = {
 		["Id"] = 4899468237,
 		["Name"] = "WarbearNomkins",
@@ -2489,8 +2492,8 @@ local Strife = {
 		},
 		["Bio"] = [[Former Blox Cards artist, WarbearNomkins' arts will leave you saying "Woah!"]],
 	},	
-	
-		
+
+
 	["Sword Fights on the Heights"] = {
 		["Id"] = 4783053755,
 		["Name"] = "Sword Fights on the Heights",
@@ -2512,7 +2515,7 @@ local Strife = {
 		},
 		["Bio"] = "It's much easier to kill them when they don't expect you. Or they cant handle your awesome Firebrand range.",
 	},	
-	
+
 	["Pikachukiller101"] = {
 		["Id"] = 4784601336,
 		["Name"] = "Pikachukiller101",
@@ -2533,7 +2536,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Bio"] = [[Some people are gen wunners. He's a gen sixer.]],
 	},
-	
+
 	["SoftCollision"] = {
 		["Id"] = 5001162546,
 		["Name"] = "SoftCollision",
@@ -2552,7 +2555,7 @@ local Strife = {
 		},
 		["Bio"] = "Helpful builder at daybreak, sneaky swordsman at twilight.",
 	},
-	
+
 	["DIY Headphones"] = {
 		["Id"] = 3238114129,
 		["Name"] = "DIY Headphones",
@@ -2567,7 +2570,7 @@ local Strife = {
 		["Health"] = 700,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
-		
+
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3,["Yellow"] = 1},
@@ -2580,7 +2583,7 @@ local Strife = {
 		},
 		["Bio"] = "I just look like that one cool guy.",
 	},
-	
+
 	["Reggie"] = {
 		["Id"] = 285154371,
 		["Name"] = "Reggie",
@@ -2599,7 +2602,7 @@ local Strife = {
 		},
 		["Bio"] = "Representing Devil Beater by Drager, is the con-artist himself. Make a bet with him, I dare you.",
 	},	
-	
+
 	["Preston"] = {
 		["Id"] = 2857411965,
 		["Name"] = "Preston",
@@ -2611,7 +2614,7 @@ local Strife = {
 		["Cost"] = {["Yellow"] = 2,["Neutral"] = 2,},
 		["Bio"] = "Don't call him Midnight Droid, or else he'll ramble on about it in his Q&As. His name is Prestongo on ROBLOX.",
 	},
-	
+
 	["ChildofGiotto"] = {
 		["Id"] = 5832343506,
 		["Name"] = "ChildofGiotto",
@@ -2631,8 +2634,8 @@ local Strife = {
 		},
 		["Bio"] = "You did a really good job on the previous map, Child. Cheers! - Myr",
 	},	
-	
-		
+
+
 	["Mzh3000"] = {
 		["Id"] = 5518242112,
 		["Name"] = "Mzh3000",
@@ -2653,7 +2656,7 @@ local Strife = {
 		},
 		["Bio"] = "Creator of the original Ultimate Power. Here to destroy all copiers and token spammers.",
 	},
-	
+
 	["Rhysmon"] = {
 		["Id"] = 4564786650,
 		["Name"] = "Rhysmon",
@@ -2673,7 +2676,7 @@ local Strife = {
 		},
 		["Bio"] = "His love of Red Cola gives him extra strength against foes larger than him.",
 	},	
-	
+
 	["Coordinated Attack"] = {
 		["Id"] = 3238125292,
 		["Name"] = "PilotLuke",
@@ -2694,7 +2697,7 @@ local Strife = {
 		},
 		["Bio"] = "Hello, this is your pilot speaking. I ask that all passengers buckle their seatbelt and prepare for an impending airstrike.",
 	},
-	
+
 	["Prestwick"] = {
 		["Id"] = 3238125976,
 		["Name"] = "Prestwick",
@@ -2714,7 +2717,7 @@ local Strife = {
 		},
 		["Bio"] = "He'll make your candle go out.",
 	},
-	
+
 	["Gusmanak"] = {
 		["Id"] = 3611610920,
 		["Name"] = "Gusmanak",
@@ -2733,7 +2736,7 @@ local Strife = {
 		},
 		["Bio"] = "Time to blox zombies and eat beans from a can!",
 	},
-	
+
 	["Stud"] = {
 		["Id"] = 4952824244,
 		["Name"] = "Stud",
@@ -2762,7 +2765,7 @@ local Strife = {
 		},
 		["Bio"] = "The basic energy of Robloxia. Studs contain great power.",
 	},
-	
+
 	["Alpha Brick's Agony"] = {
 		["Id"] = 5573926980,
 		["Name"] = "Alpha Brick's Agony",
@@ -2771,16 +2774,17 @@ local Strife = {
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 2, ["Red"] = 6},
+		["Cost"] = {["Red"] = 2},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Destroy a target fighter.",
+			Description = "Destroy your hand and a target fighter.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Destroy"}},
+			["Power"] = {{"Destroy"},{"RandomDiscard",10,"Ally"}},
 			Target = "Single",
 		},
 		["Bio"] = "Redcliff, Overseer, Korblox, Doge. Their ceaseless fighting scorched the world harrow.",
 	},	
+
 	["ROBAR"] = {
 		["Id"] = 4899434473,
 		["Name"] = "ROBAR",
@@ -2799,7 +2803,7 @@ local Strife = {
 		},
 		["Bio"] = "4 R$ for a candy bar?? Who thought this was a good idea?!?",
 	},
-	
+
 }
 
 return Strife

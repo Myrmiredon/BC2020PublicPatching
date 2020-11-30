@@ -942,7 +942,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = "Zanzel's people didn't get a vote in any of this. Their role was to witness it.",
 	},
 	
-		["ZanzelH-Thunder"] = {
+	["ZanzelH-Thunder"] = {
 		["Id"] = 4784604008,
 		["Name"] = "Lightning Blast",
 		["Power"] = 0,
