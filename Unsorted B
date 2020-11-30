@@ -518,7 +518,7 @@ local twentyeleveneighteen = {
 					Name = "Infinite Frost",
 					Description = "Stealth. A target fighter gains 100 Health and 50 Power. Give yourself a copy of this card.",
 					["Type"] = "OnSummon",
-					["Power"] = {{"Strengthen",50},{"Heal",100},{"Add","Infinite Chicken-Art","Ally"}},
+					["Power"] = {{"Strengthen",50},{"Heal",100},{"Add","Infinity Chicken-Art","Ally"}},
 					Target = "Single",
 				},
 				["Bio"] = "This... This will change everything...! FIIIIINAL CHIIIIIIIIIIIIICKEN!!!",
