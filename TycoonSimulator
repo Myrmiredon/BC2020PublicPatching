@@ -863,7 +863,7 @@ local tycoons = {
 			Name = "Plushie Amp",
 			Description = "Whenever a Legendary fighter dies: This card gains 300 health and power.",
 			["Type"] = "OnAnyDeath",
-			["Power"] = {{"Heal",600}},
+			["Power"] = {{"Heal",300}, {"Strengthen",300}},
 			Target = "Self",
 			["Rarity"] = "Legendary",
 		},
