@@ -141,7 +141,7 @@ local Strife = {
 			Name = "Quick Shot",
 			Description = "Haste. When this card is cast: Give yourself three Korblox cards.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Unlock",999,"Single"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"}},
+			["Power"] = {{"RandomAdd","Korblox"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"}},
 			Target = "Ally",
 		},
 		["Bio"] = "He's a regular attendee of the Beard Grooming Club. His next beard style will be the Fu Manchu.",
