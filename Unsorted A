@@ -3811,7 +3811,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Nenjas"] = {
 		["Id"] = 5041869419,
 		["Name"] = "Nenjas",
-		["Health"] = 400,
+		["Health"] = 700,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -3819,8 +3819,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 1,["Blue"] = 5,},
 		["Effect"] = {
 			Name = "Endless Spooks",
-			Description = "Whenever this fighter attacks: Destroy all fighters.",
-			["Type"] = "OnAttack",
+			Description = "After this card finishes attacking: Destroy all fighters.",
+			["Type"] = "OnAttackEnd",
 			["Power"] = {{"Destroy",030}},
 			Target = "All",
 		},
