@@ -71,7 +71,7 @@ local Strife = {
 			["Type"] = "OnSummon",
 			["Power"] = "Heal",
 			Target = "Archetype",
-			Increase = 400
+			Increase = 200
 		},
 		["Bio"] = "CHARGE NOWHERE! STAND GROUND!",
 	},
