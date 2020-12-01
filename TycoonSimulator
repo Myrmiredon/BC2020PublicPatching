@@ -274,7 +274,7 @@ local tycoons = {
 			["Type"] = "OnEnemySummon",
 			["Power"] = {{"Lock",1}},
 			Target = "Opponent",
-			["EffectRequirement"] = {"Playertable","Him",1,9999,"Fighters"},
+			["EffectRequirement"] = {"Playertable","Him",0,2,"Fighters"},
 		},
 		["Bio"] = "To inspect gravity. To cause the fall.",
 	},
