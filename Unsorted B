@@ -2920,7 +2920,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["SaxoAttack"] = {
-		["Id"] = 431225862,
+		["Id"] = 6030816658,
 		["Name"] = "SaxoAttack",
 		["Health"] = 800,
 		["Power"] = 800,
