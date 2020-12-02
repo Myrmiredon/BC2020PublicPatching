@@ -3809,7 +3809,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Nenjas"] = {
-		["Id"] = 6029592557,
+		["Id"] = 6029760963,
 		["Name"] = "Nenjas",
 		["Health"] = 400,
 		["Power"] = 400,
@@ -3817,7 +3817,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Archetype"] = "Nenjas",
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 3,["Blue"] = 4,},
+		["Cost"] = {["Neutral"] = 2,["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Shadow Shuffle",
 			Description = "When this card is cast: Shuffle 3 copies of this card that draw a card for every Nenjas in play when they die into your deck.",
@@ -3829,7 +3829,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["NenjasToken"] = {
-		["Id"] = 6029592948,
+		["Id"] = 6029771553,
 		["Name"] = "Nenjas Clone",
 		["Health"] = 400,
 		["Power"] = 400,
@@ -3837,7 +3837,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Archetype"] = "Nenjas",
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 3,["Blue"] = 4,},
+		["Cost"] = {["Neutral"] = 2,["Blue"] = 4,},
 		["EffectVariable"] = 0,
 		["Effect"] = {
 			Name = "Teamwork",
