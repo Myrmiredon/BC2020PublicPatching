@@ -542,7 +542,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Myrmiredon"] = {
-		["Id"] = 421944617,
+		["Id"] = 6030866494,
 		["Name"] = "Myrmiredon",
 		["AltCards"] = {
 			["MyrmiredonV2"] = {
@@ -1366,7 +1366,7 @@ local twentyeleveneighteen = {
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 3,["Green"] = 1,["Blue"] = 4,},
+		["Cost"] = {["Neutral"] = 4,["Green"] = 1,["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Roar of Time",
 			Description = "When this card is cast: Lock a target fighter for 8 turns.",
@@ -2818,7 +2818,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Brymmy"] = {
-		["Id"] = 444223893,
+		["Id"] = 6030836161,
 		["Name"] = "Brymmy",
 		["Health"] = 1000,
 		["Power"] = 0,
@@ -3342,7 +3342,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["JaikKaik"] = {
-		["Id"] = 464527485,
+		["Id"] = 6030776877,
 		["Name"] = "JaikKaik",
 		["Health"] = 3500,
 		["Power"] = 0,
@@ -4676,18 +4676,19 @@ local twentyeleveneighteen = {
 	["Tone"] = {
 		["Id"] = 2960010737,
 		["Name"] = "Tone",
-		["Health"] = 500,
-		["Power"] = 500,
+		["Health"] = 400,
+		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,["Neutral"] = 1},
 		["Effect"] = {
 			Name = "Thug Life",
-			Description = "At the start of each player's turn: That player may put one fewer card into their baseplate this turn.",
-			["Type"] = "OnStart",
-			["Power"] = {{"DiscardLimit",-1}},
-			Target = "All",
+			Description = "When this card is cast: all Small fighters gain 200 Power. (Small fighters have total stats of 350 to 700.)",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Strengthen",200}},
+			Target = "Ally",
+			["SizeClass"] = "Small",
 		},
 		["Bio"] = "Merely red.",
 	},		
