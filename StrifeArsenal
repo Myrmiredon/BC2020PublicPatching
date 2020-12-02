@@ -2766,7 +2766,7 @@ local Strife = {
 	},
 
 	["Alpha Brick's Agony"] = {
-		["Id"] = 5573926980,
+		["Id"] = 6031003419,
 		["Name"] = "Alpha Brick's Agony",
 		["Health"] = 0,
 		["Power"] = 0,
