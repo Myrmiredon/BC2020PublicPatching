@@ -5901,7 +5901,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Pyrotechnics",
 			Description = "When this card is cast: Each fighter with highest power loses 300 power, then a target fighter loses 300 power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Weaken",300,"HighestPower"},{"Weaken",300}},
+			["Power"] = {{"Weaken",500,"HighestPower"},{"Weaken",500}},
 			Target = "Single",
 		},
 		["Bio"] = "Consider me blessed.",
