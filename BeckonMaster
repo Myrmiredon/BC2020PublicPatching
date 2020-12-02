@@ -2526,7 +2526,7 @@ local beckoned = {
 	},
 	
 	["Deadeye"] = {
-		["Id"] = 283993033,
+		["Id"] = 5973628043,
 		["Name"] = "Deadeye",
 		["Health"] = 800,
 		["Power"] = 0,
