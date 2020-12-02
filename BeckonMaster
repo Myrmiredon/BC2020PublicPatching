@@ -279,7 +279,7 @@ local beckoned = {
 	},	
 	
 	["Great Lord Egotist"] = {
-		["Id"] = 345761738,
+		["Id"] = 6030754144,
 		["Name"] = "Great Lord Egotist",
 		["AltCards"] = {
 			["Great Lord Egotist-ArtV"] = {
@@ -2198,7 +2198,7 @@ local beckoned = {
 	},
 	
 	["Satyr Nourisher"] = {
-		["Id"] = 5600397731,
+		["Id"] = 6030772026,
 		["Name"] = "Satyr Nourisher",
 		["Health"] = 900,
 		["Power"] = 200,
@@ -2838,8 +2838,8 @@ local beckoned = {
 		["Id"] = 5100731743,
 		["Name"] = "amanda",
 		["CopyBodge"] = "Cheshire Cat",
-		["Health"] = 200,
-		["Power"] = 100,
+		["Health"] = 250,
+		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
@@ -2863,7 +2863,7 @@ local beckoned = {
 				["Name"] = "Mathyldis",
 				["CopyBodge"] = "Mathyldis",
 				["AltArt"] = true,
-				["Bio"] = "The color Blue is kinda quirky. This card is an alternate art of YotamTiti.",
+				["Bio"] = "Like the stars chase the sun. Over the glowing hill, I will conquer. This card is an alternate art of YotamTiti.",
 			},
 		},
 		["Health"] = 600,
@@ -2893,10 +2893,10 @@ local beckoned = {
 				["Bio"] = "BUT WHAT DOES IT DO?",
 			},
 			["Bowl of Greed-Val"] = {
-				["Id"] = 893421455,
+				["Id"] = 6030805552,
 				["Name"] = "Bowl of Candy Grams",
 				["CopyBodge"] = "Bowl of Greed-Val",
-				["Bio"] = "Yummy?",
+				["Bio"] = "Legend says that this bowl grants you delicious candy. Yummy?",
 			},
 		},
 		["Health"] = 0,
@@ -2913,7 +2913,7 @@ local beckoned = {
 			["Power"] = {{"Draw",2,"Ally"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Legend says this bowl grants you fortune and fame.",
+		["Bio"] = "Legend says that this bowl grants you fortune and fame.",
 	},
 	
 	
