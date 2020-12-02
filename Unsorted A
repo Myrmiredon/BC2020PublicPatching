@@ -611,7 +611,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Robic"] = {
-		["Id"] = 274145337,
+		["Id"] = 6030810918,
 		["Name"] = "Robic",
 		["Health"] = 500,
 		["Power"] = 300,
@@ -6176,7 +6176,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Friaza"] = {
-		["Id"] = 668506369,
+		["Id"] = 6030809255,
 		["Name"] = "Friaza",
 		["Health"] = 1000,
 		["Power"] = 400,
@@ -6802,7 +6802,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Micpro1234"] = {
-		["Id"] = 785620627,
+		["Id"] = 6030795042,
 		["Name"] = "Micpro1234",
 		["AltCards"] = {
 			["yellow iamlogic"] = {
