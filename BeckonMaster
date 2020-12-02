@@ -1767,7 +1767,7 @@ local beckoned = {
 	["Luckymaxer"] = {
 		["Id"] = 5602959112,
 		["Name"] = "Luckymaxer",
-		["Health"] = 500,
+		["Health"] = 600,
 		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
@@ -1776,9 +1776,9 @@ local beckoned = {
 		["Cost"] = {["Blue"] = 3, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "When this card is cast: Give yourself four 200/200 Mechanical Spiders.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Add","Mechanical Spider"},{"Add","Mechanical Spider"},{"Add","Mechanical Spider"},{"Add","Mechanical Spider"}},
+			Description = "Whenever an effect draws you your second card: Put a 200/200 Mechanical Spider into your hand.",
+			["Type"] = "OnSecondDraw",
+			["Power"] = {{"Add","Mechanical Spider"}},
 			Target = "Ally",
 		},
 		["Bio"] = "He makes gear. He is why plungers are more powerful than elegant, elvish swords.",
@@ -1796,10 +1796,10 @@ local beckoned = {
 		["Cost"] = {["Blue"] = 0,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "Inert. Whenever LuckyMaxer dies: Destroy a card in your hand. Draw a card.",
-			["Type"] = "OnAnyDeath",
+			Description = "Inert. When this card is cast, if you control LuckyMaxer: Destroy a card in your hand. Draw a card.",
+			["Type"] = "OnCast",
 			["Power"] = {{"RandomDiscard",1},{"Draw",1}},
-			["Archetype"] = "LuckyMaxer",
+			["EffectRequirement"] = {"Archetype", "Ally", 1, 9999, "LuckyMaxer"}
 			Target = "Ally",
 		},
 		["Bio"] = "Thematic Snake.",
@@ -2268,9 +2268,9 @@ local beckoned = {
 		["Cost"] = {["Green"] = 2, ["Red"] = 2,},
 		["Effect"] = {
 			Name = "Hide and Go Seek",
-			Description = "Deal 200 damage to each fighter with the highest health. Repeat this process four more times.",
+			Description = "Deal 100 damage to each fighter with the highest health. Repeat this process six more times.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"}},
+			["Power"] = {{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"}},
 			Target = "Single",
 		},
 		["Bio"] = [[When the Doges demanded tribute from Dragonkind, they responded with enthusiastic generousity.]],
@@ -2803,14 +2803,6 @@ local beckoned = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Yellow"] = 4,["Red"] = 4,},
-		["Charge"] = true,
-		["Effect"] = {
-			Name = "Dancing Jail",
-			Description = "Haste. (This card can attack when cast.)",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",0}},
-			Target = "Ally",
-		},
 		["Bio"] = "We will never know what he certainly is.",
 	},	
 	
