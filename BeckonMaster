@@ -1516,7 +1516,7 @@ local beckoned = {
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
 		["Color"] = "Blue", 
-		["Cost"] = {["Red"] = 1, ["Blue"] = 1,},
+		["Cost"] = {["Neutral"] = 1,["Red"] = 1, ["Blue"] = 1,},
 		["Effect"] = {
 			Name = "Protection",
 			Description = "When this card is cast: A target fighter loses 150 health and power.", 
@@ -1556,7 +1556,7 @@ local beckoned = {
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
-		["Cost"] = {["Blue"] = 1,["Green"] = 1,},
+		["Cost"] = {["Neutral"] = 1,["Blue"] = 1,["Green"] = 1,},
 		["Effect"] = {
 			Name = "Bloon Killer",
 			Description = "When this card is cast: A target fighter loses 200 Power. Lock it for 1 turn.",
@@ -2771,14 +2771,14 @@ local beckoned = {
 		["CopyBodge"] = "iiMasant",
 		["AltCards"] = {
 			["iiMasantv2"] = {
-				["Id"] = 540872032,
+				["Id"] = 6030787370,
 				["Name"] = "iiMasant",
 				["AltArt"] = true,
 				["Bio"] = "The Masant that outmasanted Masant himself.",
 			},
 		},
 		["Health"] = 600,
-		["Power"] = 500,
+		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
