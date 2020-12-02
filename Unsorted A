@@ -6236,7 +6236,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	
-	["Cindering Token"] = {
+	["Token"] = {
 		["Id"] = 3164483304,
 		["Name"] = "Cindering",
 		["CopyBodge"] = "Cindering Token",
@@ -6244,7 +6244,6 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Red"},
-		["Archetype"] = "Cindering",
 		["Color"] = "Red",
 		["Charge"] = true,
 		["Cost"] = {["Red"] = 6,},
@@ -8850,27 +8849,32 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	
 	["Darr1432"] = {
 		["Id"] = 1868966520,
-		["Name"] = "Darr1432",
+		["Name"] = "Darr1342",
 		["Health"] = 600,
 		["Power"] = 600,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Archetype"] = "Darr1432",
 		["Color"] = "Green",
 		["Charge"] = true,
 		["Cost"] = {["Green"] = 7,},
-		["Transformant"] = "DarrToken",
 		["Effect"] = {
 			Name = "Samkyoukindly",
 			Description = "Haste. When this card is first cast or when it dies: All allied fighters gain 100 health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",100,"Ally"},{"Transform"}},
+			["Power"] = {{"Heal",100,"Ally"},{"DoubleTrigger","EffectNext","Self"}},
+			Target = "Self",
+		},
+		["EffectNext"] = {
+			Name = "Samkyoukindly",
+			Description = "Haste. When this card is first cast or when it dies: All allied fighters gain 100 health.",
+			["Type"] = "OnDeath",
+			["Power"] = {{"Heal",100,"Ally"}},
 			Target = "Self",
 		},
 		["Bio"] = "Curing your meat with the power of radioactive GMOs.",	
 	},
 	
-	["DarrToken"] = {
+	["DarrToken"] = { -- Defunct Token
 		["Id"] = 1868966520,
 		["Name"] = "Darr1432",
 		["CopyBodge"] = "DarrToken",
@@ -8878,7 +8882,6 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 600,
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Archetype"] = "Darr1432",
 		["Color"] = "Green",
 		["Charge"] = true,
 		["Cost"] = {["Green"] = 7,},
