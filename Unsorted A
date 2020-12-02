@@ -1643,7 +1643,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["JackinatorMG"] = {
-		["Id"] = 285152525,
+		["Id"] = 6030860265,
 		["Name"] = "JackinatorMG",
 		["AltCards"] = {
 			["JackinatorMG-C"] = {
@@ -1964,7 +1964,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},					
 	
 	["Bloxy Tea Party"] = {
-		["Id"] = 288040529,
+		["Id"] = 6030824756,
 		["Name"] = "Bloxy Tea Party",
 		["AltCards"] = {
 			["Boston Tea Party"] = {
@@ -2520,7 +2520,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 
 	["Soul Release"] = {
-		["Id"] = 288077397,
+		["Id"] = 6030773965,
 		["Name"] = "Soul Release",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2614,7 +2614,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["DrKig"] = {
-		["Id"] = 292778152,
+		["Id"] = 6030803128,
 		["Name"] = "DrKig",
 		["AltCards"] = {
 			["Unc, the Fourth Match Flame"] = {
@@ -5880,7 +5880,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	}, 
 	
 	["Kariu"] = {
-		["Id"] = 627331996,
+		["Id"] = 6030768928,
 		["Name"] = "Kariu",
 		["AltCards"] = {
 			["Kariu-ArtV"] = {
@@ -6339,7 +6339,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Damaging26"] = {
-		["Id"] = 701255714,
+		["Id"] = 6030867777,
 		["Name"] = "Damaging26",
 		["AltCards"] = {
 			["Damaging26-Inno"] = {
@@ -6937,7 +6937,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Regular_Talkshow"] = {
-		["Id"] = 920650049,
+		["Id"] = 6030859125,
 		["Name"] = "Regular_Talkshow",
 		["Health"] = 800,
 		["Power"] = 200,
@@ -7264,7 +7264,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Lord of Auctions"] = {
-		["Id"] = 997944529,
+		["Id"] = 6030868252,
 		["Name"] = "Lord of Auctions",
 		["Health"] = 500,
 		["Power"] = 500,
@@ -8575,7 +8575,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["SmashDude88"] = {
-		["Id"] = 1828656843,
+		["Id"] = 6030796734,
 		["Name"] = "SmashDude88",
 		["Health"] = 600,
 		["Power"] = 300,
@@ -8933,7 +8933,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["SnailMan39"] = {
-		["Id"] = 1899486051,
+		["Id"] = 6030803128,
 		["Name"] = "SnailMan39",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -8953,7 +8953,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Snail"] = {
-		["Id"] = 3164500244,
+		["Id"] = 6030863332,
 		["Name"] = "Snail",
 		["Health"] = 300,
 		["Power"] = 200,
