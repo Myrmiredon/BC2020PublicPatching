@@ -1480,7 +1480,7 @@ local ultpower = {
 	
 	
 	["Aether Traitor"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6030780962,
 		["Name"] = "Aether Traitor",
 		["Health"] = 750,
 		["Power"] = 300,
@@ -3072,7 +3072,7 @@ local ultpower = {
 	},
 	
 	["AllStarBren"] = {
-		["Id"] = 362315114,
+		["Id"] = 6030854492,
 		["Name"] = "AllStarBren",
 		["Health"] = 600,
 		["Power"] = 500,
@@ -4202,7 +4202,7 @@ local ultpower = {
 	},
 	
 	["214Brazy"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6030778076,
 		["Name"] = "214Brazy",
 		["Health"] = 600,
 		["Power"] = 400,
@@ -4217,7 +4217,7 @@ local ultpower = {
 			["Power"] = {{"Inflict",-300},{"Heal",50,"Self"},{"Damage",50,"All"}},
 			Target = "Opponent",
 		},
-		["Bio"] = "I'm sorry I burnt down your village. Have some gold.",
+		["Bio"] = "Titans, Celestials, it doesn't matter. I'm ending it all here.",
 	},	
 	
 	["MustagedWorldYT"] = {
@@ -4299,7 +4299,7 @@ local ultpower = {
 	},		
 	
 	["Starsnatch"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6030834013,
 		["Name"] = "Starsnatch",
 		["Health"] = 0,
 		["Power"] = 0,
