@@ -505,7 +505,7 @@ local Strife = {
 	},
 
 	["Redcliff Enforcer"] = {
-		["Id"] = 5602947356,
+		["Id"] = 6026780912,
 		["Name"] = "Redcliff Enforcer",
 		["Health"] = 400,
 		["Power"] = 400,
@@ -525,7 +525,7 @@ local Strife = {
 	},		
 
 	["Redcliff Mauler"] = {
-		["Id"] = 4974019497,
+		["Id"] = 6027903191,
 		["Name"] = "Redcliff Mauler",
 		["Health"] = 400,
 		["Power"] = 200,
@@ -546,7 +546,7 @@ local Strife = {
 	},	
 
 	["Redcliff Elite Commander"] = {
-		["Id"] = 4974018932,
+		["Id"] = 6027260663,
 		["Name"] = "Redcliff Elite Commander",
 		["Health"] = 500,
 		["Power"] = 500,
@@ -632,15 +632,6 @@ local Strife = {
 		["Id"] = 5574260703,
 		["Name"] = "Redcliff Adept",
 		["CopyBodge"] = "Redcliff Heretic",
-		["AltCards"] = {
-			["Tertiarick, Snake Eater"] = {
-				["Id"] = 5673404503,
-				["Name"] = "Tertiarick, Snake Eater",
-				["CopyBodge"] = "Tertiarick, Snake Eater",
-				["AltArt"] = true,
-				["Bio"] = "Kept you waiting, huh? This card is an alternate art of Redcliff Adept.",
-			},
-		},
 		["Power"] = 400,
 		["Health"] = 400,
 		["Rarity"] = "Common",
@@ -1422,6 +1413,15 @@ local Strife = {
 	["Kamov"] = {
 		["Id"] = 2959461488,
 		["Name"] = "Kamov",
+		["AltCards"] = {
+			["Tertiarick, Snake Eater"] = {
+				["Id"] = 5673404503,
+				["Name"] = "tertiarick, Snake Eater",
+				["CopyBodge"] = "Tertiarick, Snake Eater",
+				["AltArt"] = true,
+				["Bio"] = "Kept you waiting, huh? This card is an alternate art of Kamov.",
+			},
+		},
 		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Common",
@@ -1952,7 +1952,7 @@ local Strife = {
 	},
 
 	["Brycen27"] = {
-		["Id"] = 430951310,
+		["Id"] = 6030848646,
 		["Name"] = "Brycen27",
 		["AltCards"] = {
 			["TheBrycen27"] = {
@@ -2700,7 +2700,7 @@ local Strife = {
 	["Prestwick"] = {
 		["Id"] = 3238125976,
 		["Name"] = "Prestwick",
-		["Health"] = 500,
+		["Health"] = 300,
 		["Power"] = 800,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
