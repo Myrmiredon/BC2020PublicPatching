@@ -1553,6 +1553,14 @@ local twentyeleveneighteen = {
 	["MuPower"] = {
 		["Id"] = 4819903655,
 		["Name"] = "MuPower",
+		["AltCards"] = {
+			["Steve, the Birthday Boy"] = {
+				["Id"] = 5961955057,
+				["Name"] = "Steve, the Birthday Boy",
+				["AltArt"] = true,
+				["Bio"] = "Have a slice of cake. Go on, Cheeky also wants you to. This card is an alt-art of MuPower.",
+			},
+		},
 		["Health"] = 400,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
