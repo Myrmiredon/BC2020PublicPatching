@@ -1775,7 +1775,7 @@ local twentyeleveneighteen = {
 			Name = "POWER",
 			Description = "When this card is cast: It gains 400 power for each fighter your opponent controls.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetPower",0},{"SetVariable","EnemyField"},{"AlterEV",{"Multiply","Math",400}},{"Strengthen","Variable"}},
+			["Power"] = {{"SetPower",0},{"AlterEV",{"Set","EnemyField","Fighters"}},{"AlterEV",{"Multiply","Math",400}},{"Strengthen","Variable"}},
 			Target = "Self",
 		},
 		["Bio"] = "CEO and Co-Founder of ROBLOX. All muscle. No mercy.",
