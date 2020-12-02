@@ -1932,7 +1932,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["TheSteelEagle"] = {
-		["Id"] = 413918578,
+		["Id"] = 6030852442,
 		["Name"] = "TheSteelEagle",
 		["Health"] = 1200,
 		["Power"] = 400,
@@ -2881,7 +2881,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["NearMiss TFW"] = {
-		["Id"] = 430960670,
+		["Id"] = 6030856773,
 		["Name"] = "NearMiss TFW",
 		["Health"] = 1000,
 		["Power"] = 200,
