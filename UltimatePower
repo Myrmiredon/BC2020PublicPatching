@@ -735,7 +735,7 @@ local ultpower = {
 	},
 	
 	["Bucket of Bees"] = {
-		["Id"] = 1151275180,
+		["Id"] = 6022509994,
 		["Name"] = "Bucket of Bees",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -4024,7 +4024,7 @@ local ultpower = {
 	},
 	
 	["Alpha Brick's Bestowment"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6031702742,
 		["Name"] = "Alpha Brick's Bestowment",
 		["Health"] = 0,
 		["Power"] = 0,
