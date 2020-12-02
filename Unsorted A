@@ -1486,7 +1486,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 3303634972,
 		["Name"] = "Xlzeck",
 		["Health"] = 500,
-		["Power"] = 0,
+		["Power"] = 100,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
 		["Color"] = "Yellow",
@@ -1498,11 +1498,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"SetPower",400},{"SetHealth",400}}, -- dont switch :p
 			Target = "HighestHealth",
 		},
-		["Bio"] = "Pew!",
+		["Bio"] = "Witness the power of my cursed lock!",
 	},	
 	
 	["Assist Trophy"] = {
-		["Id"] = 285152010,
+		["Id"] = 5939445366,
 		["Name"] = "Assist Trophy",
 		["AltCards"] = {
 			["Ravcade-Retro Candy"] = {
@@ -4187,10 +4187,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Plushie Panda"] = {
-		["Id"] = 332863696,
-		["Name"] = "Plushie Panda",
-		["Health"] = 100,
-		["Power"] = 100,
+		["Id"] = 5939013962,
+		["Name"] = "IronInforcer",
+		["Health"] = 150,
+		["Power"] = 150,
 		["Rarity"] = "Rare",	
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
@@ -4202,7 +4202,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Strengthen",200},{"Heal",200}},
 			Target = "Single",
 		},
-		["Bio"] = "PLUSHIES!",
+		["Bio"] = "Welcome kind sir. What'll it be for today? Just the usual?",
 	},
 	
 	["Plushie Polar Bear"] = {
@@ -4851,7 +4851,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Add","Green Titan Essence","Ally"}},
 			Target = "All",
 		},
-		["Bio"] = "WRITEME",
+		["Bio"] = "A well known UGC Creator commandeering his army of ravens, WhoToTrus is a notable figure that contributed to the 6th Annual Bloxys.",
 	},
 	
 	["Spicy Lollipop"] = {
@@ -4875,7 +4875,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Headless Horseman"] = {
-		["Id"] = 574314948,
+		["Id"] = 6030792016,
 		["Name"] = "Headless Horseman",
 		["AltCards"] = {
 			["FreckledTurtle"] = {
