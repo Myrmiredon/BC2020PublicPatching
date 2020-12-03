@@ -6678,7 +6678,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
-		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Blue"},
+		["Requirement"] = {"Color","AllyGenZone",0,1,"Blue"},
 		["Cost"] = {["Red"] = 4, ["Yellow"] = 4, ["Green"] = 4,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
@@ -6710,7 +6710,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["DamageImmune"] = true,
 		["Color"] = "Blue", 
 		["Cost"] = {["Green"] = 4, ["Blue"] = 4, ["Red"] = 4,},
-		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Yellow"},
+		["Requirement"] = {"Color","AllyGenZone",0,1,"Yellow"},
 		["Effect"] = {
 			Name = "Lunar Rays",
 			Description = " Effects can't damage this card. Cast only if there are no Yellow cards in your Baseplate. Whenever you cast another fighter: Deal 4000 damage to that fighter and deal 300 damage to a target fighter.",
@@ -6732,7 +6732,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["ReturnImmune"] = true,
 		["Color"] = "Red", 
 		["Cost"] = {["Blue"] = 4, ["Red"] = 4, ["Yellow"] = 4,},
-		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Green"},
+		["Requirement"] = {"Color","AllyGenZone",0,1,"Green"},
 		["Effect"] = {
 			Name = "R",
 			Description = "Effects can't transform or return this card. Cast only if there are no Green cards in your Baseplate. When you do: Summon two random rare fighters. Transform all fighters into Giftsplosions. Return them to their owner's hand.",
@@ -6762,7 +6762,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AssignRandomMininum"] = -5, -- In the code, it's math.random(25)*50 + (-5)*50
 		["Color"] = "Green", 
 		["Cost"] = {["Blue"] = 4, ["Green"] = 4, ["Yellow"] = 4,},
-		["Requirement"] = {"NotColor","AllyGenZone",0,1,"Red"},
+		["Requirement"] = {"Color","AllyGenZone",0,1,"Red"},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
 			Description = "Cast only if there are no Red cards in your baseplate. During combat, this fighter assigns random damage between -200 and 1000. Whenever an enemy fighter dies: Unlock this card.",
