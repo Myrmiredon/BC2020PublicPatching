@@ -7763,7 +7763,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Icerain, Harbinger of Frost",
 			Description = "Summon a 1000/100 fighter that resets its stats during your end steps. If it survives six of your end steps, you win the game.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Summon","Permafrost 2"}},
+			["Power"] = {{"Summon","Permafrost 5"}},
 			["Target"] = "Ally",
 		},
 		["Bio"] = "The process of freezing to death is usually very painful in the beginning as the nerves can still feel the cold and report the pain to the body.",
@@ -7782,7 +7782,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, Inquisitor of Winter",
-			Description = "6 Charges. At the end of your turns: remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "9 Charges. At the end of your turns: remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 2"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7803,7 +7803,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, the Persistent Chill",
-			Description = "5 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "8 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 3"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7824,7 +7824,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, the Glacial Gloater",
-			Description = "4 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "7 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 4"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7845,7 +7845,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, Frigid Foreshadower",
-			Description = "3 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "6 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 5"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7866,7 +7866,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, Blurrer of Lines between Epic and Legendary rarities and their meaning",
-			Description = "2 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "5 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 6"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -7887,7 +7887,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 8,},
 		["Effect"] = {
 			Name = "Icerain, the Frozen Gaia",
-			Description = "1 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
+			Description = "4 Charges. At the end of your turns, remove a charge and reset its stats. When this card reaches 0 charges, you win the game.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Summon","Permafrost 7"},{"Damage",9999,"Self"}},
 			["Target"] = "Ally",
@@ -8847,7 +8847,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "He can calculate interest to six decimal places, even in the midst of a deadly duel.",	
 	},
 	
-["Darr1432"] = {
+	["Darr1432"] = {
 		["Id"] = 1868966520,
 		["Name"] = "Darr1432",
 		["Health"] = 600,
