@@ -295,7 +295,7 @@ local halo = {
 		["Cost"] = {["Green"] = 6,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[When this card is first cast: Shuffle five bird cards into your deck. Whenever you cast a Bird: Transform Zanzel. She gains 600 health and power.]],
+			Description = [[When this card is first cast: Shuffle six bird cards into your deck. Whenever you cast a Bird: Transform Zanzel. She gains 600 health and power.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"DeckAdd", "Crow of Eternal Torment"},{"DeckAdd","Bird of Eternal Paradise"},{"DeckAdd","Parrot of Eternal Dominion"},{"DeckAdd", "Crow of Eternal Torment"},{"DeckAdd","Bird of Eternal Paradise"},{"DeckAdd","Parrot of Eternal Dominion"},{"Transform","Zanzel Rekindled Token","Self"}},
 			Target = "Ally",
