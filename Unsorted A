@@ -3809,7 +3809,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Nenjas"] = {
-		["Id"] = 6029760963,
+		["Id"] = 6042512235,
 		["Name"] = "Nenjas",
 		["Health"] = 400,
 		["Power"] = 400,
