@@ -1754,8 +1754,8 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Degenerate Nekotare",
-			Description = "Whenever this card gains a lock: It gains 200 Health.",
-			["Type"] = "OnLockIncrease",
+			Description = "Whenever this card becomes locked: It gains 200 Health.",
+			["Type"] = "OnLock",
 			["Power"] = {{"Heal",200}},
 			Target = "Self",
 		},
