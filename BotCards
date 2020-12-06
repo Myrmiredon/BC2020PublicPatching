@@ -854,7 +854,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Name = "Haydoscale",
 			Description = "When this card is cast: Summon a clone of it. All Apocrypha in play and in your hand gain 100 Health and Power. Actions buffed this way manifest into fighters.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Summon","Spiteful Apocryphantom"},{"Heal",100,"Archetype"},{"Strengthen",100,"Archetype"},{"ArchetypeHandHeal",100,"Ally"},{"ArchetypeHandStrengthen",100,"Ally"}},
+			["Power"] = {{"Summon","ZanzelSpiteful"},{"Heal",100,"Archetype"},{"Strengthen",100,"Archetype"},{"ArchetypeHandHeal",100,"Ally"},{"ArchetypeHandStrengthen",100,"Ally"}},
 			Target = "Ally",
 		},
 		["Bio"] = "A reality that wants to disappear.",
