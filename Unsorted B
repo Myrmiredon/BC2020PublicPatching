@@ -460,7 +460,7 @@ local twentyeleveneighteen = {
 			Name = "Infinite Wishes",
 			Description = "Stealth. Put a copy of this card into your Baseplate. Give yourself a copy of this card.",
 			["Type"] = "OnSummon",
-			["Power"] = {["Power"] = {{"AddGenZone",{"Infinite Wishes",1}}},{"Add","Infinite Wishes"}},
+			["Power"] = {{"AddGenZone",{"Infinite Wishes",1}},{"Add","Infinite Wishes"}},
 			Target = "Ally",
 		},
 		["Bio"] = "ALWAYS wish for more wishes.",
@@ -518,7 +518,7 @@ local twentyeleveneighteen = {
 					Name = "Infinite Frost",
 					Description = "Stealth. A target fighter gains 100 Health and 50 Power. Give yourself a copy of this card.",
 					["Type"] = "OnSummon",
-					["Power"] = {{"Strengthen",50},{"Heal",100},{"Add","Infinite Chicken-Art","Ally"}},
+					["Power"] = {{"Strengthen",50},{"Heal",100},{"Add","Infinity Chicken-Art","Ally"}},
 					Target = "Single",
 				},
 				["Bio"] = "This... This will change everything...! FIIIIINAL CHIIIIIIIIIIIIICKEN!!!",
@@ -542,7 +542,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Myrmiredon"] = {
-		["Id"] = 421944617,
+		["Id"] = 6030866494,
 		["Name"] = "Myrmiredon",
 		["AltCards"] = {
 			["MyrmiredonV2"] = {
@@ -1029,7 +1029,7 @@ local twentyeleveneighteen = {
 	},	
 
 	["ROBLOXian Reborn"] = {
-		["Id"] = 1999115753,
+		["Id"] = 6030773698,
 		["Name"] = "ROBLOXian Reborn",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -1366,7 +1366,7 @@ local twentyeleveneighteen = {
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
-		["Cost"] = {["Neutral"] = 3,["Green"] = 1,["Blue"] = 4,},
+		["Cost"] = {["Neutral"] = 4,["Green"] = 1,["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Roar of Time",
 			Description = "When this card is cast: Lock a target fighter for 8 turns.",
@@ -1553,6 +1553,14 @@ local twentyeleveneighteen = {
 	["MuPower"] = {
 		["Id"] = 4819903655,
 		["Name"] = "MuPower",
+		["AltCards"] = {
+			["Steve, the Birthday Boy"] = {
+				["Id"] = 5961955057,
+				["Name"] = "Steve, the Birthday Boy",
+				["AltArt"] = true,
+				["Bio"] = "Have a slice of cake. Go on, Cheeky also wants you to. This card is an alt-art of MuPower.",
+			},
+		},
 		["Health"] = 400,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
@@ -1767,7 +1775,7 @@ local twentyeleveneighteen = {
 			Name = "POWER",
 			Description = "When this card is cast: It gains 400 power for each fighter your opponent controls.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetPower",0},{"AlterEV",{"Set","EnemyBoard","Fighters"}},{"AlterEV",{"Multiply","Math",400}},{"Strengthen","Variable"}},
+			["Power"] = {{"SetPower",0},{"AlterEV",{"Set","EnemyField","Fighters"}},{"AlterEV",{"Multiply","Math",400}},{"Strengthen","Variable"}},
 			Target = "Self",
 		},
 		["Bio"] = "CEO and Co-Founder of ROBLOX. All muscle. No mercy.",
@@ -1932,7 +1940,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["TheSteelEagle"] = {
-		["Id"] = 413918578,
+		["Id"] = 6030852442,
 		["Name"] = "TheSteelEagle",
 		["Health"] = 1200,
 		["Power"] = 400,
@@ -2818,7 +2826,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Brymmy"] = {
-		["Id"] = 444223893,
+		["Id"] = 6030836161,
 		["Name"] = "Brymmy",
 		["Health"] = 1000,
 		["Power"] = 0,
@@ -2881,7 +2889,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["NearMiss TFW"] = {
-		["Id"] = 430960670,
+		["Id"] = 6030856773,
 		["Name"] = "NearMiss TFW",
 		["Health"] = 1000,
 		["Power"] = 200,
@@ -2920,7 +2928,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["SaxoAttack"] = {
-		["Id"] = 431225862,
+		["Id"] = 6030816658,
 		["Name"] = "SaxoAttack",
 		["Health"] = 800,
 		["Power"] = 800,
@@ -3342,7 +3350,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["JaikKaik"] = {
-		["Id"] = 464527485,
+		["Id"] = 6030776877,
 		["Name"] = "JaikKaik",
 		["Health"] = 3500,
 		["Power"] = 0,
@@ -4319,7 +4327,7 @@ local twentyeleveneighteen = {
 			Name = "derp",
 			Description = "Effects can't transform this card. Whenever this card destroys another: It deals 200 damage to itself. You lose 600 Life.",
 			["Type"] = "OnDestroy",
-			["Power"] = {{"Damage",200},{"Cost",600}},
+			["Power"] = {{"Cost",600},{"Damage",200}},
 			Target = "Self",
 		},
 		["Bio"] = "TOO... MUCH... SAUCE... MUST... SLAY THE POGGERS...",
@@ -4676,18 +4684,19 @@ local twentyeleveneighteen = {
 	["Tone"] = {
 		["Id"] = 2960010737,
 		["Name"] = "Tone",
-		["Health"] = 500,
-		["Power"] = 500,
+		["Health"] = 400,
+		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,["Neutral"] = 1},
 		["Effect"] = {
 			Name = "Thug Life",
-			Description = "At the start of each player's turn: That player may put one fewer card into their baseplate this turn.",
-			["Type"] = "OnStart",
-			["Power"] = {{"DiscardLimit",-1}},
-			Target = "All",
+			Description = "When this card is cast: all Small fighters gain 200 Power. (Small fighters have total stats of 350 to 700.)",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Strengthen",200}},
+			Target = "Ally",
+			["SizeClass"] = "Small",
 		},
 		["Bio"] = "Merely red.",
 	},		

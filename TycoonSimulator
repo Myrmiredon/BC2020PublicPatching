@@ -274,7 +274,7 @@ local tycoons = {
 			["Type"] = "OnEnemySummon",
 			["Power"] = {{"Lock",1}},
 			Target = "Opponent",
-			["EffectRequirement"] = {"Playertable","Him",1,9999,"Fighters"},
+			["EffectRequirement"] = {"Playertable","Him",0,2,"Fighters"},
 		},
 		["Bio"] = "To inspect gravity. To cause the fall.",
 	},
@@ -322,7 +322,7 @@ local tycoons = {
 	},	
 	
 	["Police Call Operator"] = {
-		["Id"] = 4899431482,
+		["Id"] = 6030769222,
 		["Name"] = "Police Call Operator",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -705,9 +705,9 @@ local tycoons = {
 				["Bio"] = "Bamf.",
 			},
 			["CowboyV2"] = {
-				["Id"] = 540878417,
+				["Id"] = 6030806898,
 				["CopyBodge"] = "CowboyV2",
-				["Bio"] = "Oh boy, would ya look at the time.",
+				["Bio"] = "A Cowboy from an alternate dimension who wants to practice his gunslinging skills.",
 				["Effect"] = {
 					Name = "High Noon",
 				},
@@ -832,7 +832,7 @@ local tycoons = {
 	},
 	
 	["Fleskhjerta"] = {
-		["Id"] = 574177817,
+		["Id"] = 6030800399,
 		["Name"] = "Fleskhjerta",
 		["Health"] = 600,
 		["Power"] = 400,
@@ -851,7 +851,7 @@ local tycoons = {
 	},
 	
 	["Malevolent Fanboy"] = {
-		["Id"] = 5668027251,
+		["Id"] = 6030789617,
 		["Name"] = "Malevolent Fanboy",
 		["Health"] = 700,
 		["Power"] = 100,
@@ -863,7 +863,7 @@ local tycoons = {
 			Name = "Plushie Amp",
 			Description = "Whenever a Legendary fighter dies: This card gains 300 health and power.",
 			["Type"] = "OnAnyDeath",
-			["Power"] = {{"Heal",600}},
+			["Power"] = {{"Heal",300}, {"Strengthen",300}},
 			Target = "Self",
 			["Rarity"] = "Legendary",
 		},
@@ -1045,7 +1045,7 @@ local tycoons = {
 	["BUTQUNA"] = {
 		["Id"] = 4988917054,
 		["Name"] = "BUTQUNA",
-		["Health"] = 1100,
+		["Health"] = 1200,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Red"},
@@ -1053,17 +1053,17 @@ local tycoons = {
 		["Cost"] = {["Red"] = 4,},
 		["Effect"] = {
 			Name = "BBQ Preparation",
-			Description = "When this card is cast: Lock it for 4 turns.",
+			Description = "When this card is cast: Lock it for 3 turns.",
 			["Type"] = "OnSummon",
 			["Power"] = "Lock",
 			Target = "Self",
-			Increase = 4,
+			Increase = 3,
 		},
 		["Bio"] = "Power of fire compels me, as does BBQ sauce.",
 	},
 	
 	["Sammeh"] = {
-		["Id"] = 280563026,
+		["Id"] = 6030819423,
 		["Name"] = "MrSammeh",
 		["Power"] = 100,
 		["Health"] = 800,
@@ -1607,8 +1607,8 @@ local tycoons = {
 		["Id"] = 5832354645,
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
-		["Health"] = 900,
-		["Power"] = 400,
+		["Health"] = 1000,
+		["Power"] = 200,
 		["Rarity"] = "Rare",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
@@ -1628,8 +1628,8 @@ local tycoons = {
 		["Id"] = 5832354645,
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
-		["Health"] = 900,
-		["Power"] = 400,
+		["Health"] = 1000,
+		["Power"] = 200,
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
@@ -1641,7 +1641,7 @@ local tycoons = {
 	["litozinnamon"] = {
 		["Id"] = 4899367385,
 		["Name"] = "litozinnamon",
-		["Health"] = 850,
+		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Freeze",
@@ -1718,7 +1718,7 @@ local tycoons = {
 	},	
 	
 	["Darklord1506"] = {
-		["Id"] = 1372169759,
+		["Id"] = 6030850803,
 		["Name"] = "Darklord1506",
 		["Health"] = 200,
 		["Power"] = 400,
@@ -1754,8 +1754,8 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Degenerate Nekotare",
-			Description = "Whenever this card gains a lock: It gains 200 Health.",
-			["Type"] = "OnLockIncrease",
+			Description = "Whenever this card becomes locked: It gains 200 Health.",
+			["Type"] = "OnLock",
 			["Power"] = {{"Heal",200}},
 			Target = "Self",
 		},
@@ -1907,7 +1907,7 @@ local tycoons = {
 	},	
 	
 	["The Famous Destruction5033"] = {
-		["Id"] = 1108825228,
+		["Id"] = 6030864931,
 		["Name"] = "The Famous Destruction5033",
 		["Health"] = 1100,
 		["Power"] = 300,
@@ -2412,7 +2412,7 @@ local tycoons = {
 	},	
 	
 	["Bloxy Announcer"] = {
-		["Id"] = 5668027251,
+		["Id"] = 6030997304,
 		["Name"] = "Bloxy Announcer",
 		["Health"] = 1500,
 		["Power"] = 200,
@@ -2433,7 +2433,7 @@ local tycoons = {
 	},
 		
 	["ThePestilentOne"] = {
-		["Id"] = 1474056814,
+		["Id"] = 6030822570,
 		["Name"] = "ThePestilentOne",
 		["Health"] = 550,
 		["Power"] = 550,
@@ -2511,9 +2511,9 @@ local tycoons = {
 	},
 	
 	["PhireFox"] = {
-		["Id"] = 878894010,
+		["Id"] = 6030798901,
 		["Name"] = "PhireFox",
-		["Health"] = 700,
+		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
@@ -2658,8 +2658,8 @@ local tycoons = {
 	["CorgiParade"] = {
 		["Id"] = 665983580,
 		["Name"] = "CorgiParade",
-		["Health"] = 200,
-		["Power"] = 100,
+		["Health"] = 150,
+		["Power"] = 150,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
@@ -3126,7 +3126,7 @@ local tycoons = {
 	},
 	
 	["Friend Request Spammer"] = {
-		["Id"] = 2084782054,
+		["Id"] = 6030820902,
 		["Name"] = "Friend Request Spammer",
 		["Health"] = 350,
 		["Power"] = 400,
@@ -3146,7 +3146,7 @@ local tycoons = {
 	
 	
 	["CellBloxTango"] = {
-		["Id"] = 411802843,
+		["Id"] = 6030850525,
 		["Name"] = "CellBloxTango",
 		["Health"] = 700,
 		["Power"] = 550,

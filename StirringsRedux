@@ -2101,7 +2101,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Halloween",
 			Description = "A target fighter generates six times. Put it into its owner's baseplate.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Generate",6,"Single"},{"Damage",6666,"Single"}},
+			["Power"] = {{"Generate",6,"Single"},{"MoveGenZone","Single"}},
 			Target = "Self",
 		},
 		["Bio"] = "Hallow's usual jovial behaviour masks how ruthless he is when he collects the debt you owe.",

@@ -279,7 +279,7 @@ local beckoned = {
 	},	
 	
 	["Great Lord Egotist"] = {
-		["Id"] = 345761738,
+		["Id"] = 6030754144,
 		["Name"] = "Great Lord Egotist",
 		["AltCards"] = {
 			["Great Lord Egotist-ArtV"] = {
@@ -1516,7 +1516,7 @@ local beckoned = {
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
 		["Color"] = "Blue", 
-		["Cost"] = {["Red"] = 1, ["Blue"] = 1,},
+		["Cost"] = {["Neutral"] = 1,["Red"] = 1, ["Blue"] = 1,},
 		["Effect"] = {
 			Name = "Protection",
 			Description = "When this card is cast: A target fighter loses 150 health and power.", 
@@ -1556,7 +1556,7 @@ local beckoned = {
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
-		["Cost"] = {["Blue"] = 1,["Green"] = 1,},
+		["Cost"] = {["Neutral"] = 1,["Blue"] = 1,["Green"] = 1,},
 		["Effect"] = {
 			Name = "Bloon Killer",
 			Description = "When this card is cast: A target fighter loses 200 Power. Lock it for 1 turn.",
@@ -1657,14 +1657,14 @@ local beckoned = {
 	},
 	
 	["Person299"] = {
-		["Id"] = 5832417409,
+		["Id"] = 6031116599,
 		["Name"] = "Person299",
 		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
-		["Cost"] = {["Neutral"] = 1, ["Red"] = 3, ["Yellow"] = 3,},
+		["Cost"] = {["Neutral"] = 4, ["Red"] = 2, ["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Minigames.",
 			Description = "When this card is cast: Deal damage to a target fighter equal to the target's power.",
@@ -1767,7 +1767,7 @@ local beckoned = {
 	["Luckymaxer"] = {
 		["Id"] = 5602959112,
 		["Name"] = "Luckymaxer",
-		["Health"] = 500,
+		["Health"] = 600,
 		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
@@ -1776,9 +1776,9 @@ local beckoned = {
 		["Cost"] = {["Blue"] = 3, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "When this card is cast: Give yourself four 200/200 Mechanical Spiders.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Add","Mechanical Spider"},{"Add","Mechanical Spider"},{"Add","Mechanical Spider"},{"Add","Mechanical Spider"}},
+			Description = "Whenever an effect draws you your second card: Put a 200/200 Mechanical Spider into your hand.",
+			["Type"] = "OnSecondDraw",
+			["Power"] = {{"Add","Mechanical Spider"}},
 			Target = "Ally",
 		},
 		["Bio"] = "He makes gear. He is why plungers are more powerful than elegant, elvish swords.",
@@ -1796,10 +1796,10 @@ local beckoned = {
 		["Cost"] = {["Blue"] = 0,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "Inert. Whenever LuckyMaxer dies: Destroy a card in your hand. Draw a card.",
-			["Type"] = "OnAnyDeath",
+			Description = "Inert. When this card is cast, if you control LuckyMaxer: Destroy a card in your hand. Draw a card.",
+			["Type"] = "OnCast",
 			["Power"] = {{"RandomDiscard",1},{"Draw",1}},
-			["Archetype"] = "LuckyMaxer",
+			["EffectRequirement"] = {"Archetype", "Ally", 1, 9999, "LuckyMaxer"}
 			Target = "Ally",
 		},
 		["Bio"] = "Thematic Snake.",
@@ -2198,7 +2198,7 @@ local beckoned = {
 	},
 	
 	["Satyr Nourisher"] = {
-		["Id"] = 5600397731,
+		["Id"] = 6030772026,
 		["Name"] = "Satyr Nourisher",
 		["Health"] = 900,
 		["Power"] = 200,
@@ -2268,9 +2268,9 @@ local beckoned = {
 		["Cost"] = {["Green"] = 2, ["Red"] = 2,},
 		["Effect"] = {
 			Name = "Hide and Go Seek",
-			Description = "Deal 200 damage to each fighter with the highest health. Repeat this process four more times.",
+			Description = "Deal 100 damage to each fighter with the highest health. Repeat this process six more times.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"},{"Damage",200,"HighestHealth"}},
+			["Power"] = {{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"},{"Damage",100,"HighestHealth"}},
 			Target = "Single",
 		},
 		["Bio"] = [[When the Doges demanded tribute from Dragonkind, they responded with enthusiastic generousity.]],
@@ -2526,7 +2526,7 @@ local beckoned = {
 	},
 	
 	["Deadeye"] = {
-		["Id"] = 283993033,
+		["Id"] = 5973628043,
 		["Name"] = "Deadeye",
 		["Health"] = 800,
 		["Power"] = 0,
@@ -2771,14 +2771,14 @@ local beckoned = {
 		["CopyBodge"] = "iiMasant",
 		["AltCards"] = {
 			["iiMasantv2"] = {
-				["Id"] = 540872032,
+				["Id"] = 6030787370,
 				["Name"] = "iiMasant",
 				["AltArt"] = true,
 				["Bio"] = "The Masant that outmasanted Masant himself.",
 			},
 		},
 		["Health"] = 600,
-		["Power"] = 500,
+		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
@@ -2803,14 +2803,6 @@ local beckoned = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Yellow"] = 4,["Red"] = 4,},
-		["Charge"] = true,
-		["Effect"] = {
-			Name = "Dancing Jail",
-			Description = "Haste. (This card can attack when cast.)",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",0}},
-			Target = "Ally",
-		},
 		["Bio"] = "We will never know what he certainly is.",
 	},	
 	
@@ -2838,8 +2830,8 @@ local beckoned = {
 		["Id"] = 5100731743,
 		["Name"] = "amanda",
 		["CopyBodge"] = "Cheshire Cat",
-		["Health"] = 200,
-		["Power"] = 100,
+		["Health"] = 250,
+		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
@@ -2863,7 +2855,7 @@ local beckoned = {
 				["Name"] = "Mathyldis",
 				["CopyBodge"] = "Mathyldis",
 				["AltArt"] = true,
-				["Bio"] = "The color Blue is kinda quirky. This card is an alternate art of YotamTiti.",
+				["Bio"] = "Like the stars chase the sun. Over the glowing hill, I will conquer. This card is an alternate art of YotamTiti.",
 			},
 		},
 		["Health"] = 600,
@@ -2893,10 +2885,10 @@ local beckoned = {
 				["Bio"] = "BUT WHAT DOES IT DO?",
 			},
 			["Bowl of Greed-Val"] = {
-				["Id"] = 893421455,
+				["Id"] = 6030805552,
 				["Name"] = "Bowl of Candy Grams",
 				["CopyBodge"] = "Bowl of Greed-Val",
-				["Bio"] = "Yummy?",
+				["Bio"] = "Legend says that this bowl grants you delicious candy. Yummy?",
 			},
 		},
 		["Health"] = 0,
@@ -2913,7 +2905,7 @@ local beckoned = {
 			["Power"] = {{"Draw",2,"Ally"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Legend says this bowl grants you fortune and fame.",
+		["Bio"] = "Legend says that this bowl grants you fortune and fame.",
 	},
 	
 	

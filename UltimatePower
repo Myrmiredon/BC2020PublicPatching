@@ -735,7 +735,7 @@ local ultpower = {
 	},
 	
 	["Bucket of Bees"] = {
-		["Id"] = 1151275180,
+		["Id"] = 6022509994,
 		["Name"] = "Bucket of Bees",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -1184,9 +1184,10 @@ local ultpower = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 2,},
+		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Cast Alar Actions only if you control 2 Alar Knights. Draw a card.",
+			Description = "Inert in hand and baseplate. Cast Alar Actions only if you control 2 Alar Knights. Draw a card.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",1}},
 			Target = "Ally",
@@ -1225,9 +1226,10 @@ local ultpower = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 2,},
+		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Cast Alar Actions only if you control 2 Alar Knights. All Alar Knights gain 300 health.",
+			Description = "Inert in hand and baseplate. Cast Alar Actions only if you control 2 Alar Knights. All Alar Knights gain 300 health.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Heal",300,"Archetype"}},
 			Target = "Ally",
@@ -1266,9 +1268,10 @@ local ultpower = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3,},
+		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Cast Alar Actions only if you control 2 Alar Knights. Summon an Alar Trainee and an Alar Herald.",
+			Description = "Inert in hand and baseplate. Cast Alar Actions only if you control 2 Alar Knights. Summon an Alar Trainee and an Alar Herald.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Alar Trainee"},{"Summon","Alar Herald"}},
 			Target = "Ally",
@@ -1307,9 +1310,10 @@ local ultpower = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 2,},
+		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Cast Alar Actions only if you control 2 Alar Knights. Deal 600 damage to a target fighter.",
+			Description = "Inert in hand and baseplate. Cast Alar Actions only if you control 2 Alar Knights. Deal 600 damage to a target fighter.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",600,"Single"}},
 			Target = "Ally",
@@ -1349,9 +1353,10 @@ local ultpower = {
 		["Stealth"] = true,
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 1, ["Green"] = 2,},
+		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Stealth. Cast only if you control 2 Alar Knights. You gain two Red studs. Give yourself a copy of this card.",
+			Description = "Inert in hand and baseplate. Stealth. Cast only if you control 2 Alar Knights. You gain two Red studs. Give yourself a copy of this card.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Add","Splintered Energy"},{"Red",2}},
 			Target = "Ally",
@@ -1391,9 +1396,10 @@ local ultpower = {
 		["Stealth"] = true,
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Red"] = 2,},
+		["TokenDiscard"] = true,
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Stealth. Cast only if you control 2 Alar Knights. You gain two Green studs. Give yourself a copy of this card.",
+			Description = "Inert in hand and baseplate. Stealth. Cast only if you control 2 Alar Knights. You gain two Green studs. Give yourself a copy of this card.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Add","Splintered Embers"},{"Green",2}},
 			Target = "Ally",
@@ -1480,7 +1486,7 @@ local ultpower = {
 	
 	
 	["Aether Traitor"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6030780962,
 		["Name"] = "Aether Traitor",
 		["Health"] = 750,
 		["Power"] = 300,
@@ -3072,7 +3078,7 @@ local ultpower = {
 	},
 	
 	["AllStarBren"] = {
-		["Id"] = 362315114,
+		["Id"] = 6030854492,
 		["Name"] = "AllStarBren",
 		["Health"] = 600,
 		["Power"] = 500,
@@ -3194,6 +3200,8 @@ local ultpower = {
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 3, ["Red"] = 8,},
+		["AlternateCost"] = {["White"] = 3,},
+		["AlternateCostRequirement"] = {"Playertable", "Me", 0, 1501, "Life"},
 		["Effect"] = {
 			Name = "Unleash Hell",
 			Description = "If your opponent has 1500 or less life, cast this card ignoring its Red cost. When you do, if there is a Red card in your baseplate: Your opponent loses 250 life.",
@@ -4022,7 +4030,7 @@ local ultpower = {
 	},
 	
 	["Alpha Brick's Bestowment"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6031702742,
 		["Name"] = "Alpha Brick's Bestowment",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -4034,8 +4042,8 @@ local ultpower = {
 			Name = "Haydoscale",
 			Description = "Put a target fighter into its owner's baseplate.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"MoveGenZone","Single"}},
-			Target = "All",
+			["Power"] = {{"MoveGenZone"}},
+			Target = "Single",
 		},
 		["Bio"] = "The Celestials, happy that Dukran saved their child, bestowed the most cursed gift onto him: The Creator.",
 	},
@@ -4200,7 +4208,7 @@ local ultpower = {
 	},
 	
 	["214Brazy"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6030778076,
 		["Name"] = "214Brazy",
 		["Health"] = 600,
 		["Power"] = 400,
@@ -4215,7 +4223,7 @@ local ultpower = {
 			["Power"] = {{"Inflict",-300},{"Heal",50,"Self"},{"Damage",50,"All"}},
 			Target = "Opponent",
 		},
-		["Bio"] = "I'm sorry I burnt down your village. Have some gold.",
+		["Bio"] = "Titans, Celestials, it doesn't matter. I'm ending it all here.",
 	},	
 	
 	["MustagedWorldYT"] = {
@@ -4297,7 +4305,7 @@ local ultpower = {
 	},		
 	
 	["Starsnatch"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6030834013,
 		["Name"] = "Starsnatch",
 		["Health"] = 0,
 		["Power"] = 0,
