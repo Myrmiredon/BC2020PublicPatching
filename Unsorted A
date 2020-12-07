@@ -5805,6 +5805,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["74Riley"] = {
 		["Id"] = 3238108095,
 		["Name"] = "74Riley",
+		["AltCards"] = {
+			["powerblastX"] = {
+				["Id"] = 6055804054,
+				["Name"] = "powerblastX",
+				["AltArt"] = true,
+				["Bio"] = "Meet my stand [Za Ducko Requiem]! The Ultimate Stand! This card is an alt-art of 74Riley.",
+				
+
+			},
+		},
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Common",
