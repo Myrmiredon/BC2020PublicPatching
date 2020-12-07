@@ -4895,8 +4895,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Effect"] = {
 			Name = "Pyrotechnics",
 			Description = "When this card is cast, if you have 2000 or less life: Your opponent loses 400 life.",
-			["Type"] = "OnCast",
+			["Type"] = "OnSummon",
 			["Power"] = {{"Inflict",400}},
+			["EffectRequirement"] = {"Playertable", "Me", 0, 2001, "Life"},
 			Target = "Opponent",
 		},
 		["Bio"] = "Your laws, much like your bones, were made to be broken.",
