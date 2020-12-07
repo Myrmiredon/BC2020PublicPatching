@@ -3843,7 +3843,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Teamwork",
 			Description = "When this card dies: Draw a card for every Nenjas in play.",
 			["Type"] = "OnDeath",
-			["Power"] = {{"AlterEV",{"Set","Board","Archetype"}}, {"Draw","Variable"}},
+			["Power"] = {{"AlterEV",{"Set","Board","Archetype"}}, {"Draw","Variable","Ally"}},
 			Target = "Self",
 		},
 		["Bio"] = "You shouldn't have hit that cake hat.",
