@@ -1776,14 +1776,14 @@ local beckoned = {
 		["Cost"] = {["Blue"] = 3, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "Whenever an effect draws you your second card: Put a 200/200 Mechanical Spider into your hand.",
-			["Type"] = "OnSecondDraw",
-			["Power"] = {{"Add","Mechanical Spider"}},
+			Description = "When this card is cast: Give yourself four 200/200 Mechanical Spiders.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Add","Mechanical Spider"},{"Add","Mechanical Spider"},{"Add","Mechanical Spider"},{"Add","Mechanical Spider"}},
 			Target = "Ally",
 		},
 		["Bio"] = "He makes gear. He is why plungers are more powerful than elegant, elvish swords.",
 	},
-	
+
 	["Mechanical Spider"] = {
 		["Id"] = 3471752910,
 		["Name"] = "Mechanical Spiders",
@@ -1793,13 +1793,14 @@ local beckoned = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Token"] = true,
+		["TokenDiscard"] = true,
 		["Cost"] = {["Blue"] = 0,},
+		["Requirement"] = {"Archetype", "Ally", 1, 9999, "LuckyMaxer"},
 		["Effect"] = {
 			Name = "Render",
-			Description = "Inert. When this card is cast, if you control LuckyMaxer: Destroy a card in your hand. Draw a card.",
-			["Type"] = "OnCast",
+			Description = "Inert in all zones. Cast only if you control LuckyMaxer. When you do: Destroy a card in your hand. Draw a card.",
+			["Type"] = "OnSummon",
 			["Power"] = {{"RandomDiscard",1},{"Draw",1}},
-			["EffectRequirement"] = {"Archetype", "Ally", 1, 9999, "LuckyMaxer"}
 			Target = "Ally",
 		},
 		["Bio"] = "Thematic Snake.",
@@ -2958,7 +2959,7 @@ local beckoned = {
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
-		["Cost"] = {["Neutral"] = 4,},
+		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Spider Venom",
 			Description = "When this card dies: Put a Green Stud into your Baseplate.",

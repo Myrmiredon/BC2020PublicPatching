@@ -425,6 +425,14 @@ local halo = {
 	["Circle Stud"] = { 
 		["Id"] = 5677590897,
 		["Name"] = "Circle Stud",
+		["AltCards"] = {
+			["LegendaryGuySymphony"] = {
+				["Id"] = 5853767402,
+				["Name"] = "The Four Season of Anime",
+				["AltArt"] = true,
+				["Bio"] = "Zanzel begrudgingly put on the muddy, insectile corset. Erysiphia's notion of perfection was so different to yers, yet not even Zanzel would deny her beauty.",
+			},
+		},
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] =  "Uncommon",

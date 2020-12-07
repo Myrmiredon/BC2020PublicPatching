@@ -2279,8 +2279,8 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 8,},
 		["Effect"] = {
 			Name = "Zappow!",
-			Description = "When this card is cast: Give yourself the three Monstrum cards.",
-			["Type"] = "OnSummon",
+			Description = "When this card dies: Give yourself three powerful red and green Monstrum fighters.",
+			["Type"] = "OnDeath",
 			["Power"] = {{"Add","Monstrum Minotauris"},{"Add","Monstrum Zombie King"},{"Add","Monstrum Freezer"}},
 			Target = "Ally",
 		},
@@ -2587,7 +2587,7 @@ local twentyeleveneighteen = {
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
-		["Cost"] = {["Red"] = 4,["Green"] = 4},
+		["Cost"] = {["Red"] = 8,["Green"] = 8},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "When this card is cast: Deal 200 damage to all enemy fighters. They lose 200 power. ",
@@ -2606,7 +2606,7 @@ local twentyeleveneighteen = {
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red",
-		["Cost"] = {["Red"] = 8,},
+		["Cost"] = {["Red"] = 12,},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "Whenever this card attacks: Your opponent loses 600 Life.",
@@ -2626,7 +2626,7 @@ local twentyeleveneighteen = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
 		["Archetype"] = "Zombie",
-		["Cost"] = {["Green"] = 8,},
+		["Cost"] = {["Green"] = 12,},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "During your end step: Summon a 150/150 Zombie. All Zombies gain 100 health and power.",
