@@ -71,7 +71,7 @@ local Strife = {
 			["Type"] = "OnSummon",
 			["Power"] = "Heal",
 			Target = "Archetype",
-			Increase = 400
+			Increase = 200
 		},
 		["Bio"] = "CHARGE NOWHERE! STAND GROUND!",
 	},
@@ -136,12 +136,12 @@ local Strife = {
 		["Archetype"] = "Korblox",
 		["Color"] = "Blue",
 		["Charge"] = true,
-		["Cost"] = {["Neutral"] = 1, ["Blue"] = 8,},
+		["Cost"] = {["Neutral"] = 1, ["Blue"] = 7,},
 		["Effect"] = {
 			Name = "Quick Shot",
 			Description = "Haste. When this card is cast: Give yourself three Korblox cards.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Unlock",999,"Single"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"}},
+			["Power"] = {{"RandomAdd","Korblox"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"}},
 			Target = "Ally",
 		},
 		["Bio"] = "He's a regular attendee of the Beard Grooming Club. His next beard style will be the Fu Manchu.",
@@ -600,10 +600,11 @@ local Strife = {
 		["Requirement"] = {"Archetype", "Ally", 1, 2, "Redcliff"},
 		["Effect"] = {
 			Name = "Board Clear!",
-			Description = "Cast only if you control exactly one Redcliff. That Redcliff gains 800 health and power.",
+			Description = "Cast only if you control exactly one Redcliff. If it's the only fighter you control, it gains 800 health and power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Heal",800,"Archetype"},{"Strengthen",800,"Archetype"}},
 			Target = "NotArchetype",
+			["EffectRequirement"] = {"Board", "Ally", 1, 2,},
 		},
 		["Bio"] = "SUPRISE! REDCLIFFS!",
 	},
@@ -1136,7 +1137,7 @@ local Strife = {
 			Description = "When this card is cast: Obliterate all blue cards in your baseplate.", --generate a blue icon for each card destroyed this way.
 			["Type"] = "OnSummon",
 			["Power"] = {{"GenZoneDiscard",{"Blue",0}}}, --AlterEV currently doesnt have a way to check baseplate as far as i know. neither is there an effect that makes cards in baseplate generate.	
-			Target = "Single",
+			Target = "Ally",
 		},
 		["Bio"] = "Hovering skull doesn't scare you? Maybe my skill will.",
 	},	
@@ -1755,7 +1756,7 @@ local Strife = {
 			Description = "Cast only if you have 1500 or less life. Deal 4000 damage to all fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",4000}},
-			Target = "Aggressor",
+			Target = "All",
 		},
 		["Bio"] = "Sometimes, you just have to trust in lobsters.",
 	},
