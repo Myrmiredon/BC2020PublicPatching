@@ -2128,7 +2128,7 @@ local tycoons = {
 				["Id"] = 540864462,
 				["AltArt"] = true,
 				["Addant"] = "Teadaddy",
-				["Bio"] = "TFW you realize this is a bee card.",
+				["Bio"] = "Apparently not an actual bee.",
 			},
 		},
 		["Health"] = 900,
