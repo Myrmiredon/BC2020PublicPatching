@@ -650,6 +650,14 @@ local halo = {
 	["SamsonXVI"] = { 
 		["Id"] = 4789690650,
 		["Name"] = "SamsonXVI",
+		["AltCards"] = {
+			["kpenkeenan"] = {
+				["Id"] = 6055789544,
+				["Name"] = "kpenkeenan",
+				["AltArt"] = true,
+				["Bio"] = "This card is an alternate art of SamsonXVI.",
+			},
+		},
 		["Health"] = 800,
 		["Power"] = 100,
 		["Rarity"] =  "Common",
