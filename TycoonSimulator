@@ -1301,6 +1301,15 @@ local tycoons = {
 	["Chiefjustus"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
+		["AltCards"] = {
+			["Zeige Siksis"] = {
+				["Id"] = 6055784727,
+				["Name"] = "Zeige Siksis",
+				["AltArt"] = true,
+				["Transformant"] = "Zeige Siksis-LVL2",
+				["Bio"] = "Displeased.",
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Epic",
@@ -1318,10 +1327,18 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv2"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
+		["AltCards"] = {
+			["Zeige Siksis-LVL2"] = {
+				["Id"] = 6055785499,
+				["Name"] = "Zeige Siksis",
+				["Transformant"] = "Zeige Siksis-LVL3",
+				["Bio"] = "Annoyed.",
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1339,10 +1356,18 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv3"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
+		["AltCards"] = {
+			["Zeige Siksis-LVL3"] = {
+				["Id"] = 6055786167,
+				["Name"] = "Zeige Siksis",
+				["Transformant"] = "Zeige Siksis-LVL4",
+				["Bio"] = "Grumpy.",
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1360,10 +1385,18 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv4"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
+		["AltCards"] = {
+			["Zeige Siksis-LVL4"] = {
+				["Id"] = 6055786697,
+				["Name"] = "Zeige Siksis",
+				["Transformant"] = "Zeige Siksis-LVL5",
+				["Bio"] = "Upset.",
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1381,10 +1414,18 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv5"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
+		["AltCards"] = {
+			["Zeige Siksis-LVL5"] = {
+				["Id"] = 6055788368,
+				["Name"] = "Zeige Siksis",
+				["Transformant"] = "Zeige Siksis-LVL6",
+				["Bio"] = "Seething.",
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1402,10 +1443,17 @@ local tycoons = {
 		},
 		["Bio"] = "He brings ROBLOX justice everywhere he goes!",
 	},
-	
+
 	["Chiefjustuslv6"] = {
 		["Id"] = 5685697289,
 		["Name"] = "Chiefjustus",
+		["AltCards"] = {
+			["Zeige Siksis-LVL6"] = {
+				["Id"] = 6055788880,
+				["Name"] = "666",
+				["Bio"] = "Raging.",
+			},
+		},
 		["Health"] = 1000,
 		["Power"] = 400,
 		["Rarity"] = "Token",
