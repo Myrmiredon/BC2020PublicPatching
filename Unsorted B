@@ -839,7 +839,7 @@ local twentyeleveneighteen = {
 		["Bio"] = "It sure is nifty to be solar powered. Unless it's night time.",
 	},		
 	
-	["OstrichSized"] = {
+["OstrichSized"] = {
 		["Id"] = 4564778449,
 		["Name"] = "OstrichSized",
 		["AltCards"] = {
@@ -854,6 +854,19 @@ local twentyeleveneighteen = {
 					Target = "Ally",
 				},
 				["Bio"] = "The real question is, would Shedletsky eat this?",
+			},
+			["TBOI, Lord of Rukiaposting"] = {
+				["Id"] =  6062521970,
+				["Name"] = "TBOI, Lord of Rukiaposting",
+				["AltArt"] = true,
+				["Effect"] = {
+					Name = "Feet",
+					Description = "During your end step: Summon an Inert 300/150 Rukia.",
+					["Type"] = "OnEnd",
+					["Power"] = {{"Summon","Rukia"}},
+					Target = "Ally",
+				},
+				["Bio"] = "yo mama so fat she ate donga doodles hahahaha troll face troll face troll face :troll: im so funny -posts 17 gifs of rukia from bleach- This card is an alternate art of OstrichSized",
 			},
 		},
 		["Health"] = 1200,
@@ -871,7 +884,7 @@ local twentyeleveneighteen = {
 		},
 		["Bio"] = "Funnily enough, Ostriches aren't that much taller than humans. Though he can hardly fit in Japanese houses.",
 	},		
-	
+
 	["Ostrich"] = {
 		["Id"] = 4564778718,
 		["Name"] = "Ostrich",
@@ -880,6 +893,11 @@ local twentyeleveneighteen = {
 				["Id"] =  1262132339,
 				["Name"] = "Bab Yaga",
 				["Bio"] = "Shedletsky would DEFINITELY eat this.",
+			},
+			["Rukia"] = {
+				["Id"] =  6062522279,
+				["Name"] = "Rukia",
+				["Bio"] = "TBOI, CAN YOU STOP POSTING THIS SAME ANIME GIRL IN GENERAL FOR 5 MINUTES?!",
 			},
 		},
 		["Token"] = true,
