@@ -9031,6 +9031,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["ScareAndCrow"] = {
 		["Id"] = 3238128404,
 		["Name"] = "Scare & Crow",
+		["AltCards"] = {
+			["ScareAndCrow-Alt"] = {
+				["Id"] = 6055864289,
+				["AltArt"] = true,
+			},
+		},
 		["CopyBodge"] = "ScareAndCrow",
 		["Health"] = 400,
 		["Power"] = 500,
@@ -9048,6 +9054,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["ObamaXJesus"] = {
 				["Id"] = 5780957007,
 				["Name"] = "ObamaXJesus",
+				["AltArt"] = true,
 				["Bio"] = "Thanks, Obama. This card is an alternate art of Doomed Adventurer.",
 			},
 		},
@@ -9080,6 +9087,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Steve, The Explorer"] = {
 				["Id"] = 5832426559,
 				["Name"] = "Steve, the Explorer",
+				["AltArt"] = true,
 				["Bio"] = "This card is an alternate art of Wrath of Azure.",
 			},
 		},
