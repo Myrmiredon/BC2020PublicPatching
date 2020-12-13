@@ -735,7 +735,7 @@ local ultpower = {
 	},
 	
 	["Bucket of Bees"] = {
-		["Id"] = 6022509994,
+		["Id"] = 6022509989,
 		["Name"] = "Bucket of Bees",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -1138,8 +1138,7 @@ local ultpower = {
 		["Power"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Color"] = "Blue",
-		["Archetype"] = "Ninja",		
+		["Color"] = "Blue",		
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Tranquilize",
@@ -1486,7 +1485,7 @@ local ultpower = {
 	
 	
 	["Aether Traitor"] = {
-		["Id"] = 6030780962,
+		["Id"] = 6030780956,
 		["Name"] = "Aether Traitor",
 		["Health"] = 750,
 		["Power"] = 300,
@@ -4030,7 +4029,7 @@ local ultpower = {
 	},
 	
 	["Alpha Brick's Bestowment"] = {
-		["Id"] = 6031702742,
+		["Id"] = 6031702728,
 		["Name"] = "Alpha Brick's Bestowment",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -4208,7 +4207,7 @@ local ultpower = {
 	},
 	
 	["214Brazy"] = {
-		["Id"] = 6030778076,
+		["Id"] = 6030778072,
 		["Name"] = "214Brazy",
 		["Health"] = 600,
 		["Power"] = 400,
