@@ -3016,6 +3016,7 @@ local twentyeleveneighteen = {
 			["Luminarus"] = {
 				["Id"] = 5832405808,
 				["Name"] = "Luminarus",
+				["AltArt"] = true,
 				["Bio"] = "This card is an alternate art of Western Bandit.",
 			},
 		},
