@@ -427,7 +427,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["Infinity Cannon"] = {
-		["Id"] = 4974015745,
+		["Id"] = 6072037795,
 		["Name"] = "Infinite Cannonballs",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -447,7 +447,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Infinite Wishes"] = {
-		["Id"] = 5610628480,
+		["Id"] = 6063582087,
 		["Name"] = "Infinite Wishes",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -1251,7 +1251,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["ClanDrone"] = {
-		["Id"] = 3238113306,
+		["Id"] = 6020842063,
 		["Name"] = "ClanDrone",
 		["Health"] = 600,
 		["Power"] = 600,
@@ -1745,7 +1745,7 @@ local twentyeleveneighteen = {
 	},			
 
 	["Bearded Captain"] = {
-		["Id"] = 3238115043,
+		["Id"] = 5942332501,
 		["Name"] = "Ezebel, Pirate Queen",
 		["CopyBodge"] = "Bearded Captain",
 		["Health"] = 400,
@@ -2149,7 +2149,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Regular_Show"] = {
-		["Id"] = 959854495,
+		["Id"] = 6081334680,
 		["Name"] = "Regular_Show",
 		["Health"] = 800,
 		["Power"] = 800,
@@ -2228,7 +2228,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["HungryBloxBoy"] = {
-		["Id"] = 4536836771,
+		["Id"] = 6022472013,
 		["Name"] = "HungryBloxBoy",
 		["Health"] = 300,
 		["Power"] = 400,
