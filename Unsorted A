@@ -7323,7 +7323,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "Whenever your opponent's fighters target a card, deal 200 damage to all enemy fighters.",
+			Description = "Whenever your opponent targets a card: deal 200 damage to all enemy fighters.",
 			["Type"] = "OnEnemyTarget",
 			["Power"] = {{"Damage",200}},
 			Target = "Opponent",
