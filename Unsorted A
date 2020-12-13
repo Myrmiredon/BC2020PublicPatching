@@ -678,7 +678,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Mike"] = {
-		["Id"] = 275340266,
+		["Id"] = 6055867990,
 		["Name"] = "Mike",
 		["Health"] = 2000,
 		["Power"] = 200,
@@ -1643,7 +1643,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["JackinatorMG"] = {
-		["Id"] = 6030860265,
+		["Id"] = 6030860262,
 		["Name"] = "JackinatorMG",
 		["AltCards"] = {
 			["JackinatorMG-C"] = {
@@ -2051,7 +2051,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["PowerCat123"] = {
-		["Id"] = 288040922,
+		["Id"] = 6062521181,
 		["Name"] = "PowerCat123",
 		["Health"] = 400,
 		["Power"] = 800,
@@ -2520,7 +2520,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 
 	["Soul Release"] = {
-		["Id"] = 6030773965,
+		["Id"] = 6030773961,
 		["Name"] = "Soul Release",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2530,9 +2530,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 5,},
 		["Effect"] = {
 			Name = "Soul Release",
-			Description = "Set the power of a target fighter to 0. You gain 2000 life.",
+			Description = "Set the power of a target fighter to 0. You gain 1000 life.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetPower",0},{"Cost",-2000}},
+			["Power"] = {{"SetPower",0},{"Cost",-1000}},
 			Target = "Single",	
 		},
 		["Bio"] = "BEGONE! FOUL SPIRIT!",
@@ -2614,7 +2614,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["DrKig"] = {
-		["Id"] = 6030803128,
+		["Id"] = 6030803126,
 		["Name"] = "DrKig",
 		["AltCards"] = {
 			["Unc, the Fourth Match Flame"] = {
@@ -4148,7 +4148,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Inferno!"] = {
-		["Id"] = 326637273,
+		["Id"] = 6062521617,
 		["Name"] = "Inferno!",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -4160,9 +4160,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Requirement"] = {"Playertable","Me",1,9999,"Actions"},
 		["Effect"] = {
 			Name = "Board Clear!",
-			Description = "Cast only if you've cast an action since your last end step. Deal 500 damage to all fighters.",
+			Description = "Cast only if you've cast an action since your last end step. Deal 600 damage to all fighters.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",500}},
+			["Power"] = {{"Damage",600}},
 			Target = "All",		
 		},
 	},
@@ -4187,7 +4187,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Plushie Panda"] = {
-		["Id"] = 5939013962,
+		["Id"] = 5939013952,
 		["Name"] = "IronInforcer",
 		["Health"] = 150,
 		["Power"] = 150,
@@ -4875,7 +4875,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Headless Horseman"] = {
-		["Id"] = 6030792016,
+		["Id"] = 6030792014,
 		["Name"] = "Headless Horseman",
 		["AltCards"] = {
 			["FreckledTurtle"] = {
@@ -4887,20 +4887,20 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			},
 		},
 		["Health"] = 500,
-		["Power"] = 400,
+		["Power"] = 500,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "When this card is cast, if you have 2000 or less life: Your opponent loses 400 life.",
+			Description = "When this card is cast, if you have 2000 or less life: Your opponent loses 500 life.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Inflict",400}},
+			["Power"] = {{"Inflict",500}},
 			["EffectRequirement"] = {"Playertable", "Me", 0, 2001, "Life"},
 			Target = "Opponent",
 		},
-		["Bio"] = "Your laws, much like your bones, were made to be broken.",
+		["Bio"] = [["Wandering around the Ruins of Bloxburg for victims, they truly are enigmatic specimens. Try not to alert these fiends." - David Crissbach]],
 	},
 	
 	["Ignis Knight"] = {
@@ -5383,7 +5383,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["LeTruth"] = {
-		["Id"] = 585558515,
+		["Id"] = 6073521998,
 		["Name"] = "LeTruth",
 		["Health"] = 250,
 		["Power"] = 250,
@@ -5556,7 +5556,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["RaveTea"] = {
-		["Id"] = 626083911,
+		["Id"] = 6079948234,
 		["Name"] = "RaveTea",
 		["AltCards"] = {
 			["RaveTea-ArtV"] = {
@@ -5601,7 +5601,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["RaveTea Token"] = {
-		["Id"] = 626083911,
+		["Id"] = 6079948234,
 		["Name"] = "RaveTea",
 		["AltCards"] = {
 			["RaveTea Token-ArtV"] = {
@@ -5891,7 +5891,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	}, 
 	
 	["Kariu"] = {
-		["Id"] = 6030768928,
+		["Id"] = 6030768926,
 		["Name"] = "Kariu",
 		["AltCards"] = {
 			["Kariu-ArtV"] = {
@@ -6439,7 +6439,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Shaylan007"] = {
-		["Id"] = 712738238,
+		["Id"] = 6079870961,
 		["Name"] = "Shaylan007",
 		["AltCards"] = {
 			["Shaylan007-Alt"] = {
@@ -6448,20 +6448,20 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Bio"] = "He's green, he's mean, he's- wait where did he go?",
 			},
 		},
-		["Health"] = 400,
-		["Power"] = 400,
+		["Health"] = 350,
+		["Power"] = 350,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green", 
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "befriending of scaly mutts",
-			Description = "Whenever you target a fighter: This card gains 100 health and power.",
+			Description = "Whenever you target a fighter: This card gains 150 health and power.",
 			["Type"] = "OnAllyTarget",
-			["Power"] = {{"Heal",100},{"Strengthen",100}},
+			["Power"] = {{"Heal",150},{"Strengthen",150}},
 			Target = "Self",
 		},
-		["Bio"] = [[His hoverboard is fuelled with the souls of the dead.]],
+		["Bio"] = [[Creator and Owner of Phantom Forces. He now builds cuckoo houses leisurely.]],
 	},
 	
 	["Indoorsnowball"] = {
@@ -6947,7 +6947,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Regular_Talkshow"] = {
-		["Id"] = 6030859125,
+		["Id"] = 6030859124,
 		["Name"] = "Regular_Talkshow",
 		["Health"] = 800,
 		["Power"] = 200,
@@ -7274,7 +7274,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Lord of Auctions"] = {
-		["Id"] = 6030868252,
+		["Id"] = 6030868250,
 		["Name"] = "Lord of Auctions",
 		["Health"] = 500,
 		["Power"] = 500,
@@ -7293,7 +7293,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Superland6"] = {
-		["Id"] = 1003361089,
+		["Id"] = 6073520205,
 		["Name"] = "Superland6",
 		["Health"] = 800,
 		["Power"] = 800,	
@@ -7303,8 +7303,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 6,},
 		["Effect"] = {
 			Name = "BLEU",
-			Description = "Whenever you cast a fighter, if you have 11 Green studs, they gain 300 Health and Power.",
-			["EffectRequirement"] = {"Playertable", "Me", 11, 9999, "IconsGreen"},
+			Description = "Whenever you cast a fighter, if you have 9 Green studs, they gain 300 Health and Power.",
+			["EffectRequirement"] = {"Playertable", "Me", 9, 9999, "IconsGreen"},
 			["Type"] = "OnAllySummon",
 			["Power"] = {{"Heal",300,"Aggressor"},{"Strengthen",300,"Aggressor"}},
 			Target = "Aggressor",
@@ -7323,10 +7323,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Render",
-			Description = "Whenever your opponent's fighters target a card, deal 250 damage to that fighter.",
+			Description = "Whenever your opponent's fighters target a card, deal 200 damage to all enemy fighters.",
 			["Type"] = "OnEnemyTarget",
-			["Power"] = {{"Damage",250}},
-			Target = "Aggressor",
+			["Power"] = {{"Damage",200}},
+			Target = "Opponent",
 		},
 		["Bio"] = "This effect is really inconvenient.",
 	},
@@ -8188,7 +8188,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 			["EffectRequirement"] = {"Playertable","Me",2,3,"DiscardCount"},
 		},
-		["Bio"] = "Her computer will be cleansed of malware.",
+		["Bio"] = "His computer will be cleansed of malware.",
 	},
 	
 	-- ["DunclubDuncan Token"] = {
@@ -8534,7 +8534,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
 		["Cost"] = {["Blue"] = 2,}, 
-		["Bio"] = "The only creature that can resist me is Sword Critic.",
+		["Bio"] = "The only creature that can resist me is David Crissbach.",
 	},
 	
 	["ianmossaboss"] = {
@@ -8585,7 +8585,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["SmashDude88"] = {
-		["Id"] = 6030796734,
+		["Id"] = 6030796731,
 		["Name"] = "SmashDude88",
 		["Health"] = 600,
 		["Power"] = 300,
@@ -9009,7 +9009,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Corrupt SoulSearch"] = {
-		["Id"] = 6031514262,
+		["Id"] = 6031514256,
 		["Name"] = "Beebo",
 		["Health"] = 250,
 		["Power"] = 250,
@@ -9025,7 +9025,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			--["EffectRequirement"] = {"Turns","Ally",0,7},
 			Target = "All",
 		},
-		["Bio"] = "Don't let his appearance fool you. He is capable of destroying the sun with his own powers.",	
+		["Bio"] = "Destroy the sun!",	
 	},
 	
 	["ScareAndCrow"] = {
