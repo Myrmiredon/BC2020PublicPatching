@@ -765,6 +765,7 @@ local beckoned = {
 			["Lucina_Lowell"] = {
 				["Id"] = 5832404460,
 				["Name"] = "Lucina_Lowell",
+				["AltArt"] = true,
 				["CopyBodge"] = "Lucina_Lowell",
 				["Summonant"] = "Lucina_LowellY",
 				["Bio"] = "Leader of the Anti Zero Twos, and hitman for hire. Got annoying pink haired dinosaur anime girls you need to deal with? Give him a call. This card is an alternate art of Hedonist Acolyte."
