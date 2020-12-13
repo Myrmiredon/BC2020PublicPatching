@@ -2621,7 +2621,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Unc, the Fourth Match Flame",
 				["Id"] = 5832435619,
 				["AltArt"] = true,
-				["Bio"] = "This card is an alternate art of DrKig.",
+				["Bio"] = "I am coming to you. You foul creatures, who will be reduced to ash like me. This card is an alternate art of DrKig.",
 			},
 		},
 		["Health"] = 800,
