@@ -1148,7 +1148,6 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			},
 			["Stalker-Chan"] = {
 				["Id"] = 5832431339,
-				["AltArt"] = true,
 				["Name"] = "Stalker-Chan",
 				["Bio"] = "A true senpai makes lesser girlfriends hunted instead of hunters.",
 			},									
