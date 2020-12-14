@@ -2173,10 +2173,10 @@ local twentyeleveneighteen = {
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
-		
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1,["Red"] = 4,},
+		["Archetype"] = "Lunar",
 		["Effect"] = {
 			Name = "Power",
 			Description = "All allied fighters gain 300 power.",
