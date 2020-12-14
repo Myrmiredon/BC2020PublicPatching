@@ -4863,10 +4863,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 1,},
-		["Archetype"] = "Lunar",
+		["Stealth"] = true,
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "All allied fighters gain 300 power. End the turn.",
+			Description = "Stealth. All allied fighters gain 300 power. End the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",300},{"EndTurn",1}},
 			Target = "Ally",
