@@ -3116,7 +3116,7 @@ local ultpower = {
 	},	
 	
 	["Mount Xargasdon"] = {
-		["Id"] = 5648791506,
+		["Id"] = 6092090353,
 		["Name"] = "Mount Xargasdon",
 		["Health"] = 0,
 		["Power"] = 0,
