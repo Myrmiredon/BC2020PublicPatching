@@ -1114,7 +1114,7 @@ local beckoned = {
 	},
 	
 	["Shedletsky, the Raging Pulse"] = {
-		["Id"] = 670716442,
+		["Id"] = 6094196409,
 		["Name"] = "Shedletsky, the Raging Pulse",
 		["Health"] = 900,
 		["Power"] = 400,
