@@ -1782,7 +1782,7 @@ local twentyeleveneighteen = {
 				["Bio"] = "Matt and his father, david.baszucki. Happy Father's Day 2020!",
 			},
 		},
-		["Health"] = 1500,
+		["Health"] = 1600,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Red"},
@@ -1958,7 +1958,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["TheSteelEagle"] = {
-		["Id"] = 6030852442,
+		["Id"] = 6030852435,
 		["Name"] = "TheSteelEagle",
 		["Health"] = 1200,
 		["Power"] = 400,
@@ -2209,7 +2209,7 @@ local twentyeleveneighteen = {
 	["Razuatix"] = {
 		["Id"] = 4899433466,
 		["Name"] = "Razuatix",
-		["Health"] = 1500,
+		["Health"] = 1200,
 		["Power"] = 200,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -2269,7 +2269,7 @@ local twentyeleveneighteen = {
 	["BlueShadic90"] = {
 		["Id"] = 3299959656,
 		["Name"] = "BlueShadic90",
-		["Health"] = 300,
+		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -2899,7 +2899,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["NearMiss TFW"] = {
-		["Id"] = 6030856773,
+		["Id"] = 6030856769,
 		["Name"] = "NearMiss TFW",
 		["Health"] = 1000,
 		["Power"] = 200,
