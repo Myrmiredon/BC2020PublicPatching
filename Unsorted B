@@ -23,7 +23,7 @@ local twentyeleveneighteen = {
 	["Plushie Santa"] = {
 		["Id"] = 497626930,
 		["Name"] = "Plushie Santa",
-		["Health"] = 700,
+		["Health"] = 800,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -141,8 +141,8 @@ local twentyeleveneighteen = {
 	["MrDoombringer"] = {
 		["Id"] = 4710282694,
 		["Name"] = "MrDoombringer",
-		["Health"] = 500,
-		["Power"] = 800,
+		["Health"] = 650,
+		["Power"] = 750,
 		["Rarity"] = "Epic",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
@@ -516,9 +516,9 @@ local twentyeleveneighteen = {
 				["Id"] = 5698330301,
 				["Effect"] = {
 					Name = "Infinite Frost",
-					Description = "Stealth. A target fighter gains 100 Health and 50 Power. Give yourself a copy of this card.",
+					Description = "Stealth. A target fighter gains 50 Health and 50 Power. Give yourself a copy of this card.",
 					["Type"] = "OnSummon",
-					["Power"] = {{"Strengthen",50},{"Heal",100},{"Add","Infinity Chicken-Art","Ally"}},
+					["Power"] = {{"Strengthen",50},{"Heal",50},{"Add","Infinity Chicken-Art","Ally"}},
 					Target = "Single",
 				},
 				["Bio"] = "This... This will change everything...! FIIIIINAL CHIIIIIIIIIIIIICKEN!!!",
@@ -533,16 +533,16 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Infinite Frost",
-			Description = "Stealth. A target fighter gains 100 Health and 50 Power. Give yourself a copy of this card.",
+			Description = "Stealth. A target fighter gains 50 Health and 50 Power. Give yourself a copy of this card.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Strengthen",50},{"Heal",100},{"Add","Infinite Chicken","Ally"}},
+			["Power"] = {{"Strengthen",50},{"Heal",50},{"Add","Infinite Chicken","Ally"}},
 			Target = "Single",
 		},
 		["Bio"] = "Don't ask why the Grand Chicken Lord has so many chicken legs.",
 	},	
 	
 	["Myrmiredon"] = {
-		["Id"] = 6030866494,
+		["Id"] = 6030866490,
 		["Name"] = "Myrmiredon",
 		["AltCards"] = {
 			["MyrmiredonV2"] = {
@@ -612,7 +612,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["ReverseBackwards"] = {
-		["Id"] = 1924206934,
+		["Id"] = 6079868901,
 		["Name"] = "ReverseBackwards",
 		["AltCards"] = {
 			["ReverseBackwards-E"] = {
@@ -626,7 +626,7 @@ local twentyeleveneighteen = {
 				["Bio"] = "This card is an alternate art of ReverseBackwards.",
 			},
 		},
-		["Health"] = 700,
+		["Health"] = 750,
 		["Power"] = 750,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -639,7 +639,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"Swap",100000}},
 			Target = "Target",
 		},
-		["Bio"] = "Also known as Esrever.",
+		["Bio"] = "Also known as Esrever. He judges mortals with his omnipotent 8 ball.",
 	},	
 	
 	["mickymack"] = {
@@ -691,7 +691,7 @@ local twentyeleveneighteen = {
 				["Bio"] = "I just had a horrible nightmare where I looked objectively worse than my regular art!",
 			},
 		},
-		["Health"] = 600,
+		["Health"] = 650,
 		["Power"] = 300,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -727,7 +727,7 @@ local twentyeleveneighteen = {
 	},			
 	
 	["MLGSPONGE"] = {
-		["Id"] = 362315269,
+		["Id"] = 6073711987,
 		["Name"] = "MLGSPONGE",
 		["Health"] = 200,
 		["Power"] = 400,
@@ -743,7 +743,7 @@ local twentyeleveneighteen = {
 			Target = "Single",
 			Increase = 200
 		},
-		["Bio"] = "Major League Gaming. Breaking the colour pie since this card was added.",
+		["Bio"] = "Major League Gaming. Brandishing his survival knife since the Great Robloxian War.",
 	},		
 	
 	["wer8888"] = {
@@ -1418,7 +1418,7 @@ local twentyeleveneighteen = {
 	},	
 
 	["Aife"] = {
-		["Id"] = 435895197,
+		["Id"] = 6055781307,
 		["Name"] = "Aife",
 		["AltCards"] = {
 			["Aife-ArtV"] = {
@@ -1434,10 +1434,10 @@ local twentyeleveneighteen = {
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 4,["Red"] = 7,},
 		["AlternateCost"] = {["Neutral"] = 4,},
-		["AlternateCostRequirement"] = {"Color","AllyGenZone",10,9999,"Red"},
+		["AlternateCostRequirement"] = {"Color","AllyGenZone",8,9999,"Red"},
 		["Effect"] = {
 			Name = "Power Up",
-			Description = "If there are 10 Red cards in your baseplate, cast this card ignoring its Red cost.",
+			Description = "If there are 8 Red cards in your baseplate, cast this card ignoring its Red cost.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",0}},
 			Target = "Ally",
@@ -1532,8 +1532,8 @@ local twentyeleveneighteen = {
 				["Bio"] = "IcyTea, make me an alt art now!",
 			},
 		},
-		["Health"] = 500,
-		["Power"] = 600,
+		["Health"] = 600,
+		["Power"] = 500,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Neutral",
@@ -1552,8 +1552,8 @@ local twentyeleveneighteen = {
 	["Materking"] = {
 		["Id"] = 5122954371,
 		["Name"] = "Materking",
-		["Health"] = 600,
-		["Power"] = 600,
+		["Health"] = 500,
+		["Power"] = 500,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
@@ -1573,7 +1573,7 @@ local twentyeleveneighteen = {
 		["Name"] = "MuPower",
 		["AltCards"] = {
 			["Steve, the Birthday Boy"] = {
-				["Id"] = 5961955057,
+				["Id"] = 5961955053,
 				["Name"] = "Steve, the Birthday Boy",
 				["AltArt"] = true,
 				["Bio"] = "Have a slice of cake. Go on, Cheeky also wants you to. This card is an alt-art of MuPower.",
@@ -1598,8 +1598,8 @@ local twentyeleveneighteen = {
 	["One BLOX Man"] = {
 		["Id"] = 4720340026,
 		["Name"] = "One BLOX Man",
-		["Health"] = 1500,
-		["Power"] = 500,
+		["Health"] = 1200,
+		["Power"] = 400,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
@@ -1619,8 +1619,8 @@ local twentyeleveneighteen = {
 	["Rockybow"] = {
 		["Id"] = 411809893,
 		["Name"] = "Rockybow",
-		["Health"] = 1000,
-		["Power"] = 800,
+		["Health"] = 900,
+		["Power"] = 900,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
@@ -1683,8 +1683,8 @@ local twentyeleveneighteen = {
 	["LordVasco"] = {
 		["Id"] = 4934311242,
 		["Name"] = "LordVasco",
-		["Health"] = 1400,
-		["Power"] = 0,
+		["Health"] = 1200,
+		["Power"] = 200,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
@@ -2040,7 +2040,7 @@ local twentyeleveneighteen = {
 	["Scripter"] = {
 		["Id"] = 5679411530,
 		["Name"] = "Scripter",
-		["Health"] = 1500,
+		["Health"] = 1600,
 		["Power"] = 100,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "White"},
@@ -2048,9 +2048,9 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 8,},
 		["Effect"] = {
 			Name = "SCRIPTING PARTY",
-			Description = "When this card dies: Give yourself four Blue or Red action cards.",
+			Description = "When this card dies: Give yourself five Blue or Red action cards.",
 			["Type"] = "OnDeath",
-			["Power"] = {{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"}},
+			["Power"] = {{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"},{"RandomAdd","Lunar"}},
 			Target = "Ally",
 		},
 		["Bio"] = "The power to create new worlds is inside us all, but only the most dedicated can wield it.",
@@ -2131,7 +2131,7 @@ local twentyeleveneighteen = {
 	["Dodgeball Player Blue"] = {
 		["Id"] = 3238114497,
 		["Name"] = "Dodgeball Player Blue",
-		["Health"] = 500,
+		["Health"] = 600,
 		["Power"] = 200,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Blue"},
@@ -2819,13 +2819,6 @@ local twentyeleveneighteen = {
 	["KurosakiDXenos"] = {
 		["Id"] = 5178411734,
 		["Name"] = "KurosakiDXenos",
-		["AltCards"] = {
-			 ["log4nb43"] = {
-				["Id"] = 4782966934,
-				["Name"] = "log4nb43",
-				["Bio"] = "Face my true self! This card is an alternate art of KurosakiDXenos.",
-			},
-		},
 		["Health"] = 700,
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
@@ -2843,9 +2836,9 @@ local twentyeleveneighteen = {
 	},
 	
 	["Brymmy"] = {
-		["Id"] = 6030836161,
+		["Id"] = 6030836153,
 		["Name"] = "Brymmy",
-		["Health"] = 1000,
+		["Health"] = 900,
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
@@ -2945,7 +2938,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["SaxoAttack"] = {
-		["Id"] = 6030816658,
+		["Id"] = 6030816641,
 		["Name"] = "SaxoAttack",
 		["Health"] = 800,
 		["Power"] = 800,
@@ -3046,7 +3039,7 @@ local twentyeleveneighteen = {
 				["Bio"] = "The warmth of Summer is not sweet without bitter Winter.",
 			},
 		},
-		["Health"] = 850,
+		["Health"] = 900,
 		["Power"] = 200,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
@@ -3066,19 +3059,12 @@ local twentyeleveneighteen = {
 	["MUTO2014"] = {
 		["Id"] = 682136636,
 		["Name"] = "MUTO2014",
-		["Health"] = 600,
-		["Power"] = 600,
+		["Health"] = 650,
+		["Power"] = 650,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 2, ["Red"] = 2,},
-		["Effect"] = {
-			Name = "Capture",
-			Description = "When this card is cast: Shuffle a Fractal into your deck.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"DeckAdd","Fractal"}},
-			Target = "Ally",
-		},
 		["Bio"] = "HEY GUYS! Costume Quest 2's just come out!",
 	},
 	
@@ -3368,9 +3354,9 @@ local twentyeleveneighteen = {
 	},
 	
 	["JaikKaik"] = {
-		["Id"] = 6030776877,
+		["Id"] = 6030776874,
 		["Name"] = "JaikKaik",
-		["Health"] = 3500,
+		["Health"] = 3000,
 		["Power"] = 0,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -3415,7 +3401,7 @@ local twentyeleveneighteen = {
 	["Mariochocolatemilk"] = {
 		["Id"] = 473309022,
 		["Name"] = "Mariochocolatemilk",
-		["Health"] = 750,
+		["Health"] = 800,
 		["Power"] = 200,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
@@ -3423,9 +3409,9 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 1, ["Green"] = 5,},
 		["Effect"] = {
 			Name = "Alien Probe",
-			Description = "During your end step: Set the stats of all allied fighters to 750/200. Reveal your opponent's hand.",
+			Description = "During your end step: Set the stats of all allied fighters to 800/200. Reveal your opponent's hand.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"SetHealth",750},{"SetPower",200},{"RevealHand",999,"Opponent"}},
+			["Power"] = {{"SetHealth",800},{"SetPower",200},{"RevealHand",999,"Opponent"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Digital Style!",
@@ -3435,7 +3421,7 @@ local twentyeleveneighteen = {
 		["Id"] = 4866821750,
 		["Name"] = "Ace_Beastin",
 		["CopyBodge"] = "Aceguy100",
-		["Health"] = 700,
+		["Health"] = 800,
 		["Power"] = 200,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
@@ -3742,7 +3728,7 @@ local twentyeleveneighteen = {
 	["B0BBA"] = {
 		["Id"] = 5485359762,
 		["Name"] = "B0BBA",
-		["Health"] = 500,
+		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
@@ -3782,7 +3768,7 @@ local twentyeleveneighteen = {
 	["Stevenl15"] = {
 		["Id"] = 491539513,
 		["Name"] = "Stevenl15",
-		["Health"] = 300,
+		["Health"] = 500,
 		["Power"] = 200,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
@@ -3982,8 +3968,8 @@ local twentyeleveneighteen = {
 	["Divine_Pengu"] = {
 		["Id"] = 3299963958,
 		["Name"] = "Divine_Pengu",
-		["Health"] = 1450,
-		["Power"] = 300,
+		["Health"] = 1400,
+		["Power"] = 200,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
@@ -4186,7 +4172,7 @@ local twentyeleveneighteen = {
 	},
 
 	["ReeseMcBlox"] = {
-		["Id"] = 892549472,
+		["Id"] = 6055866108,
 		["Name"] = "ReeseMcBlox",
  		["Health"] = 500,
  		["Power"] = 500,
@@ -4343,9 +4329,9 @@ local twentyeleveneighteen = {
 		["TransformImmune"] = true,
 		["Effect"] = {
 			Name = "derp",
-			Description = "Effects can't transform this card. Whenever this card destroys another: It deals 200 damage to itself. You lose 600 Life.",
+			Description = "Effects can't transform this card. Whenever this card destroys another: It loses 300 Power. You lose 600 Life.",
 			["Type"] = "OnDestroy",
-			["Power"] = {{"Cost",600},{"Damage",200}},
+			["Power"] = {{"Cost",600},{"Weaken",300}},
 			Target = "Self",
 		},
 		["Bio"] = "TOO... MUCH... SAUCE... MUST... SLAY THE POGGERS...",
@@ -4355,7 +4341,7 @@ local twentyeleveneighteen = {
 		["Id"] = 3164500760,
 		["Name"] = "Terra Warrior",
 		["CopyBodge"] = "Classy Bear",
-		["Health"] = 650,
+		["Health"] = 600,
 		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Slash",
@@ -4447,8 +4433,8 @@ local twentyeleveneighteen = {
 	["NullSenseStudio"] = {
 		["Id"] = 5079319917,
 		["Name"] = "NullSenseStudio",
-		["Health"] = 500,
-		["Power"] = 500,
+		["Health"] = 550,
+		["Power"] = 550,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
@@ -4456,9 +4442,9 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Red"] = 3,["Neutral"] = 3},
 		["Effect"] = {
 			Name = "Sandbox",
-			Description = "Stealth. Whenever you cast another fighter: it gains 500 Power. This ability triggers only once.",
+			Description = "Stealth. Whenever you cast another fighter: it gains 550 Power. This ability triggers only once.",
 			["Type"] = "OnAllySummon",
-			["Power"] = {{"Strengthen",500,"Aggressor"},{"TransformWithRarity","NullToken","Self"}},
+			["Power"] = {{"Strengthen",550,"Aggressor"},{"TransformWithRarity","NullToken","Self"}},
 			Target = "Ally",
 		},
 		["Bio"] = "As a kid he played in the sandbox. As an adult he created the sandbox.",
@@ -4468,8 +4454,8 @@ local twentyeleveneighteen = {
 		["Id"] = 5078935504,
 		["Name"] = "NullSenseStudio",
 		["CopyBodge"] = "NullToken",
-		["Health"] = 500,
-		["Power"] = 500,
+		["Health"] = 550,
+		["Power"] = 550,
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
@@ -4546,7 +4532,7 @@ local twentyeleveneighteen = {
 			
 		},
 		["Health"] = 500,
-		["Power"] = 500,
+		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
@@ -4801,7 +4787,7 @@ local twentyeleveneighteen = {
 			},
 		},
 		["Health"] = 1100,
-		["Power"] = 500,
+		["Power"] = 550,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Gun",
 		["Color"] = "Yellow",
