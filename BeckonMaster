@@ -1509,7 +1509,7 @@ local beckoned = {
 	------------------------
 	
 	["CIA Man"] = { 
-		["Id"] = 4999514891,
+		["Id"] = 6031618585,
 		["Name"] = "Diddleshot",
 		["CopyBodge"] = "CIA Man",
 		["Health"] = 400,
