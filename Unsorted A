@@ -5870,7 +5870,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Javier Killer"] = {
-		["Id"] = 4918499526,
+		["Id"] = 6022470930,
 		["Name"] = "xXJavier_killer1xX",
 		["CopyBodge"] = "Javier Killer",
 		["Health"] = 500,
