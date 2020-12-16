@@ -1031,7 +1031,7 @@ local Strife = {
 				["Bio"] = "You just dared him. Prepare for his head.",
 			},
 		},
-		["Health"] = 700,
+		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -1166,7 +1166,7 @@ local Strife = {
 	["BlueTaslem"] = {
 		["Id"] = 3299959331,
 		["Name"] = "BlueTaslem",
-		["Health"] = 500,
+		["Health"] = 450,
 		["Power"] = 450,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -1221,8 +1221,8 @@ local Strife = {
 				["Bio"] = "FEEL MY PAPER WRATH!",
 			},
 		},
-		["Health"] = 1100,
-		["Power"] = 600,
+		["Health"] = 1000,
+		["Power"] = 400,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
@@ -1627,7 +1627,7 @@ local Strife = {
 			},
 		},
 		["Health"] = 300,
-		["Power"] = 700,
+		["Power"] = 600,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
@@ -1646,8 +1646,8 @@ local Strife = {
 	["Grim Reaper"] = {
 		["Id"] = 4815668190,
 		["Name"] = "Firebrand1",
-		["Health"] = 800,
-		["Power"] = 450,
+		["Health"] = 900,
+		["Power"] = 500,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
@@ -1953,7 +1953,7 @@ local Strife = {
 	},
 
 	["Brycen27"] = {
-		["Id"] = 6030848646,
+		["Id"] = 6030848643,
 		["Name"] = "Brycen27",
 		["AltCards"] = {
 			["TheBrycen27"] = {
@@ -2121,8 +2121,8 @@ local Strife = {
 				["Bio"] = "She doesn’t work here. She’s smiling ‘cause she’s stealing.",
 			},
 		},
-		["Health"] = 500,
-		["Power"] = 0,
+		["Health"] = 600,
+		["Power"] = 150,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
@@ -2253,7 +2253,7 @@ local Strife = {
 	["KasoduS"] = {
 		["Id"] = 4536838054,
 		["Name"] = "KasoduS",
-		["Health"] = 100,
+		["Health"] = 150,
 		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -2570,7 +2570,6 @@ local Strife = {
 		["Health"] = 700,
 		["Power"] = 0,
 		["Rarity"] = "Rare",
-
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3,["Yellow"] = 1},
@@ -2618,7 +2617,7 @@ local Strife = {
 	["ChildofGiotto"] = {
 		["Id"] = 5832343506,
 		["Name"] = "ChildofGiotto",
-		["Health"] = 50,
+		["Health"] = 100,
 		["Power"] = 200,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Hammer",
@@ -2721,8 +2720,8 @@ local Strife = {
 	["Gusmanak"] = {
 		["Id"] = 3611610920,
 		["Name"] = "Gusmanak",
-		["Health"] = 1000,
-		["Power"] = 300,
+		["Health"] = 800,
+		["Power"] = 400,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
@@ -2754,10 +2753,10 @@ local Strife = {
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 0,},
-		["Requirement"] = {"Board", "Ally", 3, 9999},
+		["Requirement"] = {"Board", "Ally", 2, 9999},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Cast only if you control 3 fighters. You gain two Colourless studs.",
+			Description = "Cast only if you control 2 fighters. You gain two Colourless studs.",
 			["Type"] = "OnSummon",
 			["Power"] = "Neutral",
 			Target = "Ally",
@@ -2767,7 +2766,7 @@ local Strife = {
 	},
 
 	["Alpha Brick's Agony"] = {
-		["Id"] = 6031003419,
+		["Id"] = 6031003416,
 		["Name"] = "Alpha Brick's Agony",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -2801,7 +2800,7 @@ local Strife = {
 			["Power"] = {{"Strengthen",250,"Single"}},
 			Target = "All",
 		},
-		["Bio"] = "4 R$ for a candy bar?? Who thought this was a good idea?!?",
+		["Bio"] = "ROBLOXIANs eat these in a pinch for a power boost. Delicious!",
 	},
 
 }
