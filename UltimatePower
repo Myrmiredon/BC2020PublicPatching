@@ -3332,7 +3332,7 @@ local ultpower = {
 		["Name"] = "Dued1",
 		["AltCards"] = {
 			["Dued1-E"] = {
-				["Id"] = 1567572187,
+				["Id"] = 6026388938,
 				["CopyBodge"] = "Dued1-E",
 				["Bio"] = "Stop bickering about pineapple on pizza. We have to face the greater evil: Eggs on pizza.",
 			},
