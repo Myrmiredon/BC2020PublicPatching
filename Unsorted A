@@ -8525,7 +8525,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Emperor Keeler1 Token"] = {
 				["Name"] = "Emperor Keeler1",
 				["CopyBodge"] = "Emperor Keeler1 Token",
-				["Id"] = 5252612138,
+				["Id"] = 6076612930,
 				["Bio"] = "Greatest servant, weakest tyrant. This card is an alt-art of MyCutenessKills.",
 			},
 		},
