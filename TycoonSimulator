@@ -322,7 +322,7 @@ local tycoons = {
 	},	
 	
 	["Police Call Operator"] = {
-		["Id"] = 6030769222,
+		["Id"] = 6030769218,
 		["Name"] = "Police Call Operator",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -1063,10 +1063,10 @@ local tycoons = {
 	},
 	
 	["Sammeh"] = {
-		["Id"] = 6030819423,
+		["Id"] = 6030819420,
 		["Name"] = "MrSammeh",
-		["Power"] = 100,
-		["Health"] = 800,
+		["Power"] = 450,
+		["Health"] = 350,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
@@ -1766,7 +1766,7 @@ local tycoons = {
 	},	
 	
 	["Darklord1506"] = {
-		["Id"] = 6030850803,
+		["Id"] = 6030850801,
 		["Name"] = "Darklord1506",
 		["Health"] = 200,
 		["Power"] = 400,
@@ -1955,9 +1955,9 @@ local tycoons = {
 	},	
 	
 	["The Famous Destruction5033"] = {
-		["Id"] = 6030864931,
+		["Id"] = 6030864926,
 		["Name"] = "The Famous Destruction5033",
-		["Health"] = 1100,
+		["Health"] = 1300,
 		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Pulse",
@@ -1965,9 +1965,9 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 3, ["Blue"] = 5,},
 		["Effect"] = {
 			Name = "FA-FA-FA-FAMOUS",
-			Description = "During your end step: Give each player an Epic card. All Epic fighters gain 100 Health.",
+			Description = "During your end step: Give each player an Epic card.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"RandomAdd","Epic","Ally"},{"RandomAdd","Epic","Opponent"},{"Heal",100,"Epic"}},
+			["Power"] = {{"RandomAdd","Epic","Ally"},{"RandomAdd","Epic","Opponent"}},
 			Target = "Ally",
 		},
 		["Bio"] = "He's the most FAMOUSEST person in Blox Cards ... FAMOUSEST person?",
@@ -2460,7 +2460,7 @@ local tycoons = {
 	},	
 	
 	["Bloxy Announcer"] = {
-		["Id"] = 6030997304,
+		["Id"] = 6030997300,
 		["Name"] = "Bloxy Announcer",
 		["Health"] = 1500,
 		["Power"] = 200,
@@ -2481,19 +2481,19 @@ local tycoons = {
 	},
 		
 	["ThePestilentOne"] = {
-		["Id"] = 6030822570,
+		["Id"] = 6030822564,
 		["Name"] = "ThePestilentOne",
-		["Health"] = 550,
-		["Power"] = 550,
+		["Health"] = 450,
+		["Power"] = 450,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Pulse",
 		["Color"] = "Green",
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Tombstone",
-			Description = "When this card is cast: You gain 550 Life. Give yourself two Targeting Blips.",
+			Description = "When this card is cast: You gain 450 Life. Give yourself two Targeting Blips.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Cost",-550},{"Add","Targeting Blip"},{"Add","Targeting Blip"}},
+			["Power"] = {{"Cost",-450},{"Add","Targeting Blip"},{"Add","Targeting Blip"}},
 			["Target"] = "Ally",
 		},
 		["Bio"] = "ＴＡＰ　ＨＥＲＥ　ＴＯ　ＡＤＤ　ＴＥＸＴ",
@@ -2559,7 +2559,7 @@ local tycoons = {
 	},
 	
 	["PhireFox"] = {
-		["Id"] = 6030798901,
+		["Id"] = 6030798895,
 		["Name"] = "PhireFox",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -3174,9 +3174,9 @@ local tycoons = {
 	},
 	
 	["Friend Request Spammer"] = {
-		["Id"] = 6030820902,
+		["Id"] = 6030820899,
 		["Name"] = "Friend Request Spammer",
-		["Health"] = 350,
+		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
@@ -3194,7 +3194,7 @@ local tycoons = {
 	
 	
 	["CellBloxTango"] = {
-		["Id"] = 6030850525,
+		["Id"] = 6030850522,
 		["Name"] = "CellBloxTango",
 		["Health"] = 700,
 		["Power"] = 550,
