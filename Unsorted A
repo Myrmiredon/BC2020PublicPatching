@@ -5896,7 +5896,6 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AltCards"] = {
 			["Kariu-ArtV"] = {
 				["Id"] = 5573601981,
-				["AltArt"] = true,
 				["CopyBodge"] = "Kariu-ArtV",
 				
 			},
