@@ -3999,7 +3999,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 7, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Cast only if you control two Morphic fighters. All goo fighters lose 800 power. Summon four Morphic Goos.",
+			Description = "Cast only if you control two Morphic fighters. All non-goo fighters lose 800 power. Summon four Morphic Goos.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Weaken",800,"NotArchetype"},{"Summon","Morphic Goo"},{"Summon","Morphic Goo"},{"Summon","Morphic Goo"},{"Summon","Morphic Goo"}},
 			Target = "Ally",
