@@ -2836,7 +2836,7 @@ local tycoons = {
 		["Cost"] = {["Green"] = 5,["Neutral"] = 1,},
 		["Effect"] = {
 			Name = "Disaster",
-			Description = "Whenever this card attacks: It gains 300 health, then deals 100 damage to each fighter for each point of rarity it has. (Commons have 1, Legendaries have 5.)",
+			Description = "Whenever this card finishes attacking: It gains 300 health, then deals 100 damage to each fighter for each point of rarity it has. (Commons have 1, Legendaries have 5.)",
 			["Type"] = "OnAttackEnd",
 			["Power"] = {{"Heal",300,"Self"},{"Damage",100,"Common"},{"Damage",200,"Unommon"},{"Damage",300,"Rare"},{"Damage",400,"Epic"},{"Damage",500,"Legendary"}},
 			Target = "Single",
