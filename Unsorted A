@@ -343,7 +343,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Green"] = 4,},
 		["Effect"] = {
 			Name = "Bribe!",
-			Description = "Whenever this card finishes attacking: Swap the stats of a target fighter.",
+			Description = "After this fighter attacks: Swap the stats of a target fighter.",
 			["Type"] = "OnAttackEnd",
 			["Power"] = {{"Swap",100000}},
 			Target = "Single",
