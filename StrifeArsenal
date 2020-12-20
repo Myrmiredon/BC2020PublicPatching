@@ -2485,7 +2485,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Sudden Death",
-			Description = "Whenever this card finishes attacking: All allied fighters gain 100 health.",
+			Description = "After this fighter attacks: All allied fighters gain 100 health.",
 			["Type"] = "OnAttackEnd",
 			["Power"] = {{"Heal",100}},
 			Target = "Ally",
