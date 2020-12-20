@@ -1232,7 +1232,7 @@ local tycoons = {
 			Target = "Ally",
 			Increase = "LegendaryRed",
 		},
-		["Bio"] = "Ex-owner of the Elite Builders of Robloxia group and a UCG creator, DieSoft is more than capable of bringing this match to an end.",
+		["Bio"] = "Ex-owner of the Elite Builders of Robloxia group and a UGC creator, DieSoft is more than capable of bringing this match to an end.",
 	},
 	
 	["Isaac0333"] = {
