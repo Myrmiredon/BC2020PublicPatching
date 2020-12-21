@@ -973,6 +973,13 @@ local twentyeleveneighteen = {
 	["Fat Cat"] = {
 		["Id"] = 3180108249,
 		["Name"] = "Fat Cat",
+		["AltCards"] = {
+			["Fat Cat-Xmas"] = {
+				["AltArt"] = true,
+				["Id"] = 6107675575,
+				["Bio"] = "He can haz zzz.",
+				},
+			},
 		["Health"] = 1500,
 		["Power"] = 0,
 		["Rarity"] = "Epic",
