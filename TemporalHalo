@@ -347,6 +347,13 @@ local halo = {
 	["The Toothy Deer"] = { 
 		["Id"] = 4899454164,
 		["Name"] = "The Toothy Deer",
+		["AltCards"] = {
+			["The Toothy Deer-Xmas"] = {
+				["Id"] = 6055909974,
+				["AltArt"] = true,
+				["Bio"] = "Me? No no, I'm the Toothy REINdeer! You must be thinking of my cousin.",
+			},
+		},
 		["Health"] = 1300,
 		["Power"] = 300,
 		["Rarity"] =  "Rare",
@@ -1042,6 +1049,13 @@ local halo = {
 	["The Wanwood Dryad"] = { 
 		["Id"] = 5507372185,
 		["Name"] = "The Wanwood Dryad",
+		["AltCards"] = {
+			["The Wanwood Dryad-Xmas"] = {
+				["Id"] = 6116805162,
+				["AltArt"] = true,
+				["Bio"] = "It's not the regrets of the past or the uncertainty of the future that matter most. It's the good we can do today, for all those we care about.",
+			},
+		},
 		["Health"] = 2000,
 		["Power"] = 300,
 		["Rarity"] =  "Legendary", -- Should be legendary
