@@ -2041,6 +2041,14 @@ local Strife = {
 	["TigerCode"] = {
 		["Id"] = 3164501969,
 		["Name"] = "TigerCode",
+		["AltCards"] = {
+			["Neon Rave pwolfe6628"] = {
+				["Name"] = "Neon Rave pwolfe6628",
+				["AltArt"] = true,
+				["Id"] = 6102974029,
+				["Bio"] = "Why are his eyes glowi- AAAAAAAAA I’M BLIND. This card is an alternate art of TigerCode.",
+				},
+			},
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
