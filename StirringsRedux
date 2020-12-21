@@ -3428,6 +3428,14 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Judgmental Apocryphantom"] = {
 		["Id"] = 5433939479,
 		["Name"] = "Judgmental Apocryphantom",
+		["AltCards"] = {
+			["Count_Latchula"] = {
+				["Name"] = "Count_Latchula",
+				["Id"] = 6116806672,
+				["AltArt"] = true,
+				["Bio"] = "Listen to What by WholePunch - or so he's been told to say. This card is an alt-art of Judgmental Apocryphantom",
+			},
+		},
 		["Health"] = 800,
 		["Power"] = 200,
 		["Rarity"] = "Uncommon", --Uncommonm
