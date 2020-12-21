@@ -1011,6 +1011,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["SirDapper"] = {
 		["Id"] = 4742882345,
 		["Name"] = "SirDapper",
+		["AltCards"] = {
+			["Nacho, the Devil's Advocate"] = {
+				["Name"] = "Nacho, the Devil's Advocate",
+				["Id"] = 6098954477,
+				["AltArt"] = true,
+				["Bio"] = "The devil got away with so many crimes because of this guy. This card is an alt-art of SirDapper",
+			},
+		},
 		["Health"] = 500,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
@@ -1463,6 +1471,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Name"] = "Heart Broken",
 				["Id"] = 655013605,
 				["Bio"] = "Sorry Eddy, I've met a REAL man.",
+			},
+			["Snowball Throw"] = {
+				["Name"] = "Snowball Throw",
+				["Id"] = 6102897144,
+				["AltArt"] = true,
+				["Bio"] = "SPLAT!",
 			},		
 		},			
 		["Health"] = 0,
@@ -6271,6 +6285,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["wikiwakiwoirier"] = {
 		["Id"] = 5602933177,
 		["Name"] = "wikiwakiwoirier",
+		["AltCards"] = {
+			["CivilCornball"] = {
+				["Name"] = "CivilCornball",
+				["Id"] = 6094195049,
+				["AltArt"] = true,
+				["Bio"] = "This isn't just you versus me, it's us both against entropy. This card is an alternate art of wikiwakiwoirier.",
+			},
+		},
 		["Health"] = 700,
 		["Power"] = 300,
 		["Rarity"] = "Uncommon",
