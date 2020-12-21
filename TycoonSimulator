@@ -3976,12 +3976,12 @@ local tycoons = {
 			Name = " Plushie Amp",
 			Description = "Whenever you cast a Rare fighter, if you control 2 other Rare fighters: That fighter and this card gain 100 health. A target fighter loses 100 power.",
 			["Type"] = "OnAllySummon",
-			["Power"] = {{"Heal",100,"Rare"},{"Weaken",100,"Single"}},
-			Target = "Aggressor",
+			["Power"] = {{"Heal",100},{"Heal",100,"Aggressor"},{"Weaken",100,"Single"}},
+			Target = "Self",
 			["EffectRequirement"] = {"Rarity","Ally",3,9999,"Rare"},
 			["Rarity"] = "Rare",
 		},
-		["Bio"] = [[]],
+		["Bio"] = "Running from the death.",
 	},
 		
 	["Nexx"] = {
