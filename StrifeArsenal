@@ -1546,6 +1546,12 @@ local Strife = {
 				["CopyBodge"] = "Dayren-E",
 				["Bio"] = "A nice little jig on his drums was all he needed to amass an army of rabbits.",
 			},
+			["PopularTimesInfinity"] = {
+				["Id"] = 5851036796,
+				["Name"] = "PopularTimesInfinity",
+				["AltArt"] = true,
+				["Bio"] = "I’m too popular for this. This card is an alt-art of Dayren.",
+			},
 		},
 		["Power"] = 0,
 		["Health"] = 600,
