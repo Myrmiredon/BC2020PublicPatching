@@ -3853,7 +3853,7 @@ local tycoons = {
 				["Id"] = 5854925288,
 				["Name"] = "Colesans, Rainbow Guardian of Icon",
 				["AltArt"] = true,
-				["Bio"] = "Before the Stud, there was the Icon. No matter what shape it takes, a true warrior always knows how to control them. This card is an alt-art of wowwow2211.",
+				["Bio"] = "Before the Stud, there was the Icon. No matter what shape they take, a true warrior always knows how to control their might. This card is an alt-art of wowwow2211.",
 			},
 		},
 		["Health"] = 600,
