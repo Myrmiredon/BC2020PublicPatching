@@ -3314,7 +3314,7 @@ local twentyeleveneighteen = {
 	},
 	
 	["HeyItsColin"] = {
-		["Id"] = 454705527,
+		["Id"] = 6107558667,
 		["Name"] = "HeyItsColin",
 		["AltCards"] = {
 			["HeyItsColin-ArtV"] = {
@@ -4695,20 +4695,12 @@ local twentyeleveneighteen = {
 	["Tone"] = {
 		["Id"] = 2960010737,
 		["Name"] = "Tone",
-		["Health"] = 400,
-		["Power"] = 300,
+		["Health"] = 100,
+		["Power"] = 1100,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,["Neutral"] = 1},
-		["Effect"] = {
-			Name = "Thug Life",
-			Description = "When this card is cast: all Small fighters gain 200 Power. (Small fighters have total stats of 350 to 700.)",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Strengthen",200}},
-			Target = "Ally",
-			["SizeClass"] = "Small",
-		},
 		["Bio"] = "Merely red.",
 	},		
 	
@@ -4766,7 +4758,7 @@ local twentyeleveneighteen = {
 	["Drager Bot"] = {
 		["Id"] = 4720321663,
 		["Name"] = "Lewa1267",
-		["Health"] = 1000,
+		["Health"] = 1250,
 		["Power"] = 250,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Gun",
