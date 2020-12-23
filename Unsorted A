@@ -6343,7 +6343,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Effect"] = {
 			Name = "Hellfire",
 			Description = "Whenever you cast a fighter: They gain 100 Power. Deal 500 damage to this card. This card's cast can't be skipped.",
-			["Type"] = "OnAllySummon",
+			["Type"] = "OnAllySummonBypass",
 			["Power"] = {{"Damage",500},{"Strengthen",100,"Aggressor"}},
 			Target = "Self",
 		},
