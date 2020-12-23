@@ -2151,7 +2151,7 @@ local beckoned = {
 		["Effect"] = {
 			Name = "Nature's Reconciliation",
 			Description = "Cast only if you control no fighters. Effects can't lower this card's health or power. Whenever you cast an allied fighter: Deal 1000 damage to it.",
-			["Type"] = "OnAllySummonBypass",
+			["Type"] = "OnAllySummon",
 			["Power"] = {{"Damage",1000,"Aggressor"}},
 			Target = "Ally",
 		},
@@ -2426,7 +2426,7 @@ local beckoned = {
 		["Effect"] = {
 			Name = "Nature's Reconciliation",
 			Description = "Cast only if you control no fighters. Effects can't lower this card's health or power. Whenever you cast an allied fighter: Deal 1000 damage to it.",
-			["Type"] = "OnAllySummonBypass",
+			["Type"] = "OnAllySummon",
 			["Power"] = {{"Damage",1000,"Aggressor"}},
 			Target = "Ally",
 		},
