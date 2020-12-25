@@ -106,7 +106,7 @@ local Strife = {
 	},
 
 	["Korblox Deathkeeper"] = {
-		["Id"] = 3611612075,
+		["Id"] = 6125942261,
 		["Name"] = "Korblox Deathkeeper",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -150,7 +150,7 @@ local Strife = {
 	["Korblox Squire"] = {
 		["Id"] = 2810633420,
 		["Name"] = "Korblox Squire",
-		["Health"] = 500,
+		["Health"] = 450,
 		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
@@ -205,7 +205,7 @@ local Strife = {
 	},
 
 	["Korblox Skeleton"] = {
-		["Id"] = 3611612876,
+		["Id"] = 6125944836,
 		["Name"] = "Korblox Skeleton",
 		["Health"] = 400,
 		["Power"] = 200,
@@ -546,7 +546,7 @@ local Strife = {
 	},	
 
 	["Redcliff Elite Commander"] = {
-		["Id"] = 6027260663,
+		["Id"] = 6125945875,
 		["Name"] = "Redcliff Elite Commander",
 		["Health"] = 500,
 		["Power"] = 500,
@@ -2619,8 +2619,8 @@ local Strife = {
 	["Preston"] = {
 		["Id"] = 2857411965,
 		["Name"] = "Preston",
-		["Power"] = 450,
-		["Health"] = 600,
+		["Power"] = 600,
+		["Health"] = 450,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
