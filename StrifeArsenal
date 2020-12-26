@@ -1683,10 +1683,10 @@ local Strife = {
 			Description = "Set the stats of a target allied fighter to 1500/0.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SetPower",0},{"SetHealth",1500}},
-			Target = "Single",
+			Target = "SingleAlly",
 			["EffectRequirement"] = {"Board","Ally",1,9999},
 		},
-		["Bio"] = "And he cant get up.",
+		["Bio"] = "And he can't get up.",
 	},
 
 	["WafflzDude"] = {
