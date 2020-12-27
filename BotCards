@@ -1,3 +1,4 @@
+-- Reminder: Cards used in puzzles have the "OnAllyCast" trigger instead, for use with Time Bomb
 local botcards = { -- Cards used by an AI that are not meant for human play go here.
 
 	--Used by the MasterHand AI.
@@ -1366,7 +1367,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Shield"] = true,
 		["Effect"] = {
 			Name = "Shine",
-			Description = "Defender. (Fighters your opponents control must attack this card.)",
+			Description = "Defender. (Fighters your opponents control must attack cards with Defender.)",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",0}},
 			Target = "Self",
@@ -1416,7 +1417,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 3,["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Jagged Arrow",
-			Description = "When this card is cast: A target fighter loses 300 power.",
+			Description = "When this card is cast: A target fighter loses 300 Power.",
 			["Type"] = "OnSummon",
 			["Power"] = "Weaken",
 			Target = "Single",
@@ -1435,7 +1436,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "Mischief of the Time Goddess",
-			Description = "Ready all allied fighters.",
+			Description = "Ready all allied fighters. Enter and exit your end step, without ending the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",1}},
 			Target = "Ally",
