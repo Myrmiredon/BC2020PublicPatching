@@ -8621,7 +8621,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Aggressor",
 			["EffectRequirement"] = {"Cost","Ally",0,2,"Neutral"},
 		},
-		["Bio"] = "88 is a really dodgy number to have in a username. Can you don't?",
+		["Bio"] = "I dare ya, make the joke about his name again.",
 	},
 	
 	["SmashDude88TOKEN"] = {
