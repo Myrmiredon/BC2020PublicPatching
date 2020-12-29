@@ -4,7 +4,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 4899283836,
 		["Name"] = "Daisy",
 		["Power"] = 300,
-		["Health"] = 300,
+		["Health"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
@@ -4184,17 +4184,17 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Plushie Lion"] = {
 		["Id"] = 332863655,
 		["Name"] = "Plushie Lion",
-		["Health"] = 100,
-		["Power"] = 100,
+		["Health"] = 150,
+		["Power"] = 300,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 3,},
+		["Cost"] = {["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Lion Amp",
-			Description = "When this card is cast: Give yourself 2 Yellow cards.",
+			Description = "When this card is cast: A target fighter loses 150 Power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"RandomAdd","Yellow"},{"RandomAdd","Yellow"}},
+			["Power"] = {{"Weaken",150}},
 			Target = "Single",
 		},
 		["Bio"] = "PLUSHIES!",
@@ -4900,17 +4900,17 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 				["Bio"] = "It ain't over till it's over, and it ain't over yet. This card is an alternate version of Headless Horseman.",
 			},
 		},
-		["Health"] = 500,
-		["Power"] = 500,
+		["Health"] = 450,
+		["Power"] = 450,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
 		["Cost"] = {["Red"] = 3, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "When this card is cast, if you have 2000 or less life: Your opponent loses 500 life.",
+			Description = "When this card is cast, if you have 2000 or less life: Your opponent loses 450 life.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Inflict",500}},
+			["Power"] = {{"Inflict",450}},
 			["EffectRequirement"] = {"Playertable", "Me", 0, 2001, "Life"},
 			Target = "Opponent",
 		},
@@ -6369,7 +6369,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Damaging26"] = {
-		["Id"] = 6030867777,
+		["Id"] = 6030867772,
 		["Name"] = "Damaging26",
 		["AltCards"] = {
 			["Damaging26-Inno"] = {
@@ -7304,7 +7304,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 7,},
 		["Effect"] = {
 			Name = "Auction God",
-			Description = "When this card is cast, generate 7 yellow studs and draw a card.",
+			Description = "When this card is cast: Generate 7 yellow studs and draw a card.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Yellow",7},{"Draw",1}},
 			Target = "Ally",
@@ -8963,7 +8963,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["SnailMan39"] = {
-		["Id"] = 6030803128,
+		["Id"] = 5995718619,
 		["Name"] = "SnailMan39",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -8983,7 +8983,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Snail"] = {
-		["Id"] = 6030863332,
+		["Id"] = 5995718975,
 		["Name"] = "Snail",
 		["Health"] = 300,
 		["Power"] = 200,
@@ -9031,8 +9031,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Corrupt SoulSearch"] = {
 		["Id"] = 6031514256,
 		["Name"] = "Beebo",
-		["Health"] = 250,
-		["Power"] = 250,
+		["Health"] = 200,
+		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Red",
@@ -9045,7 +9045,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			--["EffectRequirement"] = {"Turns","Ally",0,7},
 			Target = "All",
 		},
-		["Bio"] = "Destroy the sun!",	
+		["Bio"] = "His capabilities of world destruction are awe-striking.",	
 	},
 	
 	["ScareAndCrow"] = {
