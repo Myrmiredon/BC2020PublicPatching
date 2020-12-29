@@ -2511,8 +2511,8 @@ local beckoned = {
 	["Noxious Gas"] = {
 		["Id"] = 5669288785,
 		["Name"] = "TheShipArchitect",
-		["Health"] = 1300,
-		["Power"] = 200,
+		["Health"] = 1000,
+		["Power"] = 100,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green", 
@@ -2528,7 +2528,7 @@ local beckoned = {
 	},
 	
 	["Deadeye"] = {
-		["Id"] = 5973628043,
+		["Id"] = 5973628036,
 		["Name"] = "Deadeye",
 		["Health"] = 800,
 		["Power"] = 0,
@@ -2887,7 +2887,7 @@ local beckoned = {
 				["Bio"] = "BUT WHAT DOES IT DO?",
 			},
 			["Bowl of Greed-Val"] = {
-				["Id"] = 6030805552,
+				["Id"] = 6030805549,
 				["Name"] = "Bowl of Candy Grams",
 				["CopyBodge"] = "Bowl of Greed-Val",
 				["Bio"] = "Legend says that this bowl grants you delicious candy. Yummy?",
