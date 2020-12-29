@@ -3077,7 +3077,7 @@ local ultpower = {
 	},
 	
 	["AllStarBren"] = {
-		["Id"] = 6030854492,
+		["Id"] = 6030854489,
 		["Name"] = "AllStarBren",
 		["Health"] = 600,
 		["Power"] = 500,
@@ -4207,7 +4207,7 @@ local ultpower = {
 	},
 	
 	["214Brazy"] = {
-		["Id"] = 6030778072,
+		["Id"] = 6030776874,
 		["Name"] = "214Brazy",
 		["Health"] = 600,
 		["Power"] = 400,
@@ -4304,7 +4304,7 @@ local ultpower = {
 	},		
 	
 	["Starsnatch"] = {
-		["Id"] = 6030834013,
+		["Id"] = 6030833995,
 		["Name"] = "Starsnatch",
 		["Health"] = 0,
 		["Power"] = 0,
