@@ -832,7 +832,7 @@ local tycoons = {
 	},
 	
 	["Fleskhjerta"] = {
-		["Id"] = 6030800399,
+		["Id"] = 6030800395,
 		["Name"] = "Fleskhjerta",
 		["Health"] = 600,
 		["Power"] = 400,
@@ -851,7 +851,7 @@ local tycoons = {
 	},
 	
 	["Malevolent Fanboy"] = {
-		["Id"] = 6030789617,
+		["Id"] = 6030789613,
 		["Name"] = "Malevolent Fanboy",
 		["Health"] = 700,
 		["Power"] = 100,
@@ -1065,8 +1065,8 @@ local tycoons = {
 	["Sammeh"] = {
 		["Id"] = 6030819420,
 		["Name"] = "MrSammeh",
-		["Power"] = 300,
-		["Health"] = 500,
+		["Power"] = 350,
+		["Health"] = 450,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
@@ -1656,20 +1656,21 @@ local tycoons = {
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
 		["Health"] = 1000,
-		["Power"] = 200,
+		["Power"] = 300,
 		["Rarity"] = "Rare",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue", 
 		["Cost"] = {["Neutral"] = 2, ["Blue"] = 5,},
+		["Shield"] = true,
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Fading. Whenever an allied fighter dies: Summon a clone of it. This effect triggers only once.",
-			["Type"] = "OnAllyDeath",
-			["Power"] = {{"LastDeath"},{"TransformWithRarity","Round4","Self"}},
-			Target = "Ally",
+			Description = "Defender. (Fighters your opponents control must attack this card.)",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Draw",0}},
+			Target = "Self",
 		},
-		["Bio"] = [[I haven't seen you leave your cabin since we set sail, sir. Are you alright?]],
+		["Bio"] = [[A butler's duty is to protect the duties of others, sir.]],
 	},
 	
 	["Round4"] = {
@@ -1677,7 +1678,7 @@ local tycoons = {
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
 		["Health"] = 1000,
-		["Power"] = 200,
+		["Power"] = 300,
 		["Rarity"] = "Token",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
@@ -1976,7 +1977,7 @@ local tycoons = {
 	["Sharksie"] = {
 		["Id"] = 5673446986,
 		["Name"] = "Sharksie",
-		["Health"] = 1500,
+		["Health"] = 1200,
 		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
@@ -2102,7 +2103,7 @@ local tycoons = {
 				["Bio"] = "Is a lover always innocent?",
 			},
 		},
-		["Health"] = 150,
+		["Health"] = 100,
 		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -2110,9 +2111,9 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 5,["Blue"] = 2,},
 		["Effect"] = {
 			Name = "Inflation",
-			Description = "When this card is cast: Unlock a target fighter, then lock it for 2 turns. It gains 1000 health.",
+			Description = "When this card is cast: Unlock a target fighter, then lock it for 2 turns. It gains 600 health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Unlock",9999},{"Lock",2},{"Heal",1000}},
+			["Power"] = {{"Unlock",9999},{"Lock",2},{"Heal",600}},
 			Target = "Single",
 		},
 		["Bio"] = "Is a killer always heartless?",
@@ -2291,6 +2292,14 @@ local tycoons = {
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 4,},
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = [[Whenever your opponent discards their first card each turn: Put a targeting blip into your hand.]],
+			["Type"] = "OnEnemyDiscard",
+			["Power"] = {{"Add","Targeting Blip"}}, 
+			Target = "Ally",
+			["EffectRequirement"] = {"Playertable", "Him", 0, 1, "DiscardCount"},
+		},
 		["Bio"] = "Hello!~ Welcome to my log cabin vlog in the middle of nowhere!",
 	}, 
 	
@@ -2354,8 +2363,8 @@ local tycoons = {
 	["Infected Mushrooms"] = {
 		["Id"] = 4815667402,
 		["Name"] = "EvilArtist",
-		["Health"] = 550,
-		["Power"] = 250,
+		["Health"] = 700,
+		["Power"] = 200,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green", 
@@ -3531,13 +3540,13 @@ local tycoons = {
 		["ChargeRequirement"] = {"Rarity", "Ally", 2,9999,"Rare"},
 		["Effect"] = {
 			Name = "Conflux",
-			Description = "When this card is cast: if you control another Rare fighter, give Dun_Goof Haste. All Rare fighters gain 100 Power.",
+			Description = "When this card is cast: If you control 2 Rare fighters, give Dun_Goof Haste. All Rare fighters gain 100 Power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",100}},
 			Target = "Rare",
 		["EffectRequirement"] = {"Rarity","Ally", 2, 9999,"Rare"},
 		},
-		["Bio"] = "Name your favourite card arts. Half of them were made by this guy.",
+		["Bio"] = "Name your favourite card arts. Some of them were made by this guy!",
 	},	
 	
 	["Blitzwolfer"] = {
@@ -3700,9 +3709,9 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 1,["Yellow"] = 5,},
 		["Effect"] = {
 			Name = "Un-Animate",
-			Description = "When this card is cast: A target fighter gains 2500 Health. Set its power to 0.",
+			Description = "When this card is cast: A target fighter gains 1200 Health. Set its power to 0.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetPower",0},{"Heal",2500}},
+			["Power"] = {{"SetPower",0},{"Heal",1200}},
 			Target = "Single",
 		},
 		["Bio"] = "Hi, I'm the scripter of Roblox Plague, TreeLands, and Adopt M-HEY! Stop it, that tickles!",
@@ -3912,8 +3921,8 @@ local tycoons = {
 	},
 	
 	["DrPepperSlayer"] = {
-		["Id"] = 443304529,
-		["Name"] = "DrPepperSlayer",
+		["Id"] = 6073521300,
+		["Name"] = "LordJurrd",
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Rare",		
@@ -3995,15 +4004,15 @@ local tycoons = {
 	["Nexx"] = {
 		["Id"] = 4789688861,
 		["Name"] = "Nexx",
-		["Health"] = 700,
-		["Power"] = 700,
+		["Health"] = 900,
+		["Power"] = 400,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Neutral",
 		["Cost"] = {["Neutral"] = 7,["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Competition",
-			Description = "When this card is cast: Draw three cards.",
+			Description = "When this card is cast: Draw two cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",2,"Ally"}},
 			Target = "Opponent",
@@ -4013,7 +4022,7 @@ local tycoons = {
 	
 	
 	["Explode1"] = {
-		["Id"] = 4942926373,
+		["Id"] = 5875044065,
 		["Name"] = "radiogamer",
 		["CopyBodge"] = "Explode1",
 		["Health"] = 800,
@@ -4042,7 +4051,7 @@ local tycoons = {
 				["Bio"] = "Disputed Deity of ROBLOX MMORPGs.",
 			},
 		},
-		["Health"] = 500,
+		["Health"] = 350,
 		["Power"] = 700,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Slash",
@@ -4064,8 +4073,8 @@ local tycoons = {
 		["Id"] = 4564780136,
 		["Name"] = "TheKatorium",
 		["CopyBodge"] = "Kmansong2",
-		["Health"] = 700,
-		["Power"] = 700,
+		["Health"] = 600,
+		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
