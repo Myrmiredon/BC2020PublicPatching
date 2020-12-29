@@ -279,7 +279,7 @@ local beckoned = {
 	},	
 	
 	["Great Lord Egotist"] = {
-		["Id"] = 6030754144,
+		["Id"] = 6030754137,
 		["Name"] = "Great Lord Egotist",
 		["AltCards"] = {
 			["Great Lord Egotist-ArtV"] = {
@@ -288,7 +288,7 @@ local beckoned = {
 				["Bio"] = "I am the wild dog watching with sixteen omniscient eyes. Unblinking endless judgment, cast as the patterns rise.",
 			},
 		},
-		["Health"] = 1300,
+		["Health"] = 1200,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["Archetype"] = "Nightmare",
@@ -298,9 +298,9 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 4,["Blue"] = 2,["Green"] = 2,},
 		["Effect"] = {
 			Name = "Night Creak",
-			Description = "Effects can't transform this card. During your end step: Give your opponent a Nightmare. This card gains 300 health.",
+			Description = "Effects can't transform this card. During your end step: Give your opponent a Nightmare.",
 			Type = "OnEnd",
-			Power = {{"Add","Nightmare","Opponent"},{"Heal",300,"Self"}},
+			Power = {{"Add","Nightmare","Opponent"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Once, I was human. Now, I am much more.",
@@ -551,13 +551,13 @@ local beckoned = {
 		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch",
-		["Requirement"] = {"Archetype", "Ally", 1, 9999, "Acolyte"},		
+		["Requirement"] = {"Archetype", "Ally", 2, 9999, "Acolyte"},		
 		["Archetype"] = "Acolyte",
 		["Color"] = "Neutral",
-		["Cost"] = {["Neutral"] = 4,},
+		["Cost"] = {["Neutral"] = 6,},
 		["Effect"] = {
 			Name = "Build Up",
-			Description = "Cast only if you control an Acolyte. Summon three Draconic Acolytes. Lock all allied fighters for two turns.",
+			Description = "Cast only if you control two Acolytes. Summon three Draconic Acolytes. Lock all allied fighters for two turns.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Glaurung"},{"Summon","Smaug"},{"Summon","Aer Draco"},{"Lock",2}},
 			Target = "Ally",
@@ -1658,7 +1658,7 @@ local beckoned = {
 	},
 	
 	["Person299"] = {
-		["Id"] = 6031116599,
+		["Id"] = 6031116595,
 		["Name"] = "Person299",
 		["Health"] = 600,
 		["Power"] = 300,
@@ -2200,7 +2200,7 @@ local beckoned = {
 	},
 	
 	["Satyr Nourisher"] = {
-		["Id"] = 6030772026,
+		["Id"] = 6030772022,
 		["Name"] = "Satyr Nourisher",
 		["Health"] = 900,
 		["Power"] = 200,
