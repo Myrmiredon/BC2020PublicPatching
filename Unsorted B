@@ -1603,7 +1603,7 @@ local twentyeleveneighteen = {
 	},				
 
 	["One BLOX Man"] = {
-		["Id"] = 4720340026,
+		["Id"] = 6026386051,
 		["Name"] = "One BLOX Man",
 		["Health"] = 1200,
 		["Power"] = 400,
@@ -1756,7 +1756,7 @@ local twentyeleveneighteen = {
 		["Name"] = "Ezebel, Pirate Queen",
 		["CopyBodge"] = "Bearded Captain",
 		["Health"] = 400,
-		["Power"] = 100,
+		["Power"] = 0,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = {"Slash"},
 		["Color"] = "Blue",
@@ -2110,7 +2110,7 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Vitality Potion"] = {
-		["Id"] = 413939591,
+		["Id"] = 6055780690,
 		["Name"] = "Vitality Potion",
 		["AltCards"] = {							
 			["Vitality Potion-Val"] = {
@@ -2127,12 +2127,12 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Vitality Potion",
-			Description = "A target fighter gains 1000 health.",
+			Description = "A target fighter gains 600 health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",1000}},
+			["Power"] = {{"Heal",600}},
 			Target = "Single",
 		},
-		["Bio"] = "The most potent potion to keep fighters alive.",
+		["Bio"] = "A somewhat rare variant of the Life Potion that is potent to keep fighters alive.",
 	},	
 	
 	["Dodgeball Player Blue"] = {
