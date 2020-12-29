@@ -689,7 +689,7 @@ local Strife = {
 	},
 
 	["Overseer Beast"] = {
-		["Id"] = 298793501,
+		["Id"] = 6135564102,
 		["Name"] = "Overseer Beast",
 		["Health"] = 500,
 		["Power"] = 400,
@@ -781,7 +781,7 @@ local Strife = {
 	},
 
 	["Overseer's Steed"] = {
-		["Id"] = 331404735,
+		["Id"] = 6135563155,
 		["Name"] = "Overseer's Steed",
 		["Health"] = 50,
 		["Power"] = 300,
@@ -797,11 +797,11 @@ local Strife = {
 			["Power"] = {{"Berezaa",50}},
 			Target = "Single",
 		},
-		["Bio"] = "And you thought Meebling Infestation was bad?",
+		["Bio"] = "The Godhand's reliable steed. Capable of wielding a fraction of the Godhand's power.",
 	},
 
 	["Overseer Drake"] = {
-		["Id"] = 488695841,
+		["Id"] = 6135564873,
 		["Name"] = "Overseer Drake",
 		["Health"] = 300,
 		["Power"] = 300,
@@ -819,13 +819,13 @@ local Strife = {
 			["Power"] = {{"Destroy",2}},
 			Target = "HighestHealth",
 		},
-		["Bio"] = "The messengers of the overseer army.",
+		["Bio"] = "Although frail and feeble, these drakes are capable of destruction.",
 	},
 
 
 	["Bereghost"] = {
-		["Id"] = 5574349909,
-		["Name"] = "Bereghost",
+		["Id"] = 6135578987,
+		["Name"] = "Overseer Godhand",
 		["Health"] = 150,
 		["Power"] = 400,
 		["Rarity"] = "Legendary",
@@ -840,7 +840,7 @@ local Strife = {
 			["Power"] = {{"SetHealth",150,"Self"},{"Berezaa",50}},
 			Target = "Ally",
 		},
-		["Bio"] = "It's Bereghost, what else should I say?!",
+		["Bio"] = "Come and get me, Redcliffs, for you and your petty weaponry will never land a single dent!",
 	},
 
 	---------------------
