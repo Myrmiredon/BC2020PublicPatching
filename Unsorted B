@@ -1054,7 +1054,7 @@ local twentyeleveneighteen = {
 	},	
 
 	["ROBLOXian Reborn"] = {
-		["Id"] = 6030773698,
+		["Id"] = 6030773696,
 		["Name"] = "ROBLOXian Reborn",
 		["Health"] = 0,
 		["Power"] = 0,
