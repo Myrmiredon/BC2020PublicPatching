@@ -4271,7 +4271,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Plushie Amp",
 			Description = "Cast only if there are 10 fighters in play. Unlock all allied fighters. They gain 200 health and power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Unlock",999,"All"},{"Heal",200},{"Strengthen",200}},
+			["Power"] = {{"Unlock",999},{"Heal",200},{"Strengthen",200}},
 			Target = "Ally",
 		},
 		["Bio"] = "Yuki's mood changes with enough speed to pierce armour.",
