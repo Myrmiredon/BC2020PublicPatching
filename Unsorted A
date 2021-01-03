@@ -9390,7 +9390,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 5, ["Blue"] = 1,["Yellow"] = 1,["Red"] = 1,["Green"] = 1,},
 		["Effect"] = {
 			Name = "Vibe Steal",
-			Description = "Whenever your opponent casts a fighter, that fighter loses its arcehtype. That fighter's effects will affect all unarchetyped cards thereafter.",
+			Description = "Whenever your opponent casts a fighter, that fighter loses its archetype. That fighter's effects will affect all unarchetyped cards thereafter.",
 			["Type"] = "OnEnemySummon",
 			["Power"] = "ReplaceArchetype",
 			Target = "Aggressor",
