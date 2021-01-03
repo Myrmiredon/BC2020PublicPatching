@@ -38,10 +38,10 @@ local halo = {
 		["Cost"] = {["Blue"] = 1, ["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[When this card is cast, if effects have drawn you five cards since your last end step: unlock all allied fighters.]],
+			Description = [[When this card is cast, if effects have drawn you four cards since your last end step: unlock all allied fighters.]],
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock","9999"}},
-			["EffectRequirement"] = {"Playertable","Me",5,9999,"Draws"},
+			["EffectRequirement"] = {"Playertable","Me",4,9999,"Draws"},
 			Target = "Ally",
 		},
 		["Bio"] = "I AM the speeding wall!",
