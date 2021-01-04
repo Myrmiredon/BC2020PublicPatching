@@ -1436,7 +1436,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "Mischief of the Time Goddess",
-			Description = "Ready all allied fighters. Enter and exit your end step, without ending the turn.",
+			Description = "Ready all allied fighters. Trigger all effects that occur at the end of either player's turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",1}},
 			Target = "Ally",
