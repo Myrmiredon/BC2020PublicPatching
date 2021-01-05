@@ -4,7 +4,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 4899283836,
 		["Name"] = "Daisy",
 		["Power"] = 300,
-		["Health"] = 200,
+		["Health"] = 300,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Blue",
@@ -20,8 +20,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Fave"] = {
-		["Id"] = 3674709719,
-		["Name"] = "Faave",
+		["Id"] = 6166370952,
+		["Name"] = "man8976",
 		["CopyBodge"] = "Fave",
 		["AltCards"] = {
 			["Favette"] = {
@@ -43,7 +43,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Strengthen",150},{"Heal",300}},
 			Target = "Ally",
 		},
-		["Bio"] = "Faave is a ROBLOXian who has a clone, raps, and is a ROBLOX Youtuber that only plays ROBLOX because of Youtube!",
+		["Bio"] = "Wake the heck up samurai, we have a city to burn.",
 	},
 	
 
@@ -8011,8 +8011,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["DrWeaseI"] = {
-		["Id"] = 4537787989,
-		["Name"] = "DrWeaseI",
+		["Id"] = 6189807753,
+		["Name"] = "Damire, Demon Vampire",
 		["Health"] = 600,
 		["Power"] = 400,
 		["Rarity"] = "Rare",
@@ -8026,7 +8026,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Cost",200},{"Damage",200},{"Strengthen",200}},
 			Target = "Aggressor",
 		},
-		["Bio"] = "Looks like we couldn't weasel our way out of putting this in the game.",
+		["Bio"] = "He won't stop until his thirst for blood is quenched.",
 	},
 	
 	["The Gentlemaniac"] = {
@@ -9380,8 +9380,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Epic DrWeaseI"] = {
-		["Id"] = 4409765149,
-		["Name"] = "Epic DrWeaseI",
+		["Id"] = 6189808489,
+		["Name"] = "Cat Saint Yiberi,
 		["Health"] = 1600,
 		["Power"] = 400,
 		["Rarity"] = "Epic",
