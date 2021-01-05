@@ -1074,8 +1074,8 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Anti-Fave"] = {
-		["Id"] = 4565365852,
-		["Name"] = "Anti-Fave",
+		["Id"] = 6194104971,
+		["Name"] = "Ancalagon, Sword Critic",
 		["Health"] = 900,
 		["Power"] = 450,
 		["Rarity"] = "Rare",
@@ -1089,7 +1089,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"SetHealth",500},{"SetPower",400}},
 			Target = "Opponent",
 		},
-		["Bio"] = "He only wants to blox Fave legally, so he's the good guy, right?",
+		["Bio"] = "He appraises blades so you don't have to.",
 	},	
 	
 	["Super Bacon"] = {
@@ -1133,8 +1133,8 @@ local twentyeleveneighteen = {
 	},	
 	
 	["Dr.Fave"] = {
-		["Id"] = 4204429557,
-		["Name"] = "Dr.Fave",
+		["Id"] = 6166371366,
+		["Name"] = "Pedromony",
 		["AltCards"] = {	
 			["Dr.Fave-Val"] = {
 				["Id"] = 893398482,
@@ -1155,7 +1155,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"Neutral",2},{"Cost",-400,"Ally"}},
 			Target = "All",
 		},
-		["Bio"] = "Apparently Fave is the one that stole his last name.",
+		["Bio"] = "She treats her friends or foe alike, but her friends come first.",
 	},	
 	
 	["StayBlue"] = {
@@ -1298,8 +1298,8 @@ local twentyeleveneighteen = {
 	},
 	
 	["Clone Fave"] = {
-		["Id"] = 384007963,
-		["Name"] = "Clone Fave",
+		["Id"] = 6189815357,
+		["Name"] = "Hal",
 		["Health"] = 1800,
 		["Power"] = 200,
 		["Rarity"] = "Legendary",
@@ -1314,7 +1314,7 @@ local twentyeleveneighteen = {
 			Target = "Ally",
 			Increase = 100
 		},
-		["Bio"] = "He's basically Fave, okay?",
+		["Bio"] = "Syndicate member and bartender. Don't ask him about his kids.",
 	},		
 
 	["puffytenter12"] = {
@@ -2750,7 +2750,7 @@ local twentyeleveneighteen = {
 	},
 
 	["Unwanted Trend"] = {
-		["Id"] = 5598057243,
+		["Id"] = 6171735797,
 		["Name"] = "Unwanted Trend",
 		["CopyBodge"] = "Unwanted Trend",
 		["AltCards"] = {
