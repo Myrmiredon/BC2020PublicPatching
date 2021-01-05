@@ -1,4 +1,5 @@
 -- Reminder: Cards used in puzzles have the "OnAllyCast" trigger instead, for use with Time Bomb
+-- All cards in this file must be Tokens.
 local botcards = { -- Cards used by an AI that are not meant for human play go here.
 
 	--Used by the MasterHand AI.
@@ -1127,7 +1128,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Name"] = "74Riley",
 		["Health"] = 500,
 		["Power"] = 500,
-		["Rarity"] = "Common",
+		["Rarity"] = "Token",
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 4,},
@@ -1138,14 +1139,25 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Inflict",300,"Opponent"}},
 			Target = "Ally",
 		},
-		["Bio"] = "The first 73 Rilies caused him trouble.",
+		["Bio"] = "Red Common. Check the Blox Cards wikia for the current state of this card.",
+	},
+	["PuzzleAmbamby"] = {
+		["Id"] = 5059533283,
+		["Name"] = "Ambamby",
+		["Power"] = 500,
+		["Health"] = 300,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic","Yellow"},
+		["Color"] = "Red",
+		["Cost"] = {["Neutral"] = 3,},
+		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleIgnis Mage"] = {
 		["Id"] = 4536837769,
 		["Name"] = "Ignis Mage",
 		["Health"] = 250,
 		["Power"] = 250,
-		["Rarity"] = "Common",
+		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
 		["Cost"] = {["Neutral"] = 1,["Red"] = 2,},
@@ -1156,18 +1168,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Damage",250,"Single"}},
 			Target = "ColorGreen",
 		},
-		["Bio"] = "From a spark, he generates a power that can cause instant combustion to anyone.",
-	},
-	["PuzzleAmbamby"] = {
-		["Id"] = 5059533283,
-		["Name"] = "Ambamby",
-		["Power"] = 500,
-		["Health"] = 300,
-		["Rarity"] = "Common",
-		["AttackEffect"] = {"Magic","Yellow"},
-		["Color"] = "Red",
-		["Cost"] = {["Neutral"] = 3,},
-		["Bio"] = "Amber and Ambamby are the same person, only Amber is older. Does this mean that she's her own mother?",
+		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleJason Voorhees"] = {
 		["Id"] = 4793395475,
@@ -1186,7 +1187,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Damage",50}},
 			Target = "Single",
 		},
-		["Bio"] = "it was fun, i'll miss everything, the storms going away",
+		["Bio"] = "Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleSauske2000"] = {
 		["Id"] = 5650700118,
@@ -1204,7 +1205,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"DiscardLimit",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "He just wants to get choked like his idol from some anime he watched or something.",
+		["Bio"] = "Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.",
 	},	
 	["PuzzleDrakobloxxer"] = {
 		["Id"] = 4564776044,
@@ -1223,7 +1224,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Target = "Opponent",
 			Increase = 100
 		},
-		["Bio"] = "NOM NOM NOM!",
+		["Bio"] = "Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.",
 	},	 	
 	
 	["PuzzlePapasmurf"] = {
@@ -1242,7 +1243,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"},{"SummonGenZone","PuzzleDrakobloxxer"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Papa got drakobloxxers on his side.",
+		["Bio"] = "Ultimate Power Legendary. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleNikilis"] = {
 		["Id"] = 3164496653,
@@ -1262,7 +1263,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Target = "Single",
 			Increase = 1,
 		},
-		["Bio"] = "He knows how to stop any potential murderer. Great for the festival.",
+		["Bio"] = "Tycoon Simulator Epic. Check the Blox Cards wikia for the current state of this card.",
 	},	
 	["Puzzlerachjumper"] = {
 		["Id"] = 5650754273,
@@ -1281,7 +1282,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"AlterEV",{"Set","AllBoard","Fighters"}},{"AlterEV",{"Multiply","Math",250}},{"Inflict","Variable"},{"Destroy"}},
 			Target = "All",
 		},
-		["Bio"] = "You can run, but you can't hide.",
+		["Bio"] = "Ultimate Power Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleDignity"] = {
 		["Id"] = 4536840941,
@@ -1292,7 +1293,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["AttackEffect"] = "Lighting",
 		["Color"] = "Red",
 		["Cost"] = {["Red"] = 3,["Neutral"] = 2,},
-		["Bio"] = "Some say he's an exploiter, others claim he was an anonymous hacker, all we know is that he's back with a powerful orb.",
+		["Bio"] = "Strife's Arsenal Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleHoshpup"] = {
 		["Id"] = 5603416455,
@@ -1311,7 +1312,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Draw",0}},
 			Target = "Ally",
 		},
-		["Bio"] = "We will never know what he certainly is.",
+		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
 	},	
 	-- Blue
 	["PuzzleBee"] = {
@@ -1334,7 +1335,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Target = "Ally",
 			["EffectRequirement"] = {"Archetype", "Ally", 2, 999999, "Bee"},
 		},
-		["Bio"] = [[NOT THE BEE!!!]],
+		["Bio"] = [[Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.]],
 	},
 	["PuzzleSamurai Shock"] = {
 		["Id"] = 4938618283,
@@ -1353,7 +1354,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Damage",50}},
 			Target = "Opponent",
 		},
-		["Bio"] = "If your samurai has been infected with these shocks, please refer it to your local veterinarian.",
+		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleEXLatios"] = {
 		["Id"] = 4899314675,
@@ -1367,12 +1368,12 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Shield"] = true,
 		["Effect"] = {
 			Name = "Shine",
-			Description = "Defender. (Fighters your opponents control must attack cards with Defender.)",
+			Description = "Defender. (Fighters your opponents control must attack this card.)",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",0}},
 			Target = "Self",
 		},
-		["Bio"] = "He's just a guy who loves twin blades.",
+		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleYoshius"] = {
 		["Id"] = 4899472737,
@@ -1390,7 +1391,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Swap",100000}},
 			Target = "Single",
 		},
-		["Bio"] = "No, Jim! Fun is allowed. Only for us, though.",
+		["Bio"] = "Beckoned Masters Uncommon. Check the Blox Cards wikia for the current state of this card.",
 	},
 	
 	["PuzzleMike"] = {
@@ -1402,7 +1403,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["AttackEffect"] = "Gun",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 6,},
-		["Bio"] = "Hired mercenary, endorsed by IcyTea himself.",
+		["Bio"] = "Blue Rare. Check the Blox Cards wikia for the current state of this card.",
 	},
 	
 	["PuzzleKorblox Archer"] = {
@@ -1423,7 +1424,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Target = "Single",
 			Increase = 300
 		},
-		["Bio"] = "Korblox arrows are made of a powerful ore known as Iron. Check up with your GP for symptoms if you get shot by one.",
+		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleTime Bomb"] = {
 		["Id"] = 5925679425
@@ -1436,12 +1437,12 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "Mischief of the Time Goddess",
-			Description = "Ready all allied fighters. They generate. Trigger effects that occur at the end of either player's turn.",
+			Description = "Ready all allied fighters. They generate. Trigger effects that occur during end steps.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Unlock",1},{"Generate",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "Need more time? Well, you've got it! This card is only usable in Puzzles.",
+		["Bio"] = "Need more time? Well, you've got it! This card is only usable in Puzzles",
 	},
 	-- Green
 	["PuzzleiiSmolToaster"] = {
@@ -1460,7 +1461,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Cost",-500}},
 			Target = "Ally",
 		},
-		["Bio"] = "SmolToasters are sold without smol bread or batteries included.",
+		["Bio"] = "Green Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleLangz"] = {
 		["Id"] = 3299982063,
@@ -1478,7 +1479,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Damage",150}},
 			Target = "Opponent",
 		},
-		["Bio"] = "It is time for your army to languish.",
+		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	-- Yellow
 	["PuzzleDoge"] = {
@@ -1499,7 +1500,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Draw",0}},
 			Target = "Ally",
 		},
-		["Bio"] = "Such claws. Much stats. Very game. Wow.",
+		["Bio"] = "Packless Token. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleUndead Teddy"] = {
 		["Id"] = 5114099562,
@@ -1518,7 +1519,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Summon","PuzzleTeddy1"},{"Cost",100},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Some say it was a mistake...",
+		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},	
 	
 	["PuzzleTeddy1"] = {
@@ -1537,7 +1538,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Summon","PuzzleTeddy2"},{"Cost",100},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Some say it was an experiment gone wrong...",
+		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 	
 	["PuzzleTeddy2"] = {
@@ -1556,7 +1557,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Summon","PuzzleTeddy3"},{"Cost",100},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "But despite what they say...",
+		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},	
 	
 	["PuzzleTeddy3"] = {
@@ -1568,7 +1569,25 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
 		["Cost"] = {["Neutral"] = 1, ["Yellow"] = 2,},
-		["Bio"] = "They will never know the true horror that went into making this...",
+		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
+	},
+	["PuzzleROBAR"] = {
+		["Id"] = 4899434473,
+		["Name"] = "ROBAR",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Common",
+		["AttackEffect"] = "Dash",
+		["Color"] = "Yellow", 
+		["Cost"] = {["Yellow"] = 1},
+		["Effect"] = {
+			Name = "Power Boost",
+			Description = "A target fighter gains 250 Power.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Strengthen",250,"Single"}},
+			Target = "All",
+		},
+		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 }
 
