@@ -8230,6 +8230,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		-- },
 		-- ["Bio"] = "me me smol boy",
 	-- },
+	--Comments go brrrrrrr, Asuka was here.
 	
 	["Enriched Neutrinous"] = {
 		["Id"] = 1549643103,
