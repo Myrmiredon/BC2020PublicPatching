@@ -603,7 +603,7 @@ local Strife = {
 			Description = "Cast only if you control exactly one Redcliff. If it's the only fighter you control, it gains 800 health and power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Heal",800,"Archetype"},{"Strengthen",800,"Archetype"}},
-			Target = "NotArchetype",
+			Target = "Ally",
 			["EffectRequirement"] = {"Board", "Ally", 1, 2,},
 		},
 		["Bio"] = "SUPRISE! REDCLIFFS!",
