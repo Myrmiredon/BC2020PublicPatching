@@ -4767,7 +4767,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 3,["Red"] = 3,},
 		["Effect"] = {
 			Name = "Thug Life",
-			Description = "Whenever this card attacks and survives: Deal 250 damage to a target fighter.",
+			Description = "After this card attacks: Deal 250 damage to a target fighter.",
 			["Type"] = "OnAttackEnd",
 			["Power"] = {{"Damage",250}},
 			Target = "Single",
