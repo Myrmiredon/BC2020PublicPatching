@@ -1073,7 +1073,7 @@ local twentyeleveneighteen = {
 		["Bio"] = "Grant a fallen ROBLOXian life again after being sent to the graveyard. We all have to have another chance, right? This might conflict some morals...",
 	},	
 	
-	["Anti-Fave"] = {
+	["Ancalagon, Sword Critic"] = {
 		["Id"] = 6194104971,
 		["Name"] = "Ancalagon, Sword Critic",
 		["Health"] = 900,
@@ -1132,16 +1132,9 @@ local twentyeleveneighteen = {
 		["Bio"] = "Known forumer who became a moderator, although some users are skeptical of him in general, his passive aggressive nature will haunt you.",
 	},	
 	
-	["Dr.Fave"] = {
+	["Pedromony"] = {
 		["Id"] = 6166371366,
-		["Name"] = "Pedromony",
-		["AltCards"] = {	
-			["Dr.Fave-Val"] = {
-				["Id"] = 893398482,
-				["Name"] = "Love Doctor Fave",						
-				["Bio"] = "Time for a lesson from the LOOOOOVE DOCTOR.",
-			},
-		},										
+		["Name"] = "Pedromony",								
 		["Health"] = 900,
 		["Power"] = 300,
 		["Rarity"] = "Epic",
@@ -1297,7 +1290,7 @@ local twentyeleveneighteen = {
 		["Bio"] = "Must defeat master. Must enable master.",
 	},
 	
-	["Clone Fave"] = {
+	["Hal"] = {
 		["Id"] = 6189815357,
 		["Name"] = "Hal",
 		["Health"] = 1800,
@@ -4669,7 +4662,7 @@ local twentyeleveneighteen = {
 			["Power"] = {{"RandomAdd","Epic"},{"RandomAdd","Epic"},{"RandomAdd","Epic"}},
 			Target = "All",
 		},
-		["Bio"] = "On second thought, have a bengbeng14, an Anti-Fave, and a ROBLOXian reborn! All free of charge!",
+		["Bio"] = "On second thought, have a bengbeng14, an MSE6, and a ROBLOXian reborn! All free of charge!",
 	},								
 	
 	["Roblox Gift Card"] = {
