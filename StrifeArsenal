@@ -940,7 +940,7 @@ local Strife = {
 		["Bio"] = "Rainbow science helps me delay death actually...",
 	},
 
-	["Olafisawesome100"] = {
+	["Toothy Deer's Blessing"] = {
 		["Id"] = 4784598521,
 		["Name"] = "Toothy Deer's Blessing",
 		["Health"] = 0,
