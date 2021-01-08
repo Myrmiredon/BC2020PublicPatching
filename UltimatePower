@@ -4150,7 +4150,7 @@ local ultpower = {
 				["Bio"] = "More like Le_[insert word here]. This card is an alt-art of GemInNight.",
 			},
 		},
-		["Health"] = 900,
+		["Health"] = 700,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Slash",
