@@ -1562,7 +1562,7 @@ local ultpower = {
 		["Cost"] = {["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "AAAAAAAAAAAAAAAAAA",
-			Description = "When this card is cast: All Noobs gain 150 health and power.",
+			Description = "When this card is cast: All Noobs gain 150 Health and Power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Heal",150},{"Strengthen",150}},
 			Target = "Archetype",
@@ -1699,7 +1699,7 @@ local ultpower = {
 		["Cost"] = {["Neutral"] = 4,["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Double Bleeding",
-			Description = "Whenever you cast a fighter: All Noobs gains 50 Power. You lose 200 Life.",
+			Description = "Whenever you cast a fighter: All Noobs gain 50 Power. You lose 200 Life.",
 			["Type"] = "OnAllySummon",
 			["Power"] = {{"Cost",200},{"Strengthen",50,"Archetype"}},
 			Target = "All",
@@ -1794,7 +1794,7 @@ local ultpower = {
 		["Cost"] = {["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "Unique. Whenever you lose life: Summon a noob. You gain a Yellow stud.",
+			Description = "Unique. Whenever you lose life: Summon a 400/50 Noob. You gain a Yellow stud.",
 			["Type"] = "OnHealthLoss",
 			["Power"] = {{"Summon","Noob"},{"Yellow",1}},
 			Target = "Ally",
