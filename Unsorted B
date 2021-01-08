@@ -4707,7 +4707,7 @@ local twentyeleveneighteen = {
 			Description = "When this card is cast: all Small fighters gain 200 Power. (Small fighters have total stats of 350 to 700.)",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",200}},
-			Target = "Small",
+			Target = "SizeSmall",
 		},
 		["Bio"] = "Merely red.",
 	},	
