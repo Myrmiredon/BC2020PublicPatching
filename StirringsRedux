@@ -2427,9 +2427,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "Draw four cards, then destroy four cards in your hand.",
+			Description = "Destroy two cards in your hand, then draw two cards.",
 			["Type"] = "OnTarget",
-			["Power"] = {{"Heal",50,"Self"},{"Damage",600,"Archetype"},{"Draw",4,"Ally"},{"RandomDiscard",4,"Ally"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-3"},{"Damage",500,"Archetype"}},
+			["Power"] = {{"Heal",50,"Self"},{"Damage",600,"Archetype"},{"RandomDiscard",2,"Ally"},{"Draw",2,"Ally"},{"Summon","Ally2-1"},{"Summon","Ally2-2"},{"Summon","Ally2-3"},{"Damage",500,"Archetype"}},
 			Target = "Self",
 		},
 		["Bio"] = [[The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.]],
@@ -2453,9 +2453,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "Halloween",
-			Description = "Draw four cards, then destroy four cards in your hand.",
+			Description = "Destroy two cards in your hand, then draw two cards.",
 			["Type"] = "OnTarget",
-			["Power"] = {{"Draw",4,"Ally"},{"RandomDiscard",4,"Ally"},{"Damage",500,"Archetype"}},
+			["Power"] = {{"RandomDiscard",2,"Ally"},{"Draw",2,"Ally"},{"Damage",500,"Archetype"}},
 			Target = "Self",
 		},
 		["Bio"] = "The shields protected Eisenhower long enough to finish preparing his elixir, yet the probability of holding Lua off until Eclipse has finished fighting the Ultra Annihilator was 39%. Defeating him? 0.00000000000429%.",
