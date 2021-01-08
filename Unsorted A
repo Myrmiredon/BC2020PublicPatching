@@ -3822,7 +3822,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2,["Blue"] = 4,},
 		["Effect"] = {
 			Name = "Shadow Shuffle",
-			Description = "When this card is cast: Shuffle 3 copies of this card that draw a card for every Nenjas in play when they die into your deck.",
+			Description = "When this card is cast: Shuffle 3 copies of this card into your deck. They draw a card for every Nenjas in play when they die.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"DeckAdd","NenjasToken"},{"DeckAdd","NenjasToken"},{"DeckAdd","NenjasToken"}},
 			Target = "Ally",
