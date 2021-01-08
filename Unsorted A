@@ -2514,7 +2514,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 4,["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "When this card is cast, if your opponent controls four fighters: Summon 7 Noobs. End the turn.",
+			Description = "When this card is cast, if your opponent controls four fighters: Summon 7 400/50 Noobs. End the turn.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"Summon","Noob"},{"EndTurn",1}},
 			Target = "Ally",
@@ -7409,7 +7409,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Poisonous Touch",
-			Description = "Inert. During your end step: Give yourself a Noob.",
+			Description = "Inert. During your end step: Give yourself a 400/50 Noob.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Add","Noob"}},
 			Target = "Ally",
