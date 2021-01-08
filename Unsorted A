@@ -5327,8 +5327,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Fearmiredon"] = {
-		["Id"] = 574177392,
-		["Name"] = "Fearmiredon",
+		["Id"] = 6155859750,
+		["Name"] = "Zeekerss",
 		["Health"] = 900,
 		["Power"] = 900,
 		["Rarity"] = "Epic",
@@ -5342,7 +5342,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"SetPower",-200}},
 			Target = "Single",
 		},
-		["Bio"] = "Zanzel is the greatest leader.",
+		["Bio"] = "You will never escape this neverending game of hide and seek...",
 	},
 	
 	["Hallow's Boon"] = {
@@ -7425,7 +7425,6 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
-		["WeakenImmune"] = true,
 		["Cost"] = {["Neutral"] = 3,["Green"] = 3,},
 		["Effect"] = {
 			Name = "Breakfast in Bread",
