@@ -505,7 +505,7 @@ local Strife = {
 	},
 
 	["Redcliff Enforcer"] = {
-		["Id"] = 6026780912,
+		["Id"] = 6026780905,
 		["Name"] = "Redcliff Enforcer",
 		["Health"] = 400,
 		["Power"] = 400,
@@ -525,7 +525,7 @@ local Strife = {
 	},		
 
 	["Redcliff Mauler"] = {
-		["Id"] = 6027903191,
+		["Id"] = 6027903183,
 		["Name"] = "Redcliff Mauler",
 		["Health"] = 400,
 		["Power"] = 200,
@@ -1166,7 +1166,7 @@ local Strife = {
 	["BlueTaslem"] = {
 		["Id"] = 3299959331,
 		["Name"] = "BlueTaslem",
-		["Health"] = 450,
+		["Health"] = 500,
 		["Power"] = 450,
 		["Rarity"] = "Common",
 		["AttackEffect"] = {"Magic", "Yellow"},
@@ -1174,11 +1174,10 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 4, ["Blue"] = 1,},
 		["Effect"] = {
 			Name = "BobRoss the Canvas the Card the Effect",
-			Description = "Whenever an effect draws you a card, if Heavy Rain is in play: All enemy fighters lose 50 power. This card gains 50 power.",
+			Description = "Whenever an effect draws you a card: All enemy fighters lose 50 power. This card gains 50 power.",
 			["Type"] = "OnAllyDraw",
 			["Power"] = {{"Weaken",50},{"Strengthen",50,"Self"}},
 			Target = "Opponent",
-			["EffectRequirement"] = {"HasTerrain","Ally",0,0,"Heavy Rain"},
 		},
 		["Bio"] = "I will make it rain.",
 	},
@@ -1221,8 +1220,8 @@ local Strife = {
 				["Bio"] = "FEEL MY PAPER WRATH!",
 			},
 		},
-		["Health"] = 1000,
-		["Power"] = 400,
+		["Health"] = 1100,
+		["Power"] = 600,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
@@ -1633,7 +1632,7 @@ local Strife = {
 			},
 		},
 		["Health"] = 300,
-		["Power"] = 600,
+		["Power"] = 700,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Red",
@@ -1652,8 +1651,8 @@ local Strife = {
 	["Grim Reaper"] = {
 		["Id"] = 4815668190,
 		["Name"] = "Firebrand1",
-		["Health"] = 900,
-		["Power"] = 500,
+		["Health"] = 800,
+		["Power"] = 450,
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Red", 
@@ -2267,7 +2266,7 @@ local Strife = {
 	["KasoduS"] = {
 		["Id"] = 4536838054,
 		["Name"] = "KasoduS",
-		["Health"] = 150,
+		["Health"] = 100,
 		["Power"] = 600,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Yellow"},
