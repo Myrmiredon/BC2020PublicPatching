@@ -2120,9 +2120,9 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Vitality Potion",
-			Description = "A target fighter gains 600 health.",
+			Description = "A target fighter gains 1000 health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",600}},
+			["Power"] = {{"Heal",1000}},
 			Target = "Single",
 		},
 		["Bio"] = "A somewhat rare variant of the Life Potion that is potent to keep fighters alive.",
