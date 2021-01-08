@@ -3728,7 +3728,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Haydoscale",
 			Description = "During your end step, if your opponent has 5 or more Colourless studs: Draw a card. Put a Pact of Condemnation into each player's Baseplate.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Draw",1},{{"AddGenZone",{"Pact of Condemnation",1},"Ally"},{"AddGenZone",{"Pact of Condemnation",1},"Opponent"}}},
+			["Power"] = {{"Draw",1},{"AddGenZone",{"Pact of Condemnation",1},"Ally"},{"AddGenZone",{"Pact of Condemnation",1},"Opponent"}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 5,9999,"IconsNeutral"},
 		},
