@@ -6488,7 +6488,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
-		["Cost"] = {["Yellow"] = 8,},
+		["Cost"] = {["Yellow"] = 4, ["Green"] = 4,},
 		["Effect"] = {
 			Name = "INDOORSNOWTALL",
 			Description = "When this card dies: Summon two smaller versions of it. When those cards die: Summon two smaller inert versions of those.",
@@ -6508,7 +6508,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
-		["Cost"] = {["Yellow"] = 1,},
+		["Cost"] = {["Yellow"] = 2, ["Green"] = 2,},
 		["Effect"] = {
 			Name = "Indoorsnowball",
 			Description = "When this card dies: Summon two smaller inert versions of it.",
@@ -6529,7 +6529,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 1,},
+		["Cost"] = {["Yellow"] = 1, ["Green"] = 1,},
 		["Effect"] = {
 			Name = "indoorsnowsmall",
 			Description = "Inert. (Can't generate studs.)",
