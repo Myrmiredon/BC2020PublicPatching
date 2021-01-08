@@ -5012,14 +5012,13 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	
-	["Bedsheet Ghost"] = {
+	["olafisawesome100"] = {
 		["Id"] = 4899428269,
 		["Name"] = "olafisawesome100",
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Common",
-		["CopyBodge"] = "Bedsheet Ghost",
-		["AttackEffect"] = "Punch",
+		["AttackEffect"] = "Gun",
 		["Color"] = "Blue", 
 		["Cost"] = {["Blue"] = 1,},
 		["Effect"] = {
