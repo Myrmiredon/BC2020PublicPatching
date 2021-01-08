@@ -1502,7 +1502,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Gun",
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 2,},
+		["Cost"] = {["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Explosm",
 			Description = "When this card is cast: Set the stats of each fighter with the highest Health to 400/400.",
