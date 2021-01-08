@@ -4704,13 +4704,13 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Red"] = 3,["Neutral"] = 1},
 		["Effect"] = {
 			Name = "Thug Life",
-			Description = "When this card is cast: Epic and Legendary fighters gain 200 Power.",
+			Description = "When this card is cast: all Small fighters gain 200 Power. (Small fighters have total stats of 350 to 700.)",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Strengthen",200},{"Strengthen",200,"Legendary"}},
-			Target = "Epic",
+			["Power"] = {{"Strengthen",200}},
+			Target = "Small",
 		},
 		["Bio"] = "Merely red.",
-	},		
+	},	
 	
 	["Stravant"] = {
 		["Id"] = 3299954739,
