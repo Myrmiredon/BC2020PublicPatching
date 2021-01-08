@@ -3257,10 +3257,9 @@ local twentyeleveneighteen = {
 		["Bio"] = "Contrasted to DepressingTix.",
 	},
 	
-	["Aurichalcum"] = {
+	["AgentBloxxer"] = {
 		["Id"] = 5169284931,
 		["Name"] = "AgentBloxxer",
-		["CopyBodge"] = "Aurichalcum",
 		["AltCards"] = {
 			["tixocthebuster"] = {
 				["Name"] = "tixocthebuster",
