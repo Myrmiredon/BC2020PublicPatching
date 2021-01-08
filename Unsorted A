@@ -19,17 +19,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "Daisy and her shuriken, that is all. She is also known as daisy1002.",
 	},
 	
-	["Fave"] = {
+	["man8976"] = {
 		["Id"] = 6166370952,
 		["Name"] = "man8976",
-		["CopyBodge"] = "Fave",
-		["AltCards"] = {
-			["Favette"] = {
-				["Id"] = 532358085,
-				["Name"] = "Favette",
-				["Bio"] = "The female version of Faave. She is fabulous, loves starblox, and hangs out with amber sometimes.",
-			},
-		},
 		["Health"] = 1500,
 		["Power"] = 350,
 		["Rarity"] = "Legendary",
@@ -43,10 +35,10 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Strengthen",150},{"Heal",300}},
 			Target = "Ally",
 		},
-		["Bio"] = "Wake the heck up samurai, we have a city to burn.",
+		["Bio"] = "Wake the heck up samurai,\nWe have a city to burn.",
 	},
 	
-
+	
 	
 	["Exine"] = {
 		["Id"] = 3471768969,
@@ -1540,8 +1532,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 
 	["Bobaman1"] = {
-		["Id"] = 285152046,
-		["Name"] = "Bobaman1",
+		["Id"] = 6155846931,
+		["Name"] = "bobaman1",
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Uncommon",
@@ -1556,7 +1548,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Opponent",
 			["EffectRequirement"] = {"Board", "Opponent", 5, 9999},
 		},
-		["Bio"] = "Another one of Drager's lackeys enters the ring. What's next, the entire force?",
+		["Bio"] = "The bane of all aggro decks alike, he shall cast them all down with his mighty bread.",
 	},	
 	
 	["SonozakiRaito"] = {
@@ -5451,7 +5443,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Dicey Dave"] = {
-		["Id"] = 543830125,
+		["Id"] = 6155853816,
 		["Name"] = "Dicey Dave",
 		["Health"] = 800,
 		["Power"] = 400,
@@ -5470,7 +5462,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Dicey Drake"] = {
-		["Id"] = 543830416,
+		["Id"] = 6155854585,
 		["Name"] = "Dicey Drake",
 		["AltCards"] = {
 			["Icy Drake"] = {
@@ -8873,14 +8865,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "He can calculate interest to six decimal places, even in the midst of a deadly duel.",	
 	},
 	
-	["Darr1432"] = {
-		["Id"] = 1868966520,
-		["Name"] = "Darr1432",
+	["darr1342"] = {
+		["Id"] = 6155852560,
+		["Name"] = "darr1342",
 		["Health"] = 600,
 		["Power"] = 600,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Archetype"] = "Darr1432",
+		["Archetype"] = "darr1342",
 		["Color"] = "Green",
 		["Charge"] = true,
 		["Cost"] = {["Green"] = 7,},
@@ -8896,14 +8888,14 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["DarrToken"] = {
-		["Id"] = 1868966520,
-		["Name"] = "Darr1432",
+		["Id"] = 6155852560,
+		["Name"] = "darr1342",
 		["CopyBodge"] = "DarrToken",
 		["Health"] = 600,
 		["Power"] = 600,
 		["Rarity"] = "Token",
 		["AttackEffect"] = {"Magic", "Yellow"},
-		["Archetype"] = "Darr1432",
+		["Archetype"] = "darr1342",
 		["Color"] = "Green",
 		["Charge"] = true,
 		["Cost"] = {["Green"] = 7,},
