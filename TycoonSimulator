@@ -4017,10 +4017,9 @@ local tycoons = {
 	},	
 	
 	
-	["Explode1"] = {
+	["radiogamer"] = {
 		["Id"] = 5875044065,
 		["Name"] = "radiogamer",
-		["CopyBodge"] = "Explode1",
 		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Epic",
