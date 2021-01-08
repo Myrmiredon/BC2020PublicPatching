@@ -599,9 +599,9 @@ local halo = {
 		["Requirement"] = {"Turns","Ally",31,9999},
 		["Effect"] = {
 			Name = "Temporal Halo",
-			Description = [[Cast only after the second player's 15th turn. Shuffle ten random blue cards into your deck, then draw 10 cards.]],
+			Description = [[Cast only after the second player's 15th turn. Shuffle five random blue cards into your deck, then draw 5 cards.]],
 			["Type"] = "OnSummon",
-			["Power"] = {{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"Draw",10}},
+			["Power"] = {{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"RandomDeckAdd","Blue"},{"Draw",5}},
 			Target = "Ally",
 		},
 		["Bio"] = [[At the very centre of the World of Wood, there are the Voidoaks, which has every event ever to happen within the World of Wood etched onto its bark. Reading the Voidoaks - or, perhaps, drinking from the Voidoaks' sap - makes people omniscient, although the Wanwood Dryad would never allow it.]],
