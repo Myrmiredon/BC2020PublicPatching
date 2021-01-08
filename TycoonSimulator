@@ -3443,10 +3443,9 @@ local tycoons = {
 	},
 	
 	
-	["Mr.O the Traveling Merchant"] = {
+	["badcc"] = {
 		["Id"] = 5673414652,
 		["Name"] = "badcc",
-		["CopyBodge"] = "Mr.O the Travelling Merchant",
 		["Health"] = 800,
 		["Power"] = 800,
 		["Rarity"] = "Uncommon",
@@ -3695,7 +3694,7 @@ local tycoons = {
 		["Bio"] = "Mining for more cards.",
 	},	
 	
-	["MisterObvious"] = {
+	["NewFissy"] = {
 		["Id"] = 4792439459,
 		["Name"] = "NewFissy",
 		["Health"] = 800,
@@ -3706,9 +3705,9 @@ local tycoons = {
 		["Cost"] = {["Neutral"] = 1,["Yellow"] = 5,},
 		["Effect"] = {
 			Name = "Un-Animate",
-			Description = "When this card is cast: A target fighter gains 1200 Health. Set its power to 0.",
+			Description = "When this card is cast: A target fighter gains 2500 Health. Set its power to 0.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"SetPower",0},{"Heal",1200}},
+			["Power"] = {{"SetPower",0},{"Heal",2500}},
 			Target = "Single",
 		},
 		["Bio"] = "Hi, I'm the scripter of Roblox Plague, TreeLands, and Adopt M-HEY! Stop it, that tickles!",
