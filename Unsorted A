@@ -1495,7 +1495,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},			
 		
 	["Xlzeck"] = {
-		["Id"] = 3303634972,
+		["Id"] = 6211147155,
 		["Name"] = "Xlzeck",
 		["Health"] = 500,
 		["Power"] = 100,
@@ -6481,7 +6481,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Indoorsnowball"] = {
-		["Id"] = 5518576416,
+		["Id"] = 6211148392,
 		["Name"] = "Indoorsnowball",
 		["Health"] = 600,
 		["Power"] = 600,
