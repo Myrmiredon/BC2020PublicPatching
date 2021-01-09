@@ -1,4 +1,5 @@
--- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnAllyCast" trigger instead, for use with Time Bomb
+-- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnCast" trigger instead, for use with Time Bomb.
+-- Thus, OnEnd effects and Actions cannot be in the same puzzle together.
 -- All cards in this file must be Tokens.
 -- currently procrastinating on giving copybodges to the puzzle cards
 -- After using CTRL+H to modify the rarity of every card in this file, please make sure to check on line 238, the rarity for Darken the Skies. It needs to be "Epic"
@@ -946,7 +947,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = "Zanzel's people didn't get a vote in any of this. Their role was to witness it.",
 	},
 	
-		["ZanzelH-Thunder"] = {
+	["ZanzelH-Thunder"] = {
 		["Id"] = 4784604008,
 		["Name"] = "Lightning Blast",
 		["Power"] = 0,
@@ -1123,11 +1124,334 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = "Cold to the touch, this giant will hold any frontline without question.",
 	},
 	-- Puzzle Cards
+	-- Puzzle Colourless
+	["PuzzleDemonic Godbeast"] = {
+		["Id"] = 3557003289,
+		["Name"] = "Demonic Godbeast",
+		["CopyBodge"] = "PuzzleDemonic Godbeast",
+		["Health"] = 12000,
+		["Power"] = 500,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["Token"] = true,
+		["Fading"] = true,
+		["Color"] = "Neutral",
+		["Archetype"] = "Godbeast",
+		["Cost"] = {["Neutral"] = 0},
+		["Effect"] = {
+			Name = "Revival",
+			Description = "Fading. Can't attack. During your end step: deal 9000 damage to this card.",
+			["Type"] = "OnCast",
+			["Power"] = {{"PierceDamage",9000}},
+			["Target"] = "Self",
+		},
+		["Bio"] = "Packless Token.",
+	},
+	-- Nightmare
+	["PuzzleNightmare"] = {
+		["Id"] = 5205641871,
+		["Name"] = "Nightmare",
+		["Cloneant"] = "Maladeity's Pustule",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["Archetype"] = "PuzzleNightmare",
+		["DiscardBlock"] = true,
+		["Token"] = true,
+		["AttackEffect"] = "Gun",
+		["Color"] = "Neutral",
+		["Cost"] = {["Neutral"] = 2,},
+		["Effect"] = {
+			Name = "Nightmare!",
+			Description = "Can't be discarded. Each player draws a card. Destroy the card you drew if it's not cast this turn.",
+			Type = "OnSummon",
+			Power = {{"FleetingDraw",1},{"Draw",1,"Opponent"}},
+			Target = "Ally",
+		},
+		["Bio"] = "Packless Token.",
+	},
+	-- Shedletsky
+	["PuzzleShedletsky the Fried One"] = {
+		["Id"] = 3238128796,
+		["Name"] = "Shedletsky the Fried One",
+		["CopyBodge"] = "PuzzleShedletsky the Fried One",
+		["Health"] = 500,
+		["Power"] = 500,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["WeakenImmune"] = true,
+		["DamageImmune"] = true,
+		["SetImmune"] = true,
+		["Color"] = "Neutral",
+		["Archetype"] = "PuzzleShedletsky",
+		["Cost"] = {["Neutral"] = 7,},
+		["Effect"] = {
+			Name = "Stud",
+			Description = "Effects can't weaken, damage, or set this card's stats. During your end step: Draw a card.",
+			["Type"] = "OnCast",
+			["Power"] = {{"Draw",1}},
+			Target = "Ally",	
+		},
+		["Bio"] = "Beckoned Masters Legendary. Check the Blox Cards wikia for the current state of this card.",
+	},
+	
+	["PuzzleScintillant Limb"] = {
+		["Id"] = 5054713870,
+		["Name"] = "Scintillant Limb",
+		["CopyBodge"] = "PuzzleScintillant Limb",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Neutral",
+		["Cost"] = {["Blue"] = 2,},
+		["UnityImmune"] = true,
+		["Stealth"] = true,
+		["Effect"] = {
+			Name = "Stud",
+			Description = "Stealth. Turn allied Shedletsky fighters into the blue form, The Resonator. They gain 500 health. Effects can't return Shedletsky while in this form.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"TransformWithRarity","PuzzleShedletsky, the Resonator"},{"Heal",500}},
+			Target = "Archetype",	
+		},
+		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
+	},
+	
+	["PuzzleShedletsky, the Resonator"] = {
+		["Id"] = 670715918,
+		["Name"] = "Shedletsky, the Resonator",
+		["CopyBodge"] = "PuzzleShedletsky, the Resonator",
+		["Health"] = 1250,
+		["Power"] = 250,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["WeakenImmune"] = true,
+		["DamageImmune"] = true,
+		["SetImmune"] = true,
+		["ReturnImmune"] = true,
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Blue",
+		["Cost"] = {["Neutral"] = 7,},
+		["Effect"] = {
+			Name = "Stud",
+			 Description = "Effects can't return, weaken, damage, or set this card's stats. During your end step: Draw two cards. Put a nightmare into your opponen's hand. Reveal it.",
+			["Type"] = "OnCast",
+			["Power"] = {{"Draw",2},{"Add","PuzzleNightmare","Opponent"},{"RevealHand",030,"Opponent"}},
+			Target = "Ally",	
+		},
+		["Bio"] = "Packless Token.",
+	},
+	
+	["PuzzleTyrannical Limb"] = {
+		["Id"] = 5054711159,
+		["Name"] = "Tyrannical Limb",
+		["CopyBodge"] = "PuzzleTyrannical Limb",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Neutral",
+		["Cost"] = {["Red"] = 2,},
+		["UnityImmune"] = true,
+		["Stealth"] = true,
+		["Effect"] = {
+			Name = "Stud",
+			Description = "Stealth. Turn allied Shedletsky fighters into the red form, The Raging Pulse. They gain 500 power. Effects can't destroy Shedletsky while in this form.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"TransformWithRarity","PuzzleShedletsky, the Raging Pulse"},{"Strengthen",500}},
+			Target = "Archetype",	
+		},
+		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
+	},
+	
+	["PuzzleShedletsky, the Raging Pulse"] = {
+		["Id"] = 670716442,
+		["Name"] = "Shedletsky, the Raging Pulse",
+		["CopyBodge"] = "PuzzleShedletsky, the Raging Pulse",
+		["Health"] = 900,
+		["Power"] = 400,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["WeakenImmune"] = true,
+		["DamageImmune"] = true,
+		["SetImmune"] = true,
+		["DestroyImmune"] = true,
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Red",
+		["Cost"] = {["Neutral"] = 7,},
+		["Effect"] = {
+			Name = "Stud",
+			 Description = "Effects can't destroy, weaken, damage, or set this card's stats. During your end step: Draw a card. Deal 200 damage to all enemy fighters.",
+			["Type"] = "OnCast",
+			["Power"] = {{"Draw",1},{"Inflict",200,"Opponent"},{"Damage",200,"Opponent"}},
+			Target = "Ally",	
+		},
+		["Bio"] = "Packless Token.",
+	},
+	
+	["PuzzleVerdant Limb"] = {
+		["Id"] = 5054712474,
+		["Name"] = "Verdant Limb",
+		["CopyBodge"] = "PuzzleVerdant Limb",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Neutral",
+		["Cost"] = {["Green"] = 2,},
+		["UnityImmune"] = true,
+		["Stealth"] = true,
+		["Effect"] = {
+			Name = "Stud",
+			Description = "Stealth. Turn allied Shedletsky fighters into the green form, Locus of Icons. They gain 500 health. Effects can't swap Shedletsky's stats while in this form.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"TransformWithRarity","PuzzleShedletsky, Locus of Icons"},{"Heal",500}},
+			Target = "Archetype",
+		},
+		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
+	},
+	
+	["PuzzleShedletsky, Locus of Icons"] = {
+		["Id"] = 4988839855,
+		["Name"] = "Shedletsky, Locus of Icons",
+		["CopyBodge"] = "PuzzleShedletsky, Locus of Icons",
+		["Health"] = 1500,
+		["Power"] = 150,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["WeakenImmune"] = true,
+		["DamageImmune"] = true,
+		["SetImmune"] = true,
+		["SwapImmune"] = true,
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Green",
+		["Cost"] = {["Neutral"] = 7,},
+		["Effect"] = {
+			Name = "Stud",
+			 Description = "Effects can't swap, weaken, damage, or set this card's stats. During your end step: Draw a card. Gain a stud of every colour.",
+			["Type"] = "OnCast",
+			["Power"] = {{"Draw",1},{"Yellow",1},{"Blue",1},{"Red",1},{"Green",1},{"Neutral",1}},
+			Target = "Ally",	
+		},
+		["Bio"] = "Packless Token.",
+	},
+	
+	["PuzzleMulticultural Limb"] = {
+		["Id"] = 5054715240,
+		["Name"] = "Multicultural Limb",
+		["CopyBodge"] = "PuzzleMulticultural Limb",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Neutral",
+		["Cost"] = {["Yellow"] = 2,},
+		["UnityImmune"] = true,
+		["Stealth"] = true,
+		["Effect"] = {
+			Name = "Stud",
+			Description = "Stealth. Turn allied Shedletsky fighters into the yellow form, Paragon of Unity. They gain 500 health. Shedletsky can't be counterattacked while in this form.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"TransformWithRarity","PuzzleShedletsky, Paragon of Unity"},{"Heal",500}},
+			Target = "Archetype",	
+		},
+		["Bio"] = "Beckoned Masters Epic.",
+	},
+	
+	["PuzzleShedletsky, Paragon of Unity"] = {
+		["Id"] = 5007532697,
+		["Name"] = "Shedletsky, Paragon of Unity",
+		["CopyBodge"] = "PuzzleShedletsky, Paragon of Unity",
+		["Health"] = 1100,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["WeakenImmune"] = true,
+		["DamageImmune"] = true,
+		["SetImmune"] = true,
+		["CounterAttackBlock"] = true,
+		["Archetype"] = "PuzzleShedletsky",
+		["Color"] = "Yellow",
+		["Cost"] = {["Neutral"] = 7,},
+		["Effect"] = {
+			Name = "Stud",
+			 Description = "Effects can't weaken, damage, or set this card's stats. This card can't be countered. During your end step: Draw a card. Summon a 400/50 Noob, then all allied fighters gain 100 power.",
+			["Type"] = "OnCast",
+			["Power"] = {{"Draw",1},{"Summon","PuzzleNoob"},{"Strengthen",100,"Ally"}},
+			Target = "Ally",	
+		},
+		["Bio"] = "Packless Token.",
+	},
+	
+	["PuzzleChickenDuckBird"] = {
+		["Id"] = 626187155,
+		["Name"] = "ChickenDuckBird",
+		["CopyBodge"] = "PuzzleChickenDuckBird",
+		["Health"] = 1000,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["Color"] = "Yellow",
+		["Cost"] = {["Neutral"] = 3,},
+		["Effect"] = {
+			Name = "Assimilate",
+			Description = [[When this card is cast: Search "Shedletsky, the Fried One" from your deck.]],
+			["Type"] = "OnSummon",
+			["Power"] = {{"Tutorfor","PuzzleShedletsky the Fried One"}},
+			Target = "Ally",
+		},
+		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
+	},
 
-	-- Red
+	["PuzzleChickenGooseBird"] = {
+		["Id"] = 667222816,
+		["Name"] = "ChickenGooseBird",
+		["CopyBodge"] = "PuzzleChickenGooseBird",
+		["Health"] = 500,
+		["Power"] = 500,
+		["Rarity"] = "Token",
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["Color"] = "Yellow",
+		["Cost"] = {["Red"] = 1, ["Green"] = 1, ["Blue"] = 1, ["Yellow"] = 1,},
+		["Effect"] = {
+			Name = "Assimilate",
+			Description = [[During your end step, if you control "Shedletsky, the Fried One" or any of his other forms: Search each of his Limbs of Power from your deck.]],
+			["Type"] = "OnCast",
+			["Power"] = {{"Tutorfor","PuzzleMulticultural Limb"},{"Tutorfor","PuzzleScintillant Limb"},{"Tutorfor","PuzzleTyrannical Limb"},{"Tutorfor","PuzzleVerdant Limb"},},
+			Target = "Opponent",
+			["EffectRequirement"] = {"Archetype", "Ally", 1, 999999, "PuzzleShedletsky"},
+		},
+		["Bio"] = "Beckoned Masters Rare. Check the Blox Cards wikia for the current state of this card.",
+	},
+	-- Puzzle Red
+	["PuzzleBurning Soul Blade"] = {
+		["Id"] = 4899279163,
+		["Name"] = "Burning Soul Blade",
+		["CopyBodge"] = "PuzzleBurning Soul Blade",
+		["Health"] = 0,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Red", 
+		["Cost"] = {["Neutral"] = 3, ["Red"] = 3, ["Blue"] = 3,},
+		["Stealth"] = true,
+		["Effect"] = {
+			Name = "HURT ALL THE THINGS",
+			Description = "Stealth. All enemy fighters lose 400 Power. All allied fighters gain 400 Power. Swap the stats of all fighters.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Weaken",400},{"Strengthen",400,"Ally"},{"Swap",100000,"All"}},
+			Target = "Opponent",
+		},
+		["Bio"] = "Red Legendary. Check the Blox Cards wikia for the current state of this card.",
+	},
 	["Puzzle74Riley"] = {
 		["Id"] = 3238108095,
 		["Name"] = "74Riley",
+		["CopyBodge"] = "Puzzle74Riley",
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1146,6 +1470,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleAmbamby"] = {
 		["Id"] = 5059533283,
 		["Name"] = "Ambamby",
+		["CopyBodge"] = "PuzzleAmbamby",
 		["Power"] = 500,
 		["Health"] = 300,
 		["Rarity"] = "Token",
@@ -1157,6 +1482,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleIgnis Mage"] = {
 		["Id"] = 4536837769,
 		["Name"] = "Ignis Mage",
+		["CopyBodge"] = "PuzzleIgnis Mage",
 		["Health"] = 250,
 		["Power"] = 250,
 		["Rarity"] = "Token",
@@ -1172,9 +1498,10 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
-	["PuzzleJason Voorhees"] = {
+	["PuzzleT3RB0H"] = {
 		["Id"] = 4793395475,
 		["Name"] = "T3RB0H",
+		["CopyBodge"] = "PuzzleT3RB0H",
 		["Health"] = 150,
 		["Power"] = 150,
 		["Rarity"] = "Token",
@@ -1194,6 +1521,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleSauske2000"] = {
 		["Id"] = 5650700118,
 		["Name"] = "Sauske2000",
+		["CopyBodge"] = "PuzzleSauske2000",
 		["Health"] = 400,
 		["Power"] = 150,
 		["Rarity"] = "Token",
@@ -1212,6 +1540,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleDrakobloxxer"] = {
 		["Id"] = 4564776044,
 		["Name"] = "Drakobloxxer",
+		["CopyBodge"] = "PuzzleDrakobloxxer",
 		["Health"] = 350,
 		["Power"] = 350,
 		["Rarity"] = "Token",
@@ -1232,6 +1561,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzlePapasmurf"] = {
 		["Id"] = 4564788615,
 		["Name"] = "Papasmurf",
+		["CopyBodge"] = "PuzzlePapasmurf",
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1250,6 +1580,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleNikilis"] = {
 		["Id"] = 3164496653,
 		["Name"] = "Nikilis",
+		["CopyBodge"] = "PuzzleNikilis",
 		["Health"] = 350,
 		["Power"] = 350,
 		["Rarity"] = "Token",
@@ -1270,6 +1601,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["Puzzlerachjumper"] = {
 		["Id"] = 5650754273,
 		["Name"] = "rachjumper",
+		["CopyBodge"] = "Puzzlerachjumper",
 		["Health"] = 150,
 		["Power"] = 750,
 		["Rarity"] = "Token",
@@ -1289,6 +1621,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleDignity"] = {
 		["Id"] = 4536840941,
 		["Name"] = "Dignity",
+		["CopyBodge"] = "PuzzleDignity",
 		["Health"] = 800,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1300,6 +1633,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleHoshpup"] = {
 		["Id"] = 5603416455,
 		["Name"] = "Hoshpup",
+		["CopyBodge"] = "PuzzleHoshpup",
 		["Health"] = 1200,
 		["Power"] = 1200,
 		["Rarity"] = "Token",
@@ -1316,9 +1650,11 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
+	-- Redcliff
 	["PuzzleRedcliff Archer"] = {
 		["Id"] = 4974018583,
 		["Name"] = "Redcliff Archer",
+		["CopyBodge"] = "PuzzleRedcliff Archer",
 		["Health"] = 500,
 		["Power"] = 50,
 		["Rarity"] = "Token",
@@ -1341,6 +1677,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff Enforcer"] = {
 		["Id"] = 6026780912,
 		["Name"] = "Redcliff Enforcer",
+		["CopyBodge"] = "PuzzleRedcliff Enforcer",
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1361,6 +1698,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff Mauler"] = {
 		["Id"] = 6027903191,
 		["Name"] = "Redcliff Mauler",
+		["CopyBodge"] = "PuzzleRedcliff Mauler",
 		["Health"] = 400,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1382,6 +1720,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff Elite Commander"] = {
 		["Id"] = 6027260663,
 		["Name"] = "Redcliff Elite Commander",
+		["CopyBodge"] = "PuzzleRedcluff Elite Commander".
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1403,6 +1742,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff Messenger"] = {
 		["Id"] = 3299992527,
 		["Name"] = "Redcliff Messenger",
+		["CopyBodge"] = "PuzzleRedcliff Messenger",
 		["Health"] = 300,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -1424,6 +1764,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff: Decimate!"] = {
 		["Id"] = 5832420387,
 		["Name"] = "Redcliff: Decimate!",
+		["CopyBodge"] = "PuzzleRedcliff: Decimate!",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
@@ -1446,6 +1787,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff: Rise!"] = {
 		["Id"] = 5832421148,
 		["Name"] = "Redcliff: Rise!",
+		["CopyBodge"] = "PuzzleRedcliff: Rise!",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
@@ -1466,6 +1808,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff Adept"] = {
 		["Id"] = 5574260703,
 		["Name"] = "Redcliff Adept",
+		["CopyBodge"] = "PuzzleRedcliff Adept",
 		["Power"] = 400,
 		["Health"] = 400,
 		["Rarity"] = "Token",
@@ -1479,6 +1822,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff King Richard"] = {
 		["Id"] = 5574340196,
 		["Name"] = "Redcliff King Richard",
+		["CopyBodge"] = "PuzzleRedcliff King Richard",
 		["Health"] = 1200,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -1496,32 +1840,30 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Strife's Arsenal Legendary. Check the Blox Cards wikia for the current state of this card.",
 	},
-	-- Blue
-	["PuzzleBee"] = {
-		["Id"] = 5466812834,
-		["Name"] = "Bee",
-		["Health"] = 100,
-		["Power"] = 200,
+	-- Puzzle Blue
+	["PuzzleHer0z"] = {
+		["Id"] = 5832369725,
+		["Name"] = "Her0z",
+		["CopyBodge"] = "PuzzleHer0z",
+		["Health"] = 700,
+		["Power"] = 100,
 		["Rarity"] = "Token",
-		["AttackEffect"] = "Slash",
-		["Archetype"] = "Bee",
+		["AttackEffect"] = {"Magic", "Yellow"},
 		["Color"] = "Blue",
-		["ChargeRequirement"] = {"Archetype","Ally",3,9999,"Bee"},
-		["Token"] = true,
-		["Cost"] = {["Neutral"] = 0,},
+		["Cost"] = {["Neutral"] = 3, ["Blue"] = 6,},
 		["Effect"] = {
-			Name = "Nerf",
-			Description = "Inert in play. If you control 3 bees, this card has Haste. When this card dies, if you control another bee-related fighter: Gain a Yellow stud.",
-			["Type"] = "OnDeath",
-			["Power"] = {{"Yellow",1,"Ally"}},
-			Target = "Ally",
-			["EffectRequirement"] = {"Archetype", "Ally", 2, 999999, "Bee"},
+			Name = "Totem Magic",
+			Description = "When this card is cast: Summon a card that's a clone of a target fighter. Return that fighter to its owner's hand.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"SummonCopy"},{"Return"}},
+			Target = "Single",
 		},
-		["Bio"] = [[Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.]],
+		["Bio"] = "Ultimate Power Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleSamurai Shock"] = {
 		["Id"] = 4938618283,
 		["Name"] = "Samurai Shock",
+		["CopyBodge"] = "PuzzleSamurai Shock",
 		["Health"] = 200,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1541,6 +1883,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleEXLatios"] = {
 		["Id"] = 4899314675,
 		["Name"] = "EXLatios",
+		["CopyBodge"] = "PuzzleEXLatios",
 		["Health"] = 450,
 		["Power"] = 450,
 		["Rarity"] = "Token",
@@ -1560,6 +1903,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleYoshius"] = {
 		["Id"] = 4899472737,
 		["Name"] = "Yoshius",
+		["CopyBodge"] = "PuzzleYoshius",
 		["Health"] = 500,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -1575,10 +1919,10 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Uncommon. Check the Blox Cards wikia for the current state of this card.",
 	},
-	
 	["PuzzleMike"] = {
 		["Id"] = 275340266,
 		["Name"] = "Mike",
+		["CopyBodge"] = "PuzzleMike",
 		["Health"] = 2000,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1590,6 +1934,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleTime Bomb"] = {
 		["Id"] = 5925679425
 		["Name"] = "Time Bomb",
+		["CopyBodge"] = "PuzzleTime Bomb",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
@@ -1603,12 +1948,37 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["Power"] = {{"Unlock",1},{"Generate",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "Need more time? Well, you've got it! This card is only usable in Puzzles",
+		["Bio"] = "Puzzle-only card. Need more time? Well, you've got it!",
+	},
+	-- Bee
+	["PuzzleBee"] = {
+		["Id"] = 5466812834,
+		["Name"] = "Bee",
+		["CopyBodge"] = "PuzzleBee",
+		["Health"] = 100,
+		["Power"] = 200,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Slash",
+		["Archetype"] = "PuzzleBee",
+		["Color"] = "Blue",
+		["ChargeRequirement"] = {"Archetype","Ally",3,9999,"Bee"},
+		["Token"] = true,
+		["Cost"] = {["Neutral"] = 0,},
+		["Effect"] = {
+			Name = "Nerf",
+			Description = "Inert in play. If you control 3 bees, this card has Haste. When this card dies, if you control another bee-related fighter: Gain a Yellow stud.",
+			["Type"] = "OnDeath",
+			["Power"] = {{"Yellow",1,"Ally"}},
+			Target = "Ally",
+			["EffectRequirement"] = {"Archetype", "Ally", 2, 999999, "PuzzleBee"},
+		},
+		["Bio"] = [[Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.]],
 	},
 	-- Korblox
 	["PuzzleKorblox Archer"] = {
 		["Id"] = 2810632305,
 		["Name"] = "Korblox Archer",
+		["CopyBodge"] = "PuzzleKorblox Archer",
 		["Health"] = 400,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -1629,6 +1999,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox General"] = {
 		["Id"] = 2817091500,
 		["Name"] = "Korblox General",
+		["CopyBodge"] = "PuzzleKorblox General",
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1649,6 +2020,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Defender"] = {
 		["Id"] = 2817088764,
 		["Name"] = "Korblox Defender",
+		["CopyBodge"] = "PuzzleKorblox Defender",
 		["Health"] = 800,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1670,6 +2042,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Deathknight"] = {
 		["Id"] = 5574373206,
 		["Name"] = "Korblox Deathknight",
+		["CopyBodge"] = "PuzzleKorblox Deathknight",
 		["Health"] = 1000,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1691,6 +2064,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Deathkeeper"] = {
 		["Id"] = 3611612075,
 		["Name"] = "Korblox Deathkeeper",
+		["CopyBodge"] = "PuzzleKorblox Deathkeeper",
 		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1712,6 +2086,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Archmage"] = {
 		["Id"] = 3238122629,
 		["Name"] = "Korblox Archmage",
+		["CopyBodge"] = "PuzzleKorblox Archmage",
 		["Health"] = 1500,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1733,6 +2108,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Squire"] = {
 		["Id"] = 2810633420,
 		["Name"] = "Korblox Squire",
+		["CopyBodge"] = "PuzzleKorblox Squire",
 		["Health"] = 500,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1746,6 +2122,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Shaman"] = {
 		["Id"] = 5574295920,
 		["Name"] = "Korblox Shaman",
+		["CopyBodge"] = "PuzzleKorblox Shaman",
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1767,6 +2144,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Scourgelord"] = {
 		["Id"] = 5097694617,
 		["Name"] = "Korblox Scourgelord",
+		["CopyBodge"] = "PuzzleKorblox Scourgelord",
 		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -1788,6 +2166,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKorblox Skeleton"] = {
 		["Id"] = 3611612876,
 		["Name"] = "Korblox Skeleton",
+		["CopyBodge"] = "PuzzleKorblox Skeleton",
 		["Health"] = 400,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1809,6 +2188,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleiiSmolToaster"] = {
 		["Id"] = 4899357703,
 		["Name"] = "iiSmolToaster",
+		["CopyBodge"] = "PuzzleiiSmolToaster",
 		["Health"] = 1000,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -1827,6 +2207,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleLangz"] = {
 		["Id"] = 3299982063,
 		["Name"] = "Langz",
+		["CopyBodge"] = "PuzzleLangz",
 		["Power"] = 150,
 		["Health"] = 150,
 		["Rarity"] = "Token",
@@ -1845,6 +2226,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleDIY Dominus"] = {
 		["Id"] = 4720104463,
 		["Name"] = "DIY Dominus",
+		["CopyBodge"] = "PuzzleDIY Dominus",
 		["Health"] = 400,
 		["Power"] = 350,
 		["Rarity"] = "Token",
@@ -1863,6 +2245,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["Puzzle1337"] = {
 		["Id"] = 4897457258,
 		["Name"] = "1337",
+		["CopyBodge"] = "Puzzle1337",
 		["Health"] = 1330,
 		["Power"] = 700,
 		["Rarity"] = "Token",
@@ -1888,6 +2271,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleEye of Overseer"] = {
 		["Id"] = 2810866505,
 		["Name"] = "Eye of Overseer",
+		["CopyBodge"] = "PuzzleEye of Overseer",
 		["Health"] = 500,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1909,6 +2293,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleOverseer Beast"] = {
 		["Id"] = 298793501,
 		["Name"] = "Overseer Beast",
+		["CopyBodge"] = "PuzzleOverseer Beast",
 		["Health"] = 500,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -1931,6 +2316,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleOverseer General"] = {
 		["Id"] = 3307684341,
 		["Name"] = "Overseer General",
+		["CopyBodge"] = "PuzzleOverseer General",
 		["Health"] = 600,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1952,6 +2338,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleOverseer Prophet"] = {
 		["Id"] = 3299989216,
 		["Name"] = "Overseer Prophet",
+		["CopyBodge"] = "PuzzleOverseer Prophet",
 		["Health"] = 500,
 		["Power"] = 600,
 		["Rarity"] = "Token",
@@ -1973,6 +2360,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["Puzzlestereoplexus"] = {
 		["Id"] = 3557118261,
 		["Name"] = "stereoplexus",
+		["CopyBodge"] = "Puzzlestereoplexus",
 		["Health"] = 600,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -1993,6 +2381,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleOverseer's Steed"] = {
 		["Id"] = 331404735,
 		["Name"] = "Overseer's Steed",
+		["CopyBodge"] = "PuzzleOverseer's Steed",
 		["Health"] = 50,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -2013,6 +2402,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleOverseer Drake"] = {
 		["Id"] = 488695841,
 		["Name"] = "Overseer Drake",
+		["CopyBodge"] = "PuzzleOverseer Drake",
 		["Health"] = 300,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -2035,6 +2425,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleOverseer Godhand"] = {
 		["Id"] = 5574349909,
 		["Name"] = "Overseer Godhand",
+		["CopyBodge"] = "PuzzleOverseer Godhand",
 		["Health"] = 150,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -2051,10 +2442,51 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Strife's Arsenal Legendary. Check the Blox Cards wikia for the current state of this card.",
 	},
-	-- Yellow
+	-- Puzzle Yellow
+	["PuzzleReminder: Final Revels"] = { --no longer used, due to the change on how Final Revels works, but useful nonetheless
+		["Id"] = 540076076,
+		["Name"] = "Reminder: Final Revels",
+		["CopyBodge"] = "PuzzleReminder: Final Revels",
+		["Health"] = 9001,
+		["Power"] = 0,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Yellow", 
+		["AttackBlock"] = true,
+		["Cost"] = {["Yellow"] = 4,},
+		["Effect"] = {
+			Name = "Pyrotechnics",
+			Description = "Can't attack. At the end of this turn: Destroy all allied fighters.",
+			["Type"] = "OnCast",
+			["Power"] = {{"Damage",9999}},
+			Target = "Ally",
+		},
+		["Bio"] = "Puzzle-only card.",
+	},
+	["PuzzleHeavenLogin"] = {
+		["Id"] = 4564789112,
+		["Name"] = "HeavenLogin",
+		["CopyBodge"] = "PuzzleHeavenLogin",
+		["Health"] = 300,
+		["Power"] = 400,
+		["Rarity"] =  "Common",
+		["AttackEffect"] = {"Magic", "Yellow"},
+		["Color"] = "Yellow",
+		["Cost"] = {["Neutral"] = 2, ["Yellow"] = 1,},
+		["Archetype"] = "",
+		["Effect"] = {
+			Name = "Temporal Halo",
+			Description = [[When HeavenLogin is cast, target a fighter. HeavenLogin becomes that fighter's archetype.]],
+			["Type"] = "OnSummon",
+			["Power"] = {{"CopyArchetype",0,"Single"}},
+			Target = "Ally",
+		},
+		["Bio"] = [[Temporal Halo Common. Check the Blox Cards wikia for the current state of this card.]],
+	},	
 	["PuzzleUndead Teddy"] = {
 		["Id"] = 5114099562,
 		["Name"] = "Undead Teddy",
+		["CopyBodge"] = "PuzzleUndead Teddy",
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -2075,6 +2507,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleTeddy1"] = {
 		["Id"] = 5114100324,
 		["Name"] = "Undead Teddy",
+		["CopyBodge"] = "PuzzleTeddy1",
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -2094,6 +2527,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleTeddy2"] = {
 		["Id"] = 5114101122,
 		["Name"] = "Undead Teddy",
+		["CopyBodge"] = "PuzzleTeddy2",
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -2113,6 +2547,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleTeddy3"] = {
 		["Id"] = 5114102775,
 		["Name"] = "Undead Teddy",
+		["CopyBodge"] = "PuzzleTeddy3",
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -2124,6 +2559,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleROBAR"] = {
 		["Id"] = 4899434473,
 		["Name"] = "ROBAR",
+		["CopyBodge"] = "PuzzleROBAR",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
@@ -2139,10 +2575,34 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
+	-- Noob
+	["PuzzleNoob"] = {
+		["Id"] = 4899422795,
+		["Name"] = "Noob",
+		["CopyBodge"] = "PuzzleNoob",
+		["Health"] = 400,
+		["Power"] = 50,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch",
+		["Color"] = "Yellow",
+		["Archetype"] = "Noob",
+		["Token"] = true,
+		["Cost"] = {["Neutral"] = 1,},
+		["Effect"] = {
+			Name = "Oof",
+			Description = "Inert. (It can't generate studs.)",
+			["Type"] = "OnSummon",
+			["Power"] = "Yellow",
+			Target = "Ally",
+			Increase = 0,
+		},
+		["Bio"] = "Packless Token. Check the Blox Cards wikia for the current state of this card.",
+	},
 	-- Doge
 	["PuzzleDoge"] = {
 		["Id"] = 4784611236,
 		["Name"] = "Doge",
+		["CopyBodge"] = "PuzzleDoge",
 		["Health"] = 150,
 		["Power"] = 150,
 		["Rarity"] = "Token",
@@ -2163,6 +2623,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleShamrock Doge"] = {
 		["Id"] = 2810834606,
 		["Name"] = "Shamrock Doge",
+		["CopyBodge"] = "PuzzleShamrock Doge",
 		["Health"] = 150,
 		["Power"] = 150,
 		["Rarity"] = "Token",
@@ -2183,6 +2644,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleUncle Doge"] = {
 		["Id"] = 3471770962,
 		["Name"] = "Uncle Doge",
+		["CopyBodge"] = "PuzzleUncle Doge",
 		["Health"] = 300,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -2203,6 +2665,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleCaptain Doge"] = {
 		["Id"] = 2810826452,
 		["Name"] = "Captain Doge",
+		["CopyBodge"] = "PuzzleCaptain Doge",
 		["Health"] = 400,
 		["Power"] = 0,
 		["Rarity"] = "Token",
@@ -2221,10 +2684,10 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = "Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.",
 	},
 
-	["PuzzleAbraham Doge"] = {
+	["PuzzlePresident Doge"] = {
 		["Id"] = 3471762064,
 		["Name"] = "President Doge",
-		["CopyBodge"] = "Abraham Doge",
+		["CopyBodge"] = "PuzzlePresident Doge",
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -2245,6 +2708,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleTrollTideTroll"] = {
 		["Id"] = 3471767771,
 		["Name"] = "TrollTideTroll",
+		["CopyBodge"] = "PuzzleTrollTideTroll",
 		["Health"] = 100,
 		["Power"] = 200,
 		["Rarity"] = "Token",
@@ -2266,6 +2730,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleKolby2020"] = {
 		["Id"] = 5014424358,
 		["Name"] = "Kolby2020",
+		["CopyBodge"] = "PuzzleKolby2020",
 		["Health"] = 300,
 		["Power"] = 300,
 		["Rarity"] = "Token",
@@ -2277,7 +2742,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Name = "Kobe can doge a ball",
 			Description = "Whenever this card attacks: Give yourself a random Doge card.",
 			["Type"] = "OnAttack",
-			["Power"] = {{"RandomAdd",{"PuzzleDoge","PuzzleCaptain Doge","PuzzleShamrock Doge","PuzzleThemediamogul99","PuzzleAbraham Doge","PuzzleUncle Doge","PuzzlePEEPSTERS","PuzzleTrollTideTroll","PuzzleKolby2020","PuzzleDoge Doge"}}},
+			["Power"] = {{"RandomAdd",{"PuzzleDoge","PuzzleCaptain Doge","PuzzleShamrock Doge","PuzzleThemediamogul99","PuzzlePresident Doge","PuzzleUncle Doge","PuzzlePEEPSTERS","PuzzleTrollTideTroll","PuzzleKolby2020","PuzzleDoge Doge"}}},
 			Target = "Self",
 		},
 		["Bio"] = "Strife's Arsenal Rare. Check the Blox Cards wikia for the current state of this card.",
@@ -2286,6 +2751,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzlePEEPSTERS"] = {
 		["Id"] = 3472387514,
 		["Name"] = "PEEPSTERS",
+		["CopyBodge"] = "PuzzlePEEPSTERS",
 		["Health"] = 150,
 		["Power"] = 150,
 		["Rarity"] = "Token",
@@ -2297,7 +2763,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Name = "Infinite Doge",
 			Description = "When this card is cast, if you control another Doge: Give yourself a random Doge card.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"RandomAdd",{"PuzzleDoge","PuzzleCaptain Doge","PuzzleShamrock Doge","PuzzleThemediamogul99","PuzzleAbraham Doge","PuzzleUncle Doge","PuzzlePEEPSTERS","PuzzleTrollTideTroll","PuzzleKolby2020","PuzzleDoge Doge"}}},
+			["Power"] = {{"RandomAdd",{"PuzzleDoge","PuzzleCaptain Doge","PuzzleShamrock Doge","PuzzleThemediamogul99","PuzzlePresident Doge","PuzzleUncle Doge","PuzzlePEEPSTERS","PuzzleTrollTideTroll","PuzzleKolby2020","PuzzleDoge Doge"}}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Archetype","Ally",2, 9999, "PuzzleDoge"},
 		},
@@ -2307,6 +2773,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["Puzzleanimallogic"] = {
 		["Id"] = 2810824138,
 		["Name"] = "animallogic",
+		["CopyBodge"] = "Puzzleanimallogic",
 		["Health"] = 250,
 		["Power"] = 250,
 		["Rarity"] = "Token",
@@ -2328,6 +2795,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleThemediamogul99"] = {
 		["Id"] = 5574278668,
 		["Name"] = "Themediamogul99",
+		["CopyBodge"] = "PuzzleThemediamogul99",
 		["Health"] = 400,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -2349,6 +2817,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleDoge Doge"] = {
 		["Id"] = 5574358422,
 		["Name"] = "Doge Doge",
+		["CopyBodge"] = "PuzzleDoge Doge",
 		["Health"] = 800,
 		["Power"] = 400,
 		["Rarity"] = "Token",
@@ -2371,6 +2840,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleDoge Hound"] = {
 		["Id"] = 5596032639,
 		["Name"] = "Doge Hound",
+		["CopyBodge"] = "PuzzleDoge Hound",
 		["Health"] = 400,
 		["Power"] = 300,
 		["Rarity"] = "Token",
