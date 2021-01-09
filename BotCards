@@ -1,8 +1,6 @@
 -- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnCast" trigger instead of the "OnEnd" trigger, for use with Time Bomb.
--- Thus, OnEnd effects and Actions cannot be in the same puzzle together.
--- All cards in this file must be Tokens.
--- currently procrastinating on giving copybodges to the puzzle cards
--- After using CTRL+H to modify the rarity of every card in this file, please make sure to check on line 238, the rarity for Darken the Skies. It needs to be "Epic"
+-- Thus, OnEnd and OnCast effects cannot be in the same puzzle together.
+-- All cards in this file must be Tokens, except for Darken the Skies (an Epic card)
 local botcards = { -- Cards used by an AI that are not meant for human play go here.
 
 	--Used by the MasterHand AI.
