@@ -1169,10 +1169,10 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = "Packless Token.",
 	},
 	-- Shedletsky
-	["PuzzleShedletsky the Fried One"] = {
+	["PuzzleShedletsky, the Fried One"] = {
 		["Id"] = 3238128796,
-		["Name"] = "Shedletsky the Fried One",
-		["CopyBodge"] = "PuzzleShedletsky the Fried One",
+		["Name"] = "Shedletsky, the Fried One",
+		["CopyBodge"] = "PuzzleShedletsky, the Fried One",
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Token",
