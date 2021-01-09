@@ -3722,7 +3722,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Power"] = 250,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = {"Magic", "Red"},
-		["Archetype"] = "Dodgy",
+		["Archetype"] = "Normal",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 4,["Red"] = 1,["Blue"] = 5,},
 		["Effect"] = {
