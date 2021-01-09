@@ -499,12 +499,11 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 2,["Yellow"] = 2,},
-		["Charge"] = true,
 		["Effect"] = {
 			Name = "Conflux",
 			Description = "Haste. When this card is cast: A target fighter gains 300 health.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",300}},
+			["Power"] = {{"Heal",300},{"Unlock",1,"Self"}},
 			Target = "Single",
 		},
 		["Bio"] = "Boxing Champ from the 2010 Blox Box, though he was a 'Hack Week Hero' too.",
