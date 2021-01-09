@@ -1,4 +1,4 @@
--- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnCast" trigger instead, for use with Time Bomb.
+-- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnCast" trigger instead of the "OnEnd" trigger, for use with Time Bomb.
 -- Thus, OnEnd effects and Actions cannot be in the same puzzle together.
 -- All cards in this file must be Tokens.
 -- currently procrastinating on giving copybodges to the puzzle cards
