@@ -5895,14 +5895,12 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["AltCards"] = {
 			["Kariu-ArtV"] = {
 				["Id"] = 5573601981,
-				["CopyBodge"] = "Kariu-ArtV",
-				
+				["Bio"] = "Consider yourself blessed.",
 			},
 		},
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Uncommon",
-		["Fading"] = true,
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green",
 		["Cost"] = {["Neutral"] = 3, ["Green"] = 5,},
