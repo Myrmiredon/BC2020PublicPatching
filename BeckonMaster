@@ -2077,7 +2077,7 @@ local beckoned = {
 			["Type"] = "OnSummon",
 			["Power"] = {{"Inflict",850}},
 			Target = "Ally",
-			["EffectReuirement"] = {"Playertable","Me",851,999999,"Life"},
+			["EffectRequirement"] = {"Playertable","Me",851,999999,"Life"},
 		},
 		["Bio"] = "Let's... Get this show on the road, eh...? *Flop*",
 	}, 
