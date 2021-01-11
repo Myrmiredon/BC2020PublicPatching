@@ -3804,9 +3804,9 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["ReturnImmune"] = true,
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Effects can't return this card. During your end step, if your opponent has 13 or more Colourless studs: Remove them all. Return all allied fighters to your hand, then summon each other member of the Sinister family.",
+			Description = "Effects can't return this card. During your end step, if your opponent has 13 or more Colourless studs: Return all allied fighters to your hand, then summon each other member of the Sinister family. This effect only triggers once.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"SetNeutral",0,"Opponent"},{"Return"},{"Summon","Victor Sinister"},{"Summon","Terry Sinister"},{"Summon","Patric Sinister"},{"Summon","Kalman Sinister"},{"Summon","Claudia Sinister"},{"Summon","Quan Sinister"}},
+			["Power"] = {{"Return"},{"Summon","Victor Sinister"},{"Summon","Terry Sinister"},{"Summon","Patric Sinister"},{"Summon","Kalman Sinister"},{"Summon","Claudia Sinister"},{"Summon","Quan Sinister"},{"TransformWithRarity","Hallow Sinister, Patriarch2","Self"}},
 			Target = "Ally",
 			["EffectRequirement"] = {"Playertable", "Him", 13, 9999,"IconsNeutral"},
 		},
@@ -3826,6 +3826,18 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = [["Enjoy your new house. I promise the bed bugs won't bite."]],
 	},
 	
+	["Hallow Sinister, Patriarch2"] = {
+		["Id"] = 5634043005,
+		["Name"] = "Hallow Sinister, Patriarch",
+		["Health"] = 1300,
+		["Power"] = 1300,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Slash",
+		["Color"] = "Yellow", 
+		["Cost"] = {["Neutral"] = 1, ["Red"] = 6, ["Yellow"] = 6},
+		["Archetype"] = "Sinister",
+		["Bio"] = [["I was not kidding when I said that I would do anything for my family, dear. Prepare yourselves!"]],
+	},
 	
 	--------------------------------------------------------------------------------------------------------------------------------------------
 	
