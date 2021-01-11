@@ -862,7 +862,7 @@ local halo = {
 			["Type"] = "OnEnemyDiscard",
 			["Power"] = {{"Draw",1}}, 
 			Target = "Ally",
-			["EffectRequirement"] = {"Playertable", "Him", 2, 3, "DiscardCount"},
+			["EffectRequirement"] = {"Playertable", "Him", 2, 4, "DiscardCount"},
 		},
 		["Bio"] = [[Are we getting anywhere with this!?]],
 	},
