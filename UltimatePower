@@ -3126,6 +3126,7 @@ local ultpower = {
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
 		["Color"] = "Red", 
+		["Archetype"] = "Terrain",
 		["Terrain"] = true,
 		["Terrariant"] = "Xargasdon Terrain",
 		["Cost"] = {["Red"] = 1, ["Blue"] = 1, ["Green"] = 1, ["Yellow"] = 1,},
