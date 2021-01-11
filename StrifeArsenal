@@ -2498,8 +2498,8 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 2,["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Sudden Death",
-			Description = "After this fighter attacks: All allied fighters gain 100 health.",
-			["Type"] = "OnAttackEnd",
+			Description = "When this fighter attacks: Allied fighters gain 100 health.",
+			["Type"] = "OnAttack",
 			["Power"] = {{"Heal",100}},
 			Target = "Ally",
 		},
