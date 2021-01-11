@@ -1421,6 +1421,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Rare", -- Rare
 		["AttackEffect"] = "Slash",
 		["Color"] = "Green", 
+		["Archetype"] = "Terrain",
 		["Terrain"] = true,
 		["Terrariant"] = "Presence Terrain",
 		["Cost"] = {["Neutral"] = 4, ["Green"] = 4,},
