@@ -156,7 +156,7 @@ local tycoons = {
 			["Type"] = "OnEnemyDiscard",
 			["Power"] = {{"Heal",100},{"Strengthen",100}},
 			Target = "Self",
-			["EffectRequirement"] = {"Playertable", "Him", 1, 1, "DiscardCount"}
+			["EffectRequirement"] = {"Playertable", "Him", 1, 2, "DiscardCount"}
 		},
 		["Bio"] = "The cops of the frozen north have their own culture.",
 	},
