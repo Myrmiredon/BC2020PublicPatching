@@ -3598,7 +3598,7 @@ local ultpower = {
 		["Effect"] = {
 			Name = "Quick Shot",
 			Description = "When this card dies: Draw three cards.",
-			["Type"] = "OnSummon",
+			["Type"] = "OnDeath",
 			["Power"] = {{"Draw",3}},
 			Target = "Ally",
 		},
