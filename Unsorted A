@@ -9363,7 +9363,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	
 	["Epic DrWeaseI"] = {
 		["Id"] = 6189808489,
-		["Name"] = "Cat Saint Yiberi,
+		["Name"] = "Cat Saint Yiberi",
 		["Health"] = 1600,
 		["Power"] = 400,
 		["Rarity"] = "Epic",
