@@ -778,7 +778,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "Cur and Baldy alike cannot stop us now. The Father of the Void will see his banishment undone!",
 	},
 	
-	["Ancalagon, Sword Critic"] = {
+	["David Crissbach"] = {
 		["Id"] = 5832350364,
 		["Name"] = "David Crissbach",
 		["Health"] = 200,
