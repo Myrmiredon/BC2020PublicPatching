@@ -140,7 +140,7 @@ local Strife = {
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 7,},
 		["Effect"] = {
 			Name = "Quick Shot",
-			Description = "Cast only if you have 2 korblox in your baseplate. Haste. When this card is cast: Give yourself three Korblox cards.",
+			Description = "Cast only if you have 3 korblox in your baseplate. Haste. When this card is cast: Give yourself three Korblox cards.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"RandomAdd","Korblox"},{"RandomAdd","Korblox"},{"RandomAdd","Korblox"}},
 			Target = "Ally",
