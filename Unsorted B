@@ -4682,8 +4682,7 @@ local twentyeleveneighteen = {
 		},
 		["Bio"] = "Give the gift of giving the gift of giving the gift of uncommons.",
 	},			
-	--["Power"] = {{"Heal",150},{"Strengthen",150},{"Heal",150,"Legendary"},{"Strengthen",150,"Legendary"}},
-			Target = "Epic",
+	
 	["Tone"] = {
 		["Id"] = 2960010737,
 		["Name"] = "Tone",
