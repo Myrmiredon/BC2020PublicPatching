@@ -134,7 +134,7 @@ local Strife = {
 		["Rarity"] = "Rare",
 		["AttackEffect"] = "Punch",
 		["Archetype"] = "Korblox",
-		["Requirement"] = {"Archetype","AllyGenZone",2,9999,"Korblox"},
+		["Requirement"] = {"Archetype","AllyGenZone",3,9999,"Korblox"},
 		["Color"] = "Blue",
 		["Charge"] = true,
 		["Cost"] = {["Neutral"] = 1, ["Blue"] = 7,},
