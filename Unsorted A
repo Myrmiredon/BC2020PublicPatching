@@ -2084,9 +2084,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "I will not bow down to any sponsor.",
 	},
 	
-	["Spiderboy"] = {
-		["Id"] = 288041046,
-		["Name"] = "Spiderboy",
+	["Icebreaker!"] = {
+		["Id"] = 6035943241,
+		["Name"] = "Icebreaker!",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Common",
@@ -2100,20 +2100,19 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Lock",1,"Single"},{"Summon","SpiderboyToken"}},
 			Target = "Ally",
 		},	
-		["Bio"] = "Unlike Peter Parker, he was born as both a spider and a boy, none of that radioactive cheating!",
+		["Bio"] = "It's all fun and games until somebody gets frozen.",
 	},
 	
-	["SpiderboyToken"] = {
-		["Id"] = 288041046,
-		["Name"] = "Spiderboy",
-		["CopyBodge"] = "SpiderboyToken",
+	["Cracky4"] = {
+		["Id"] = 6035944461,
+		["Name"] = "Cracky4",
 		["Health"] = 600,
 		["Power"] = 200,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Blue",
 		["Cost"] = {["Neutral"] = 3,},
-		["Bio"] = "Unlike Peter Parker, he was born as both a spider and a boy, none of that radioactive cheating!",
+		["Bio"] = "Ice to meet you!",
 	},
 	
 	["Zombie"] = {
@@ -3966,8 +3965,8 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Redrune Raider"] = {
-		["Id"] = 2810635229,
-		["Name"] = "Redrune Raider",
+		["Id"] = 6237673807,
+		["Name"] = "Redrune Raiders",
 		["Health"] = 500,
 		["Power"] = 200,
 		["Rarity"] = "Epic",
