@@ -2198,7 +2198,7 @@ local Strife = {
 	},
 
 	["KingCactaur"] = {
-		["Id"] = 6030813113,
+		["Id"] = 6234793248,
 		["Name"] = "KingCactaur",
 		["AltCards"] = {
 			["KingCactaur-ArtV"] = {
