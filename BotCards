@@ -1,4 +1,4 @@
--- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnCast" trigger instead of the "OnEnd" trigger, for use with Time Bomb.
+-- Reminder: Cards used in puzzles (designated by the Puzzle[name] ID,) have the "OnAllyCast" trigger instead of the "OnEnd" trigger, for use with Time Bomb.
 -- Thus, OnEnd and OnCast effects cannot be in the same puzzle together.
 -- All cards in this file must be Tokens, except for Darken the Skies (an Epic card)
 local botcards = { -- Cards used by an AI that are not meant for human play go here.
