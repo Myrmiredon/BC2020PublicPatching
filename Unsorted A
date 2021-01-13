@@ -602,7 +602,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Robic"] = {
-		["Id"] = 6030810918,
+		["Id"] = 6030810913,
 		["Name"] = "Robic",
 		["Health"] = 500,
 		["Power"] = 300,
@@ -1505,7 +1505,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Assist Trophy"] = {
-		["Id"] = 5939445366,
+		["Id"] = 6234726391,
 		["Name"] = "Assist Trophy",
 		["AltCards"] = {
 			["Ravcade-Retro Candy"] = {
@@ -1967,7 +1967,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},					
 	
 	["Bloxy Tea Party"] = {
-		["Id"] = 6030824756,
+		["Id"] = 6030824753,
 		["Name"] = "Bloxy Tea Party",
 		["AltCards"] = {
 			["Boston Tea Party"] = {
@@ -6183,7 +6183,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Friaza"] = {
-		["Id"] = 6030809255,
+		["Id"] = 6030809251,
 		["Name"] = "Friaza",
 		["Health"] = 1000,
 		["Power"] = 400,
@@ -6816,7 +6816,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Micpro1234"] = {
-		["Id"] = 6030795042,
+		["Id"] = 6030795037,
 		["Name"] = "Micpro1234",
 		["AltCards"] = {
 			["yellow iamlogic"] = {
