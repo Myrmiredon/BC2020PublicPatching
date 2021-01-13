@@ -1265,7 +1265,7 @@ local beckoned = {
 	------------------------
 	
 	["Treasured Unicorn"] = {
-		["Id"] = 3667700378,
+		["Id"] = 5983801544,
 		["Name"] = "Guardia Seeress",
 		["Health"] = 600,
 		["Power"] = 500,
@@ -2761,7 +2761,7 @@ local beckoned = {
 	},	
 	
 	["iiMasant"] = {
-		["Id"] = 5718532736,
+		["Id"] = 6234778092,
 		["Name"] = "Iun_r",
 		["CopyBodge"] = "iiMasant",
 		["AltCards"] = {
