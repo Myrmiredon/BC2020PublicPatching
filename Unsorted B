@@ -4327,9 +4327,9 @@ local twentyeleveneighteen = {
 		["TransformImmune"] = true,
 		["Effect"] = {
 			Name = "derp",
-			Description = "Effects can't transform this card. Whenever this card destroys another: It loses 300 Power. You lose 600 Life.",
+			Description = "Effects can't transform this card. Whenever this card destroys another: Deal 200 damage to it. You lose 600 Life.",
 			["Type"] = "OnDestroy",
-			["Power"] = {{"Cost",600},{"Weaken",300}},
+			["Power"] = {{"Cost",600},{"Damage",200}},
 			Target = "Self",
 		},
 		["Bio"] = "TOO... MUCH... SAUCE... MUST... SLAY THE POGGERS...",
