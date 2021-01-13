@@ -386,7 +386,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	},
 
 	--These cards are used by the Tutorial AI.
-	
+
 	--Tutorial Green
 
 	["TG1"] = {
@@ -453,7 +453,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Green"] = 8,},
 		["Bio"] = [[The lords of Nomrial put our Great Leader to rest. He will rise again.]],
 	},
-	
+
 	--Tutorial Red
 
 	["TR1"] = {
@@ -572,9 +572,9 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 2, ["Red"] = 2,},
 		["Bio"] = [[The bigger they are, the larger the hitbox.]],
 	},
-	
+
 	--Tutorial Blue
-	
+
 	["TB1"] = {
 		["Id"] = 3410793546,
 		["Name"] = "Programmer",
@@ -657,9 +657,9 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Blue"] = 6,},
 		["Bio"] = [[I never asked for this.]],
 	},
-	
+
 	--Tutorial Yellow
-	
+
 	["TY1"] = {
 		["Id"] = 3410794286,
 		["Name"] = "Meepcity Fisherman",
@@ -738,7 +738,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Yellow"] = 6,},
 		["Bio"] = [[Before the introduction of DevEx, you could buy a lifetime of Outrageous Builder's club for $349.95. (That's about six Yellow icons.)]],
 	},
-	
+
 	-- New Zanzel
 	["Aura of the Promised One"] = {
 		["Id"] = 5392400529,
@@ -759,7 +759,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "right me",
 	},
-	
+
 	["ZanzelApocryphantasm"] = {
 		["Id"] = 5392400529,
 		["Name"] = "Apocryphantasm",
@@ -779,7 +779,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "right me",
 	},
-	
+
 	["Alpha Brick's Aid"] = {
 		["Id"] = 5832330973,
 		["Name"] = "Alpha Brick's Aid",
@@ -799,7 +799,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "write me",
 	},
-	
+
 	["ZanzelParadise"] = { 
 		["Id"] = 1469010000,
 		["Name"] = "Bird of Eternal Paradise",
@@ -821,7 +821,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "The Matriarch searched far and wide, to all corners of Robloxia to find her most exotic allies.",
 	},	
-	
+
 	["ZanzelCharging"] = {
 		["Id"] = 5832341946,
 		["Name"] = "Charging Apocryphantom",
@@ -842,7 +842,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["ZanzelSpiteful"] = {
 		["Id"] = 5832421885,
 		["Name"] = "Spiteful Apocryphantom",
@@ -862,7 +862,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["ZanzelCat"] = {
 		["Id"] = 4793138029,
 		["Name"] = "Magic Broom Black Cat",
@@ -881,7 +881,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Dormant since October 5th 2016.",
 	},
-	
+
 	["ZanzelTree"] = {
 		["Id"] = 4899305650,
 		["Name"] = "Dominus Praefectus",
@@ -900,7 +900,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Why grow anything when you can grow heaven?",
 	},
-	
+
 	["ZanzelEpidemic"] = {
 		["Id"] = 5046793430,
 		["Name"] = "Mass Epidemic",
@@ -944,7 +944,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Zanzel's people didn't get a vote in any of this. Their role was to witness it.",
 	},
-	
+
 	["ZanzelH-Thunder"] = {
 		["Id"] = 4784604008,
 		["Name"] = "Lightning Blast",
@@ -963,7 +963,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Perish.",
 	},
-	
+
 	["ZanzelTBolt"] = {
 		["Id"] = 4784599356,
 		["Name"] = "Thunder Bolt",
@@ -983,7 +983,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Zap!",
 	},
-	
+
 	["ZanzelRepentant"] = {
 		["Id"] = 4720418762,
 		["Name"] = "Zanzel Repentant",
@@ -1042,7 +1042,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "...But I will hardly stand idly by while these heathens break the world twice over!",
 	},
-	
+
 	["ZanzelsWorld"] = {
 		["Id"] = 5574241280,
 		["Name"] = "Living World",
@@ -1065,7 +1065,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "The neodragons weren't the only creations sprang from time's destruction.",
 	},
-	
+
 	["ZanzelObservant"] = {
 		["Id"] = 5468496033,
 		["Name"] = "Observant Apocryphantom",
@@ -1109,7 +1109,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "A reality that wants to disappear.",
 	},
-	
+
 	["ZanzelLittleGirl"] = {
 		["Id"] = 5401789691,
 		["Name"] = "Crystal Golem",
@@ -1192,7 +1192,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Legendary. Check the Blox Cards wikia for the current state of this card.",
 	},
-	
+
 	["PuzzleScintillant Limb"] = {
 		["Id"] = 5054713870,
 		["Name"] = "Scintillant Limb",
@@ -1215,7 +1215,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
-	
+
 	["PuzzleShedletsky, the Resonator"] = {
 		["Id"] = 670715918,
 		["Name"] = "Shedletsky, the Resonator",
@@ -1233,14 +1233,14 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't return, weaken, damage, or set this card's stats. During your end step: Draw two cards. Put a nightmare into your opponen's hand. Reveal it.",
+			Description = "Effects can't return, weaken, damage, or set this card's stats. During your end step: Draw two cards. Put a nightmare into your opponen's hand. Reveal it.",
 			["Type"] = "OnCast",
 			["Power"] = {{"Draw",2},{"Add","PuzzleNightmare","Opponent"},{"RevealHand",030,"Opponent"}},
 			Target = "Ally",	
 		},
 		["Bio"] = "Packless Token.",
 	},
-	
+
 	["PuzzleTyrannical Limb"] = {
 		["Id"] = 5054711159,
 		["Name"] = "Tyrannical Limb",
@@ -1263,7 +1263,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
-	
+
 	["PuzzleShedletsky, the Raging Pulse"] = {
 		["Id"] = 670716442,
 		["Name"] = "Shedletsky, the Raging Pulse",
@@ -1281,14 +1281,14 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't destroy, weaken, damage, or set this card's stats. During your end step: Draw a card. Deal 200 damage to all enemy fighters.",
+			Description = "Effects can't destroy, weaken, damage, or set this card's stats. During your end step: Draw a card. Deal 200 damage to all enemy fighters.",
 			["Type"] = "OnCast",
 			["Power"] = {{"Draw",1},{"Inflict",200,"Opponent"},{"Damage",200,"Opponent"}},
 			Target = "Ally",	
 		},
 		["Bio"] = "Packless Token.",
 	},
-	
+
 	["PuzzleVerdant Limb"] = {
 		["Id"] = 5054712474,
 		["Name"] = "Verdant Limb",
@@ -1311,7 +1311,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Epic. Check the Blox Cards wikia for the current state of this card.",
 	},
-	
+
 	["PuzzleShedletsky, Locus of Icons"] = {
 		["Id"] = 4988839855,
 		["Name"] = "Shedletsky, Locus of Icons",
@@ -1329,14 +1329,14 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't swap, weaken, damage, or set this card's stats. During your end step: Draw a card. Gain a stud of every colour.",
+			Description = "Effects can't swap, weaken, damage, or set this card's stats. During your end step: Draw a card. Gain a stud of every colour.",
 			["Type"] = "OnCast",
 			["Power"] = {{"Draw",1},{"Yellow",1},{"Blue",1},{"Red",1},{"Green",1},{"Neutral",1}},
 			Target = "Ally",	
 		},
 		["Bio"] = "Packless Token.",
 	},
-	
+
 	["PuzzleMulticultural Limb"] = {
 		["Id"] = 5054715240,
 		["Name"] = "Multicultural Limb",
@@ -1359,7 +1359,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Epic.",
 	},
-	
+
 	["PuzzleShedletsky, Paragon of Unity"] = {
 		["Id"] = 5007532697,
 		["Name"] = "Shedletsky, Paragon of Unity",
@@ -1377,14 +1377,14 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Cost"] = {["Neutral"] = 7,},
 		["Effect"] = {
 			Name = "Stud",
-			 Description = "Effects can't weaken, damage, or set this card's stats. This card can't be countered. During your end step: Draw a card. Summon a 400/50 Noob, then all allied fighters gain 100 power.",
+			Description = "Effects can't weaken, damage, or set this card's stats. This card can't be countered. During your end step: Draw a card. Summon a 400/50 Noob, then all allied fighters gain 100 power.",
 			["Type"] = "OnCast",
 			["Power"] = {{"Draw",1},{"Summon","PuzzleNoob"},{"Strengthen",100,"Ally"}},
 			Target = "Ally",	
 		},
 		["Bio"] = "Packless Token.",
 	},
-	
+
 	["PuzzleChickenDuckBird"] = {
 		["Id"] = 626187155,
 		["Name"] = "ChickenDuckBird",
@@ -1555,7 +1555,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Ultimate Power Common. Check the Blox Cards wikia for the current state of this card.",
 	},	 	
-	
+
 	["PuzzlePapasmurf"] = {
 		["Id"] = 4564788615,
 		["Name"] = "Papasmurf",
@@ -1718,7 +1718,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 	["PuzzleRedcliff Elite Commander"] = {
 		["Id"] = 6027260663,
 		["Name"] = "Redcliff Elite Commander",
-		["CopyBodge"] = "PuzzleRedcluff Elite Commander".
+		["CopyBodge"] = "PuzzleRedcliff Elite Commander",
 		["Health"] = 500,
 		["Power"] = 500,
 		["Rarity"] = "Token",
@@ -1735,7 +1735,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			["EffectRequirement"] = {"Power","Ally",1500,99999},
 		},
 		["Bio"] = "Strife's Arsenal Rare. Check the Blox Cards wikia for the current state of this card.",
-	},	
+	},
 
 	["PuzzleRedcliff Messenger"] = {
 		["Id"] = 3299992527,
@@ -1756,7 +1756,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 			Target = "Single",
 			Increase = 150,
 		},
-		["Bio"] = Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.,
+		["Bio"] = [[Strife's Arsenal Common. Check the Blox Cards wikia for the current state of this card.]],
 	},	
 
 	["PuzzleRedcliff: Decimate!"] = {
@@ -1930,7 +1930,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		["Bio"] = "Blue Rare. Check the Blox Cards wikia for the current state of this card.",
 	},
 	["PuzzleTime Bomb"] = {
-		["Id"] = 5925679425
+		["Id"] = 5925679425,
 		["Name"] = "Time Bomb",
 		["CopyBodge"] = "PuzzleTime Bomb",
 		["Health"] = 0,
@@ -2501,7 +2501,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},	
-	
+
 	["PuzzleTeddy1"] = {
 		["Id"] = 5114100324,
 		["Name"] = "Undead Teddy",
@@ -2521,7 +2521,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},
-	
+
 	["PuzzleTeddy2"] = {
 		["Id"] = 5114101122,
 		["Name"] = "Undead Teddy",
@@ -2541,7 +2541,7 @@ local botcards = { -- Cards used by an AI that are not meant for human play go h
 		},
 		["Bio"] = "Beckoned Masters Common. Check the Blox Cards wikia for the current state of this card.",
 	},	
-	
+
 	["PuzzleTeddy3"] = {
 		["Id"] = 5114102775,
 		["Name"] = "Undead Teddy",
