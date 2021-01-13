@@ -3967,11 +3967,11 @@ local twentyeleveneighteen = {
 		["Id"] = 3299963958,
 		["Name"] = "Divine_Pengu",
 		["Health"] = 1400,
-		["Power"] = 200,
+		["Power"] = 300,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Yellow", 
-		["Cost"] = {["Yellow"] = 5, ["Neutral"] = 4,},
+		["Cost"] = {["Yellow"] = 10, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Sloth me",
 			Description = "Whenever you cast a fighter: Unlock it.",
