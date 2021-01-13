@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------
 -- USAGE:
 -- put me in a script named "CardLibrary" inside of
--- game.ServerScriptStorage
+-- game.ServerScriptService
 -- put any sublibraries you want to test in a modulescript
 -- inside of me, they can be named whatever
 -- press play
