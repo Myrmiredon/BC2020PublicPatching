@@ -251,12 +251,12 @@ local beckoned = {
 		["Bio"] = "Soon.",
 	},
 	
-	["Gravity Collapse"] = {
-		["Id"] = 415734168,
-		["Name"] = "Gravity Collapse",
+	["The Shadow Realm"] = {
+		["Id"] = 6124858668,
+		["Name"] = "The Shadow Realm",
 		["AltCards"] = {
 			["Gravity CollapseV2"] = {
-				["Id"] = 626082330,
+				["Id"] = 6124857636,
 				["AltArt"] = true,
 				["Bio"] = "Stops even hope from escaping.",
 			},
@@ -275,7 +275,7 @@ local beckoned = {
 			["Power"] = {{"Return",090}},
 			Target = "NotArchetype",
 		},
-		["Bio"] = "Stops even light from escaping.",
+		["Bio"] = [["Return these unclean ones back from where they came from, for I am GOD!" - Great Lord Egotist]],
 	},	
 	
 	["Great Lord Egotist"] = {
@@ -288,7 +288,7 @@ local beckoned = {
 				["Bio"] = "I am the wild dog watching with sixteen omniscient eyes. Unblinking endless judgment, cast as the patterns rise.",
 			},
 		},
-		["Health"] = 1200,
+		["Health"] = 1300,
 		["Power"] = 0,
 		["Rarity"] = "Legendary",
 		["Archetype"] = "Nightmare",
@@ -298,9 +298,9 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 4,["Blue"] = 2,["Green"] = 2,},
 		["Effect"] = {
 			Name = "Night Creak",
-			Description = "Effects can't transform this card. During your end step: Give your opponent a Nightmare.",
+			Description = "Effects can't transform this card. During your end step: Give your opponent a Nightmare. This card gains 300 Health.",
 			Type = "OnEnd",
-			Power = {{"Add","Nightmare","Opponent"}},
+			Power = {{"Add","Nightmare","Opponent"},{"Heal","300","Self"},
 			Target = "Ally",
 		},
 		["Bio"] = "Once, I was human. Now, I am much more.",
@@ -350,7 +350,7 @@ local beckoned = {
 			Name = "Acolyte",
 			Description = "During your end step: all Acolytes gain 50 Heath and Power. You gain two Yellow studs.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Yellow",2,"Ally"},{"Heal",50},{"Strengthen",50}},
+			["Power"] = {{"Yellow",1,"Ally"},{"Heal",50},{"Strengthen",50}},
 			Target = "Archetype",
 		},
 		["Bio"] = "He's not an acolyte of the fried one. He's just been fried.",
@@ -397,7 +397,7 @@ local beckoned = {
 		["Cost"] = {["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Acolyte",
-			Description = "Inert. Whenever this card attacks: Give yourself an Acolyte card.",
+			Description = "Inert. Whenever this card attacks: Give yourself a monocoloured Acolyte card.",
 			["Type"] = "OnAttack",
 			["Power"] = {{"RandomAdd",{"Lunar Acolyte","Acolyte of the Rift","Infernal Acolyte","Necromantic Acolyte","Fried Acolyte"}}},
 			Target = "Ally",
@@ -455,7 +455,7 @@ local beckoned = {
 			Name = "Acolyte",
 			Description = "During your end step: Unlock all Acolytes. You gain two Blue studs.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Blue",2,"Ally"},{"Unlock",999}},
+			["Power"] = {{"Blue",1,"Ally"},{"Unlock",999}},
 			Target = "Archetype",
 		},
 		["Bio"] = "What makes the rift from the void?",
@@ -483,7 +483,7 @@ local beckoned = {
 			Name = "Acolyte",
 			Description = "During your end step: All acolytes gain 100 health. You gain two Green studs.",
 			["Type"] = "OnEnd",
-			["Power"] = {{"Green",2,"Ally"},{"Heal",100}},
+			["Power"] = {{"Green",1,"Ally"},{"Heal",100}},
 			Target = "Archetype",
 		},
 		["Bio"] = "HE JUST DOESN'T. GO. AWAY.",
@@ -545,7 +545,7 @@ local beckoned = {
 	},
 	
 	["Dragon Horde"] = {
-		["Id"] = 5832352047,
+		["Id"] = 6222294045,
 		["Name"] = "Dragon Horde",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -818,9 +818,9 @@ local beckoned = {
 	
 	-----------------------
 	
-	["Megalodon the Dragon-Shark"] = {
-		["Id"] = 2810851569,
-		["Name"] = "Megalodon the Dragon-Shark",
+	["Naga the Sea Serpent"] = {
+		["Id"] = 6234938710,
+		["Name"] = "Naga the Sea Serpent",
 		["Health"] = 700,
 		["Power"] = 700,
 		["Rarity"] = "Legendary",
@@ -835,12 +835,12 @@ local beckoned = {
 			Target = "Single",
 			Increase = 999,
 		},
-		["Bio"] = "When one hears the battlecry of Megalodon, the world goes quiet. Then nevermore.",
+		["Bio"] = "When one hears the battlecry of Naga, the world goes quiet. Then nevermore.",
 	},
 	
 	
 	["Nymn the Redrune Leader"] = {
-		["Id"] = 2810852089,
+		["Id"] = 6237673050,
 		["Name"] = "Nymn the Redrune Leader",
 		["AltCards"] = {
 			["Shizune_X"] = {
@@ -868,7 +868,7 @@ local beckoned = {
 	},
 	
 	["Typheus the Whelp"] = {
-		["Id"] = 3471768373,
+		["Id"] = 6189823924,
 		["Name"] = "Typheus the Whelp",
 		["Health"] = 800,
 		["Power"] = 300,
@@ -889,7 +889,7 @@ local beckoned = {
 	},
 	
 	["Zerax the Untameable"] = {
-		["Id"] = 2810855031,
+		["Id"] = 6196258775,
 		["Name"] = "Zerax the Untameable",
 		["Health"] = 700,
 		["Power"] = 700,
@@ -1003,17 +1003,17 @@ local beckoned = {
 	["Sand Eyes Yellow Dragon"] = {
 		["Id"] = 4564781961,
 		["Name"] = "Sand Eyes Yellow Dragon",
-		["Health"] = 900,
-		["Power"] = 400,
+		["Health"] = 600,
+		["Power"] = 200,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = {"Magic", "Red"},
 		["Color"] = "Yellow",
 		["Cost"] = {["Neutral"] = 3,["Yellow"] = 4,},
 		["Effect"] = {
 			Name = "Omega Charge",
-			Description = "When this card is cast: All fighters gain 150 health and power. A target fighter loses 150 health and power.",
+			Description = "When this card is cast: All fighters gain 200 Power. A target fighter loses 200 Power.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Heal",150},{"Strengthen",150},{"Damage",150,"Single"},{"Weaken",150,"Single"}},
+			["Power"] = {{"Strengthen",200},{"Weaken",200,"Single"}},
 			Target = "All",
 		},
 		["Bio"] = "It took an aeon for the doges to repopulate from the Yellow Sandstorm.",
