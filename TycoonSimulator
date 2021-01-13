@@ -2130,7 +2130,7 @@ local tycoons = {
 			Name = "Revival",
 			Description = "Whenever you cast a fighter: After that fighter is cast, casting fighters doesn't cause abilities to trigger until your opponent's next end step.",
 			["Type"] = "OnAllySummon",
-			["Power"] = {{"BypassCasts"},{"BypassCasts","Ally"}},
+			["Power"] = {{"BypassCasts"},{"BypassCasts",030,"Ally"}},
 			Target = "Opponent"
 		},
 		["Bio"] = "Renders wildfires meaningless.",
