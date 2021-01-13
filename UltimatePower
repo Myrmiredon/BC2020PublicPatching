@@ -4210,7 +4210,7 @@ local ultpower = {
 	},
 	
 	["214Brazy"] = {
-		["Id"] = 6030776874,
+		["Id"] = 6030778072,
 		["Name"] = "214Brazy",
 		["Health"] = 600,
 		["Power"] = 400,
