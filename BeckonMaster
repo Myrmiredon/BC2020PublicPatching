@@ -300,7 +300,10 @@ local beckoned = {
 			Name = "Night Creak",
 			Description = "Effects can't transform this card. During your end step: Give your opponent a Nightmare. This card gains 300 Health.",
 			Type = "OnEnd",
-			Power = {{"Add","Nightmare","Opponent"},{"Heal","300","Self"},
+			Power = {
+			{"Add","Nightmare","Opponent"},
+			{"Heal","300","Self"}
+			},
 			Target = "Ally",
 		},
 		["Bio"] = "Once, I was human. Now, I am much more.",
