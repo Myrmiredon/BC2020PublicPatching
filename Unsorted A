@@ -4800,20 +4800,20 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["CjMcGamingYT"] = {
 		["Name"] = "CjMcGamingYT",
 		["Id"] = 5161062511,
-		["Health"] = 1000,
-		["Power"] = 0,
+		["Health"] = 400,
+		["Power"] = 400,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 3,},
+		["Cost"] = {["Red"] = 1,["Blue"] = 1,["Yellow"] = 1,},
 		["Effect"] = {
 			Name = "Appetite",
-			Description = "When this card is cast: Each fighter in your hand gains 100 Health.",
-			["Type"] = "OnSummon",
-			["Power"] = {{"HealHand",100}},
+			Description = "When this card attacks: Put a random Colourless card into your hand.",
+			["Type"] = "OnAttack",
+			["Power"] = {{"RandomAdd","Neutral"}},
 			Target = "Ally",
 		},
-		["Bio"] = [[I'm hunting wabbits. Weeboids, too.]],
+		["Bio"] = [[Only the rich can afford my unorthodox services!]],
 	},
 	
 	["RoboLoleris"] = {
