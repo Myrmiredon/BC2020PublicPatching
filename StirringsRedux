@@ -3225,7 +3225,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Den Protector",
 		["AltCards"] = {
 			["Twilit Mother"] = {
-				["Id"] = 5027914841,
+				["Id"] = 6237882724,
 				["Rarity"] = "Token",
 				["Name"] = "Twilit Mother",
 				["Transformant"] = "Den Protector",
@@ -3259,7 +3259,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Pack Wolf"] = {
-		["Id"] = 5138306439,
+		["Id"] = 6238723188,
 		["Name"] = "Pack Wolf",
 		["Health"] = 200,
 		["Power"] = 200,
@@ -3340,7 +3340,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Channel the Call"] = {
-		["Id"] = 552164401,
+		["Id"] = 6237885217,
 		["Name"] = "Channel the Call",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -3360,7 +3360,7 @@ local stirringsredux = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Eclipse's Vassal"] = {
-		["Id"] = 5832353912,
+		["Id"] = 6237887103,
 		["Name"] = "Eclipse's Vassal",
 		["AltCards"] = {
 			["Lightning Wolf"] = {
