@@ -1518,7 +1518,7 @@ local tycoons = {
 	},
 	
 	["Ozzypig"] = {
-		["Id"] = 323660101,
+		["Id"] = 6102897579,
 		["Name"] = "Ozzypig",
 		["Health"] = 700,
 		["Power"] = 350,
@@ -1653,8 +1653,8 @@ local tycoons = {
 		["Id"] = 5832354645,
 		["Name"] = "Ehj236",
 		["CopyBodge"] = "Round3",
-		["Health"] = 1000,
-		["Power"] = 300,
+		["Health"] = 750,
+		["Power"] = 200,
 		["Rarity"] = "Rare",
 		["Fading"] = true,
 		["AttackEffect"] = "Punch",
@@ -1663,10 +1663,10 @@ local tycoons = {
 		["Shield"] = true,
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Defender. (Fighters your opponents control must attack this card.)",
-			["Type"] = "OnSummon",
-			["Power"] = {{"Draw",0}},
-			Target = "Self",
+			Description = "Defender. Whenever a fighter target this card: Ehj236 and that fighter gains 200 Health.",
+			["Type"] = "OnFighterTarget",
+			["Power"] = {{"Heal",200,"Self"},{"Heal",200,"Aggressor"}},
+			Target = "Ally",
 		},
 		["Bio"] = [[A butler's duty is to protect the duties of others, sir.]],
 	},
@@ -1974,7 +1974,7 @@ local tycoons = {
 	["Sharksie"] = {
 		["Id"] = 5673446986,
 		["Name"] = "Sharksie",
-		["Health"] = 1200,
+		["Health"] = 1500,
 		["Power"] = 300,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
@@ -2137,7 +2137,7 @@ local tycoons = {
 	},
 	
 	["Teaism"] = {
-		["Id"] = 363172300,
+		["Id"] = 6119873602,
 		["Name"] = "Teaism",
 		["AltCards"] = {
 			["Teadaddy"] = {
@@ -2166,7 +2166,7 @@ local tycoons = {
 	},	
 	
 	["Beeism"] = {
-		["Id"] = 363172190,
+		["Id"] = 6119874136,
 		["Name"] = "Beeism",
 		["AltCards"] = {
 			["Beedaddy"] = {
@@ -2606,7 +2606,7 @@ local tycoons = {
 	
 	["Roundawsome"] = {
 		["Id"] = 4922412776,
-		["Name"] = "Roundawsome",
+		["Name"] = "roundawsome",
 		["Health"] = 750,
 		["Power"] = 300,
 		["Rarity"] = "Rare",
@@ -2618,7 +2618,7 @@ local tycoons = {
 			Name = "Life fam",
 			Description = "When this card is first cast: Deal 150 damage to all fighters. Whenever an effect targets this card: Give yourself a copy of it. Destroy this card.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",150},{"Transform"}},
+			["Power"] = {{"Damage",150},{"TransformWithRarity"}},
 			Target = "All",
 		},
 		["Bio"] = [[Cut to Ribbons!]],
@@ -2626,7 +2626,7 @@ local tycoons = {
 	
 	["Round2"] = {
 		["Id"] = 4922412776,
-		["Name"] = "Roundawsome",
+		["Name"] = "roundawsome",
 		["CopyBodge"] = "Round2",
 		["Health"] = 750,
 		["Power"] = 300,
@@ -3615,7 +3615,7 @@ local tycoons = {
 	},		
 	
 	["Alpha Brick's Discovery"] = {
-		["Id"] = 5668027251,
+		["Id"] = 6234671257,
 		["Name"] = "Alpha Brick's Discovery",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -4045,7 +4045,7 @@ local tycoons = {
 				["Bio"] = "Disputed Deity of ROBLOX MMORPGs.",
 			},
 		},
-		["Health"] = 350,
+		["Health"] = 500,
 		["Power"] = 700,
 		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Slash",
@@ -4067,8 +4067,8 @@ local tycoons = {
 		["Id"] = 4564780136,
 		["Name"] = "TheKatorium",
 		["CopyBodge"] = "Kmansong2",
-		["Health"] = 600,
-		["Power"] = 600,
+		["Health"] = 700,
+		["Power"] = 700,
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Punch",
 		["Color"] = "Neutral",
